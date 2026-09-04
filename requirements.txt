@@ -1,0 +1,8 @@
+langchain
+unstructured
+unstructured[pdf]
+unstructured[docx]
+unstructured[markdown]
+python-dotenv
+google-generativeai
+requests
