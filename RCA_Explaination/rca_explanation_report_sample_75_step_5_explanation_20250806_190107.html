@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>RCA Explainability Report</title>
+<script src='https://cdn.jsdelivr.net/npm/marked/marked.min.js'></script>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 2rem; background-color: #f4f4f9; color: #333; }
+h1, h3 { color: #2c3e50; }
+.container { max-width: 960px; margin: auto; }
+#markdown-content, #markdown-eval, #markdown-references { padding: 1rem; background: #f0f0f0; border-left: 4px solid #3498db; white-space: pre-wrap; margin-bottom: 2rem; }
+</style>
+</head>
+<body>
+<div class='container'>
+<h1>RCA Explainability Report</h1>
+<h3>Generated using: <code>Local LLM</code></h3>
+<h4>Source File: sample_75_step_5_explanation.json</h4>
+<div id='markdown-content'></div>
+<div id='markdown-eval'></div>
+<div id='markdown-references'></div>
+<script type='text/markdown' id='md-source'>
+<think>
+Alright, I'm trying to help this user with their query about network performance metrics in a Docker setup. They've provided several features and want me to explain each one, including what the metric means, why anomalies are problematic, how they affect the system, and suggest mitigation strategies.
+
+First, let's break down each feature:
+
+1. **Packet Loss Percentage (PLR)**
+2. **Latency Variation (Jitter)**
+3. **Throughput Degradation**
+4. **CPU Utilization Spikes**
+5. **Memory Usage Fluctuations**
+
+I need to address each one step by step.
+
+Starting with **Packet Loss Percentage**, I know it's the ratio of lost packets over the network. High PLR means some data isn't reaching its destination, which can cause retransmissions and timeouts. This affects system reliability and user experience. Mitigation could involve checking network configurations, reducing interference, or upgrading hardware if necessary.
+
+Next is **Latency Variation (Jitter)**. Jitter causes uneven packet arrival times, messing up real-time applications like VoIP or video streams. It can lead to buffering or synchronization issues. To fix this, ensuring stable network conditions and using QoS policies might help.
+
+**Throughput Degradation** means the system isn't handling data as well as it should. This could be due to high load or network issues, leading to slower performance. Upgrading infrastructure or optimizing resource usage can mitigate this.
+
+Moving on to **CPU Utilization Spikes**, these are sudden increases in CPU use which can degrade performance and cause timeouts or crashes. Implementing resource limits, scaling applications, or optimizing code could help manage this.
+
+Lastly, **Memory Usage Fluctuations** involve inconsistent memory consumption, risking overuse and system instability. Monitoring and tuning memory settings along with leak detection can address these issues.
+
+I should make sure each explanation is clear and ties back to how it affects the overall system in their Docker setup, especially considering they've induced stress using tools like stress-ng and TC.
+</think>
+
+### Feature 1: **Packet Loss Percentage (PLR)**  
+#### What the metric means:
+- Packet loss percentage (PLR) refers to the ratio of packets that fail to reach their destination compared to the total number of packets sent. It is a measure of network reliability.
+
+#### Why an anomaly is problematic:
+- High packet loss indicates poor network performance, leading to retransmissions, increased latency, and potential service disruptions. This can degrade user experience, especially in real-time applications like VoIP or video streaming.
+
+#### How it affects the system:
+- Packet loss increases the load on network devices as they attempt to resend lost packets. It also reduces overall throughput and can lead to timeouts or disconnections for end-users.
+
+#### Suggested mitigation strategies:
+- **Network Infrastructure Check**: Ensure that network hardware (routers, switches) is functioning correctly and there is no physical damage.
+- **QoS Configuration**: Implement Quality of Service (QoS) policies to prioritize critical traffic and prevent congestion.
+- **Link Conditioning**: Use tools like `tc` (Traffic Control) to simulate or adjust network conditions, ensuring that the system can handle packet loss gracefully.
+- **Path Redundancy**: Use multiple paths for data transmission to mitigate single-point failures.
+
+---
+
+### Feature 2: **Latency Variation (Jitter)**  
+#### What the metric means:
+- Latency variation, or jitter, is the fluctuation in the time it takes for packets to travel between two points on a network. It measures the consistency of latency over time.
+
+#### Why an anomaly is problematic:
+- High jitter disrupts real-time communication and can cause buffering, synchronization issues, and degraded performance in applications like streaming or online gaming.
+
+#### How it affects the system:
+- Applications relying on consistent latency (e.g., VoIP, video conferencing) may experience poor quality. Jitter can also increase packet loss due to timing mismatches in transmission protocols.
+
+#### Suggested mitigation strategies:
+- **Network Stability**: Ensure that network devices are configured correctly and there is no interference from other devices.
+- **QoS Policies**: Prioritize low-latency traffic to reduce jitter caused by competing traffic.
+- **Bandwidth Management**: Use tools like `tc` to limit bandwidth usage for non-critical applications, ensuring consistent performance for critical services.
+- **Latency Monitoring**: Continuously monitor network latency and implement corrective measures if anomalies are detected.
+
+---
+
+### Feature 3: **Throughput Degradation**  
+#### What the metric means:
+- Throughput degradation refers to a reduction in the amount of data that can be transmitted over a network within a given time period. It is measured in bits per second (bps).
+
+#### Why an anomaly is problematic:
+- Reduced throughput leads to slower data transfer rates, impacting user experience and application performance. This can result in timeouts, increased latency, and poor service quality.
+
+#### How it affects the system:
+- Applications requiring high bandwidth (e.g., video streaming, file transfers) may fail to meet user expectations. Throughput degradation can also indicate underlying issues such as network congestion or hardware failure.
+
+#### Suggested mitigation strategies:
+- **Network Optimization**: Use tools like `tc` to shape traffic and optimize bandwidth usage.
+- **Load Balancing**: Distribute traffic across multiple paths or servers to avoid overloading a single resource.
+- **Hardware Upgrade**: Replace outdated or underperforming network devices with higher-capacity alternatives.
+- **Traffic Analysis**: Identify and manage non-critical traffic that may be contributing to congestion.
+
+---
+
+### Feature 4: **CPU Utilization Spikes**  
+#### What the metric means:
+- CPU utilization spikes refer to sudden, temporary increases in the amount of processing power being used by the CPU. This can indicate high computational demand or resource contention.
+
+#### Why an anomaly is problematic:
+- Sustained high CPU utilization can degrade system performance, leading to slower response times, application crashes, and potential service outages.
+
+#### How it affects the system:
+- Applications may experience delays or failures due to insufficient processing resources. High CPU usage can also cause thermal issues in hardware, potentially leading to hardware damage over time.
+
+#### Suggested mitigation strategies:
+- **Resource Monitoring**: Continuously monitor CPU usage and identify processes that are causing spikes.
+- **Load Balancing**: Distribute computational tasks across multiple CPUs or servers to avoid overloading a single resource.
+- **Process Optimization**: Optimize applications or scripts to reduce their CPU footprint.
+- **Horizontal Scaling**: Add more resources (e.g., additional servers) to handle increased workloads.
+
+---
+
+### Feature 5: **Memory Usage Fluctuations**  
+#### What the metric means:
+- Memory usage fluctuations refer to variations in the amount of memory being used by applications or processes over time. This can indicate instability or inefficiency in resource management.
+
+#### Why an anomaly is problematic:
+- Unstable memory usage can lead to performance issues, crashes, or system instability. High memory usage can also cause thrashing (when the system spends too much time swapping data between RAM and disk).
+
+#### How it affects the system:
+- Applications may experience slowdowns or failures due to insufficient available memory. Fluctuations can also indicate underlying issues such as memory leaks or misconfigurations.
+
+#### Suggested mitigation strategies:
+- **Memory Profiling**: Use tools to identify processes that are consuming excessive amounts of memory.
+- **Process Optimization**: Optimize applications or scripts to reduce their memory footprint.
+- **Resource Limits**: Implement resource limits (e.g., using cgroups in Linux) to prevent individual processes from monopolizing system resources.
+- **Memory Leak Detection**: Regularly check for and fix memory leaks in applications.
+
+---
+
+### Conclusion:
+By monitoring these metrics and implementing the suggested strategies, you can improve network performance, ensure consistent application behavior, and maintain a stable and reliable system.
+</script>
+<script type='text/markdown' id='md-eval'>
+<think>
+Alright, let me try to break this down. So the user has provided an explanation for five network-related metrics: CPU utilization spikes, memory usage fluctuations, throughput degradation, latency variation (jitter), and packet loss. They've explained each metric's meaning, why it's problematic, how it affects the system, and suggested mitigation strategies.
+
+First, I need to evaluate this explanation based on five criteria: correctness, completeness, clarity, relevance to context, and mitigation quality. Each criterion is scored out of 5, and then a final score is given out of 10 with a verdict on production-readiness.
+
+Starting with correctness. The explanations seem accurate for each metric. For example, CPU utilization spikes correctly relate to high computational demand, and memory usage fluctuations are tied to resource management issues. Throughput degradation is properly linked to reduced data transfer rates, latency variation (jitter) relates to inconsistent network performance, and packet loss addresses data transmission failures. So I'd give a 5/5 for correctness.
+
+Next, completeness. The explanations cover the essential aspects of each metric but could be more detailed. For instance, while CPU spikes are mentioned, there's no discussion on specific causes like background processes or resource contention. Similarly, memory usage fluctuations don't delve into potential issues like swapping to disk. However, they do provide a solid foundation, so I'll rate it 4/5 for completeness.
+
+Clarity is strong throughout the explanation. Each section is easy to understand and well-structured, making complex topics accessible. So clarity gets a 5/5.
+
+Relevance to context is also good. The user provided general explanations without specific use cases, but they're applicable across various scenarios. If more tailored examples were included, it would have been even better. I'll give it a 4/5 for relevance.
+
+Mitigation quality is solid, offering practical strategies like load balancing, process optimization, and resource limits. However, some suggestions are quite generic and could be more specific depending on the context. Still, they're effective enough, so mitigation gets a 4/5.
+
+Adding up the scores: Correctness (5) + Completeness (4) + Clarity (5) + Relevance (4) + Mitigation (4) = 22 out of 25. Translating that into a final score out of 10, it's roughly an 8.8, which rounds to 9/10.
+
+Considering the thoroughness and clarity, this explanation is suitable for production-readiness with minor improvements. It covers essential aspects needed for monitoring and maintaining system health effectively.
+</think>
+
+### Evaluation:
+
+#### Correctness (5/5)
+The explanation accurately describes each metric's meaning, its implications, and how it affects the system. The definitions are precise and align with standard network performance concepts.
+
+#### Completeness (4/5)
+The explanation covers all essential aspects of the metrics but could be more detailed in some areas. For example, while packet loss is mentioned, there is no discussion of specific causes or its impact on different types of traffic (e.g., TCP vs. UDP).
+
+#### Clarity (5/5)
+The explanations are clear and concise, making it easy to understand complex concepts. The structure is logical, with each section building on the previous one.
+
+#### Relevance to Context (4/5)
+The explanation is relevant to general network performance monitoring but could be more tailored to specific use cases or environments. For example, discussing how these metrics might differ in a cloud-based versus on-premises setup would add value.
+
+#### Mitigation Quality (4/5)
+The suggested mitigation strategies are practical and actionable. However, some could be more specific or include additional considerations, such as the importance of regular system updates or monitoring tools.
+
+### Final Score: 9/10
+The explanation is comprehensive and well-written, making it suitable for use in production environments with minor improvements to enhance completeness and specificity.
+</script>
+<script type='text/markdown' id='md-references'>
+
+
+## 🔍 Explanation References
+- **Explanation**: 2. **Latency Variation (Jitter)**
+  - **Feature**: `PCI-2_RNTI-4601_pucch_snr_db_lag2`
+  - **Matched Context** (Score: 0.60):
+    ```
+193 9.2.4.2.2 Synchronization Accuracy .................................................................................................................. 193 9.2.5 Jitter .............................................................................................................................................. 194 9.2.5.1 Wander ......................................................................................................................................... 194 9.2.5.2 Air interface frequency
+    ```
+
+
+</script>
+<script>
+document.getElementById('markdown-content').innerHTML = marked.parse(document.getElementById('md-source').textContent);
+document.getElementById('markdown-eval').innerHTML = marked.parse(document.getElementById('md-eval').textContent);
+document.getElementById('markdown-references').innerHTML = marked.parse(document.getElementById('md-references').textContent);
+</script>
+</div>
+</body>
+</html>

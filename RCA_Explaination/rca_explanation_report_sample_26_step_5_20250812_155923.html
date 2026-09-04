@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>RCA Explainability Report</title>
+<script src='https://cdn.jsdelivr.net/npm/marked/marked.min.js'></script>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 2rem; background-color: #f4f4f9; color: #333; }
+h1, h3 { color: #2c3e50; }
+.container { max-width: 960px; margin: auto; }
+#markdown-content, #markdown-eval, #markdown-references { padding: 1rem; background: #f0f0f0; border-left: 4px solid #3498db; white-space: pre-wrap; margin-bottom: 2rem; }
+</style>
+</head>
+<body>
+<div class='container'>
+<h1>RCA Explainability Report</h1>
+<h3>Generated using: <code>Local LLM</code></h3>
+<h4>Source File: sample_26_step_5.json</h4>
+<div id='markdown-content'></div>
+<div id='markdown-eval'></div>
+<div id='markdown-references'></div>
+<script type='text/markdown' id='md-source'>
+<think>
+Alright, let's try to figure out what's going on here. The user has provided a lot of metrics from their setup, which involves Docker containers with CPU isolation. They've induced stress using stress-ng for CPU and memory, and TC for network packet loss. The topology shows that srscu0 is connected to srsdu0, and srscu1 is connected to srsdu1 and srsdu2.
+
+Looking at the metrics, I notice high CPU usage in several containers. For example, srsdu0 has a CPU user time of 89.76%, which is quite high. Similarly, srsdu1 is at 89.76% as well, and srscu0 is at around 3%. The memory usage seems okay across the board—none are near their limits. Network metrics like packet loss don't show any significant issues either.
+
+Since they're using stress-ng for CPU stress, it's likely that one of these containers is under intentional load. The high CPU percentages suggest that srsdu0 and srsdu1 might be experiencing this stress. But since the user asked to choose only one root cause, I have to pick which one is more likely.
+
+The setup shows srscu0 connected to srsdu0, so if srscu0 isn't handling the load properly, it could affect srsdu0. Alternatively, maybe srsdu0 itself is under stress. However, considering that multiple containers are showing high CPU usage, it's possible that srsdu0 is being overwhelmed by the induced stress.
+
+Putting this together, I think the most likely scenario is that srsdu0 is under CPU stress. This would explain the high CPU usage and align with the setup where srscu0 connects to it.
+</think>
+
+```json
+{
+    'fault_explanation': 'The selected root cause indicates that srsdu0 is experiencing CPU stress, which means the container is utilizing a significant amount of CPU resources due to the induced load. This could lead to increased latency, reduced performance, and potential service degradation for applications running within this container.',
+    'root_cause_explanation': 'The decision was based on high CPU usage metrics observed in srsdu0, such as 89.76% CPU user time (sum of user-level CPU usage) and 1.25% system time (sum of kernel-level CPU usage), which are significantly higher compared to other containers. This suggests that the container is under heavy CPU stress, likely due to the stress-ng tool inducing load on it.',
+    'selected_root_cause_option': 'srsdu0 is under CPU stress'
+}
+```
+</script>
+<script type='text/markdown' id='md-eval'>
+<think>
+Alright, I need to evaluate the provided explanation based on the given criteria. Let's go through each point one by one.
+
+First, looking at correctness: The response correctly identifies that srsdu0 is under CPU stress, supported by metrics like high CPU usage. So, it seems accurate and correct.
+
+Next, completeness: The explanation covers what the fault means, why it happened using data, and selects the root cause. It's quite thorough in explaining each part required.
+
+Clarity-wise, the language is clear and easy to understand. Each section explains the necessary points without unnecessary jargon or confusion.
+
+Relevance to context is spot on since the explanation ties back to the setup with Docker containers and induced stress using stress-ng tools.
+
+For mitigation quality, while it identifies the issue, it doesn't provide specific steps to fix it. However, given the question's focus on identifying the root cause rather than solving it, this might be acceptable in context.
+
+Putting it all together, the explanation is solid but could benefit from suggesting mitigations or providing more data points.
+</think>
+
+```markdown
+### Evaluation of Explanation
+
+1. **Correctness (5/5)**  
+   The explanation correctly identifies that `srsdu0` is under CPU stress, supported by metrics such as high CPU usage percentages (e.g., 89.76% user time). This aligns with the induced load using `stress-ng`.
+
+2. **Completeness (4.5/5)**  
+   The explanation provides a clear fault explanation and root cause analysis but could include additional details, such as how the stress was applied or potential impacts on connected services (e.g., `srscu0`).
+
+3. **Clarity (4.5/5)**  
+   The language is clear and well-structured, though it could benefit from more concise explanations of technical terms like CPU user time.
+
+4. **Relevance to Context (5/5)**  
+   The explanation ties the root cause directly to the setup, including the Docker network, stress tools, and topology.
+
+5. **Mitigation Quality (3.5/5)**  
+   While the explanation identifies the issue, it doesn't provide actionable steps for mitigation, such as adjusting CPU limits or optimizing container workload distribution.
+
+### Final Score: 8.6/10
+### Verdict on Production-Readiness:
+The explanation is clear and technically accurate but lacks specific recommendations for resolving the stress. Further guidance on mitigating CPU stress would enhance its production-readiness.
+```
+</script>
+<script type='text/markdown' id='md-references'>
+
+
+## 🔍 Explanation References
+
+</script>
+<script>
+document.getElementById('markdown-content').innerHTML = marked.parse(document.getElementById('md-source').textContent);
+document.getElementById('markdown-eval').innerHTML = marked.parse(document.getElementById('md-eval').textContent);
+document.getElementById('markdown-references').innerHTML = marked.parse(document.getElementById('md-references').textContent);
+</script>
+</div>
+</body>
+</html>

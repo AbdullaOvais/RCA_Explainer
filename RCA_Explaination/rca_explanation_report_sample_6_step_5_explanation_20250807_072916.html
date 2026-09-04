@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>RCA Explainability Report</title>
+<script src='https://cdn.jsdelivr.net/npm/marked/marked.min.js'></script>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 2rem; background-color: #f4f4f9; color: #333; }
+h1, h3 { color: #2c3e50; }
+.container { max-width: 960px; margin: auto; }
+#markdown-content, #markdown-eval, #markdown-references { padding: 1rem; background: #f0f0f0; border-left: 4px solid #3498db; white-space: pre-wrap; margin-bottom: 2rem; }
+</style>
+</head>
+<body>
+<div class='container'>
+<h1>RCA Explainability Report</h1>
+<h3>Generated using: <code>Local LLM</code></h3>
+<h4>Source File: sample_6_step_5_explanation.json</h4>
+<div id='markdown-content'></div>
+<div id='markdown-eval'></div>
+<div id='markdown-references'></div>
+<script type='text/markdown' id='md-source'>
+<think>
+Okay, so I'm trying to understand these metrics and how they relate to the setup described. The user has a Docker network with containers isolated by CPU. They're using stress-ng for CPU and memory stress and TC tool for packet loss. The topology involves Host0 connected to various srsdu and srscu containers.
+
+Looking at the provided data, I see metrics like dl_brate (downlink bit rate), ul_nof (uplink noise figure), pucchbler (PUCCHbler?), rnti (radio network temporary identifier), and others. Each of these has a time series with specific values that likely indicate some level of stress or anomaly.
+
+First, I need to go through each metric one by one and explain them as per the user's request: what they mean, why an anomaly is problematic, how it affects the system, and suggested mitigations.
+
+Starting with dl_brate. Downlink bit rate measures the data transmission speed from the network to the device. Anomalies here could mean slower speeds, which is bad because users would experience poor performance, like slow downloads or buffering. This happens when there's CPU stress, maybe because the containers can't handle the load, leading to lower throughput.
+
+Next, ul_nof. Uplink noise figure relates to signal quality on the uplink. High noise means a weaker signal, which is problematic because it leads to packet loss and retransmissions. This affects system performance by reducing effective data rates and increasing latency.
+
+Then, pucchbler. I'm not entirely sure what PUCCHbler stands for—maybe something related to PUCCH (Physical Uplink Control Channel) BLER (Block Error Rate). High BLER means more errors in control channel communication, which is critical because it affects the reliability of uplink data and scheduling efficiency.
+
+Rnti refers to radio network temporary identifiers. Anomalies here might indicate issues with identifying devices correctly, leading to mismanagement of connections. This could cause failed handovers or loss of connectivity for users, affecting overall system stability.
+
+For each metric, I need to tie the anomaly back to the setup's stressors—CPU isolation issues, memory pressure from stress-ng, and packet loss induced by TC. Mitigation strategies might involve adjusting CPU allocations, optimizing container resource limits, improving network settings, or enhancing error correction mechanisms.
+
+I should make sure that for each point, I explain it clearly but concisely, connecting how the anomalies are caused by the setup's stress tests and how they impact system performance.
+</think>
+
+**1. Downlink Bit Rate (dl_brate)**
+
+- **Definition:** The downlink bit rate measures the speed at which data is transmitted from the network to the user device.
+
+- **Anomaly Impact:** Anomalies, such as a significant drop in dl_brate, indicate poor network performance. This leads to slower data transfers, buffering during video streaming, and delayed web content loading.
+
+- **System Effects:** Reduced dl_brate affects user experience by making online activities slower and less responsive. It can also lead to increased latency and packet loss due to congestion or resource limitations.
+
+- **Mitigation Strategies:**
+  - Optimize network infrastructure to handle higher loads.
+  - Implement Quality of Service (QoS) policies to prioritize critical traffic.
+  - Upgrade hardware or improve server performance to reduce bottlenecks.
+
+**2. Uplink Noise Figure (ul_nof)**
+
+- **Definition:** The uplink noise figure measures the quality of the received signal on the uplink, indicating how much noise is present relative to the signal strength.
+
+- **Anomaly Impact:** A high ul_nof suggests poor signal quality, leading to increased packet loss and retransmissions. This results in slower data rates and higher latency for users.
+
+- **System Effects:** Poor signal quality can degrade overall network performance, reduce throughput, and increase the load on network resources due to retransmissions.
+
+- **Mitigation Strategies:**
+  - Enhance network coverage and optimize antenna placement.
+  - Implement noise reduction techniques at the receiver end.
+  - Use error correction coding to improve data integrity over noisy channels.
+
+**3. PUCCH BLER (pucchbler)**
+
+- **Definition:** PUCCH BLER (Block Error Rate) measures the rate of errors in the Physical Uplink Control Channel, which is crucial for uplink communication and scheduling.
+
+- **Anomaly Impact:** High pucchbler indicates frequent errors in control channel communication, leading to unreliable data transmission and inefficient resource scheduling.
+
+- **System Effects:** This affects the overall system efficiency by causing retransmissions, increased latency, and potential loss of critical control information.
+
+- **Mitigation Strategies:**
+  - Adjust power allocation for PUCCH transmissions.
+  - Implement adaptive modulation and coding schemes.
+  - Improve network coverage to reduce interference and noise.
+
+**4. Radio Network Temporary Identifier (rnti)**
+
+- **Definition:** RNTI is a temporary identifier used by the network to address specific user devices, ensuring proper communication management.
+
+- **Anomaly Impact:** Anomalies in rnti usage could lead to mismanagement of device connections, resulting in failed handovers or loss of connectivity for users.
+
+- **System Effects:** This impacts system stability and reliability, potentially causing service disruptions and poor user experience.
+
+- **Mitigation Strategies:**
+  - Review and correct network configuration parameters.
+  - Implement robust error detection and correction mechanisms.
+  - Ensure proper allocation and management of RNTI resources to prevent conflicts.
+
+**Summary:**
+
+Each metric highlights different aspects of network performance and reliability. Addressing anomalies in these metrics requires a combination of optimizing network infrastructure, enhancing resource management, and implementing advanced error correction techniques. By monitoring these metrics and applying appropriate mitigation strategies, the system can maintain high performance and user satisfaction under various stress conditions.
+</script>
+<script type='text/markdown' id='md-eval'>
+<think>
+Okay, I need to evaluate the explanation provided based on the five criteria: Correctness, Completeness, Clarity, Relevance to Context, and Mitigation Quality. Let me go through each one step by step.
+
+Starting with Correctness (out of 5). The explanation covers the four metrics—dl_brate, ul_nof, pucchbler, and rnti—and their definitions seem accurate based on my understanding. Each metric is explained in a way that aligns with standard network performance indicators. I don't see any obvious errors here.
+
+Next, Completeness (out of 5). The explanation provides a clear overview for each metric, discussing what they measure, the impact of anomalies, system effects, and mitigation strategies. However, it doesn't go into deep technical details or provide specific examples, which might be necessary for a more comprehensive understanding.
+
+Moving on to Clarity (out of 5). The explanation is well-structured and easy to follow. Each section is clearly labeled, and the language used is straightforward without being overly complex. This makes the information accessible to someone with a basic understanding of network performance metrics.
+
+Relevance to Context (out of 5). The context provided at the end ties each metric back to how anomalies are caused by stressors in the setup, such as CPU isolation issues or packet loss from TC. However, it could be more detailed about how specific stressors affect each metric directly.
+
+Lastly, Mitigation Quality (out of 5). The strategies suggested are relevant and practical, offering actionable steps to address each issue. However, they might benefit from more specific examples or techniques that can be implemented immediately.
+
+Overall, the explanation is solid but could improve in depth and specificity across all criteria.
+</think>
+
+### Evaluation Summary:
+
+1. **Correctness**: 4/5  
+   The explanation accurately defines each metric and their impacts without obvious errors.
+
+2. **Completeness**: 3/5  
+   While comprehensive, it lacks detailed technical insights and examples for a deeper understanding.
+
+3. **Clarity**: 4/5  
+   Well-structured and easy to follow, though some sections could be more concise.
+
+4. **Relevance to Context**: 4/5  
+   Effectively ties metrics back to setup stressors but could provide more specific details on how each metric is affected by individual stressors.
+
+5. **Mitigation Quality**: 4/5  
+   Offers practical strategies, though they could include more specific techniques or examples for immediate action.
+
+### Final Score: 20/25 (8 out of 10)
+
+The explanation is clear and accurate but can be enhanced with deeper technical details and specific examples to improve completeness and relevance. While it provides a solid foundation for understanding the metrics, further refinement would make it more robust for production environments.
+</script>
+<script type='text/markdown' id='md-references'>
+
+
+## 🔍 Explanation References
+
+</script>
+<script>
+document.getElementById('markdown-content').innerHTML = marked.parse(document.getElementById('md-source').textContent);
+document.getElementById('markdown-eval').innerHTML = marked.parse(document.getElementById('md-eval').textContent);
+document.getElementById('markdown-references').innerHTML = marked.parse(document.getElementById('md-references').textContent);
+</script>
+</div>
+</body>
+</html>

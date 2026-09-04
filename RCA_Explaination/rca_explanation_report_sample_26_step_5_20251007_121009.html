@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>RCA Explainability Report</title>
+<script src='https://cdn.jsdelivr.net/npm/marked/marked.min.js'></script>
+<style>
+body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 2rem; background-color: #f4f4f9; color: #333; }
+h1, h3 { color: #2c3e50; }
+.container { max-width: 960px; margin: auto; }
+#markdown-content, #markdown-eval, #markdown-references { padding: 1rem; background: #f0f0f0; border-left: 4px solid #3498db; white-space: pre-wrap; margin-bottom: 2rem; }
+</style>
+</head>
+<body>
+<div class='container'>
+<h1>RCA Explainability Report</h1>
+<h3>Generated using: <code>Local LLM</code></h3>
+<h4>Source File: sample_26_step_5.json</h4>
+<div id='markdown-content'></div>
+<div id='markdown-eval'></div>
+<div id='markdown-references'></div>
+<script type='text/markdown' id='md-source'>
+[ERROR] Local LLM request failed: HTTPConnectionPool(host='10.9.66.233', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b452d63b350>: Failed to establish a new connection: [Errno 113] No route to host'))
+</script>
+<script type='text/markdown' id='md-eval'>
+[ERROR] Local LLM request failed: HTTPConnectionPool(host='10.9.66.233', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b452d9bf710>: Failed to establish a new connection: [Errno 113] No route to host'))
+</script>
+<script type='text/markdown' id='md-references'>
+
+
+## 🔍 Explanation References
+
+</script>
+<script>
+document.getElementById('markdown-content').innerHTML = marked.parse(document.getElementById('md-source').textContent);
+document.getElementById('markdown-eval').innerHTML = marked.parse(document.getElementById('md-eval').textContent);
+document.getElementById('markdown-references').innerHTML = marked.parse(document.getElementById('md-references').textContent);
+</script>
+</div>
+</body>
+</html>
