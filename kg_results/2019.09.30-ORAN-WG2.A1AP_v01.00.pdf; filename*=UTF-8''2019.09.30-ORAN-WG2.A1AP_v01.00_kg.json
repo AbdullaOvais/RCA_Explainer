@@ -1,0 +1,1299 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN Working Group 2",
+      "A1 interface",
+      "Application Protocol",
+      "Final Specifications",
+      "IPR Policy",
+      "Adopter License Agreement",
+      "O-RAN ALLIANCE e.V.",
+      "Personal Use",
+      "Third Parties"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "has specification about",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "specifies application protocol for",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Final Specifications",
+        "predicate": "related to",
+        "object": "IPR Policy"
+      },
+      {
+        "subject": "IPR Policy",
+        "predicate": "defines requirements for",
+        "object": "Adopter License Agreement"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "prohibits unauthorized copying of",
+        "object": "Final Specifications"
+      },
+      {
+        "subject": "Personal Use",
+        "predicate": "allowed for",
+        "object": "material from Final Specifications"
+      },
+      {
+        "subject": "Third Parties",
+        "predicate": "may receive information about",
+        "object": "O-RAN ALLIANCE e.V."
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: Application Protocol\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications shall no lon..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN Working Group 2",
+      "A1 interface",
+      "Application Protocol",
+      "Specification",
+      "Revision History",
+      "Policy Management Service",
+      "ML Model Management Service",
+      "Enrichment Information Service"
+    ],
+    "relations": [
+      {
+        "subject": "A1 interface",
+        "predicate": "is_part_of",
+        "object": "O-RAN Working Group 2"
+      },
+      {
+        "subject": "Application Protocol",
+        "predicate": "is_defined_by",
+        "object": "Specification"
+      },
+      {
+        "subject": "Specification",
+        "predicate": "has_revision_history",
+        "object": "Revision History"
+      },
+      {
+        "subject": "Policy Management Service",
+        "predicate": "is_covered_in",
+        "object": "Chapter 3 A1 Services"
+      },
+      {
+        "subject": "ML Model Management Service",
+        "predicate": "is_covered_in",
+        "object": "Chapter 3 A1 Services"
+      },
+      {
+        "subject": "Enrichment Information Service",
+        "predicate": "is_covered_in",
+        "object": "Chapter 3 A1 Services"
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: Application Protocol\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications shall no lon..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN Working Group 2",
+      "A1 interface",
+      "Application Protocol",
+      "Revision History",
+      "Policy Management Service",
+      "ML Model Management Service",
+      "Enrichment Information Service",
+      "API Definitions",
+      "OpenAPI specification",
+      "JSON objects",
+      "Create policy",
+      "Query policy",
+      "Delete policy",
+      "Update policy",
+      "Create multiple policies",
+      "Query multiple policies",
+      "Delete multiple policies",
+      "Update multiple policies"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "authored",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "specifies",
+        "object": "Application Protocol"
+      },
+      {
+        "subject": "Application Protocol",
+        "predicate": "includes",
+        "object": "Policy Management Service"
+      },
+      {
+        "subject": "Application Protocol",
+        "predicate": "includes",
+        "object": "ML Model Management Service"
+      },
+      {
+        "subject": "Application Protocol",
+        "predicate": "includes",
+        "object": "Enrichment Information Service"
+      },
+      {
+        "subject": "API Definitions",
+        "predicate": "defines",
+        "object": "A1-P (policy management)"
+      },
+      {
+        "subject": "OpenAPI specification",
+        "predicate": "is part of",
+        "object": "Annex A"
+      },
+      {
+        "subject": "JSON objects",
+        "predicate": "are defined in",
+        "object": "Annex B"
+      },
+      {
+        "subject": "Create policy",
+        "predicate": "is an operation in",
+        "object": "Single policy operations"
+      },
+      {
+        "subject": "Query policy",
+        "predicate": "is an operation in",
+        "object": "Single policy operations"
+      },
+      {
+        "subject": "Delete policy",
+        "predicate": "is an operation in",
+        "object": "Single policy operations"
+      },
+      {
+        "subject": "Update policy",
+        "predicate": "is an operation in",
+        "object": "Single policy operations"
+      },
+      {
+        "subject": "Create multiple policies",
+        "predicate": "is an operation in",
+        "object": "Multi-policy operations"
+      },
+      {
+        "subject": "Query multiple policies",
+        "predicate": "is an operation in",
+        "object": "Multi-policy operations"
+      },
+      {
+        "subject": "Delete multiple policies",
+        "predicate": "is an operation in",
+        "object": "Multi-policy operations"
+      },
+      {
+        "subject": "Update multiple policies",
+        "predicate": "is an operation in",
+        "object": "Multi-policy operations"
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: Application Protocol\n\n# Revision History\n\n> **Table Summary:** {\n\"summary\": \"The table details the revision history of a specification document. It tracks key changes, including the date, revision number, author, and a brief description of each update. The document's initial version was created on 2019.09.24 for review by WG2, and subsequently revised on 201..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN",
+      "A1 interface",
+      "Annex A: OpenAPI specification",
+      "JSON schema",
+      "Policy object instance"
+    ],
+    "relations": [
+      {
+        "subject": "Annex A",
+        "predicate": "relates to",
+        "object": "OpenAPI specification"
+      },
+      {
+        "subject": "Annex B",
+        "predicate": "includes",
+        "object": "JSON schema and instances"
+      },
+      {
+        "subject": "B.1",
+        "predicate": "refers to",
+        "object": "JSON schema for A1 policy"
+      },
+      {
+        "subject": "B.2",
+        "predicate": "covers",
+        "object": "Single policy operations"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      }
+    ],
+    "preview": "\n\n# Annex A: OpenAPI specification .. ..30\n\nA.1 General.. ... 30\n\n# Annex B: JSON objects.. .31\n\nB.1 JSON schema and instances... ........................................................................................... .... 31   \nB.1.1 JSON schema for A1 policy. ............................................................................................................. ..... 31   \nB.1.2 Policy..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "O-RAN Alliance",
+      "Technical Specification",
+      "O-RAN WG2",
+      "A1 interface",
+      "General Aspects and Principles",
+      "Transport Protocol",
+      "Application Protocol",
+      "3GPP TR 21.905",
+      "Non-RT RIC",
+      "3GPP TS 23.501",
+      "3GPP TS 29.501",
+      "3GPP TS 29.cde",
+      "3GPP TS 32.158",
+      "REST Solution Sets (SS)",
+      "IETF RFC8259",
+      "JSON",
+      "IETF RFC6902",
+      "JSON Patch",
+      "3GPP TS 38.463",
+      "E1AP",
+      "3GPP TS 38.473",
+      "F1AP",
+      "3GPP TS 23.401",
+      "UTRAN",
+      "3GPP TS 23.003",
+      "Numbering, addressing and identification",
+      "ITU-T P.1203.3",
+      "SERIES P",
+      "Telecommunication management",
+      "REST-ful HTTP-based Solution Set (SS)",
+      "IETF RFC 3986",
+      "URI",
+      "Uniform Resource Identifier (URI): Generic Syntax",
+      "IETF RFC7807",
+      "Problem Details for HTTP APIs",
+      "3GPP TS 29.500",
+      "Technical Realization of Service Based Architecture",
+      "3GPP TS 21.900"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "O-RAN WG2",
+        "predicate": "covers",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "includes",
+        "object": "General Aspects and Principles"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "includes",
+        "object": "Transport Protocol"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "includes",
+        "object": "Application Protocol"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TR 21.905"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 23.501"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 29.501"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 29.cde"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 32.158"
+      },
+      {
+        "subject": "REST Solution Sets (SS)",
+        "predicate": "defined in",
+        "object": "3GPP TS 32.158"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IETF RFC8259"
+      },
+      {
+        "subject": "IETF RFC8259",
+        "predicate": "defines",
+        "object": "JSON"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IETF RFC6902"
+      },
+      {
+        "subject": "IETF RFC6902",
+        "predicate": "defines",
+        "object": "JSON Patch"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 38.463"
+      },
+      {
+        "subject": "3GPP TS 38.463",
+        "predicate": "defines",
+        "object": "E1AP"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 38.473"
+      },
+      {
+        "subject": "3GPP TS 38.473",
+        "predicate": "defines",
+        "object": "F1AP"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 23.401"
+      },
+      {
+        "subject": "3GPP TS 23.401",
+        "predicate": "describes",
+        "object": "UTRAN"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 23.003"
+      },
+      {
+        "subject": "3GPP TS 23.003",
+        "predicate": "covers",
+        "object": "Numbering, addressing and identification"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "ITU-T P.1203.3"
+      },
+      {
+        "subject": "ITU-T P.1203.3",
+        "predicate": "pertains to",
+        "object": "Telecommunication management"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IETF RFC 3986"
+      },
+      {
+        "subject": "IETF RFC 3986",
+        "predicate": "defines",
+        "object": "URI"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IETF RFC7807"
+      },
+      {
+        "subject": "IETF RFC7807",
+        "predicate": "specifies",
+        "object": "Problem Details for HTTP APIs"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 29.500"
+      },
+      {
+        "subject": "3GPP TS 29.500",
+        "predicate": "covers",
+        "object": "Technical Realization of Service Based Architecture"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "3GPP TS 21.900"
+      }
+    ],
+    "preview": "\n\n# Annex Z.. ..43\n\n# Chapter 1 Introduction\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by O-RAN Alliance.\n\nThe contents of the present document are subject to continuing work within O-RAN WG2 and may change following formal O-RAN approval. In the event that O-RAN Alliance decides to modify the contents of the present document, it will be re-released by O-RAN Alliance with an ide..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "O-RAN WG2",
+      "A1 interface",
+      "Non-RT RIC",
+      "Use Case Requirements",
+      "General Aspects and Principles",
+      "3GPP TR 21.905",
+      "Vocabulary for 3GPP Specifications",
+      "3GPP TS 23.501",
+      "System Architecture for the 5G System",
+      "Stage 2",
+      "3GPP TS 29.501",
+      "Principles and Guidelines for Services Definition",
+      "Stage 3",
+      "3GPP TS 29.cde",
+      "template",
+      "3GPP TS 32.158",
+      "Design rules for REST Solution Sets (SS)",
+      "3GPP TS 32.866",
+      "Study on a REST-ful HTTP-based Solution Set (SS)",
+      "IETF RFC8259",
+      "JavaScript Object Notation (JSON) Data Interchange Format",
+      "IETF RFC6902",
+      "JSON Patch",
+      "3GPP TS 38.463",
+      "NG-RAN",
+      "E1 application protocol (E1AP)",
+      "3GPP TS 38.473",
+      "F1 application protocol (F1AP)",
+      "3GPP TS 23.401",
+      "UTRAN overall description",
+      "3GPP TS 23.003",
+      "Numbering, addressing and identification",
+      "ITU-T P.1203.3",
+      "Models and tools for quality assessment of streamed media",
+      "Parametric bitstream-based quality assessment",
+      "progressive download",
+      "adaptive audiovisual streaming services over reliable transport",
+      "Quality integration module",
+      "3GPP TS 38.300",
+      "NR",
+      "NR and NG-RAN Overall Description",
+      "IETF RFC 3986",
+      "Uniform Resource Identifier (URI)",
+      "Generic Syntax",
+      "IETF RFC7807",
+      "Problem Details for HTTP APIs",
+      "3GPP TS 29.500",
+      "Technical Realization of Service Based Architecture",
+      "3GPP TS 21.900",
+      "Service Management and Orchestration",
+      "A1 policy",
+      "PolicyID",
+      "Scope identifier",
+      "Policy statement",
+      "Directive",
+      "Policy objectives",
+      "Policy resources",
+      "Entities identified by the scope identifier",
+      "Policy object",
+      "JSON format",
+      "HTTP based policy procedures",
+      "REST method realization of the interface architecture",
+      "policy procedures defined in [3]",
+      "HTTP transport as defined in [4]",
+      "3GPP service framework for network functions [5]",
+      "A1 Application Protocol (A1AP)",
+      "REST-based Solution Set",
+      "structure in the 3GPP specification 29.501 [6]",
+      "related template [7]",
+      "design patterns for HTTP procedures",
+      "JSON objects",
+      "Id",
+      "Identifier",
+      "JavaScript Object Notation (JSON)",
+      "Key Performance Indicator (KPI)",
+      "Key Quality Indicator (KQI)",
+      "Machine Learning (ML)",
+      "Quality of Service (QoS)",
+      "Quality of Experience (QoE)",
+      "REpresentational State Transfer (REST)",
+      "Radio Access Network (RAN)",
+      "Real Time (RT)",
+      "RAN Intelligent Controller (RIC)",
+      "Radio Resource Management (RRM)",
+      "Single Network Slice Selection Assistance Information (S-NSSAI)",
+      "Subscriber Profile IDentity (SPID)",
+      "User Equipment (UE)",
+      "UE Identity (UEId)",
+      "Uniform Resource Identifier (URI)"
+    ],
+    "relations": [
+      {
+        "subject": "A1 policy",
+        "predicate": "contains",
+        "object": "PolicyID"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "contains",
+        "object": "scope identifier"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "contains",
+        "object": "policy statements"
+      },
+      {
+        "subject": "PolicyID",
+        "predicate": "used in",
+        "object": "policy operations"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "applies to",
+        "object": "UE"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "applies to",
+        "object": "group of UEs"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "applies to",
+        "object": "slice"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "applies to",
+        "object": "QoS flow"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "applies to",
+        "object": "network resource"
+      },
+      {
+        "subject": "Policy statement",
+        "predicate": "related to",
+        "object": "policy objectives"
+      },
+      {
+        "subject": "Policy statement",
+        "predicate": "related to",
+        "object": "policy resources"
+      },
+      {
+        "subject": "Policy object",
+        "predicate": "represents",
+        "object": "A1 policy"
+      },
+      {
+        "subject": "Policy object",
+        "predicate": "used in",
+        "object": "HTTP based policy procedures"
+      },
+      {
+        "subject": "A1AP",
+        "predicate": "based on",
+        "object": "REST method realization of the interface architecture"
+      },
+      {
+        "subject": "A1AP",
+        "predicate": "based on",
+        "object": "HTTP transport as defined in [4]"
+      },
+      {
+        "subject": "A1AP",
+        "predicate": "corresponds to",
+        "object": "REST-based Solution Set"
+      },
+      {
+        "subject": "A1AP",
+        "predicate": "based on",
+        "object": "structure in the 3GPP specification 29.501 [6]"
+      },
+      {
+        "subject": "A1AP",
+        "predicate": "based on",
+        "object": "related template [7]"
+      },
+      {
+        "subject": "design patterns for HTTP procedures",
+        "predicate": "based on",
+        "object": "[8]"
+      },
+      {
+        "subject": "JSON objects",
+        "predicate": "based on",
+        "object": "structure in the 3GPP specification 29.501 [6]"
+      }
+    ],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\n- References are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.   \n- For a specific reference, subsequent revisions do not apply.   \n- For a non-specific reference, the latest version applies...."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "A1 Application Protocol",
+      "HTTP transport",
+      "3GPP service framework",
+      "3GPP specification 29.501",
+      "A1-P Policy Management Service",
+      "A1-ML ML Model Management Service",
+      "A1-EI Enrichment Information Service",
+      "non-RT RIC",
+      "near-RT RIC",
+      "A1 service consumer",
+      "A1 service producer",
+      "HTTP Client",
+      "HTTP Server",
+      "PolicyId",
+      "policy object",
+      "JSON"
+    ],
+    "relations": [
+      {
+        "subject": "A1 Application Protocol",
+        "predicate": "based on",
+        "object": "HTTP transport"
+      },
+      {
+        "subject": "A1 Application Protocol",
+        "predicate": "defined in",
+        "object": "3GPP service framework"
+      },
+      {
+        "subject": "A1 Application Protocol",
+        "predicate": "corresponds to",
+        "object": "3GPP specification 29.501"
+      },
+      {
+        "subject": "A1-P Policy Management Service",
+        "predicate": "part of",
+        "object": "A1 Application Protocol"
+      },
+      {
+        "subject": "A1-ML ML Model Management Service",
+        "predicate": "part of",
+        "object": "A1 Application Protocol"
+      },
+      {
+        "subject": "A1-EI Enrichment Information Service",
+        "predicate": "part of",
+        "object": "A1 Application Protocol"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "resides in",
+        "object": "A1 service consumer"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resides in",
+        "object": "A1 service producer"
+      },
+      {
+        "subject": "HTTP Client",
+        "predicate": "used by",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "HTTP Server",
+        "predicate": "used by",
+        "object": "near-RT RIC"
+      },
+      {
+        "subject": "PolicyId",
+        "predicate": "assigned by",
+        "object": "A1-P Policy Management Service"
+      },
+      {
+        "subject": "policy object",
+        "predicate": "represented as",
+        "object": "JSON"
+      }
+    ],
+    "preview": "# Chapter 2 A1 application protocol\n\nThis document contains a REST method realization of the interface architecture and policy procedures defined in [3]. It is based on HTTP transport as defined in [4].\n\nThis definition of the A1 Application Protocol (A1AP) is based on the 3GPP service framework for network functions [5]. It corresponds to a REST-based Solution Set and is based on the structure in..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Chapter 3 A1 Services\n\n# 3.1 Introduction\n\nThe A1AP contains APIs for the services defined in [3]:\n\nA1-P – Policy Management Service\n\nA1-ML – ML Model Management Service\n\nA1-EI – Enrichment Information Service\n\nThe A1AP is based on signaling between an A1 service consumer and an A1 service producer residing in the non-RT RIC or in the near-RT RIC.\n\n![](images/2e9bfeceaf57cb258591f5fc03e1da6265..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 3.2.1.3 Representation objects\n\nThe following JSON objects are used within the service operations of the A1-P service:\n\n# PolicyObject\n\nThe policy object is the JSON representation of a complete A1 policy.\n\n# PolicyUpdateObject\n\nThe policy update object is the JSON representation of a partial update to an A1 policy.\n\n# PolicyNotifyObject\n\nThe policy notification object is the JSON representati..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "A1 Policy",
+      "Create single policy",
+      "Create multiple policies",
+      "Query single policy",
+      "Query multiple policies",
+      "Query all policies",
+      "Update single policy (complete)",
+      "Update multiple policies (complete)",
+      "Update single policy (partial)",
+      "Update multiple policies (partial)",
+      "Delete single policy",
+      "Delete multiple policies",
+      "Policy feedback"
+    ],
+    "relations": [
+      {
+        "subject": "Create single policy",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Create multiple policies",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Query single policy",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Query multiple policies",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Query all policies",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Update single policy (complete)",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Update multiple policies (complete)",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Update single policy (partial)",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Update multiple policies (partial)",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Delete single policy",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Delete multiple policies",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      },
+      {
+        "subject": "Policy feedback",
+        "predicate": "is a type of",
+        "object": "A1 Policy"
+      }
+    ],
+    "preview": "\n\n# 3.2.2.2 Create policy\n\n# 3.2.2.2.1 General\n\nAn A1 policy is created using a HTTP PUT request containing a policy object in the payload. The format of the policy object is checked, and the request is either accepted or rejected. If accepted, the policy is to be enforced.\n\n# 3.2.2.2.2 Create single policy\n\nThe operation to create a single policy is based on HTTP PUT and a PolicyID created by the..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "Policy status update",
+      "HTTP POST",
+      "URI",
+      "policy notification object",
+      "message body",
+      "A1-P Consumer",
+      "A1-P Producer",
+      "204 No Content"
+    ],
+    "relations": [
+      {
+        "subject": "Policy status update",
+        "predicate": "uses",
+        "object": "HTTP POST"
+      },
+      {
+        "subject": "URI",
+        "predicate": "contains",
+        "object": "target resource for policy notification handling"
+      },
+      {
+        "subject": "policy notification object",
+        "predicate": "included in",
+        "object": "message body"
+      },
+      {
+        "subject": "A1-P Producer",
+        "predicate": "sends",
+        "object": "HTTP POST request"
+      },
+      {
+        "subject": "A1-P Consumer",
+        "predicate": "returns",
+        "object": "204 No Content"
+      },
+      {
+        "subject": "204 No Content",
+        "predicate": "indicates",
+        "object": "successful processing without returning data"
+      }
+    ],
+    "preview": "# 3.2.2.6.2 Policy status update\n\nThe operation to provide policy feedback is based on HTTP POST. The URI contains the target resource for policy notification handling. The notification content is represented in a policy notification object that is included in the message body and can contain one or several notifications.\n\nThe procedure is used to notify about an enforcement status change of a pol..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n![](images/c881e793ad81e38155d77ada80e5f9a2f617bbd639838ef7b8e3a8b4ad99c55e.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image depicts a sequence diagram illustrating a request-response interaction between an A1-P Consumer and an A1-P Producer. The consumer sends a POST request containing a PolicyNotifyObject to the producer, which responds with a 204 No Content status code, indicating successfu..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "A1 Transport",
+      "HTTP protocol",
+      "security requirements",
+      "HTTP standard headers",
+      "HTTP custom headers",
+      "Resources",
+      "Resource URI structure",
+      "policy_id",
+      "PolicyObject",
+      "PolicyErrorObject",
+      "HTTP methods",
+      "PUT",
+      "POST",
+      "GET",
+      "PATCH",
+      "DELETE"
+    ],
+    "relations": [
+      {
+        "subject": "A1 Transport",
+        "predicate": "uses",
+        "object": "HTTP protocol"
+      },
+      {
+        "subject": "A1 Transport",
+        "predicate": "has",
+        "object": "security requirements"
+      },
+      {
+        "subject": "HTTP standard headers",
+        "predicate": "are part of",
+        "object": "HTTP protocol"
+      },
+      {
+        "subject": "HTTP custom headers",
+        "predicate": "are part of",
+        "object": "HTTP protocol"
+      },
+      {
+        "subject": "Resources",
+        "predicate": "have",
+        "object": "Resource URI structure"
+      },
+      {
+        "subject": "policy_id",
+        "predicate": "identifies",
+        "object": "A1 policy"
+      },
+      {
+        "subject": "HTTP PUT",
+        "predicate": "supports",
+        "object": "PolicyObject"
+      },
+      {
+        "subject": "HTTP PUT",
+        "predicate": "supports",
+        "object": "PolicyErrorObject"
+      },
+      {
+        "subject": "HTTP GET",
+        "predicate": "supports",
+        "object": "PolicyObject"
+      },
+      {
+        "subject": "HTTP PATCH",
+        "predicate": "supports",
+        "object": "PolicyUpdateObject"
+      },
+      {
+        "subject": "HTTP DELETE",
+        "predicate": "returns",
+        "object": "204 No Content"
+      },
+      {
+        "subject": "HTTP POST",
+        "predicate": "supports",
+        "object": "PolicyNotifyObject"
+      }
+    ],
+    "preview": "\n\n# 4.2.2 Usage of HTTP\n\n# 4.2.2.1 General\n\nThe A1 Transport, HTTP protocol and security requirements, is described in [4].\n\n# 4.2.2.2 HTTP standard headers\n\nNote: the encodings and applicable MIME media type for the related Content-Type header are not specified in the current version.\n\n# 4.2.2.3 HTTP custom headers\n\nNo HTTP custom headers are introduced in this version of the specification.\n\n# 4...."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Scope identifier",
+      "Policy statement",
+      "QoS target",
+      "QoE target",
+      "Traffic steering preference",
+      "Enforcement update",
+      "Problem details",
+      "Supported_type enumeration",
+      "Preference_type enumeration",
+      "Enforcement_status_type enumeration",
+      "Enforcement_reason_type enumeration",
+      "Policy_error_type enumeration"
+    ],
+    "relations": [
+      {
+        "subject": "Policy object",
+        "predicate": "contains",
+        "object": "Scope identifier"
+      },
+      {
+        "subject": "Policy object",
+        "predicate": "contains",
+        "object": "Policy statements"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "can be",
+        "object": "ue_id"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "can be",
+        "object": "group_id"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "can be",
+        "object": "slice_id"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "can be",
+        "object": "qos_id"
+      },
+      {
+        "subject": "Scope identifier",
+        "predicate": "can be",
+        "object": "cell_id"
+      },
+      {
+        "subject": "Policy statements",
+        "predicate": "define",
+        "object": "QoS target"
+      },
+      {
+        "subject": "Policy statements",
+        "predicate": "define",
+        "object": "QoE target"
+      },
+      {
+        "subject": "Policy statements",
+        "predicate": "define",
+        "object": "Traffic steering preference"
+      },
+      {
+        "subject": "Policy statements",
+        "predicate": "define",
+        "object": "Enforcement update"
+      },
+      {
+        "subject": "Policy statements",
+        "predicate": "define",
+        "object": "Problem details"
+      },
+      {
+        "subject": "Enumerations",
+        "predicate": "support",
+        "object": "Supported_type enumeration"
+      },
+      {
+        "subject": "Enumerations",
+        "predicate": "support",
+        "object": "Preference_type enumeration"
+      },
+      {
+        "subject": "Enumerations",
+        "predicate": "support",
+        "object": "Enforcement_status_type enumeration"
+      },
+      {
+        "subject": "Enumerations",
+        "predicate": "support",
+        "object": "Enforcement_reason_type enumeration"
+      },
+      {
+        "subject": "Enumerations",
+        "predicate": "support",
+        "object": "Policy_error_type enumeration"
+      }
+    ],
+    "preview": "# 4.2.6.1 Scope identifier (Structured data type)\n\nA1 polices are in [3] defined as containing a scope identifier and one or more policy statements where policy statements contain policy objectives and/or policy resources. This section defines the structured data type and attributes to be used as scope identifier.\n\nThe scope identifier contains the following attributes:\n\nTable 4.2.6.1-1: Definitio..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "policy statements",
+      "qos_target",
+      "qoe_target",
+      "traffic_steering_preference",
+      "enforcement_update",
+      "problem_details",
+      "PolicyID",
+      "scope identifier",
+      "statement",
+      "ue_id",
+      "group_id",
+      "slice_id",
+      "qos_id",
+      "cell_id",
+      "policy object",
+      "gfbr",
+      "mfbr",
+      "priority_level",
+      "pdb",
+      "enforce_status",
+      "enforce_reason",
+      "policy_error_code",
+      "MOS",
+      "initial buffering",
+      "reBuffFreq",
+      "stallRatio",
+      "preference_type",
+      "enforcement_status_type",
+      "enforcement_reason_type"
+    ],
+    "relations": [
+      {
+        "subject": "qos_target",
+        "predicate": "contains_attributes",
+        "object": "gfbr"
+      },
+      {
+        "subject": "qos_target",
+        "predicate": "contains_attributes",
+        "object": "mfbr"
+      },
+      {
+        "subject": "qos_target",
+        "predicate": "contains_attributes",
+        "object": "priority_level"
+      },
+      {
+        "subject": "qos_target",
+        "predicate": "contains_attributes",
+        "object": "pdb"
+      },
+      {
+        "subject": "qoe_target",
+        "predicate": "contains_attributes",
+        "object": "MOS"
+      },
+      {
+        "subject": "qoe_target",
+        "predicate": "contains_attributes",
+        "object": "initial buffering"
+      },
+      {
+        "subject": "qoe_target",
+        "predicate": "contains_attributes",
+        "object": "reBuffFreq"
+      },
+      {
+        "subject": "qoe_target",
+        "predicate": "contains_attributes",
+        "object": "stallRatio"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "predicts_QoE_related_attributes",
+        "object": "QoE related attributes"
+      },
+      {
+        "subject": "enforcement_update",
+        "predicate": "contains_attributes",
+        "object": "enforce_status"
+      },
+      {
+        "subject": "enforcement_update",
+        "predicate": "contains_attributes",
+        "object": "enforce_reason"
+      },
+      {
+        "subject": "problem_details",
+        "predicate": "contains_attributes",
+        "object": "policy_error_code"
+      },
+      {
+        "subject": "preference_type",
+        "predicate": "defines_preference_options",
+        "object": "Shall, Prefer, Avoid, Forbid"
+      },
+      {
+        "subject": "enforcement_status_type",
+        "predicate": "defines_enforcement_status",
+        "object": "Yes or No"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n\nNote: Presence condition \"C\" means that least one attribute shall be included when the scope is defined. The allowed combinations of attributes depend on the policy statement that is combined with the scope identifier, see section 4.2.6.4.\n\n# 4.2.6.2 Policy statements (Structured data types)\n\nA1 polices are in [3] defined as containing a scope identifier and one or more..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"The table defines attributes associated with a policy data structure. It outlines the name, data type, mandatory status ('M'), cardinality, description reference (linking to specific sections), and applicability of each attribute. The attributes include `policy_id`, `scope`, and `statement`, representing identifiers and policy statements. Cardinality indicates ..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "PolicyUpdateObject",
+      "JSONPatchOperation",
+      "op",
+      "path",
+      "statement",
+      "RFC8259",
+      "PolicyListObject",
+      "PolicyID",
+      "EnforcementStatusStatement",
+      "PolicyNotifyObject",
+      "enforce_update",
+      "PolicyErrorObject",
+      "problem_details",
+      "HTTPProblemDetails",
+      "RFC7807",
+      "3GPP_TS_29501"
+    ],
+    "relations": [
+      {
+        "subject": "PolicyUpdateObject",
+        "predicate": "is_based_on",
+        "object": "JSONPatchOperation"
+      },
+      {
+        "subject": "JSONPatchOperation",
+        "predicate": "has_attribute",
+        "object": "op"
+      },
+      {
+        "subject": "JSONPatchOperation",
+        "predicate": "has_attribute",
+        "object": "path"
+      },
+      {
+        "subject": "JSONPatchOperation",
+        "predicate": "has_attribute",
+        "object": "statement"
+      },
+      {
+        "subject": "PolicyUpdateObject",
+        "predicate": "is_based_on",
+        "object": "RFC8259"
+      },
+      {
+        "subject": "PolicyListObject",
+        "predicate": "contains",
+        "object": "PolicyID"
+      },
+      {
+        "subject": "PolicyListObject",
+        "predicate": "contains",
+        "object": "EnforcementStatusStatement"
+      },
+      {
+        "subject": "PolicyListObject",
+        "predicate": "is_based_on",
+        "object": "RFC8259"
+      },
+      {
+        "subject": "PolicyNotifyObject",
+        "predicate": "contains",
+        "object": "PolicyID"
+      },
+      {
+        "subject": "PolicyNotifyObject",
+        "predicate": "contains",
+        "object": "enforce_update"
+      },
+      {
+        "subject": "PolicyNotifyObject",
+        "predicate": "is_based_on",
+        "object": "RFC8259"
+      },
+      {
+        "subject": "PolicyErrorObject",
+        ".predicate": "contains",
+        "object": "PolicyID"
+      },
+      {
+        "subject": "PolicyErrorObject",
+        "predicate": "contains",
+        "object": "problem_details"
+      },
+      {
+        "subject": "PolicyErrorObject",
+        "predicate": "is_based_on",
+        "object": "HTTPProblemDetails"
+      },
+      {
+        "subject": "HTTPProblemDetails",
+        "predicate": "is_defined_in",
+        "object": "RFC7807"
+      },
+      {
+        "subject": "PolicyErrorObject",
+        "predicate": "is_based_on",
+        "object": "3GPP_TS_29501"
+      }
+    ],
+    "preview": "\n\n# 4.2.6.4.2.2 Policy update object\n\nTable 4.2.6.4.2.2-1: Content in policy update object\n\n> **Table Summary:** {\n\"summary\": \"This table defines attributes related to a JSON Patch operation, outlining their data types, mandatory status ('M'), and cardinality. The attributes include 'op' (operation type, referenced in [11]), 'path' (a string identifying the location to modify, referenced in [11] a..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 4.2.6.4.5.2 Policy error object\n\nTable 4.2.6.4.5.2-1: Content in policy error object\n\n> **Table Summary:** {\n\"summary\": \"This table defines attributes associated with error responses, outlining their data types, mandatory status ('M'), and cardinality. The attributes listed are `policy_id` and `problem_details`, each linked to specific sections within a larger document (4.2.6.3 and 4.2.6.2 res..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# B1.1.1.1 JSON object\n\nAn O-RAN A1 policy contains PolicyID, scope identifier and policy statement.\n\n{ \"title\": \"policies\", \"description\": \"O-RAN A1 policy\", \"type\": \"object\", \"properties\": { \"policy_id\": {\"type\": \"string\"}, \"scope\": { … }, \"statement\": { … }, … \"statement\": { … } }   \n}\n\n# B1.1.1.2 Scope Identifier\n\nA Scope Identifier contains one or more identifier attributes.\n\n\"scope\": { \"ue..."
+  }
+]
