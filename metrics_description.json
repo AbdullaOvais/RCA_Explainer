@@ -1,0 +1,1658 @@
+{
+    "count(container_last_seen{name=\"srsdu2\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'srsdu2' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "srsdu2 Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The total number of CPU cores available on the host machine where the 'cadvisor' instance is running.",
+        "component": "Node",
+        "unit": "cores",
+        "normal_range": "depends on hardware"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu2\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'srsdu2' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "srsdu2 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"srsdu2\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu2\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'srsdu2' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "srsdu2 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu2\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu2\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'srsdu2' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "srsdu2 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The total amount of physical memory available on the host machine.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "depends on hardware"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'srsdu2' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'srsdu2' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'srsdu2' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'srsdu2' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu2\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'srsdu2' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "srsdu2 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu2\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"srsdu2\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'srsdu2' container, excluding cached memory.",
+        "component": "srsdu2 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'srsdu2' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'srsdu2' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'srsdu2' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu2\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'srsdu2' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu2 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "count(container_last_seen{name=\"srscu0\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'srscu0' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "srscu0 Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srscu0\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'srscu0' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "srscu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"srscu0\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srscu0\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'srscu0' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "srscu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srscu0\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srscu0\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'srscu0' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "srscu0 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'srscu0' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'srscu0' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'srscu0' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'srscu0' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srscu0\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'srscu0' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "srscu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srscu0\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"srscu0\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'srscu0' container, excluding cached memory.",
+        "component": "srscu0 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'srscu0' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'srscu0' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'srscu0' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srscu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'srscu0' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srscu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "count(container_last_seen{name=\"srsdu0\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'srsdu0' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "srsdu0 Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu0\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'srsdu0' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "srsdu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"srsdu0\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu0\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'srsdu0' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "srsdu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu0\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu0\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'srsdu0' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "srsdu0 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'srsdu0' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'srsdu0' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'srsdu0' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'srsdu0' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu0\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'srsdu0' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "srsdu0 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu0\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"srsdu0\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'srsdu0' container, excluding cached memory.",
+        "component": "srsdu0 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'srsdu0' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'srsdu0' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'srsdu0' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu0\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'srsdu0' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu0 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "count(container_last_seen{name=\"srscu1\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'srscu1' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "srscu1 Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srscu1\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'srscu1' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "srscu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"srscu1\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srscu1\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'srscu1' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "srscu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srscu1\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srscu1\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'srscu1' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "srscu1 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'srscu1' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'srscu1' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'srscu1' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'srscu1' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srscu1\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'srscu1' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "srscu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srscu1\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"srscu1\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'srscu1' container, excluding cached memory.",
+        "component": "srscu1 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'srscu1' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'srscu1' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'srscu1' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srscu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'srscu1' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srscu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "count(container_last_seen{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'open5gs_5gc' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "open5gs_5gc Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'open5gs_5gc' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "open5gs_5gc Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'open5gs_5gc' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "open5gs_5gc Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'open5gs_5gc' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'open5gs_5gc' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'open5gs_5gc' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'open5gs_5gc' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'open5gs_5gc' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'open5gs_5gc' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "open5gs_5gc Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"open5gs_5gc\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'open5gs_5gc' container, excluding cached memory.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'open5gs_5gc' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'open5gs_5gc' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'open5gs_5gc' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"open5gs_5gc\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'open5gs_5gc' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "open5gs_5gc Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "count(container_last_seen{name=\"srsdu1\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The number of times the 'srsdu1' container has been seen, indicating its current running status. A count of 1 means it's active.",
+        "component": "srsdu1 Container",
+        "unit": "count",
+        "normal_range": "1"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu1\",instance=\"cadvisor:8080\"}[5m]) * 100)by (instance) / sum(machine_cpu_cores{instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The average CPU utilization of the 'srsdu1' container over the last 5 minutes, expressed as a percentage of the host's total CPU cores.",
+        "component": "srsdu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((sum(container_memory_usage_bytes{name=\"srsdu1\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu1\",instance=\"cadvisor:8080\"}) by (instance)) / sum(machine_memory_bytes{instance=\"cadvisor:8080\"}) by (instance)) * 100": {
+        "description": "The percentage of the host machine's total memory being actively used by the 'srsdu1' container (excluding file cache), aggregated over a 5-minute interval.",
+        "component": "srsdu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu1\",instance=\"cadvisor:8080\"}) by (instance) - sum(container_memory_cache{name=\"srsdu1\",instance=\"cadvisor:8080\"}) by (instance)": {
+        "description": "The amount of memory actively used by the 'srsdu1' container, excluding cached memory. This provides a more accurate view of the container's real memory footprint.",
+        "component": "srsdu1 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk reads from the 'srsdu1' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\"}[5m]))by (instance)": {
+        "description": "The rate of disk writes to the 'srsdu1' container's filesystem, measured in bytes per second over a 5-minute window.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data transmitted from the 'srsdu1' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))by (instance)": {
+        "description": "The rate of network data received by the 'srsdu1' container on the 'eth0' interface, in bytes per second over a 5-minute period.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_cpu_user_seconds_total{name=\"srsdu1\",instance=\"cadvisor:8080\"}[5m]) * 100)": {
+        "description": "The total CPU utilization of the 'srsdu1' container in percentage, averaged over 5 minutes. This is a simplified view without a reference to the host machine's total cores.",
+        "component": "srsdu1 Container",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(container_memory_usage_bytes{name=\"srsdu1\",instance=\"cadvisor:8080\"} - container_memory_cache{name=\"srsdu1\",instance=\"cadvisor:8080\"})": {
+        "description": "The total amount of memory actively used by the 'srsdu1' container, excluding cached memory.",
+        "component": "srsdu1 Container",
+        "unit": "bytes",
+        "normal_range": "depends on container workload"
+    },
+    "sum(irate(container_fs_writes_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk writes for the 'srsdu1' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_fs_reads_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",device!~\"/dev/dm.*\"}[5m]))": {
+        "description": "The rate of disk reads for the 'srsdu1' container's filesystem, excluding device mapper devices, measured in bytes per second over 5 minutes.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_transmit_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data transmitted from the 'srsdu1' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "sum(irate(container_network_receive_bytes_total{name=\"srsdu1\",instance=\"cadvisor:8080\",interface=\"eth0\"}[5m]))": {
+        "description": "The total rate of network data received by the 'srsdu1' container on 'eth0' in bytes per second, averaged over 5 minutes.",
+        "component": "srsdu1 Container",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_pressure_cpu_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The average rate of CPU pressure stalls per second over the last 10 seconds. High values indicate that tasks are waiting for CPU time, suggesting a bottleneck.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "irate(node_pressure_memory_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The average rate of memory pressure stalls per second over the last 10 seconds. High values suggest that processes are waiting for memory, indicating memory contention or exhaustion.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "irate(node_pressure_io_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The average rate of I/O pressure stalls per second over the last 10 seconds. High values suggest that processes are waiting for disk I/O, indicating a disk bottleneck.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "100 * (1 - avg(rate(node_cpu_seconds_total{mode=\"idle\", instance=\"node-exporter:9100\"}[10s])))": {
+        "description": "The average CPU utilization of the node, excluding idle time, over the last 10 seconds, expressed as a percentage.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "scalar(node_load1{instance=\"node-exporter:9100\",job=\"node\"}) * 100 / count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu))": {
+        "description": "The 1-minute load average of the node as a percentage of the total number of CPU cores. Values above 100% indicate more processes are waiting for the CPU than there are cores to run them.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "((node_memory_MemTotal_bytes{instance=\"node-exporter:9100\", job=\"node\"} - node_memory_MemFree_bytes{instance=\"node-exporter:9100\", job=\"node\"}) / node_memory_MemTotal_bytes{instance=\"node-exporter:9100\", job=\"node\"}) * 100": {
+        "description": "The percentage of the node's total physical memory that is currently in use (excluding free memory). This includes memory used for caching and buffering.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "30-80"
+    },
+    "(1 - (node_memory_MemAvailable_bytes{instance=\"node-exporter:9100\", job=\"node\"} / node_memory_MemTotal_bytes{instance=\"node-exporter:9100\", job=\"node\"})) * 100": {
+        "description": "The percentage of the node's memory that is not immediately available for new processes. This is a more accurate measure of memory pressure than simply 'used' memory, as it considers reclaimable memory.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "30-80"
+    },
+    "((node_memory_SwapTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_SwapFree_bytes{instance=\"node-exporter:9100\",job=\"node\"}) / (node_memory_SwapTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"})) * 100": {
+        "description": "The percentage of the node's total swap space that is currently in use.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-10"
+    },
+    "100 - ((node_filesystem_avail_bytes{instance=\"node-exporter:9100\",job=\"node\",mountpoint=\"/\",fstype!=\"rootfs\"} * 100) / node_filesystem_size_bytes{instance=\"node-exporter:9100\",job=\"node\",mountpoint=\"/\",fstype!=\"rootfs\"})": {
+        "description": "The percentage of the root filesystem ('/') that is currently used, excluding the 'rootfs' pseudo-filesystem.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-80"
+    },
+    "count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu))": {
+        "description": "The total number of CPU cores available on the node.",
+        "component": "Node",
+        "unit": "cores",
+        "normal_range": "depends on hardware"
+    },
+    "node_time_seconds{instance=\"node-exporter:9100\",job=\"node\"} - node_boot_time_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The uptime of the node in seconds since the last boot.",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "varies"
+    },
+    "node_filesystem_size_bytes{instance=\"node-exporter:9100\",job=\"node\",mountpoint=\"/\",fstype!=\"rootfs\"}": {
+        "description": "The total size of the root filesystem ('/') on the node, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "depends on hardware"
+    },
+    "node_memory_MemTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total amount of physical memory on the node, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "depends on hardware"
+    },
+    "node_memory_SwapTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total size of the swap space on the node, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "depends on configuration"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"system\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent in system mode (kernel-level tasks), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"user\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent in user mode (running user applications), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"iowait\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent waiting for I/O operations to complete, averaged over 10 seconds. High values suggest an I/O bottleneck.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-10"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=~\".*irq\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent handling interrupts (both hardware and software), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-5"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\",  mode!='idle',mode!='user',mode!='system',mode!='iowait',mode!='irq',mode!='softirq'}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent in 'other' modes not classified as idle, user, system, I/O wait, or interrupts, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-5"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"idle\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent in an idle state, averaged over 10 seconds. A lower percentage means the CPU is more busy.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "20-100"
+    },
+    "node_memory_MemTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_MemFree_bytes{instance=\"node-exporter:9100\",job=\"node\"} - (node_memory_Cached_bytes{instance=\"node-exporter:9100\",job=\"node\"} + node_memory_Buffers_bytes{instance=\"node-exporter:9100\",job=\"node\"} + node_memory_SReclaimable_bytes{instance=\"node-exporter:9100\",job=\"node\"})": {
+        "description": "The amount of memory actively used by processes on the node, excluding cached, buffered, and reclaimable memory.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Cached_bytes{instance=\"node-exporter:9100\",job=\"node\"} + node_memory_Buffers_bytes{instance=\"node-exporter:9100\",job=\"node\"} + node_memory_SReclaimable_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total amount of memory used for caching, buffering, and reclaimable slab space. This memory is generally available to be freed for new processes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_MemFree_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of physical memory that is not being used for any purpose, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "(node_memory_SwapTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_SwapFree_bytes{instance=\"node-exporter:9100\",job=\"node\"})": {
+        "description": "The amount of swap space currently in use on the node, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_bytes_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])*8": {
+        "description": "The rate of network data received by the node, converted from bytes per second to bits per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bps",
+        "normal_range": "varies"
+    },
+    "irate(node_network_transmit_bytes_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])*8": {
+        "description": "The rate of network data transmitted from the node, converted from bytes per second to bits per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bps",
+        "normal_range": "varies"
+    },
+    "100 - ((node_filesystem_avail_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'} * 100) / node_filesystem_size_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'})": {
+        "description": "The percentage of disk space used on all non-rootfs filesystems.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-80"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"nice\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent on low-priority user tasks ('nice' processes), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-5"
+    },
+    "sum by(instance) (irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"iowait\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The average percentage of CPU time spent waiting for I/O to complete, per instance, over a 10-second interval.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-10"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"irq\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent handling hardware interrupts, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-5"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"softirq\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time spent handling software interrupts, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-5"
+    },
+    "sum(irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"steal\"}[10s])) / scalar(count(count(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}) by (cpu)))": {
+        "description": "The percentage of CPU time stolen by the hypervisor from this virtual machine, averaged over 10 seconds. High values suggest a noisy neighbor in a virtualized environment.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0"
+    },
+    "node_memory_MemTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_MemFree_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_Buffers_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_Cached_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_Slab_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_PageTables_bytes{instance=\"node-exporter:9100\",job=\"node\"} - node_memory_SwapCached_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that is truly in use by applications and the operating system, excluding various types of caches and buffers.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_PageTables_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory dedicated to the kernel page tables, which map virtual addresses to physical addresses.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_SwapCached_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that was swapped out to disk but has been read back into memory, remaining in a cached state.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Slab_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used by the kernel's slab allocator for data structures.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Cached_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used for caching filesystem data.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Buffers_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used by the kernel for filesystem buffers.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_HardwareCorrupted_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that the hardware has reported as corrupted. This should ideally be zero.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0"
+    },
+    "node_filesystem_size_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'} - node_filesystem_avail_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The total amount of disk space used on all non-rootfs filesystems, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "irate(node_disk_reads_completed_total{instance=\"node-exporter:9100\",job=\"node\",device=~\"nvme0n1\"}[10s])": {
+        "description": "The rate of disk read operations completed on the 'nvme0n1' device, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "reads/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_writes_completed_total{instance=\"node-exporter:9100\",job=\"node\",device=~\"nvme0n1\"}[10s])": {
+        "description": "The rate of disk write operations completed on the 'nvme0n1' device, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "writes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_read_bytes_total{instance=\"node-exporter:9100\",job=\"node\",device=~\"nvme0n1\"}[10s])": {
+        "description": "The rate of data read from the 'nvme0n1' disk, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_written_bytes_total{instance=\"node-exporter:9100\",job=\"node\",device=~\"nvme0n1\"}[10s])": {
+        "description": "The rate of data written to the 'nvme0n1' disk, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_io_time_seconds_total{instance=\"node-exporter:9100\",job=\"node\",device=~\"nvme0n1\"} [10s])": {
+        "description": "The percentage of time the 'nvme0n1' disk spent on I/O operations, averaged over 10 seconds. A value of 1.0 indicates 100% busy.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum by(instance) (irate(node_cpu_guest_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"user\"}[1m])) / on(instance) group_left sum by (instance)((irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[1m])))": {
+        "description": "The percentage of CPU time spent on user processes within a guest virtual machine, averaged over 1 minute.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "sum by(instance) (irate(node_cpu_guest_seconds_total{instance=\"node-exporter:9100\",job=\"node\", mode=\"nice\"}[1m])) / on(instance) group_left sum by (instance)((irate(node_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[1m])))": {
+        "description": "The percentage of CPU time spent on low-priority user processes within a guest virtual machine, averaged over 1 minute.",
+        "component": "Node",
+        "unit": "percent",
+        "normal_range": "0-100"
+    },
+    "node_memory_Inactive_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that is currently not in active use but has not been freed yet.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Active_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that is actively in use by processes and is unlikely to be freed.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Committed_AS_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total amount of memory that processes have requested from the kernel, even if not all of it is physically allocated yet.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_CommitLimit_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total amount of memory that can be committed by the system, which is a combination of RAM and swap space.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Inactive_file_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory in the inactive list that is backed by a filesystem file (e.g., cached files).",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Inactive_anon_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory in the inactive list that is not backed by a filesystem file (e.g., anonymous memory).",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Active_file_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory in the active list that is backed by a filesystem file.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Active_anon_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory in the active list that is not backed by a filesystem file.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Writeback_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that is actively being written back to disk.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_WritebackTmp_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The temporary buffer space used for writeback operations.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_Dirty_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory pages that have been modified but not yet written to disk.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Mapped_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that is mapped to files on disk.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Shmem_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used for shared memory, including tmpfs.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_ShmemHugePages_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of shared memory that is backed by huge pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0"
+    },
+    "node_memory_ShmemPmdMapped_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of shared memory that is mapped with huge pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0"
+    },
+    "node_memory_SUnreclaim_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of slab memory that is not reclaimable.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_SReclaimable_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of slab memory that is reclaimable.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_VmallocChunk_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The largest contiguous block of `vmalloc` memory available.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_VmallocTotal_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total size of the `vmalloc` address space, which is used for allocating large, contiguous blocks of kernel memory.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_VmallocUsed_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of `vmalloc` address space currently in use.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Bounce_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used for bounce buffers in DMA operations.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_AnonHugePages_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of anonymous memory backed by huge pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_AnonPages_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used for anonymous pages, which includes stack, heap, and other process memory.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_KernelStack_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used for the kernel stack of each process.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Percpu_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory allocated per CPU for various kernel data structures.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_HugePages_Free{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of huge pages that are currently free.",
+        "component": "Node",
+        "unit": "pages",
+        "normal_range": "varies"
+    },
+    "node_memory_HugePages_Rsvd{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of huge pages reserved for future use.",
+        "component": "Node",
+        "unit": "pages",
+        "normal_range": "0"
+    },
+    "node_memory_HugePages_Surp{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of huge pages in the surplus pool.",
+        "component": "Node",
+        "unit": "pages",
+        "normal_range": "0"
+    },
+    "node_memory_HugePages_Total{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total number of huge pages configured on the system.",
+        "component": "Node",
+        "unit": "pages",
+        "normal_range": "0"
+    },
+    "node_memory_Hugepagesize_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The size of a single huge page, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_DirectMap1G_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of physical memory that is directly mapped into the kernel's address space using 1GB pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_DirectMap2M_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of physical memory that is directly mapped into the kernel's address space using 2MB pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_DirectMap4k_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of physical memory that is directly mapped into the kernel's address space using 4KB pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_memory_Unevictable_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that cannot be swapped out to disk, such as memory-locked pages.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_Mlocked_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory that has been explicitly locked by processes and cannot be swapped out.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "node_memory_NFS_Unstable_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The amount of memory used by NFS for unstable writes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_vmstat_pgpgin{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory pages read from disk (page-ins), averaged over 10 seconds. High values suggest memory pressure.",
+        "component": "Node",
+        "unit": "pages/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_vmstat_pgpgout{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory pages written to disk (page-outs), averaged over 10 seconds. High values suggest memory pressure.",
+        "component": "Node",
+        "unit": "pages/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_vmstat_pswpin{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory swapped in from disk, averaged over 10 seconds. High values indicate that the system is heavily using swap space.",
+        "component": "Node",
+        "unit": "pages/sec",
+        "normal_range": "0"
+    },
+    "irate(node_vmstat_pswpout{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory swapped out to disk, averaged over 10 seconds. High values indicate that the system is heavily using swap space.",
+        "component": "Node",
+        "unit": "pages/sec",
+        "normal_range": "0"
+    },
+    "irate(node_vmstat_pgfault{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of all page faults (both minor and major) that have occurred, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "faults/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_vmstat_pgmajfault{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of major page faults (requiring disk I/O), averaged over 10 seconds. High values suggest memory pressure and thrashing.",
+        "component": "Node",
+        "unit": "faults/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_vmstat_pgfault{instance=\"node-exporter:9100\",job=\"node\"}[10s]) - irate(node_vmstat_pgmajfault{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of minor page faults (not requiring disk I/O), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "faults/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_vmstat_oom_kill{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of Out-of-Memory (OOM) kills, averaged over 10 seconds. Any value greater than zero indicates a critical memory shortage.",
+        "component": "Node",
+        "unit": "kills/sec",
+        "normal_range": "0"
+    },
+    "node_timex_estimated_error_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The estimated error of the system clock, in seconds.",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "low values"
+    },
+    "node_timex_offset_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current offset of the system clock from its reference clock, in seconds.",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "low values"
+    },
+    "node_timex_maxerror_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum possible error of the system clock, in seconds.",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "varies"
+    },
+    "node_timex_loop_time_constant{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The time constant used by the kernel's timekeeping loop. A higher value indicates a slower response to time changes.",
+        "component": "Node",
+        "unit": "units of time",
+        "normal_range": "varies"
+    },
+    "node_timex_sync_status{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The synchronization status of the system clock. A value of 1 indicates the clock is synchronized.",
+        "component": "Node",
+        "unit": "boolean",
+        "normal_range": "1"
+    },
+    "node_timex_frequency_adjustment_ratio{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The frequency adjustment applied to the system clock.",
+        "component": "Node",
+        "unit": "ppm",
+        "normal_range": "low values"
+    },
+    "node_timex_tick_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The duration of a single tick of the system clock, in seconds.",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "0.01"
+    },
+    "node_timex_tai_offset_seconds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current offset between the system time and the International Atomic Time (TAI).",
+        "component": "Node",
+        "unit": "seconds",
+        "normal_range": "varies"
+    },
+    "node_procs_blocked{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of processes that are in the 'D' state, which means they are in uninterruptible sleep and blocked on I/O.",
+        "component": "Node",
+        "unit": "processes",
+        "normal_range": "0"
+    },
+    "node_procs_running{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of processes that are currently in a runnable state and either running on a CPU or waiting to run.",
+        "component": "Node",
+        "unit": "processes",
+        "normal_range": "varies"
+    },
+    "node_processes_state{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "A metric that provides the state of processes on the node. This metric is usually a summary of different process states.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "irate(node_forks_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of new process forks per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "forks/sec",
+        "normal_range": "varies"
+    },
+    "irate(process_virtual_memory_bytes{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of change in a process's virtual memory usage, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "varies"
+    },
+    "process_resident_memory_max_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum amount of resident memory (physical RAM) that a process has used.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "irate(process_virtual_memory_max_bytes{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of change in a process's maximum virtual memory usage, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "varies"
+    },
+    "node_processes_pids{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current number of process IDs (PIDs) in use on the system.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_processes_max_processes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum number of processes that can be created on the system, as determined by the kernel.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "irate(node_schedstat_running_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of time spent by processes in the 'running' state, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_schedstat_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of time spent by processes waiting for the CPU, averaged over 10 seconds. High values suggest CPU contention.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0 or low values"
+    },
+    "node_processes_threads{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current number of threads running on the system.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_processes_max_threads{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum number of threads that can be created on the system.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "irate(node_context_switches_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of context switches per second, averaged over 10 seconds. High values can indicate a high number of processes competing for the CPU.",
+        "component": "Node",
+        "unit": "switches/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_intr_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of interrupts handled by the CPU, averaged over 10 seconds. High rates can be caused by intensive I/O.",
+        "component": "Node",
+        "unit": "interrupts/sec",
+        "normal_range": "varies"
+    },
+    "node_load1{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The 1-minute load average of the system. This is the average number of processes in the running or waiting state over the last minute.",
+        "component": "Node",
+        "unit": "load average",
+        "normal_range": "0-number of CPU cores"
+    },
+    "node_load5{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The 5-minute load average of the system. This is the average number of processes in the running or waiting state over the last 5 minutes.",
+        "component": "Node",
+        "unit": "load average",
+        "normal_range": "0-number of CPU cores"
+    },
+    "node_load15{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The 15-minute load average of the system. This is the average number of processes in the running or waiting state over the last 15 minutes.",
+        "component": "Node",
+        "unit": "load average",
+        "normal_range": "0-number of CPU cores"
+    },
+    "node_cpu_scaling_frequency_hertz{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current operating frequency of the CPU, in Hertz.",
+        "component": "Node",
+        "unit": "hertz",
+        "normal_range": "varies"
+    },
+    "avg(node_cpu_scaling_frequency_max_hertz{instance=\"node-exporter:9100\",job=\"node\"})": {
+        "description": "The maximum frequency the CPU can scale to, in Hertz.",
+        "component": "Node",
+        "unit": "hertz",
+        "normal_range": "varies"
+    },
+    "avg(node_cpu_scaling_frequency_min_hertz{instance=\"node-exporter:9100\",job=\"node\"})": {
+        "description": "The minimum frequency the CPU can scale to, in Hertz.",
+        "component": "Node",
+        "unit": "hertz",
+        "normal_range": "varies"
+    },
+    "rate(node_pressure_cpu_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of CPU pressure stalls over a 10-second window, indicating how much time tasks are waiting for the CPU.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "rate(node_pressure_memory_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory pressure stalls over a 10-second window, indicating how often processes are waiting for memory.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "rate(node_pressure_memory_stalled_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of memory pressure stalls where processes are completely blocked, unable to make progress due to memory starvation, over a 10-second window.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "rate(node_pressure_io_waiting_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of I/O pressure stalls over a 10-second window, showing how often processes are waiting for disk I/O.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "rate(node_pressure_io_stalled_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of I/O pressure stalls where processes are completely blocked due to I/O starvation, over a 10-second window.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "irate(node_interrupts_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of interrupts per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "interrupts/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_schedstat_timeslices_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of timeslices allocated to processes by the scheduler per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "timeslices/sec",
+        "normal_range": "varies"
+    },
+    "node_entropy_available_bits{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of available bits of entropy in the kernel's random number generator. Low values can indicate a shortage of randomness.",
+        "component": "Node",
+        "unit": "bits",
+        "normal_range": "varies"
+    },
+    "irate(process_cpu_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of CPU seconds consumed by processes, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "varies"
+    },
+    "process_max_fds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum number of file descriptors that a process can open.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "process_open_fds{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of open file descriptors for a process.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_hwmon_temp_celsius{instance=\"node-exporter:9100\",job=\"node\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current temperature of the node's hardware monitoring sensors, in Celsius.",
+        "component": "Node",
+        "unit": "celsius",
+        "normal_range": "varies"
+    },
+    "node_hwmon_temp_crit_alarm_celsius{instance=\"node-exporter:9100\",job=\"node\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "A flag indicating if a critical temperature alarm has been triggered on a hardware sensor. A value of 1 means the alarm is active.",
+        "component": "Node",
+        "unit": "celsius",
+        "normal_range": "0"
+    },
+    "node_hwmon_temp_crit_celsius{instance=\"node-exporter:9100\",job=\"node\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The critical temperature threshold for a hardware sensor, in Celsius.",
+        "component": "Node",
+        "unit": "celsius",
+        "normal_range": "varies"
+    },
+    "node_hwmon_temp_crit_hyst_celsius{instance=\"node-exporter:9100\",job=\"node\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The critical hysteresis temperature for a hardware sensor, in Celsius. The temperature must drop below this value to clear a critical alarm.",
+        "component": "Node",
+        "unit": "celsius",
+        "normal_range": "varies"
+    },
+    "node_hwmon_temp_max_celsius{instance=\"node-exporter:9100\",job=\"node\"} * on(chip) group_left(chip_name) node_hwmon_chip_names{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum temperature threshold for a hardware sensor, in Celsius.",
+        "component": "Node",
+        "unit": "celsius",
+        "normal_range": "varies"
+    },
+    "node_cooling_device_cur_state{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The current state of a cooling device, such as a fan. This value is typically a number representing a specific state or speed.",
+        "component": "Node",
+        "unit": "state",
+        "normal_range": "varies"
+    },
+    "node_cooling_device_max_state{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum possible state of a cooling device.",
+        "component": "Node",
+        "unit": "state",
+        "normal_range": "varies"
+    },
+    "node_power_supply_online{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "A boolean indicating whether the power supply is online. A value of 1 means it is online.",
+        "component": "Node",
+        "unit": "boolean",
+        "normal_range": "1"
+    },
+    "irate(node_systemd_socket_accepted_connections_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of connections accepted by systemd sockets per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "connections/sec",
+        "normal_range": "varies"
+    },
+    "node_systemd_units{instance=\"node-exporter:9100\",job=\"node\",state=\"activating\"}": {
+        "description": "The number of systemd units that are in the 'activating' state.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0 or low values"
+    },
+    "node_systemd_units{instance=\"node-exporter:9100\",job=\"node\",state=\"active\"}": {
+        "description": "The number of systemd units that are in the 'active' state.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_systemd_units{instance=\"node-exporter:9100\",job=\"node\",state=\"deactivating\"}": {
+        "description": "The number of systemd units that are in the 'deactivating' state.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0"
+    },
+    "node_systemd_units{instance=\"node-exporter:9100\",job=\"node\",state=\"failed\"}": {
+        "description": "The number of systemd units that are in the 'failed' state. This should ideally be zero.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0"
+    },
+    "node_systemd_units{instance=\"node-exporter:9100\",job=\"node\",state=\"inactive\"}": {
+        "description": "The number of systemd units that are in the 'inactive' state.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "irate(node_disk_reads_completed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk read operations completed on the node, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "reads/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_writes_completed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk write operations completed on the node, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "writes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_read_bytes_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of data read from all disks on the node, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_written_bytes_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of data written to all disks on the node, in bytes per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_read_time_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s]) / irate(node_disk_reads_completed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The average time taken to complete a disk read operation, in seconds, averaged over 10 seconds. This is a measure of disk read latency.",
+        "component": "Node",
+        "unit": "seconds/read",
+        "normal_range": "0-0.1"
+    },
+    "irate(node_disk_write_time_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s]) / irate(node_disk_writes_completed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The average time taken to complete a disk write operation, in seconds, averaged over 10 seconds. This is a measure of disk write latency.",
+        "component": "Node",
+        "unit": "seconds/write",
+        "normal_range": "0-0.1"
+    },
+    "irate(node_disk_io_time_weighted_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The weighted rate of I/O time spent on disks, averaged over 10 seconds. This is a measure of I/O queue wait time.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0-1"
+    },
+    "irate(node_disk_reads_merged_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk read requests that were merged with other requests, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "merges/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_disk_writes_merged_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk write requests that were merged with other requests, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "merges/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_disk_io_time_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of time spent by all disks on I/O operations, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0-1"
+    },
+    "irate(node_disk_discard_time_seconds_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of time spent on discard operations (TRIM/UNMAP), averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "seconds/sec",
+        "normal_range": "0"
+    },
+    "node_disk_io_now{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of I/O operations currently in progress on the disk.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_disk_discards_completed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk discard (TRIM/UNMAP) operations completed per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "discards/sec",
+        "normal_range": "0"
+    },
+    "irate(node_disk_discards_merged_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of disk discard requests that were merged with other requests, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "merges/sec",
+        "normal_range": "0"
+    },
+    "node_filesystem_avail_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The amount of available disk space on all non-rootfs filesystems, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_filesystem_free_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The amount of free disk space on all non-rootfs filesystems, in bytes. This includes space that is not available to unprivileged users.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_filesystem_size_bytes{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The total size of all non-rootfs filesystems, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_filesystem_files_free{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The number of free file nodes (inodes) available on all non-rootfs filesystems.",
+        "component": "Node",
+        "unit": "inodes",
+        "normal_range": "varies"
+    },
+    "node_filefd_maximum{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum number of file descriptors that the kernel can allocate.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_filefd_allocated{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The total number of file descriptors currently allocated by the kernel.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "varies"
+    },
+    "node_filesystem_files{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "The total number of file nodes (inodes) on all non-rootfs filesystems.",
+        "component": "Node",
+        "unit": "inodes",
+        "normal_range": "varies"
+    },
+    "node_filesystem_readonly{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs'}": {
+        "description": "A boolean indicating if a filesystem is mounted in read-only mode. A value of 1 means it is read-only.",
+        "component": "Node",
+        "unit": "boolean",
+        "normal_range": "0"
+    },
+    "node_filesystem_device_error{instance=\"node-exporter:9100\",job=\"node\",device!~'rootfs',fstype!~'tmpfs'}": {
+        "description": "A flag indicating a device error on a filesystem. A value of 1 means an error has occurred.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_packets_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network packets received per second on all interfaces, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_network_transmit_packets_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network packets transmitted per second on all interfaces, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_network_receive_errs_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network receive errors per second, averaged over 10 seconds. Any value greater than zero indicates a network issue.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_errs_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network transmit errors per second, averaged over 10 seconds. Any value greater than zero indicates a network issue.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_drop_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network packets dropped on receive per second, averaged over 10 seconds. High values indicate network congestion or a misconfigured interface.",
+        "component": "Node",
+        "unit": "drops/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_drop_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network packets dropped on transmit per second, averaged over 10 seconds. High values indicate a network issue.",
+        "component": "Node",
+        "unit": "drops/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_compressed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of compressed network packets received per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_compressed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of compressed network packets transmitted per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_multicast_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of multicast packets received per second, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_network_receive_fifo_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network FIFO buffer errors on receive per second, averaged over 10 seconds. High values indicate buffer overflows.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_fifo_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network FIFO buffer errors on transmit per second, averaged over 10 seconds. High values indicate buffer overflows.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_receive_frame_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network frame errors on receive per second, averaged over 10 seconds. High values indicate physical layer problems.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_carrier_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network carrier errors on transmit per second, averaged over 10 seconds. High values indicate physical layer problems.",
+        "component": "Node",
+        "unit": "errors/sec",
+        "normal_range": "0"
+    },
+    "irate(node_network_transmit_colls_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network collisions on transmit per second, averaged over 10 seconds. High values indicate network congestion.",
+        "component": "Node",
+        "unit": "collisions/sec",
+        "normal_range": "0"
+    },
+    "node_nf_conntrack_entries{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of entries in the netfilter connection tracking table. This is a measure of the number of active network connections.",
+        "component": "Node",
+        "unit": "entries",
+        "normal_range": "varies"
+    },
+    "node_nf_conntrack_entries_limit{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The maximum number of entries allowed in the netfilter connection tracking table.",
+        "component": "Node",
+        "unit": "entries",
+        "normal_range": "varies"
+    },
+    "node_arp_entries{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The number of entries in the Address Resolution Protocol (ARP) cache.",
+        "component": "Node",
+        "unit": "entries",
+        "normal_range": "varies"
+    },
+    "node_network_mtu_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The Maximum Transmission Unit (MTU) of the network interface, in bytes.",
+        "component": "Node",
+        "unit": "bytes",
+        "normal_range": "varies"
+    },
+    "node_network_speed_bytes{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The link speed of the network interface, in bytes per second.",
+        "component": "Node",
+        "unit": "bytes/sec",
+        "normal_range": "varies"
+    },
+    "node_network_transmit_queue_length{instance=\"node-exporter:9100\",job=\"node\"}": {
+        "description": "The length of the network transmit queue. A consistently high value may indicate a network bottleneck.",
+        "component": "Node",
+        "unit": "count",
+        "normal_range": "0 or low values"
+    },
+    "irate(node_softnet_processed_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of network packets processed by the softirq handler, averaged over 10 seconds.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "varies"
+    },
+    "irate(node_softnet_dropped_total{instance=\"node-exporter:9100\",job=\"node\"}[10s])": {
+        "description": "The rate of packets dropped by the softirq handler due to a full queue, averaged over 10 seconds. Any value above zero indicates a problem.",
+        "component": "Node",
+        "unit": "packets/sec",
+        "normal_range": "0"
+    }
+}
