@@ -1,0 +1,1659 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Security Focus Group",
+      "O-RAN Security Requirements Specifications",
+      "IPR Policy",
+      "Copying"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "has_subgroup",
+        "object": "Security Focus Group"
+      },
+      {
+        "subject": "Security Focus Group",
+        "predicate": "produces",
+        "object": "O-RAN Security Requirements Specifications"
+      },
+      {
+        "subject": "IPR Policy",
+        "predicate": "applies_to",
+        "object": "O-RAN Security Requirements Specifications"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "prohibits",
+        "object": "Copying"
+      }
+    ],
+    "preview": "\n\n# O-RAN ALLIANCE Security Focus Group\n\n# O-RAN Security Requirements Specifications\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Sp..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN ALLIANCE Security Focus Group",
+      "O-RAN Security Requirements Specifications",
+      "Chapter 1 Scope and Definitions",
+      "Definitions and Abbreviations",
+      "Chapitre 2 Objectives and scope",
+      "Chapitre 3 Security Requirements",
+      "Network Functions and Applications maintained by O-RAN",
+      "Service Management and Orchestration (SMO)",
+      "Non-RT RIC and rApps",
+      "Near-RT RIC and xApps",
+      "O-CU-CP/UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "O-Cloud",
+      "Interfaces maintained by O-RAN",
+      "A1 Interface",
+      "O1 Interface",
+      "O2 Interface",
+      "E2 Interface",
+      "Transversal requirements",
+      "Software Bill of Materials",
+      "Common Application Lifecycle Management",
+      "Annex A Security Principles mapping to Security Requirements",
+      "Annex B Security: List of 3GPP security requirements",
+      "Section 1: DEFINITIONS",
+      "Section 2: COPYRIGHT LICENSE",
+      "Section 3: FRAND LICENSE",
+      "Section 4: TERM AND TERMINATION",
+      "Section 5: CONFIDENTIALITY",
+      "Section 6: INDEMNIFICATION",
+      "Section 7: LIMITATIONS ON LIABILITY; NO WARRANTY",
+      "Section 8: ASSIGNMENT",
+      "Section 9: THIRD-PARTY BENEFICIARY RIGHTS",
+      "Section 10: BINDING ON AFFILIATES",
+      "Section 11: GENERAL"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Requirements Specifications",
+        "predicate": "contains",
+        "object": "Chapter 1 Scope and Definitions"
+      },
+      {
+        "subject": "Chapter 1 Scope and Definitions",
+        "predicate": "contains",
+        "object": "Definitions and Abbreviations"
+      },
+      {
+        "subject": "O-RAN Security Requirements Specifications",
+        "predicate": "contains",
+        "object": "Chapitre 2 Objectives and scope"
+      },
+      {
+        "subject": "O-RAN Security Requirements Specifications",
+        "predicate": "contains",
+        "object": "Chapitre 3 Security Requirements"
+      },
+      {
+        "subject": "Chapitre 3 Security Requirements",
+        "predicate": "contains",
+        "object": "Network Functions and Applications maintained by O-RAN"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "Service Management and Orchestration (SMO)"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "Non-RT RIC and rApps"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "Near-RT RIC and xApps"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O-CU-CP/UP"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O-eNB"
+      },
+      {
+        "subject": "Network Functions and Applications maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Chapitre 3 Security Requirements",
+        "predicate": "contains",
+        "object": "Interfaces maintained by O-RAN"
+      },
+      {
+        "subject": "Interfaces maintained by O-RAN",
+        "predicate": "contains",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "Interfaces maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "Interfaces maintained by O-RAN",
+        "predicate": "contains",
+        "object": "O2 Interface"
+      },
+      {
+        "subject": "Interfaces maintained by O-RAN",
+        "predicate": "contains",
+        "object": "E2 Interface"
+      },
+      {
+        "subject": "Chapitre 3 Security Requirements",
+        "predicate": "contains",
+        "object": "Transversal requirements"
+      },
+      {
+        "subject": "Transversal requirements",
+        "predicate": "contains",
+        "object": "Software Bill of Materials"
+      },
+      {
+        "subject": "Transversal requirements",
+        "predicate": "contains",
+        "object": "Common Application Lifecycle Management"
+      },
+      {
+        "subject": "O-RAN Security Requirements Specifications",
+        "predicate": "contains",
+        "object": "Annex A Security Principles mapping to Security Requirements"
+      },
+      {
+        "subject": "O-RAN Security Requirements Specifications",
+        "predicate": "contains",
+        "object": "Annex B Security: List of 3GPP security requirements"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 1: DEFINITIONS"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 2: COPYRIGHT LICENSE"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 3: FRAND LICENSE"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 4: TERM AND TERMINATION"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 5: CONFIDENTIALITY"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 6: INDEMNIFICATION"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 7: LIMITATIONS ON LIABILITY; NO WARRANTY"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 8: ASSIGNMENT"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 9: THIRD-PARTY BENEFICIARY RIGHTS"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 10: BINDING ON AFFILIATES"
+      },
+      {
+        "subject": "Annex ZZZ : O-RAN Adopter License Agreement",
+        "predicate": "contains",
+        "object": "Section 11: GENERAL"
+      }
+    ],
+    "preview": "\n\n# O-RAN ALLIANCE Security Focus Group\n\n# O-RAN Security Requirements Specifications\n\nCopyright $©$ 2021 by O-RAN ALLIANCE e.V.\n\n# Revision History\n\n> **Table Summary:** {}\n\n# Contents\n\n# Revision History ..\n\nChapter 1 Scope and Definitions .. 4\n\n1.1 Scope ........ ......................................................................................................................... ..... 4   \n..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN",
+      "Service Management and Orchestration (SMO)",
+      "Non-RT RIC",
+      "rApps",
+      "Near-RT RIC",
+      "xApps",
+      "O-CU-CP/UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "O-Cloud",
+      "A1 Interface",
+      "O1 Interface",
+      "O2 Interface",
+      "E2 Interface",
+      "Software Bill of Materials",
+      "Common Application Lifecycle Management",
+      "Security Requirements",
+      "3GPP security requirements",
+      "Logical Architecture of O-RAN system",
+      "Chapitre 2 Objectives and scope",
+      "Chapitre 3 Security Requirements",
+      "Annex A Security Principles mapping to Security Requirements",
+      "Annex B Security: List of 3GPP security requirements",
+      "Section 1: DEFINITIONS",
+      "Section 2: COPYRIGHT LICENSE",
+      "Section 3: FRAND LICENSE",
+      "Section 4: TERM AND TERMINATION",
+      "Section 5: CONFIDENTIALITY",
+      "Section 6: INDEMNIFICATION",
+      "Section 7: LIMITATIONS ON LIABILITY; NO WARRANTY",
+      "Section 8: ASSIGNMENT",
+      "Section 9: THIRD-PARTY BENEFiciary RIGHTS",
+      "Section 10: BINDING ON AFFILIATES",
+      "Section 11: GENERAL"
+    ],
+    "relations": [
+      {
+        "subject": "Service Management and Orchestration (SMO)",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "maintained by",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Software Bill of Materials",
+        "predicate": "part of",
+        "object": "Transversal requirements"
+      },
+      {
+        "subject": "Common Application Lifecycle Management",
+        "predicate": "part of",
+        "object": "Transversal requirements"
+      },
+      {
+        "subject": "Annex A Security Principles mapping to Security Requirements",
+        "predicate": "references",
+        "object": "Security Requirements"
+      },
+      {
+        "subject": "Annex B Security: List of 3GPP security requirements",
+        "predicate": "lists",
+        "object": "3GPP security requirements"
+      },
+      {
+        "subject": "Logical Architecture of O-RAN system",
+        "predicate": "described in",
+        "object": "Figure 2-1"
+      }
+    ],
+    "preview": "\n\n# Chapitre 2 Objectives and scope .....\n\n2.1 Objectives ..... . 7   \n2.2 Perimeter... 7\n\n# Chapitre 3 Security Requirements .. 9\n\n3.1 Network Functions and Applications maintained by O-RAN . .......................................................... ... 9   \n3.1.1 Service Management and Orchestration (SMO). .................................................................. .. 9   \n3.1.2 Non-RT R..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Specification",
+      "Security Requirements",
+      "O-RAN Interface",
+      "O-RAN component",
+      "Network Configuration Protocol (NETCONF)",
+      "RFC 6241",
+      "Network Configuration Access Control Model",
+      "RFC 8341",
+      "Lightweight Directory Access Protocol (LDAP)",
+      "Authentication Methods and Security Mechanisms",
+      "RFC 4513",
+      "IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network Access Control",
+      "IEEE Std 802.1X-2020",
+      "National Telecommunications and Information Administration",
+      "United States Department of Commerce",
+      "Software Bill of Materials",
+      "O-RAN Architecture Description 5.0",
+      "O-RAN Security Protocols Specification 2.0",
+      "O-RAN Security Threat Modeling and Remediation Analysis 2.0",
+      "O-RAN A1 Transport Protocol v1.1",
+      "O-RAN 02 General Aspects and Principles Specification 1.0",
+      "O-RAN Control, User and Synchronization Plane Specification 7.0",
+      "O-RAN Management Plane Specification 7.0",
+      "O-RAN Operation and Maintenance Architecture v5.0"
+    ],
+    "relations": [
+      {
+        "subject": "Technical Specification",
+        "predicate": "produced by",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "specifies",
+        "object": "Security Requirements"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "specifies",
+        "object": "O-RAN Interface"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "specifies",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 6241"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "Network Configuration Access Control Model"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 8341"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "Lightweight Directory Access Protocol (LDAP)"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "Authentication Methods and Security Mechanisms"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 4513"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network Access Control"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "IEEE Std 802.1X-2020"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "Software Bill of Materials"
+      },
+      {
+        "subject": "O-RAN Control, User and Synchronization Plane Specification 7.0",
+        "predicate": "references",
+        "object": "O-RAN Architecture Description 5.0"
+      },
+      {
+        "subject": "O-RAN Management Plane Specification 7.0",
+        "predicate": "references",
+        "object": "O-RAN Architecture Description 5.0"
+      }
+    ],
+    "preview": "\n\n# List of Tables\n\nTable 1 Security Principles mapping to Security Requirements defined in [4]. ... .. 16   \nTable 2 References for 3GPP Security requirements..... ...... . 17   \nTable 3 3GPP Security requirements.. . 33\n\n# List of Figures\n\nFigure 2-1 : Logical Architecture of O-RAN system [2]..\n\n# Chapter 1 Scope and Definitions\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by the..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "3GPP TR 21.905",
+      "O-RAN Architecture Description 5.0",
+      "O-RAN Security Protocols Specification 2.0",
+      "O-RAN Threat Modeling and Remediation Analysis 2.0",
+      "O-RAN A1 Transport Protocol v1.1",
+      "O-RAN General Aspects and Principles 1.0",
+      "O-RAN E2 General Aspects and Principles v01.01",
+      "Cloud Platform Reference Designs 2.0",
+      "RFC 6241 (NETCONF)",
+      "RFC 8341 (Network Configuration Access Control Model)",
+      "RFC 4513 (LDAP Authentication Methods)",
+      "IEEE Std 802.1X-2020",
+      "O-RAN Control, User and Synchronization Plane Specification 7.0",
+      "O-RAN Management Plane Specification 7.0",
+      "Deployment Scenarios and Base Station Classes for White Box Hardware 2.0",
+      "Software Bill of Materials (SBOM)",
+      "O-RAN Operation and Maintenance Architecture v5.0",
+      "A1 Interface",
+      "E2 Interface",
+      "FCAPS Management Functions",
+      "Intents",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "O-CU",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O1 Interface"
+    ],
+    "relations": [
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "is_referenced_in",
+        "object": "O-RAN Architecture Description 5.0"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "enables_policy_guidance_between",
+        "object": "Non-RT RIC and Near-RT RIC"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects_Near-RT_RIC_with",
+        "object": "O-CU-CP, O-CU-UP, O-DU, or O-eNB"
+      },
+      {
+        "subject": "FCAPS Management Functions",
+        "predicate": "are_achieved_via",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "Intents",
+        "predicate": "steer_behavior_of",
+        "object": "RAN functions"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "optimizes",
+        "object": "RAN elements and resources in real-time"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "handles",
+        "object": "AI/ML workflows and policy-based guidance"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "hosts",
+        "object": "O-CU-CP and O-CU-UP"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "hosts",
+        "object": "RLC/MAC/High-PHY layers"
+      },
+      {
+        "subject": "O-RAN Architecture Description 5.0",
+        "predicate": "defines_components_like",
+        "object": "O-CU, O-DU, O-RU"
+      },
+      {
+        "subject": "RFC 6241 (NETCONF)",
+        "predicate": "is_a_protocol_used_in",
+        "object": "network_configuration_management"
+      }
+    ],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\nReferences are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.   \nFor a specific reference, subsequent revisions do not apply.   \nFor a non-specific reference, the latest version applies. In th..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "A1",
+      "A1 policy",
+      "A1 Enrichment information",
+      "E2",
+      "E2 Node",
+      "FCAPS",
+      "Intents",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "O-CU",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O1"
+    ],
+    "relations": [
+      {
+        "subject": "A1",
+        "predicate": "connects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "A1",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "real-time control"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "uses",
+        "object": "AI/ML workflows"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the following terms and definitions apply.\n\nA1: Interface between non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflow.\n\nA1 policy: Type of declarative policies expressed using formal statements that enable the non-RT RIC fun..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-DU",
+      "O-RU",
+      "RIC",
+      "SMO",
+      "NF",
+      "A1 Interface",
+      "E2 Interface",
+      "O1 Interface",
+      "O2 Interface",
+      "Open Fronthaul CUS-Plane",
+      "Open Fronthaul M-Plane",
+      "NETCONF",
+      "SSH",
+      "IPSEC",
+      "TLS",
+      "DTLS",
+      "PTP",
+      "FTP",
+      "FTPS"
+    ],
+    "relations": [
+      {
+        "subject": "SMO",
+        "predicate": "connects via",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "connects via",
+        "object": "O2 Interface"
+      },
+      {
+        "subject": "RIC",
+        "predicate": "interacts with",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "RIC",
+        "predicate": "uses",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "connects to",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "uses",
+        "object": "Open Fronthaul CUS-Plane"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "uses",
+        "object": "Open Fronthaul M-Plane"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "connects via",
+        "object": "E2 Interface"
+      }
+    ],
+    "preview": "# 1.3.2 Abbreviations\n\nFor the purposes of the present document, the following abbreviations apply.\n\n5 eNB e NodeB (applies to LTE)   \n6 gNB g NodeB (applies to NR)   \n7 O-DU O-RAN Distributed Unit   \n8 O-RU O-RAN Radio Unit   \n9 AI/ML Artificial Intelligence/Machine Learning   \n10 eNB eNodeB (applies to LTE)   \n11 gNB gNodeB (applies to NR)   \n12 KPI Key Performance Indicator   \n13 RIC O-RAN RAN ..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "E1",
+      "F1-c",
+      "F1-u",
+      "NG-c",
+      "NG-u",
+      "X2-c",
+      "X2-u",
+      "Xn-c",
+      "Xn-u",
+      "Uu",
+      "O-RAN Security Requirements",
+      "Service Management and Orchestration (SMO)",
+      "Non-RT RIC",
+      "rApps",
+      "Near-RT RIC",
+      "xApps",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-RU",
+      "O-eNB",
+      "O-Cloud",
+      "A1 Interface",
+      "O1 Interface",
+      "TLS",
+      "REQ-SEC-A1-1",
+      "REQ-SEC-O1-1",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[8]",
+      "[9]",
+      "[10]"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Requirements",
+        "predicate": "maintained by",
+        "object": "3GPP"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "connects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "A1 Interface",
+        ".predicate": "supports",
+        "object": "Near-RT RIC applications/functions"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "uses",
+        "object": "TLS"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "Service Management and Orchestration (SMO)"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-DUs"
+      },
+      {
+        "subject": "REQ-SEC-A1-1",
+        "predicate": "specifies",
+        "object": "confidentiality, integrity, replay protection and data origin authentication for A1 interface"
+      },
+      {
+        "subject": "REQ-SEC-O1-1",
+        "predicate": "enforces",
+        "object": "confidentiality, integrity, authenticity through encrypted transport"
+      }
+    ],
+    "preview": "\n\n# 13 Maintained by 3GPP:\n\n• E1 • F1-c • F1-u • NG-c • NG-u • X2-c • X2-u • Xn-c • Xn-u • Uu\n\n# Chapitre 3 Security Requirements\n\nThis chapter describes the O-RAN Security Requirements per O-RAN maintained interfaces and network functions. Security Requirements specified in this document are built upon Security Principles defined in [4] which intent to protect critical assets identified.\n\nProtect..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "O-CU-CP/UP",
+      "O-RU",
+      "O-eNB",
+      "O-Cloud",
+      "A1 Interface",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "xApps",
+      "rApps",
+      "SMO",
+      "O1 Interface",
+      "NETCONF",
+      "NACM",
+      "TLS",
+      "LDAP with StartTLS",
+      "OAuth 2.0",
+      "RADIUS with EAP",
+      "TACACS/TACACS+"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "interacts_with",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "supports",
+        "object": "AI/ML workflow"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained_by",
+        "object": "SMO"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained_by",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained_by",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained_by",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "maintained_by",
+        "object": "O-DU"
+      }
+    ],
+    "preview": "\n\n# 3.1 Network Functions and Applications maintained by O-RAN\n\n3.1.1 Service Management and Orchestration (SMO)\n\n# 3.1.1.1 Requirements\n\nEditor’s notes: This section will be updated in subsequent versions of the security requirements specification\n\n# 3.1.1.1 Security Controls\n\nEditor’s notes: This section will be updated in subsequent versions of the security requirements specification\n\n# 3.1.2 N..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "TLS",
+      "O-RAN Security Protocols Specification [3]",
+      "NETCONF",
+      "RFC 8341",
+      "NACM",
+      "O1_nacm_management",
+      "O1_user_management",
+      "O1_network_management",
+      "O1_network_monitoring",
+      "O1_software_management",
+      "LDAP with StartTLS [11]",
+      "OAuth 2.0",
+      "RADIUS with EAP",
+      "TACACS/TACACS+",
+      "Management Service providers",
+      "Management Service consumers",
+      "NETCONF endpoints",
+      "O2 Interface",
+      "E2 Interface",
+      "IPsec"
+    ],
+    "relations": [
+      {
+        "subject": "Management Service providers",
+        "predicate": "support",
+        "object": "TLS"
+      },
+      {
+        "subject": "Management Service consumers",
+        "predicate": "use",
+        "object": "TLS"
+      },
+      {
+        "subject": "NETCONF",
+        "predicate": "implement",
+        "object": "NACM"
+      },
+      {
+        "subject": "NACM",
+        "predicate": "specify",
+        "object": "RFC 8341"
+      },
+      {
+        "subject": "O-RAN Security Protocols Specification [3]",
+        "predicate": "define",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN Security Protocols Specification [3]",
+        "predicate": "specify",
+        "object": "IPsec"
+      },
+      {
+        "subject": "NETCONF endpoints",
+        "predicate": "support",
+        "object": "LDAP with StartTLS [11]"
+      },
+      {
+        "subject": "NETCONF endpoints",
+        "predicate": "support",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "NETCONF endpoints",
+        "predicate": "support",
+        "object": "RADIUS with EAP"
+      },
+      {
+        "subject": "NETCONF endpoints",
+        "predicate": "support",
+        "object": "TACACS/TACACS+"
+      },
+      {
+        "subject": "O2 Interface",
+        "predicate": "use",
+        "object": "TLS"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "use",
+        "object": "IPsec"
+      }
+    ],
+    "preview": "\n\n# 3.2.2.1.1 Confidentiality, Integrity and Authenticity\n\nREQ-TLS-FUN-1: Management Service providers and consumers that use TLS SHALL support TLS as specified in O-RAN Security Protocols Specification [3] section 2.2.\n\n# 3.2.2.1.2 Least Privilege Access Control\n\nREQ-NAC-FUN-1: Management Service providers and consumers that use NETCONF SHALL support the Network Configuration Access Control Model..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "O1",
+      "NACM [10]",
+      "TLS 1.2",
+      "O2 Interface",
+      "SMO",
+      "O-Cloud",
+      "REQ-SEC-O2-1",
+      "E2 Interface",
+      "Near-RT RIC",
+      "O-CU-CPs",
+      "O-CU-UPs",
+      "O-DUs",
+      "O-eNBs",
+      "REQ-SEC-E2-1",
+      "IPsec",
+      "Open Fronthaul Interface",
+      "C-plane",
+      "U-plane",
+      "S-plane",
+      "M-plane",
+      "IEEE 802.1X-2020 Port-based Network Access Control",
+      "Supplicants",
+      "Authenticators",
+      "EAP TLS authentication",
+      "RADIUS",
+      "DIAMETER"
+    ],
+    "relations": [
+      {
+        "subject": "O1",
+        "predicate": "uses",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "O1",
+        "predicate": "uses",
+        "object": "NACM [10]"
+      },
+      {
+        "subject": "O2 Interface",
+        "predicate": "between",
+        "object": "SMO"
+      },
+      {
+        "subject": "O2 Interface",
+        "predicate": "between",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "REQ-SEC-O2-1",
+        "predicate": "requires",
+        "object": "confidentiality"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-CU-CPs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-CU-UPs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-DUs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-eNBs"
+      },
+      {
+        "subject": "REQ-SEC-E2-1",
+        "predicate": "requires",
+        "object": "confidentiality"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "uses",
+        "object": "IPsec"
+      },
+      {
+        "subject": "Open Fronthaul Interface",
+        "predicate": "includes",
+        "object": "C-plane"
+      },
+      {
+        "subject": "Open Fronthaul Interface",
+        "predicate": "includes",
+        "object": "U-plane"
+      },
+      {
+        "subject": "Open Fronthaul Interface",
+        "predicate": "includes",
+        "object": "S-plane"
+      },
+      {
+        "subject": "Open Fronthaul Interface",
+        "predicate": "includes",
+        "object": "M-plane"
+      },
+      {
+        "subject": "IEEE 802.1X-2020 Port-based Network Access Control",
+        "predicate": "provides",
+        "object": "authentication"
+      },
+      {
+        "subject": "IEEE 802.1X-2020 Port-based Network Access Control",
+        "predicate": "provides",
+        "object": "authorization"
+      },
+      {
+        "subject": "Open Fronthaul network elements",
+        "predicate": "support",
+        "object": "Supplicants"
+      },
+      {
+        "subject": "Open Fronthaul network elements",
+        "predicate": "may be",
+        "object": "Authenticators"
+      },
+      {
+        "subject": "Port-based network access control",
+        "predicate": "uses",
+        "object": "EAP TLS authentication"
+      }
+    ],
+    "preview": "\n\n# 3.2.2.2 Security Controls\n\nAs defined in the previous section, the O1 will use TLS 1.2 or higher to enforce confidentiality, integrity, and authenticity; and will use NACM [10] to enforce least privileged access.\n\n# 3.2.3 O2 Interface\n\nGeneral Aspects and Principles of O2 Interface between the SMO and the O-Cloud are defined in [6].\n\n3.2.3.1 Requirements\n\nREQ-SEC-O2-1: O2 interface shall suppo..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "Open Fronthaul",
+      "authenticate",
+      "authorize",
+      "point-to-point LAN segments",
+      "network elements",
+      "detect",
+      "report",
+      "IEEE 802.1X-2020",
+      "Port-based Network Access Control",
+      "supplicant",
+      "authenticator",
+      "operator implementation",
+      "optional use",
+      "EAP TLS authentication",
+      "RADIUS",
+      "DIAMETER solutions",
+      "transport layer security",
+      "authorization server",
+      "O-DU",
+      "Open Fronthaul network elements",
+      "Configuration LLS-C1",
+      "Cascade Mode",
+      "Shared Cell Concept",
+      "software bill of materials (SBOM)",
+      "nested inventory",
+      "software components",
+      "NTIA"
+    ],
+    "relations": [
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "provides means to authenticate and authorize",
+        "object": "point-to-point LAN segments between Open Fronthaul network elements"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "detects and reports changes in",
+        "object": "authorized point-to-point LAN segment"
+      },
+      {
+        "subject": "IEEE 802.1X-2020",
+        "predicate": "provides means for",
+        "object": "Port-based Network Access Control"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "comprises",
+        "object": "supplicant and authenticator entities"
+      },
+      {
+        "subject": "operator implementation of IEEE 802.1X-2020",
+        "predicate": "is optional to use for each",
+        "object": "point-to-point LAN segment"
+      },
+      {
+        "subject": "Open Fronthaul network elements",
+        "predicate": "support",
+        "object": "IEEE 802.1X-2020 supplicant functionality"
+      },
+      {
+        "subject": "IEEE 802.1X-2020",
+        "predicate": "defines mutual authentication between",
+        "object": "supplicant and authenticator"
+      },
+      {
+        "subject": "Open Fronthaul network elements",
+        "predicate": "may act as",
+        "object": "authenticator"
+      },
+      {
+        "subject": "authenticator",
+        "predicate": "performs port-based network access control on",
+        "object": "point-to-point LAN segment"
+      },
+      {
+        "subject": "port-based network access control",
+        "predicate": "uses",
+        "object": "EAP TLS authentication"
+      },
+      {
+        "subject": "NTIA",
+        "predicate": "describes a software bill of materials (SBOM)",
+        "object": "as a nested inventory, list of ingredients for software components"
+      }
+    ],
+    "preview": "\n\n# 3.2.5.5.1 Requirements\n\nREQ-SEC-OFHPLS-1: The Open Fronthaul shall provide a means to authenticate and authorize point-to-point LAN segments between Open Fronthaul network elements.\n\nREQ-SEC-OFHPLS-2: The Open Fronthaul shall provide a means to detect and report when an authorized point-topoint LAN segment is made or broken.\n\n# 3.2.5.5.2 Solution #1: Authentication and Authorization based on 8..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-DU",
+      "O-RU",
+      "Open Fronthaul network elements",
+      "point-to-point LAN segment",
+      "Configuration LLS-C1",
+      "Cascade Mode in the Shared Cell Concept",
+      "authenticator functionality",
+      "IEEE 802.1X-2020",
+      "Software Bill of Materials (SBOM)",
+      "nested inventory",
+      "software components",
+      "security risk",
+      "license risk",
+      "compliance risk",
+      "Application Package",
+      "digitally signed",
+      "SMO",
+      "verify digital signature",
+      "Common Application Lifecycle Management",
+      "RBAC",
+      "Role-Based Access Control",
+      "principle of least privilege",
+      "user permissions",
+      "session management",
+      "user logout functionality",
+      "automatic session termination after inactivity",
+      "configurable timeout",
+      "protecting sessions from unauthorized access",
+      "secure interfaces for management and maintenance",
+      "mutual authentication",
+      "password complexity",
+      "change frequency",
+      "brute-force protection (timers, blocking, CAPTCHA)",
+      "hiding passwords during input",
+      "configurable settings for maximum login attempts and delays",
+      "file modification capabilities",
+      "authorized users only",
+      "sticky bit on Unix systems",
+      "VNFM",
+      "VNF lifecycle management security",
+      "VNF package and image integrity",
+      "MAC",
+      "integrity validation value",
+      "integrity protected during onboarding",
+      "VNFD (VNF Description)",
+      "OAM",
+      "alarm to the OAM",
+      "inconsistent resource states",
+      "instantiating VNF from trusted VNF image",
+      "signed by an authorized party",
+      "trusted operators",
+      "secure virtualization resource management",
+      "compromised ViM",
+      "alerting to OAM",
+      "HW drivers for creating executive environment",
+      "driver error alert",
+      "administrator checking the error and finding the attack later",
+      "virtualized network product",
+      "logical separation of traffic belonging to different network domains",
+      "O&M traffic",
+      "control plane traffic",
+      "inter-VNF and intra-VNF Traffic Separation",
+      "network communication between VNFCs of a VNF (intra-VNF traffic)",
+      "communication between VNFs (inter-VNF traffic)",
+      "preventing security threats from different networks affecting each other",
+      "VNF lifecycle management security requirements",
+      "signed by an authorized party and trusted by operators"
+    ],
+    "relations": [
+      {
+        "subject": "O-DU",
+        "predicate": "supports authenticator functionality as defined in",
+        "object": "IEEE 802.1X-2020"
+      },
+      {
+        "subject": "Software Bill of Materials (SBOM)",
+        "predicate": "provides transparency for",
+        "object": "software supply chain"
+      },
+      {
+        "subject": "Application Package",
+        "predicate": "shall be digitally signed",
+        "object": null
+      },
+      {
+        "subject": "SMO",
+        "predicate": "shall have the capability to verify the digital signature of",
+        "object": "Application Package"
+      },
+      {
+        "subject": "RBAC",
+        "predicate": "is recommended for managing user permissions"
+      },
+      {
+        "subject": "session management",
+        "predicate": "requires automatic session termination after inactivity",
+        "object": null
+      },
+      {
+        "subject": "file modification capabilities",
+        "predicate": "shall be restricted to authorized users only"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "shall authenticate VNFM when VNFM initiates communication",
+        "object": null
+      },
+      {
+        "subject": "VNF",
+        "predicate": "shall check whether VNFM has been authorized when accessing VNF's API"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "shall log VNFM's management operations for auditing"
+      }
+    ],
+    "preview": "\n\n# O-DU as an Authenticator\n\nConfiguration LLS-C1 [13] and Cascade Mode in the Shared Cell Concept [12] are cases where an O-DU and O-RU are Open Fronthaul network elements in a point-to-point LAN segment.\n\nSEC-CTL-OFHPLS-6: In the case of Configuration LLS-C1, the O-DU must support the authenticator functionality as defined in IEEE 802.1X-2020 [12].\n\n# 3.3 Transversal requirements\n\n# 3.3.1 Softw..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Application Package",
+      "SMO",
+      "Digital Signature",
+      "VNF",
+      "VNFM",
+      "VIM",
+      "VNFC",
+      "VNF Image",
+      "Final Specification",
+      "Compliant Implementation",
+      "Necessary Claims",
+      "Adopter",
+      "Member",
+      "Contributor",
+      "Academic Contributor",
+      "Affiliate",
+      "3GPP Security Requirements",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Application Package",
+        "predicate": "is digitally signed",
+        "object": "Application Package"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "verifies digital signature of",
+        "object": "Application Package"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "authenticates",
+        "object": "VNFM"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "establishes securely protected connection with",
+        "object": "VNFM"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "checks authorization of",
+        "object": "VNFM"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs management operations of",
+        "object": "VNFM"
+      },
+      {
+        "subject": "VIM",
+        "predicate": "manages virtualized resources for",
+        "object": "VNF"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "alerts OAM about unauthorized access by",
+        "object": "VIM"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs access from",
+        "object": "VIM"
+      },
+      {
+        "subject": "VNF Image",
+        "predicate": "is signed by",
+        "object": "authorized party"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "initiates from trusted",
+        "object": "VNF Image"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "are infringed by",
+        "object": "Compliant Implementation"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "agrees to terms of",
+        "object": "O-RAN Adopter License Agreement"
+      },
+      {
+        "subject": "Member",
+        "predicate": "licenses",
+        "object": "Necessary Claims"
+      }
+    ],
+    "preview": "\n\n# 3.3.1.1 Requirements\n\nEditor’s notes: This section will be updated in subsequent versions of the security requirements specification\n\n# 3.3.2 Common Application Lifecycle Management\n\nFor Common Application Lifecycle Management requirements, refer to [17]\n\n3.3.2.1 Requirements\n\nREQ-SEC-ALM-FUN2-1: The Application Package shall be digitally signed.\n\nREQ-SEC-ALM-FUN3-1: The SMO shall have the cap..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Affiliate",
+      "Compliant Implementation",
+      "Adopter(s)",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "O-RAN ALLIANCE",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Affiliate",
+        "predicate": "is controlled by",
+        "object": "entity"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "downloads or uses",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "updates",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "are infringed by",
+        "object": "Compliant Implementation"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "allows license suspension against",
+        "object": "licensee"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "grants copyright license to",
+        "object": "Adopter(s)"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "uses under terms of Agreement",
+        "object": "O-RAN Specifications"
+      }
+    ],
+    "preview": "# Section 1: DEFINITIONS\n\n1.1 “Affiliate” means an entity that directly or indirectly controls, is controlled by, or is under common control with another entity, so long as such control exists. For the purpose of this Section, “Control” means beneficial ownership of fifty $( 5 0 \\% )$ percent or more of the voting stock or equity in an entity.\n\n1.2 “Compliant Implementation” means any system, devi..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "O-RAN Specifications",
+      "Necessary Claims",
+      "Compliant Implementations"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "licenses",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Members",
+        "predicate": "licenses",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "licenses",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "licenses",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "licenses",
+        "object": "Compliant Implementations"
+      }
+    ],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN ALLIANCE hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "O-RAN Specifications",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopter",
+      "Affiliates",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "Confidentiality",
+      "Indemnitees"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license under Necessary Claims to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license under Necessary Claims to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license under Necessary Claims to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license under Necessary Claims to",
+        "object": "Members, Contributors, Academic Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "charge FRAND royalty or fee",
+        "object": "Member, Contributor, Academic Contributor"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "terminate agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "continue to grant licenses for",
+        "object": "future versions of O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify, defend, and hold harmless",
+        "object": "O-RAN ALLIANCE, Members, Contributors, Academic Contributors"
+      }
+    ],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "Adopter",
+      "O-RAN ALLIANCE",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Indemnitees",
+      "Affiliates",
+      "Germany"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "provide",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "disclaim warranty",
+        "object": "MERCHANTABILITY"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "disclaim warranty",
+        "object": "SECURITY"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "disclaim warranty",
+        "object": "SATISFACTORY QUALITY"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "disclaim warranty",
+        "object": "INFRINGEMENT"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "disclaim warranty",
+        "object": "FITNESS FOR ANY PARTICULAR PURPOSE"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "assign",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Members",
+        "predicate": "beneficiary right",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "beneficiary right",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "beneficiary right",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "bind",
+        "object": "Affiliates"
+      },
+      {
+        "subject": "Agreement",
+        "predicate": "governed by",
+        "object": "Germany"
+      }
+    ],
+    "preview": "# Section 6: INDEMNIFICATION\n\nAdopter shall indemnify, defend, and hold harmless the O-RAN ALLIANCE, its Members, Contributors or Academic Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”), against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or imposed upon any of the Inde..."
+  }
+]

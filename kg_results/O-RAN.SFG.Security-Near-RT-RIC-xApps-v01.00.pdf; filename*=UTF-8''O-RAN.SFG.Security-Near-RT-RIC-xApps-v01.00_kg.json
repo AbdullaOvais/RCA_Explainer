@@ -1,0 +1,3781 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN Security Focus Group",
+      "Near Real Time RIC",
+      "xApps",
+      "Final Specifications",
+      "IPR Policy",
+      "Adopters",
+      "O-RAN Adopter License Agreement",
+      "copying",
+      "incorporation into any other work",
+      "prior written permission",
+      "personal use",
+      "individual third parties",
+      "acknowledgment of ORAN ALLIANCE as the source",
+      "compliance with conditions"
+    ],
+    "relations": [
+      {
+        "subject": "IPR Policy",
+        "predicate": "applies to",
+        "object": "Final Specifications"
+      },
+      {
+        "subject": "copying",
+        "predicate": "requires",
+        "object": "prior written permission of O-RAN ALLIANCE e.V."
+      },
+      {
+        "subject": "incorporation into any other work",
+        "predicate": "prohibited without",
+        "object": "prior written permission"
+      },
+      {
+        "subject": "personal use",
+        "predicate": "allowed for",
+        "object": "print or download extracts"
+      },
+      {
+        "subject": "copying",
+        "predicate": "allows",
+        "object": "sending to individual third parties"
+      },
+      {
+        "subject": "third party",
+        "predicate": "must comply with",
+        "object": "conditions"
+      },
+      {
+        "subject": "material copied or incorporated",
+        "predicate": "requires",
+        "object": "acknowledgment of ORAN ALLIANCE as the source"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group\n\n# Study on Security for Near Real Time RIC and xApps\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Spe..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN Security Focus Group",
+      "Near Real Time RIC",
+      "xApps",
+      "Final Specifications",
+      "ML data pipelines",
+      "A1 interface",
+      "E2 interface",
+      "O1 interface",
+      "Key Issue #1: Malicious xApps deployed on the Near-RT RIC",
+      "Key Issue #2: Compromised xApp",
+      "Key Issue #3: Conflicting xApps",
+      "Key Issue #4: Isolation between xApps",
+      "Key Issue #5: Compromise of ML data pipelines used in Near-RT RIC",
+      "Key Issue #6: Altering the ML learning models used in Near-RT RIC",
+      "Key Issue #7: Data Protection and Privacy in Near-RT RIC Database",
+      "Key Issue #8: Onboarding untrusted xApps",
+      "Key Issue #9: xApp exploitation via malicious A1 policies",
+      "Key Issue #10: Near-RT RIC APIs authentication",
+      "Key Issue #11: Near-RT RIC APIs authorization",
+      "O-RAN ALLIANCE e.V.",
+      "Annex ZZZ : O-RAN Adopter License Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Focus Group",
+        "predicate": "developed",
+        "object": "Final Specifications"
+      },
+      {
+        "subject": "Near Real Time RIC",
+        "predicate": "uses",
+        "object": "xApps"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "authenticates",
+        "object": "xApps"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "secures",
+        "object": "Near Real Time RIC"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "authorizes",
+        "object": "APIs"
+      },
+      {
+        "subject": "Key Issue #1: Malicious xApps deployed on the Near-RT RIC",
+        "predicate": "addresses",
+        "object": "Solution #1: Secure onboarding and deployment of xApps in Near-RT RIC"
+      },
+      {
+        "subject": "Key Issue #2: Compromised xApp",
+        "predicate": "mitigates",
+        "object": "Solution #2: Security management of risks in open-source components of Near-RT RIC architecture"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group\n\n# Study on Security for Near Real Time RIC and xApps\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Spe..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "Key Issue #1",
+      "Key Issue #2",
+      "Key Issue #3",
+      "Key Issue #4",
+      "Key Issue #5",
+      "Key Issue #6",
+      "Key Issue #7",
+      "Key Issue #8",
+      "Key Issue #9",
+      "Key Issue #10",
+      "Solution #1",
+      "Solution #2",
+      "Solution #3",
+      "Solution #4",
+      "Solution #5",
+      "Solution #6",
+      "Solution #7",
+      "Solution #8",
+      "Solution #9",
+      "Solution #10",
+      "Solution #11",
+      "Solution #12",
+      "Solution #13"
+    ],
+    "relations": [
+      {
+        "subject": "Key Issue #5",
+        "predicate": "addressed by",
+        "object": "Solution #1"
+      },
+      {
+        "subject": "Key Issue #6",
+        "predicate": "addressed by",
+        "object": "Solution #2"
+      },
+      {
+        "subject": "Key Issue #8",
+        "predicate": "addressed by",
+        "object": "Solution #5"
+      },
+      {
+        "subject": "Key Issue #9",
+        "predicate": "addressed by",
+        "object": "Solution #9"
+      },
+      {
+        "subject": "Key Issue #10",
+        "predicate": "addressed by",
+        "object": "Solution #3"
+      },
+      {
+        "subject": "Key Issue #11",
+        "predicate": "addressed by",
+        "object": "Solution #4"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group\n\n# Study on Security for Near Real Time RIC and xApps\n\n2 Foreword..\n\n3 Introduction ...... ................................................................................................................................. 6   \n4 1 Scope ......   \n5 2 References.... ......................................................................................... ...... 8   \n6 ..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Specification",
+      "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+      "RAN programmability",
+      "self-organizing networks (SON)",
+      "AI/ML-based tools",
+      "E2 interface",
+      "A1 interface",
+      "O1 interface",
+      "management and orchestration system (SMO)",
+      "xApps",
+      "RAN functionalities"
+    ],
+    "relations": [
+      {
+        "subject": "Technical Specification",
+        "predicate": "produced by",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "enables",
+        "object": "RAN programmability"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "uses",
+        "object": "AI/ML-based tools"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "includes",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "includes",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "includes",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller (Near-RT RIC)",
+        "predicate": "interacts with",
+        "object": "management and orchestration system (SMO)"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "run on",
+        "object": "Near-Real Time RAN Intelligent Controller (Near-RT RIC) platform"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "interacts with",
+        "object": "RAN functionalities"
+      }
+    ],
+    "preview": "# Foreword\n\nThis Technical Specification has been produced by the O-RAN ALLIANCE.\n\nThe contents of the present document are subject to continuing work within O-RAN and may change following formal O-RAN approval. Should the O-RAN Alliance modify the contents of the present document, it will be re-released by O-RAN with an identifying change of release date and an increase in version number as follo..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "Near-Real Time RAN Intelligent Controller",
+      "xApps",
+      "E2 interface",
+      "A1 interface",
+      "O1 interface",
+      "SMO",
+      "AI/ML-based tools",
+      "Threat Model specification",
+      "Security Requirements Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller",
+        "predicate": "uses",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller",
+        "predicate": "enables",
+        "object": "near real time control and optimization of RAN elements"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "hosted by",
+        "object": "Near-Real Time RAN Intelligent Controller platform"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "used by",
+        "object": "Near-Real Time RAN Intelligent Controller"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "used by",
+        "object": "Near-Real Time RAN Intelligent Controller"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller",
+        "predicate": "provides interfaces to",
+        "object": "SMO"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller platform",
+        "predicate": "uses",
+        "object": "AI/ML-based tools"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "provided by",
+        "object": "third party"
+      },
+      {
+        "subject": "Near-Real Time RAN Intelligent Controller platform",
+        "predicate": "analyzes",
+        "object": "security aspects"
+      },
+      {
+        "subject": "document",
+        "predicate": "considers",
+        "object": "Threat Model specification"
+      },
+      {
+        "subject": "document",
+        "predicate": "proposes solutions for",
+        "object": "security requirements"
+      },
+      {
+        "subject": "security requirements",
+        "predicate": "intended to be part of",
+        "object": "Security Requirements Specifications"
+      }
+    ],
+    "preview": "# Introduction\n\nThe Near-Real Time RAN Intelligent Controller (Near-RT RIC) is a new virtualized function that adds RAN programmability to existing or new RAN networks, e.g., self-organizing networks (SON) type of functions. It is a platform designed to use AI/ML-based tools with open interfaces to the RAN (E2) and the management and orchestration system (A1, O1).\n\nThe Near-RT RIC enables near rea..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "Near-RT RIC platform",
+      "xApps",
+      "E2 interface",
+      "A1 interface",
+      "O1 interface",
+      "APIs",
+      "Security aspects",
+      "Threat Model specification [1]",
+      "Security Requirements Specifications [2]",
+      "Study on Security for Near RT RIC and xApps"
+    ],
+    "relations": [
+      {
+        "subject": "Study on Security for Near RT RIC and xApps",
+        "predicate": "considers",
+        "object": "Security aspects"
+      },
+      {
+        "subject": "Study on Security for Near RT RIC and xApps",
+        "predicate": "refers to",
+        "object": "Threat Model specification [1]"
+      },
+      {
+        "subject": "Study on Security for Near RT RIC and xApps",
+        "predicate": "analyzes",
+        "object": "Near-RT RIC overall architecture"
+      },
+      {
+        "subject": "Study on Security for Near RT RIC and xApps",
+        "predicate": "proposes solutions for",
+        "object": "key issues in Near-RT RIC overall architecture"
+      },
+      {
+        "subject": "Study on Security for Near RT RIC and xApps",
+        "predicate": "derives security requirements from",
+        "object": "Security Requirements Specifications [2]"
+      }
+    ],
+    "preview": "# 1 Scope\n\nThe present document considers the security aspects of the Near-RT RIC platform and xApps, as well as the associated network and management interfaces (E2, A1, O1) and APIs.\n\n4 Taking into consideration the threats and risks identified in O-RAN Threat Model specification [1], the study analyzes   \n5 a list of key issues in the Near-RT RIC overall architecture and proposes solutions in o..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-RAN",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "SMO",
+      "A1 interface",
+      "E2 interface",
+      "E2 Node",
+      "xApp",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "O1 interface",
+      "Solution Provider",
+      "Service Provider",
+      "O-Cloud"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "near-real-time control and optimization of RAN elements and resources via fine-grained data collection and actions over E2 interface."
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "drives",
+        "object": "content carried across the A1 interface."
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "is part of",
+        "object": "SMO"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "supports",
+        "object": "AI/ML workflow"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "enables",
+        "object": "policy-driven guidance of Near-RT RIC applications/functions"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC and one or more O-CU-CPs, O-CU-UPs, or O-DUs."
+      },
+      {
+        "subject": "E2 Node",
+        "predicate": "terminates",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "runs on",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-CU-CP",
+        "predicate": "hosts",
+        "object": "RRC and the control plane part of PDCP protocol."
+      },
+      {
+        "subject": "O-CU-UP",
+        "predicate": "hosts",
+        "object": "user plane part of PDCP protocol and SDAP protocol."
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "hosts",
+        "object": "RLC/MAC/High-PHY layers based on a lower layer functional split."
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "hosts",
+        "object": "Low-PHY layer and RF processing"
+      },
+      {
+        "subject": "O-eNB",
+        "predicate": "supports",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "enables",
+        "object": "operation and management between SMO and O-RAN managed elements."
+      },
+      {
+        "subject": "Solution Provider",
+        "predicate": "delivers",
+        "object": "applications to Service Providers"
+      }
+    ],
+    "preview": "# 2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\n- References are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.\n\n- For a specific reference, subsequent revisions do not apply.\n\n7 For a non-specific reference, the latest version applies. In th..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "SMO",
+      "A1",
+      "E2",
+      "xApp"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "provides policy-based guidance to",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "controls and optimizes",
+        "object": "E2 Nodes"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "hosted by",
+        "object": "SMO"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "runs on",
+        "object": "Near-RT RIC"
+      }
+    ],
+    "preview": "\n\n# 3 Definitions and abbreviations\n\n# 3.1 Definitions\n\nFor the purposes of the present document, the following terms and definitions apply.\n\nNear-RT RIC: O-RAN Near-Real-Time RAN Intelligent Controller: A logical function that enables near-real-time control and optimization of RAN elements and resources via fine-grained data collection and actions over E2 interface.\n\nNon-RT RIC: O-RAN Non-Real-Ti..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "E2 Nodes",
+      "RAN optimization",
+      "rApps",
+      "policy-based guidance",
+      "machine learning model management",
+      "enrichment information",
+      "control loops",
+      "O-RU",
+      "O-DU",
+      "O-CU-UP",
+      "O-CU-CP",
+      "O-eNB",
+      "xApp",
+      "messaging infrastructure",
+      "shared data layer",
+      "database",
+      "security function",
+      "AI/ML support",
+      "subscription management",
+      "conflict mitigation",
+      "management services",
+      "UE-NIB database",
+      "Radio-NIB database",
+      "API Enablement",
+      "E2 interface",
+      "A1 interface",
+      "O1 interface",
+      "SOM",
+      "RIC-owned xApp"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "provides policy-based guidance to",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "manages",
+        "object": "rApps"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "optimizes",
+        "object": "E2 Nodes functions and resources"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "receives policies and enrichment data from",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "hosts",
+        "object": "xApp"
+      },
+      {
+        "subject": "messaging infrastructure",
+        "predicate": "provides low-latency message delivery service between",
+        "object": "Near-RT RIC internal endpoints"
+      },
+      {
+        "subject": "shared data layer",
+        "predicate": "provides API for accessing shared data storage",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "database",
+        "predicate": "contains UE-NIB and Radio-NIB information",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "security function",
+        "predicate": "provides security scheme for",
+        "object": "xApps"
+      },
+      {
+        "subject": "AI/ML support",
+        "predicate": "prepares data for",
+        "object": "xApps"
+      },
+      {
+        "subject": "subscription management",
+        "predicate": "manages subscriptions from",
+        "object": "xApps to E2 Nodes"
+      },
+      {
+        "subject": "management services",
+        "predicate": "manages lifecycle of",
+        "object": "xApps"
+      }
+    ],
+    "preview": "\n\n# 4 RIC background, concepts and assumptions\n\n# 4.1 Introduction\n\nThe RIC architecture consists of the Non-RT RIC, which deals with control loops of more than 1 second, and the Near-RT RIC, with control loops in the order of $1 0 \\mathrm { m s }$ to 1s [3]. The Non-RT RIC is embedded in the Service and Management Orchestration function and hosts rApps to provide policy-based guidance, machine le..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "Near-RT RIC",
+      "E2 interface",
+      "O1 interface",
+      "A1 interface",
+      "xApp",
+      "Shared Data Layer (SDL)",
+      "Database",
+      "Management Services",
+      "AI/ML support",
+      "Security function",
+      "Subscription Management",
+      "Conflict Mitigation",
+      "API Enablement",
+      "E2SM",
+      "O-RAN Threat Model",
+      "Threat ID T-NEAR-RT-01"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "runs on",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Shared Data Layer (SDL)",
+        "predicate": "provides access to",
+        "object": "Database"
+      },
+      {
+        "subject": "Management Services",
+        "predicate": "manages lifecycle of",
+        "object": "xApp"
+      },
+      {
+        "subject": "AI/ML support",
+        "predicate": "provides training for",
+        "object": "xApp"
+      },
+      {
+        "subject": "Security function",
+        "predicate": "prevents abuse by",
+        "object": "malicious xApps"
+      },
+      {
+        "subject": "Subscription Management",
+        "predicate": "manages subscriptions from",
+        "object": "xApp"
+      },
+      {
+        "subject": "Conflict Mitigation",
+        "predicate": "resolves conflicts between",
+        "object": "xApps"
+      },
+      {
+        "subject": "API Enablement",
+        "predicate": "supports registration of",
+        "object": "Near-RT RIC APIs"
+      },
+      {
+        "subject": "E2SM",
+        "predicate": "describes functions in",
+        "object": "E2 Node"
+      },
+      {
+        "subject": "O-RAN Threat Model",
+        "predicate": "identifies threat",
+        "object": "Threat ID T-NEAR-RT-01"
+      }
+    ],
+    "preview": "\n\n# 4.2 Near-RT RIC architecture\n\nThe following diagram shows the building blocks of the Near-RT RIC internal architecture. For more detailed descriptions of the architecture and platform functions, see WG3 Near-RT RIC Architecture specification [3].\n\n![](images/912059868d76f0c0c00545fb8c38cd279294534d6b900d6d8270ad5facc66bd6.jpg)\n\n> **Image Summary:** {\n\n\"content\": \"The image illustrates a system..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "Near-RT RIC",
+      "APIs",
+      "A1 related functionality",
+      "Policy Enforcement API",
+      "Enrichment information API",
+      "E2 related functionality",
+      "xApp Subscription Management",
+      "Conflict Mitigation functionality",
+      "E2 Subscription API",
+      "E2 Guidance",
+      "E2 Indication",
+      "E2 Control",
+      "Management APIs",
+      "O1 Termination",
+      "management services",
+      "logging",
+      "tracing",
+      "metrics collection",
+      "ML model related APIs",
+      "FACPS related APIs",
+      "xApp Registration API",
+      "xApp Deregistration API",
+      "Configuration API",
+      "PM (Performance Management) API",
+      "FM (Fault Management) API",
+      "SDL API",
+      "Shared Data Layer related functionalities",
+      "R-NIB",
+      "UE-NIB",
+      "Enablement APIs",
+      "Registration API",
+      "Discovery API",
+      "Subscription API",
+      "xApps",
+      "E2 Nodes",
+      "cell performance",
+      "delivery of services",
+      "group of UEs",
+      "single UE",
+      "security aspects",
+      "Near-RT RIC architecture",
+      "relevant interfaces",
+      "malicious xApps",
+      "unauthorized access",
+      "radio network information",
+      "control capabilities",
+      "RAN functions",
+      "subscriber privacy",
+      "UE identification",
+      "tracking UE location",
+      "changing UE slice priority",
+      "authentication",
+      "onboarding",
+      "validation during Registration",
+      "signatures",
+      "xApp Solution Provider",
+      "Service Provider"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "APIs"
+      },
+      {
+        "subject": "A1 related functionality",
+        "predicate": "involves",
+        "object": "Policy Enforcement API"
+      },
+      {
+        "subject": "A1 related functionality",
+        "predicate": "involves",
+        "object": "Enrichment information API"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "includes",
+        "object": "xApp Subscription Management"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "includes",
+        "object": "Conflict Mitigation functionality"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "involves",
+        "object": "E2 Subscription API"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "involves",
+        "object": "E2 Guidance"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "involves",
+        "object": "E2 Indication"
+      },
+      {
+        "subject": "E2 related functionality",
+        "predicate": "involves",
+        "object": "E2 Control"
+      },
+      {
+        "subject": "Management APIs",
+        "predicate": "includes",
+        "object": "O1 Termination"
+      },
+      {
+        "subject": "Management APIs",
+        "predicate": "includes",
+        "object": "management services"
+      },
+      {
+        "subject": "Management APIs",
+        "predicate": "includes",
+        "object": "logging"
+      },
+      {
+        "subject": "Management APIs",
+        "predicate": "includes",
+        "object": "tracing"
+      },
+      {
+        "subject": "Management APIs",
+        "predicate": "includes",
+        "object": "metrics collection"
+      },
+      {
+        "subject": "ML model related APIs",
+        "predicate": "are part of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "xApp Registration API",
+        "predicate": "is a type of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "xApp Deregistration API",
+        "predicate": "is a type of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "Configuration API",
+        "predicate": "is a type of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "PM (Performance Management) API",
+        "predicate": "is a type of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "FM (Fault Management) API",
+        "predicate": "is a type of",
+        "object": "FACPS related APIs"
+      },
+      {
+        "subject": "SDL API",
+        "predicate": "provides access to",
+        "object": "Shared Data Layer related functionalities"
+      },
+      {
+        "subject": "SDL API",
+        "predicate": "manages",
+        "object": "R-NIB"
+      },
+      {
+        "subject": "SDL API",
+        "predicate": "manages",
+        "object": "UE-NIB"
+      },
+      {
+        "subject": "Enablement APIs",
+        "predicate": "includes",
+        "object": "Registration API"
+      },
+      {
+        "subject": "Enablement APIs",
+        "predicate": "includes",
+        "object": "Discovery API"
+      },
+      {
+        "subject": "Enablement APIs",
+        "predicate": "includes",
+        "object": "Subscription API"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "can access",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "can influence",
+        "object": "E2 Nodes"
+      },
+      {
+        "subject": "malicious xApps",
+        "predicate": "can impact",
+        "object": "cell performance"
+      },
+      {
+        "subject": "malicious xApps",
+        "predicate": "can impact",
+        "object": "delivery of services"
+      },
+      {
+        "subject": "security threats",
+        "predicate": "include",
+        "object": "unauthorized access to Near-RT RIC"
+      },
+      {
+        "subject": "security threats",
+        "predicate": "include",
+        "object": "radio network information"
+      },
+      {
+        "subject": "security threats",
+        "predicate": "include",
+        "object": "control capabilities over RAN functions"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "should be authenticated during",
+        "object": "onboarding"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "should be validated during",
+        "object": "Registration"
+      }
+    ],
+    "preview": "\n\n# 4.5 Near-RT RIC APIs\n\nThe following diagram [3] provides a representation of the APIs involved in Near-RT RIC.\n\n![](images/4d622b9e21fe2a2aac0d7ea47745b364a363e9c7a2dd4f20b5ff48f3088da429.jpg)\n\n> **Image Summary:** {\n\"summary\": \"This diagram illustrates an architecture for applications (xApps) interacting with a shared data layer via APIs within a near-real-time (Near-RT) Risk Intelligence Cen..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "xApp",
+      "Service Provider",
+      "Near-RT RIC platform",
+      "RIC vendor",
+      "telco operator",
+      "E2 interface",
+      "O-gNB",
+      "A1 interface",
+      "O1 interface",
+      "SMO"
+    ],
+    "relations": [
+      {
+        "subject": "xApp",
+        "predicate": "authenticated by",
+        "object": "Service Provider"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "validated during Registration to",
+        "object": "Near-RT RIC platform"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "interact with",
+        "object": "Near-RT RIC platform components"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "collects data via",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "impacts",
+        "object": "co-located xApps/Near-RT RIC platform"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "exposes",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "exposes",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "xApp APIs",
+        "predicate": "provide",
+        "object": "Authentication/Authorization schemas"
+      },
+      {
+        "subject": "E2 Guidance Request Procedure",
+        "predicate": "used during",
+        "object": "xApp Registration"
+      },
+      {
+        "subject": "RIC vendor",
+        "predicate": "provides",
+        "object": "xApps"
+      }
+    ],
+    "preview": "\n\n# 5.2.3 Potential security requirements\n\nxApps shall be authenticated during onboarding using a signature that is generated by the xApp Solution Provider and validated by the Service Provider.\n\nxApps shall be validated during Registration to the Near-RT RIC platform using signatures from both the Service Provider and the xApp Solution Provider.\n\n# 5.3 Key Issue #2: Compromised xApp\n\n# 5.3.1 Key ..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "Near-RT RIC",
+      "E2 interface",
+      "A1",
+      "O1",
+      "SMO",
+      "xApp",
+      "subset of data",
+      "resource deficit",
+      "DoS attack",
+      "sensitive real-time information",
+      "persistent configuration",
+      "vulnerabilities"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "interacts with",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "A1"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "O1"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "consumes",
+        "object": "subset of data"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "produces",
+        "object": "data"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "impacts",
+        "object": "co-located xApps"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "impacts",
+        "object": "Near-RT RIC platform"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "overconsumes",
+        "object": "shared resources"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "creates",
+        "object": "noisy neighbour effect"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "provides",
+        "object": "underlying shared resources"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "administers",
+        "object": "DoS attack on co-located xApps"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "impacts",
+        "object": "service offered by the xApp under attacks"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "administers",
+        "object": "DoS attack on Near-RT RIC platform components"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "impacts",
+        "object": "availability of the Near-RT RIC"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "administers",
+        "object": "unauthorised access to sensitive real-time information"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "uses",
+        "object": "persistent configuration"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "probes for",
+        "object": "vulnerabilities in the underlying system hosting the xApps application"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "administers attacks on",
+        "object": "another xApp"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "administers attacks on",
+        "object": "the platform"
+      }
+    ],
+    "preview": "\n\n# 5.5 Key Issue #4: Isolation between xApps\n\n# 5.5.1 Key issue detail\n\nThe Near-RT RIC enables near real time control and optimization of RAN elements and resources via fine-grained data collection and actions over E2 interface, and includes open interfaces (A1, O1) to the management and orchestration system (SMO). This will be achieved using a collection of xApps, with each xApp providing a spe..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "xApp",
+      "Near-RT RIC platform",
+      "DoS attacks",
+      "sensitive real-time information",
+      "persistent configuration",
+      "underlying system",
+      "ML data pipelines",
+      "database(s)",
+      "historic data",
+      "UE",
+      "RAN",
+      "E2 nodes",
+      "streaming data",
+      "ML models",
+      "training",
+      "inference derivation",
+      "xApps analytics services",
+      "data stores",
+      "security vulnerability patch updates",
+      "O-Cloud security requirements",
+      "A1 interface",
+      "Non-RT RIC"
+    ],
+    "relations": [
+      {
+        "subject": "xApp",
+        "predicate": "can be used to",
+        "object": "overconsume platform resources"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "can administer",
+        "object": "DoS attacks on co-located xApps"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "can administer",
+        "object": "DoS attacks on Near-RT RIC platform components"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "can access",
+        "object": "sensitive real-time information"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "can access",
+        "object": "persistent configuration"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "can probe for vulnerabilities in",
+        "object": "underlying system"
+      },
+      {
+        "subject": "ML data pipelines",
+        "predicate": "can be compromised due to",
+        "object": "vulnerability in xApp"
+      },
+      {
+        "subject": "ML data pipelines",
+        "predicate": "can be poisoned due to",
+        "object": "compromised E2 nodes"
+      },
+      {
+        "subject": "ML data pipelines",
+        ".predicate": "can be poisoned due to",
+        "object": "compromised UE(s)"
+      },
+      {
+        "subject": "ML data pipelines",
+        "predicate": "can be compromised due to",
+        "object": "compromised database(s)"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "shall categorise and isolate",
+        "object": "xApps into different security groups"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "shall cap",
+        "object": "resources allocated to xApps"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "shall quarantine",
+        "object": "xApps trying to overconsume resources"
+      },
+      {
+        "subject": "Access controls",
+        "predicate": "shall be established and enforced for accessing",
+        "object": "critical data in Near-RT RIC"
+      },
+      {
+        "subject": "Communication between security zones",
+        "predicate": "require mutual authentication and authorization",
+        "object": "between communicating xApps"
+      },
+      {
+        "subject": "Near-RT RIC deployment",
+        "predicate": "shall have provision for regular",
+        "object": "security vulnerability patch updates for xApps"
+      },
+      {
+        "subject": "Integrity of xApps",
+        "predicate": "shall be monitored",
+        "object": "after installation as well as during runtime"
+      },
+      {
+        "subject": "O-Cloud security requirements",
+        "predicate": "shall be adhered to",
+        "object": "to ensure secured interfaces feeding data to ML data pipelines"
+      },
+      {
+        "subject": "ML models",
+        "predicate": "can change for good reasons during runtime",
+        "object": "due to online training, transfer learning, or reinforcement learning"
+      },
+      {
+        "subject": "xApps with embedded ML models",
+        "predicate": "are likely to be compromised due to",
+        "object": "vulnerabilities in xApp security"
+      },
+      {
+        "subject": "xApps using ML models stored in DB/separate storage",
+        "predicate": "are likely to be compromised due to",
+        "object": "vulnerabilities in xApp or DB security"
+      },
+      {
+        "subject": "Transfer Learning",
+        "predicate": "can allow Non-RT RIC to provide updated ML models",
+        "object": "to Near-RT RIC via A1 interface"
+      }
+    ],
+    "preview": "# 5.5.2 Security threats\n\nWithout proper isolation, an xApp can be used to:\n\noverconsume the platform resources shared by all xApps, creating a noisy neighbour effect by leaving other co-located xApps with a resource deficit.   \nadminister DoS attacks on other co-located xApps and impacting service offered by the xApp under attacks administer DoS attacks on the Near-RT RIC platform components, imp..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Near-RT RIC",
+      "xApp",
+      "ML model",
+      "Transfer Learning",
+      "Reinforcement Learning",
+      "Online Training",
+      "DB",
+      "Filesystem",
+      "API",
+      "A1 Interface",
+      "T_ML_02"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "hosts",
+        "object": "xApp"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "contains",
+        "object": "ML model"
+      },
+      {
+        "subject": "ML model",
+        "predicate": "uses",
+        "object": "Transfer Learning"
+      },
+      {
+        "subject": "ML model",
+        "predicate": "uses",
+        "object": "Reinforcement Learning"
+      },
+      {
+        "subject": "ML model",
+        "predicate": "uses",
+        "object": "Online Training"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "uses",
+        "object": "DB"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "uses",
+        "object": "Filesystem"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "implements",
+        "object": "Transfer Learning"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "receives updates via",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "API",
+        "predicate": "exposes",
+        "object": "xApp"
+      },
+      {
+        "subject": "T_ML_02",
+        "predicate": "applies to",
+        "object": "ML model"
+      }
+    ],
+    "preview": "\n\n# 5.7 Key Issue #6: Altering the ML learning models used in NearRT RIC\n\n# 5.7.1 Key issue detail\n\nNear-RT RIC hosts a set of xApps, some of which may contain ML based solutions performing inference and/or training processes.\n\nML enabled xApps can hold any required ML models and would be deployed as an integrated function. o In such cases, if ML models use online training, or transfer learning, o..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "attacker",
+      "machine learning model",
+      "parameters",
+      "results",
+      "wrong prediction",
+      "catastrophic decisions",
+      "sensitive data",
+      "confidential data",
+      "xApps",
+      "monitoring",
+      "installation",
+      "runtime",
+      "secure data storage",
+      "secure data transfer mechanisms",
+      "Near-RT RIC",
+      "authenticated access",
+      "authorized access",
+      "data stores",
+      "security measures",
+      "ML model updates",
+      "A1 interface",
+      "database(s)",
+      "sensitive UE information",
+      "RAN information",
+      "network state history",
+      "E2 Nodes configurations",
+      "cells configurations",
+      "bearers",
+      "flows",
+      "UE identities",
+      "mappings",
+      "shared data layer (SDL)",
+      "xApp access",
+      "authentication model",
+      "authorization model",
+      "adverse effects"
+    ],
+    "relations": [
+      {
+        "subject": "attacker",
+        "predicate": "can alter",
+        "object": "parameters of machine learning model"
+      },
+      {
+        "subject": "machine learning model",
+        "predicate": "produces",
+        "object": "results"
+      },
+      {
+        "subject": "altering parameters",
+        "predicate": "leads to",
+        "object": "wrong prediction"
+      },
+      {
+        "subject": "wrong prediction",
+        "predicate": "can result in",
+        "object": "catastrophic decisions"
+      },
+      {
+        "subject": "attacker",
+        "predicate": "can extract",
+        "object": "sensitive data"
+      },
+      {
+        "subject": "attacker",
+        "predicate": "can extract",
+        "object": "confidential data"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "require",
+        "object": "monitoring of integrity"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "implements",
+        "object": "secure data storage"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "implements",
+        "object": "secure data transfer mechanisms"
+      },
+      {
+        "subject": "data stores",
+        "predicate": "require",
+        "object": "authenticated access"
+      },
+      {
+        "subject": "data stores",
+        "predicate": "require",
+        "object": "authorized access"
+      },
+      {
+        "subject": "ML model updates",
+        "predicate": "must be provided by",
+        "object": "authenticated applications"
+      },
+      {
+        "subject": "ML model updates",
+        "predicate": "must be provided by",
+        "object": "authorized applications"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "sensitive UE information"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "RAN information"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "network state history"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "E2 Nodes configurations"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "cells configurations"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "bearers"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "flows"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "UE identities"
+      },
+      {
+        "subject": "Near-RT RIC Database",
+        "predicate": "contains",
+        "object": "mappings"
+      },
+      {
+        "subject": "shared data layer (SDL)",
+        "predicate": "enables",
+        "object": "xApp access to database(s)"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "requires",
+        "object": "security mechanisms"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "require",
+        "object": "authenticated access to database(s)"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "require",
+        "object": "authorized access to parts of the database(s)"
+      },
+      {
+        "subject": "lack of security mechanisms",
+        "predicate": "can result in",
+        "object": "adverse effects"
+      }
+    ],
+    "preview": "# 5.7.2 Security threats\n\nT_ML_02 from ORAN Threat Modelling [1] is applicable here.\n\nAn attacker can illegally access a machine learning model and alter its parameters and thereby influence how it produces results. This can lead to wrong prediction and might result in catastrophic decisions if the results of the predictions were being used to make key business decisions.\n\nAlso, an attacker can ex..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "Near-RT RIC",
+      "database(s)",
+      "UE information",
+      "RAN information",
+      "Shared Data Layer (SDL)",
+      "xApps",
+      "authentication",
+      "authorization",
+      "security mechanisms",
+      "E2 Nodes",
+      "cells",
+      "bearers",
+      "flows",
+      "UE identities",
+      "mappings",
+      "sensitive data",
+      "unauthorized access",
+      "data manipulation",
+      "adverse action",
+      "Near-RT RIC Databases",
+      "ORAN"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "contains",
+        "object": "database(s)"
+      },
+      {
+        "subject": "database(s)",
+        "predicate": "contain",
+        "object": "UE information"
+      },
+      {
+        "subject": "database(s)",
+        "predicate": "contain",
+        "object": "RAN information"
+      },
+      {
+        "subject": "Shared Data Layer (SDL)",
+        "predicate": "enables",
+        "object": "xApps access"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "requires",
+        "object": "authentication"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "requires",
+        "object": "authorization"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "may access",
+        "object": "database(s)"
+      },
+      {
+        "subject": "unauthorized xApps",
+        "predicate": "can perform",
+        "object": "data manipulation"
+      },
+      {
+        "subject": "unauthorized xApps",
+        "predicate": "can export",
+        "object": "sensitive data"
+      },
+      {
+        "subject": "unauthorized xApps",
+        "predicate": "can monitor",
+        "object": "database(s)"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "shall authenticate",
+        "object": "xApp access"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "shall provide",
+        "object": "authorized access"
+      },
+      {
+        "subject": "untrusted xApps",
+        "predicate": "can compromise",
+        "object": "Near-RT RIC functionality"
+      },
+      {
+        "subject": "untrusted xApps",
+        "predicate": "can impact",
+        "object": "availability of other xApps"
+      },
+      {
+        "subject": "untrusted xApps",
+        "predicate": "can cause",
+        "object": "cascading impact on ORAN performance"
+      }
+    ],
+    "preview": "\n\n# 5.8 Key Issue #7: Data Protection and Privacy in Near-RT RIC Database\n\n# 5.8.1 Key issue detail\n\nThe Near-RT RIC contains database(s) which contain sensitive UE and RAN information, including history of the network state, configurations related to E2 Nodes, cells, bearers, flows, UE identities, and the mappings between them. Overlayed on top of these databases is the shared data layer (SDL) wh..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "Near-RT RIC",
+      "xApp",
+      "SDL registration",
+      "Near-RT RIC API",
+      "E2 Nodes",
+      "Near-RT RIC Databases",
+      "sensitive information related to UE and RAN",
+      "untrusted xApps"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "authenticates access during",
+        "object": "xApp"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "provides authorized access to",
+        "object": "Near-RT RIC database(s)"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "communicates with",
+        "object": "Near-RT RIC platform"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "provides APIs to",
+        "object": "other xApps and Near-RT RIC"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "collects near real-time information from",
+        "object": "E2 Nodes"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "influences behavior of",
+        "object": "E2 Nodes"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "accesses",
+        "object": "Near-RT RIC Databases"
+      },
+      {
+        "subject": "untrusted xApps",
+        "predicate": "can create",
+        "object": "serious security issues"
+      },
+      {
+        "subject": "untrusted xApps",
+        "predicate": "compromise",
+        "object": "Near-RT RIC functionality"
+      }
+    ],
+    "preview": "\n\n# 5.8.3 Potential security requirements\n\nNear-RT RIC shall authenticate xApp access to the Near-RT RIC database(s) during SDL registration.\n\nNear-RT RIC shall provide authorized access to Near-RT RIC database(s).\n\n# 5.9 Key Issue #8: Onboarding untrusted xApps\n\n# 5.9.1 Key issue detail\n\nAs per definition in [3], an xApp is an application designed to run on Near-RT RIC. It may consist of one or m..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "untrusted third party xApp",
+      "Near-RT RIC",
+      "Malicious or Badly configured xApp",
+      "security vulnerabilities",
+      "back doors",
+      "APIs",
+      "authentication",
+      "authorization",
+      "attack surface",
+      "sensitive UE information",
+      "A1 interface",
+      "Non-RT RIC",
+      "Near-RT RIC policies",
+      "false policies"
+    ],
+    "relations": [
+      {
+        "subject": "untrusted third party xApp",
+        "predicate": "can cause",
+        "object": "security threats"
+      },
+      {
+        "subject": "Malicious or Badly configured xApp",
+        "predicate": "similar to",
+        "object": "untrusted third party xApp"
+      },
+      {
+        "subject": "untrusted/unverified xApp",
+        "predicate": "contains",
+        "object": "security vulnerabilities"
+      },
+      {
+        "subject": "untrusted/unverified xApp",
+        "predicate": "contains",
+        "object": "back doors"
+      },
+      {
+        "subject": "untrusted/unverified xApp",
+        "predicate": "provides",
+        "object": "APIs with weak security"
+      },
+      {
+        "subject": "weak authentication",
+        "predicate": "allows",
+        "object": "attackers to break in"
+      },
+      {
+        "subject": "untrusted/unverified xApp",
+        "predicate": "exposes",
+        "object": "large attack surface"
+      },
+      {
+        "subject": "untrusted/unverified xApp",
+        "predicate": "sniffs",
+        "object": "sensitive UE information"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "must be compliant with",
+        "object": "industry standards for API security"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "must be free of",
+        "object": "known software vulnerabilities"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "must be authenticated before",
+        "object": "onboarding to cloud platform"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "supports",
+        "object": "authorization schemes"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "hardens",
+        "object": "service offering"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "defines",
+        "object": "policies"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "transfers",
+        "object": "Near-RT RIC policies"
+      },
+      {
+        "subject": "Unauthorized access to Non-RT RIC",
+        "predicate": "enables creation of",
+        "object": "false policies"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "can be issued to",
+        "object": "Near-RT RIC"
+      }
+    ],
+    "preview": "# 5.9.2 Security threats\n\nOnboarding an untrusted third party xApp onto Near-RT RIC can cause similar or same security threats as a Malicious or Badly configured xApp. Some well-known and easily administrated attacks with untrusted xApps are:\n\nIf the xApp is not from a trusted source or is not maintained by a trusted source, it could contain security vulnerabilities or back doors which could be ex..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "A1 interface",
+      "A1 policies",
+      "xApps",
+      "O-DU",
+      "O-RU",
+      "O-CU",
+      "Denial of Service (DoS) attacks",
+      "subscriber location",
+      "cyber-attack"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "defines",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "provides",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Unauthorized access",
+        "predicate": "enables creation of",
+        "object": "false policies"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "influence behavior of",
+        "object": "xApps"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "target",
+        "object": "specific UE, groups of UEs, or an entire cell"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "cause configuration of",
+        "object": "O-DU and O-RU functions"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "isolates subscriber in",
+        "object": "O-CU"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "use MIMO beamforming in",
+        "object": "O-DU and O-RU"
+      },
+      {
+        "subject": "data feedback from the RAN",
+        "predicate": "includes information about",
+        "object": "UE location or trajectory"
+      },
+      {
+        "subject": "subscriber location",
+        "predicate": "attained from access to",
+        "object": "Non-RT RIC in SMO function"
+      },
+      {
+        "subject": "false policies",
+        "predicate": "cause steering of user data by",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "steering of user data",
+        "predicate": "facilitates",
+        "object": "cyber-attack"
+      }
+    ],
+    "preview": "\n\n# 5.10 Key Issue #9: xApp exploitation via malicious A1 policies\n\n# 5.10.1 Key issue detail\n\nThe Non-RT RIC defines policies that are provided to the Near-RT RIC over the A1 interface. The purpose of the A1 policies is to guide and optimize the RAN, and the policies inform behavior of xApps in the Near-RT RIC. [9]\n\nUnauthorized access to the Non-RT RIC enables the creation of ‘false policies’ th..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "False Policies",
+      "Near-RT RIC",
+      "O-DU",
+      "O-RU",
+      "Denial of Service (DoS)",
+      "MIMO Beamforming",
+      "Subscriber Location",
+      "Non-RT RIC",
+      "A1 Interface",
+      "TLS 1.2",
+      "PKI X.509 Certificates",
+      "Traffic Steering",
+      "Isolate Data",
+      "Cyber-Attack",
+      "xApps",
+      "APIs",
+      "Authentication",
+      "Authorization",
+      "Service Consumers",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "False Policies",
+        "predicate": "impacts",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "False Policies",
+        "predicate": "uses",
+        "object": "Feedback Data"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "configures",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "configures",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Feedback Data",
+        "predicate": "leads to",
+        "object": "Denial of Service (DoS)"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "MIMO Beamforming"
+      },
+      {
+        "subject": "False Policies",
+        "predicate": "causes",
+        "object": "Isolation of Subscriber in O-CU"
+      },
+      {
+        "subject": "Subscriber Location",
+        "predicate": "obtained via",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "located in",
+        "object": "SMO Function"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "uses",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "uses",
+        "object": "PKI X.509 Certificates"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "steers",
+        "object": "Traffic Steering"
+      },
+      {
+        "subject": "False Policies",
+        "predicate": "causes",
+        "object": "Isolate Data"
+      },
+      {
+        "subject": "Isolate Data",
+        "predicate": "facilitates",
+        "object": "Cyber-Attack"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "consume",
+        "object": "APIs"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "authenticates",
+        "object": "xApps"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "ensures",
+        "object": "Valid Communication"
+      },
+      {
+        "subject": "Authorization",
+        "predicate": "follows",
+        "object": "Authentication"
+      },
+      {
+        "subject": "xApp Producers",
+        "predicate": "authenticate",
+        "object": "Service Consumers"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "define",
+        "object": "A1 Interface Security"
+      }
+    ],
+    "preview": "# 5.10.2 Security threats\n\nFalse policies can be created to have numerous impacts to the normal performance of the RAN. A single false A1 policy can target a specific UE, groups of UEs, or an entire cell. A false policy could influence the Near-RT RIC to configure the O-DU and O-RU functions to support Denial of Service (DoS) attacks by simply using feedback data to degrade RAN performance.\n\nFalse..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "Authentication",
+      "Authorization",
+      "xApps",
+      "Near-RT RIC platform",
+      "APIs",
+      "DoS attacks",
+      "JSON Web Tokens (JWTs)",
+      "E2 Subscription API procedure",
+      "E2 Control API procedure",
+      "E2 Guidance API procedure",
+      "SDL API procedures",
+      "Root Cause Analysis (RCA)"
+    ],
+    "relations": [
+      {
+        "subject": "Authentication",
+        "predicate": "ensures secure communication between",
+        "object": "xApps and Near-RT RIC platform"
+      },
+      {
+        "subject": "Authorization",
+        "predicate": "specifies access rights for",
+        "object": "Near-RT RIC services"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "act as service producers or consumers via",
+        "object": "APIs"
+      },
+      {
+        "subject": "DoS attacks",
+        "predicate": "can target",
+        "object": "Near-RT RIC platform APIs"
+      },
+      {
+        "subject": "JSON Web Tokens (JWTs)",
+        "predicate": "are used for end-to-end authentication in addition to",
+        "object": "mutual TLS"
+      },
+      {
+        "subject": "E2 Subscription API procedure",
+        "predicate": "requires authorization based on operator policies",
+        "object": "xApps"
+      },
+      {
+        "subject": "E2 Control API procedure",
+        "predicate": "allows only authorized xApps to send RIC control requests",
+        "object": "Near-RT RIC platform"
+      },
+      {
+        "subject": "E2 Guidance API procedure",
+        "predicate": "permits only authorized xApps to obtain guidance",
+        "object": "Conflict mitigation function"
+      },
+      {
+        "subject": "SDL API procedures",
+        "predicate": "require successful registration and authorization for",
+        "object": "xApps"
+      },
+      {
+        "subject": "Root Cause Analysis (RCA)",
+        "predicate": "is essential to identify issues in",
+        "object": "Near-RT RIC platform security"
+      }
+    ],
+    "preview": "\n\n# 5.11 Key Issue #10: Near-RT RIC APIs authentication\n\n# 5.11.1 Key issue detail\n\nLike any software, APIs can be compromised, and data can be intercepted. APIs can be manipulated causing service disruptions and can be subject as well to DoS attacks. Authentication, an essential part of secure communication, ensures that an attribute claimed by a given entity (e.g., its identity) is actually corr..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "xApp",
+      "Near-RT RIC platform APIs",
+      "Near-RT RIC platform",
+      "E2 Nodes",
+      "JSON Web Tokens (JWTs)",
+      "transport layer",
+      "application layer",
+      "authorization mechanisms",
+      "operator policies",
+      "Near-RT RIC architecture",
+      "mutual TLS",
+      "OWASP API Security Top 10",
+      "Denial of Service attack"
+    ],
+    "relations": [
+      {
+        "subject": "xApp",
+        "predicate": "communicates with",
+        "object": "Near-RT RIC platform APIs"
+      },
+      {
+        "subject": "communication between xApps and Near-RT RIC platform APIs",
+        "predicate": "shall be authenticated at",
+        "object": "transport layer"
+      },
+      {
+        "subject": "communication between xApps and Near-RT RIC platform APIs",
+        "predicate": "uses mutual TLS for authentication"
+      },
+      {
+        "subject": "complementary end-to-end authentication mechanisms",
+        "predicate": "may be considered at",
+        "object": "application layer"
+      },
+      {
+        "subject": "JSON Web Tokens (JWTs)",
+        "predicate": "are used for authentication"
+      },
+      {
+        "subject": "Near-RT RIC platform",
+        "predicate": "shall provide means to restrict xApps from discovery of some published APIs",
+        "object": "configuration policies"
+      },
+      {
+        "subject": "E2 Subscription API procedure",
+        "predicate": "shall be based on",
+        "object": "operator’s policies"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "may be restricted to interface with only a subset of E2 Nodes by such policies"
+      },
+      {
+        "subject": "E2 Control API procedure",
+        "predicate": "shall be initiated by authorized xApps"
+      },
+      {
+        "subject": "E2 Guidance API procedure",
+        "predicate": "shall allow only authorized xApp to obtain guidance"
+      },
+      {
+        "subject": "SDL API procedures",
+        "predicate": "require xApps to have been successfully registered and authorized"
+      },
+      {
+        "subject": "API consumers",
+        "predicate": "are not authorized by",
+        "object": "API producers"
+      },
+      {
+        "subject": "malicious xApps",
+        "predicate": "could perform attacks such as",
+        "object": "Abuse and/or theft of services or information"
+      },
+      {
+        "subject": "malicious xApps",
+        "predicate": "could perform attacks such as",
+        "object": "Negatively impacting network performance"
+      },
+      {
+        "subject": "malicious xApps",
+        "predicate": "could perform attacks such as",
+        "object": "Flooding the platform with resource demanding operations that may lead to Denial of Service attack"
+      },
+      {
+        "subject": "OWASP API Security Top 10 report",
+        "predicate": "indicates that",
+        "object": "'Broken Object Level Authorization' is a common and impactful attack on APIs"
+      },
+      {
+        "subject": "Near-RT RIC architecture",
+        "predicate": "shall provide an authorization framework for the consumption of services exposed in platform APIs by xApps",
+        "object": "operator policies"
+      }
+    ],
+    "preview": "\n\n# 5.11.3 Potential security requirements\n\nThe communication between xApps and Near-RT RIC platform APIs shall be authenticated at least at the transport layer (for e.g., with mutual TLS).\n\nAt application layer complementary end to end authentication mechanisms based on JSON Web Tokens (JWTs) may be considered as well.\n\n# 5.12 Key Issue #11: Near-RT RIC APIs authorization\n\n# 5.12.1 Key issue deta..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "Near-RT RIC architecture",
+      "authorization framework",
+      "xApps",
+      "SMO",
+      "Service Management Orchestrator",
+      "DMS",
+      "Deployment ID",
+      "Security Function",
+      "Management Services",
+      "Solution Provider",
+      "Service Provider",
+      "trusted list of providers",
+      "open-source libraries"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC architecture",
+        "predicate": "includes",
+        "object": "authorization framework"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "onboarded to",
+        "object": "SMO"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "instructs",
+        "object": "DMS"
+      },
+      {
+        "subject": "Solution Provider",
+        "predicate": "signs",
+        "object": "xApps"
+      },
+      {
+        "subject": "Service Provider",
+        "predicate": "validates",
+        "object": "xApps"
+      },
+      {
+        "subject": "Management Services",
+        "predicate": "requests validation from",
+        "object": "Security Function"
+      },
+      {
+        "subject": "Near-RT RIC architecture",
+        "predicate": "depends on",
+        "object": "open-source libraries"
+      }
+    ],
+    "preview": "# 5.12.3 Potential security requirements\n\nNear-RT RIC architecture shall provide an authorization framework for the consumption of the services exposed in the platform APIs by the xApps, that takes operator policies into consideration. The framework should be used by the specified API procedures in [3].\n\nThe authorization framework may need to consider the level of trust related to the xApp (e.g. ..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "xApp",
+      "Near-RT RIC",
+      "SMO",
+      "Solution Provider",
+      "Service Provider",
+      "O-Cloud DMS",
+      "Security Function",
+      "open-source components",
+      "Software Composition Analysis (SCA)",
+      "Static Application Security Testing (SAST)",
+      "Dynamic Application Security Testing (DAST)",
+      "Penetration testing"
+    ],
+    "relations": [
+      {
+        "subject": "xApp",
+        "predicate": "signed_by",
+        "object": "Solution Provider"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "validated_by",
+        "object": "Service Provider"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "deployed_on",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "receives_registration_request_from",
+        "object": "xApp"
+      },
+      {
+        "subject": "Security Function",
+        "predicate": "validates_signature_of",
+        "object": "Service Provider"
+      },
+      {
+        "subject": "Security Function",
+        ".predicate": "validates_signature_of",
+        "object": "Solution Provider"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "open-source components"
+      },
+      {
+        "subject": "Software Composition Analysis (SCA)",
+        "predicate": "scans_for",
+        "object": "open-source components"
+      },
+      {
+        "subject": "Static Application Security Testing (SAST)",
+        "predicate": "identifies_vulnerabilities_in",
+        "object": "open-source components"
+      },
+      {
+        "subject": "Dynamic Application Security Testing (DAST)",
+        "predicate": "detects_run_time_vulnerabilities_in",
+        "object": "open-source components"
+      }
+    ],
+    "preview": "\n\n# 6 Mitigations and Solutions\n\n# 6.1 Introduction\n\nThis section will contain any potential Mitigations or Solutions that may be used to address or reduce the risk associated with Key Issues identified in section 5.\n\n# 6.2 Solution #1: Secure onboarding and deployment of xApps in Near-RT RIC\n\n# 6.2.1 Introduction\n\nxApps are applications that are onboarded to the SMO, deployed on the Near-RT RIC, ..."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [
+      "Software vulnerabilities",
+      "Patch critical vulnerabilities",
+      "Open-source software",
+      "Dynamic application security testing (DAST)",
+      "Static code analysis",
+      "Security audit logs",
+      "Secure Software development practice",
+      "Basic good cryptographic practices",
+      "Man-in-the-middle (MITM) attacks",
+      "Publicly known vulnerabilities",
+      "Medium or higher severity vulnerabilities"
+    ],
+    "relations": [
+      {
+        "subject": "Software vulnerabilities",
+        "predicate": "are categorized into",
+        "object": "publicly known with a patch available, publicly known without a patch (n-day), and not publicly known (0-day)"
+      },
+      {
+        "subject": "Patch critical vulnerabilities",
+        "predicate": "should be fixed within",
+        "object": "[policy-defined, suggested: <15 days]"
+      },
+      {
+        "subject": "Open-source software",
+        "predicate": "requires",
+        "object": "frequent scanning for known vulnerabilities during runtime"
+      },
+      {
+        "subject": "Dynamic application security testing (DAST)",
+        "predicate": "can detect",
+        "object": "runtime vulnerabilities"
+      },
+      {
+        "subject": "Static code analysis",
+        "predicate": "should be applied to",
+        "object": "major production releases of software before release"
+      },
+      {
+        "subject": "Security audit logs",
+        "predicate": "are used for",
+        "object": "monitoring security events"
+      },
+      {
+        "subject": "Secure Software development practice",
+        "predicate": "requires",
+        "object": "at least one primary developer who knows how to design secure software"
+      },
+      {
+        "subject": "Basic good cryptographic practices",
+        "predicate": "include using",
+        "object": "only cryptographic protocols and algorithms that are publicly published and reviewed by experts"
+      },
+      {
+        "subject": "Man-in-the-middle (MITM) attacks",
+        "predicate": "are countered by",
+        "object": "using https or ssh+scp"
+      },
+      {
+        "subject": "Publicly known vulnerabilities",
+        "predicate": "should be fixed within",
+        "object": "[policy-defined, suggested: <60 days]"
+      },
+      {
+        "subject": "Medium or higher severity vulnerabilities",
+        "predicate": "must be fixed in a timely manner after being confirmed"
+      }
+    ],
+    "preview": "# Remediate open-source vulnerabilities\n\nSoftware vulnerabilities fall into three categories: publicly known with a patch available for the software; publicly known without a patch (n-day); and not publicly known (0-day). Although measures should be taken to mitigate the risk of n-day and 0-day vulnerabilities, patching publicly known vulnerabilities as quickly as possible significantly reduces th..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Continuously monitor for new open-source risks\n\nPerform frequent scanning for known vulnerabilities during run time.   \nEnable security audit logs for monitoring security events.   \nDynamic application security testing (DAST) which can be tuned and trained to detect run-time vulnerabilities.\n\n# Secure Software development practice Security Best practices based on openssf secure software develo..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [
+      "REST APIs",
+      "gRPC APIs",
+      "HTTP",
+      "TLS",
+      "JSON",
+      "HTTP/2",
+      "Protobuf",
+      "SCTP/Protobuf",
+      "IPSec",
+      "DTLS",
+      "mTLS",
+      "X.509 certificates",
+      "Zero Trust principles",
+      "JWT",
+      "JWS",
+      "IKEv2",
+      "O-RAN Security Protocols specification [19]",
+      "3GPP TS 33.310 specification [20]"
+    ],
+    "relations": [
+      {
+        "subject": "REST APIs",
+        "predicate": "use",
+        "object": "HTTP"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "use",
+        "object": "HTTP/2"
+      },
+      {
+        "subject": "REST APIs",
+        "predicate": "support",
+        "object": "TLS"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "support",
+        "object": "TLS"
+      },
+      {
+        "subject": "REST APIs",
+        "predicate": "utilize",
+        "object": "JSON"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "use",
+        "object": "Protobuf"
+      },
+      {
+        "subject": "E2 related APIs",
+        "predicate": "run over",
+        "object": "SCTP/Protobuf"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "specify",
+        "object": "IPSec"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "proposed as",
+        "object": "optional mechanism"
+      },
+      {
+        "subject": "network authentication schema",
+        "predicate": "use",
+        "object": "mTLS"
+      },
+      {
+        "subject": "mTLS",
+        "predicate": "align with",
+        "object": "Zero Trust principles"
+      },
+      {
+        "subject": "client authentication schema",
+        "predicate": "use",
+        "object": "secure tokens (e.g., JWT)"
+      },
+      {
+        "subject": "JWT",
+        "predicate": "secured with",
+        "object": "digital signatures based on JWS"
+      },
+      {
+        "subject": "IKEv2 certificate-based authentication",
+        "predicate": "implemented according to",
+        "object": "O-RAN Security Protocols specification [19]"
+      },
+      {
+        "subject": "IKEv2 certificate-based authentication",
+        "predicate": "align with",
+        "object": "3GPP TS 33.310 specification [20]"
+      }
+    ],
+    "preview": "\n\n# 6.3.3 Evaluation\n\nRecommended open-source best practices mitigates Near-RT RIC components and xApps open-source Risks. This solution addresses key issues #1, #2, #5, #6, #8.\n\n# 6.4 Solution #3: Authentication schema for APIs\n\n# 6.4.1 Introduction\n\nREST APIs and gRPC APIs are being considered as valid network solutions for Near-RT RIC API. REST APIs use HTTP and support Transport Layer Security..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [
+      "mTLS",
+      "client certificate",
+      "server certificate",
+      "encrypted TLS connection",
+      "signed token",
+      "consumer instance ID",
+      "timestamp",
+      "authorization server",
+      "producer",
+      "IPSec authentication",
+      "IKEv2",
+      "X.509v3 digital certificates",
+      "pre-shared keys"
+    ],
+    "relations": [
+      {
+        "subject": "mTLS",
+        "predicate": "uses",
+        "object": "client certificate"
+      },
+      {
+        "subject": "mTLS",
+        "predicate": "uses",
+        "object": "server certificate"
+      },
+      {
+        "subject": "mTLS",
+        "predicate": "establishes",
+        "object": "encrypted TLS connection"
+      },
+      {
+        "subject": "signed token",
+        ".predicate": "includes",
+        "object": "consumer instance ID"
+      },
+      {
+        "subject": "signed token",
+        "predicate": "includes",
+        "object": "timestamp"
+      },
+      {
+        "subject": "API consumer",
+        "predicate": "attaches",
+        "object": "signed token"
+      },
+      {
+        "subject": "authorization server",
+        "predicate": "receives",
+        "object": "signed token"
+      },
+      {
+        "subject": "producer",
+        "predicate": "checks",
+        "object": "consumer instance ID"
+      },
+      {
+        "subject": "IPSec authentication",
+        "predicate": "supports",
+        "object": "IKEv2"
+      },
+      {
+        "subject": "X.509v3 digital certificates",
+        "predicate": "are supported by",
+        "object": "Certificate Authority solution"
+      },
+      {
+        "subject": "IPSec authentication",
+        "predicate": "supports",
+        "object": "pre-shared keys"
+      }
+    ],
+    "preview": "\n\n# 6.4.2 Solution details\n\n# 6.4.2.1 mTLS authentication\n\nIn mTLS both the client (e.g, xApp as API consumer) and the server (e.g, platform as API producer) require a certificate, and both sides authenticate each other using their public/private key pair. The authentication process includes the following steps:\n\nthe client connects to server and requests access   \nthe server presents a server cer..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [
+      "O-RAN Security Protocols Specification",
+      "IPSec authentication",
+      "Data origin authentication",
+      "ESP authentication transforms",
+      "IKE endpoint Identification",
+      "X.509v3 digital certificates",
+      "Pre-shared Keys",
+      "Key exchange via IKEv2",
+      "RFC 6749",
+      "OAuth 2.0",
+      "Near-RT RIC architecture",
+      "MEC specifications",
+      "ETSI NFV",
+      "NRF (Network Resource Function)",
+      "3GPP 5G Service Based Architecture (SBA)"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Protocols Specification",
+        "predicate": "supports",
+        "object": "IPSec authentication"
+      },
+      {
+        "subject": "RFC 6749",
+        "predicate": "specifies",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "Near-RT RIC architecture",
+        "predicate": "implements",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "MEC specifications",
+        "predicate": "mandates",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "ETSI NFV",
+        "predicate": "specifies",
+        "object": "OAuth 2.0"
+      }
+    ],
+    "preview": "# 6.4.2.3 IPsec authentication\n\nPlease refer to O-RAN Security Protocols Specification [19], chapter 2.5 for supported IPsec capabilities in O-RAN.\n\nIn summary, the following options for IPSec authentication have been specified in [19]:\n\nData origin authentication, always enabled   \nESP authentication transforms   \nIKE endpoint Identification   \nX.509v3 digital certificates provided by a Certifica..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [
+      "Authentication",
+      "#1",
+      "#2",
+      "#4",
+      "#5",
+      "#6",
+      "#7",
+      "#8",
+      "#9",
+      "#10",
+      "#11",
+      "OAuth 2.0",
+      "RFC 6749",
+      "3GPP 5G Service Based Architecture (SBA)",
+      "Network Resource Function (NRF)",
+      "MEC specifications",
+      "ETSI NFV",
+      "Near-RT RIC architecture",
+      "Authorization framework",
+      "Role-Based Access Control (RBAC)",
+      "JSON Web Tokens (JWT)"
+    ],
+    "relations": [
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#1"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#2"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#4"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#5"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#6"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#7"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#8"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#9"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#10"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "addresses",
+        "object": "#11"
+      },
+      {
+        "subject": "OAuth 2.0",
+        "predicate": "specified_in",
+        "object": "RFC 6749"
+      },
+      {
+        "subject": "OAuth 2.0",
+        "predicate": "used_in",
+        "object": "3GPP 5G Service Based Architecture (SBA)"
+      },
+      {
+        "subject": "Network Resource Function (NRF)",
+        "predicate": "acts_as",
+        "object": "Authorization server"
+      },
+      {
+        "subject": "MEC specifications",
+        "predicate": "mandate_use_of",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "ETSI NFV",
+        "predicate": "specifies",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "Near-RT RIC architecture",
+        "predicate": "based_on",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#1"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#2"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#4"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#5"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#6"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#7"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#8"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#9"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#10"
+      },
+      {
+        "subject": "Authorization framework",
+        "predicate": "addresses",
+        "object": "#11"
+      },
+      {
+        "subject": "Role-Based Access Control (RBAC)",
+        "predicate": "implemented_to_control",
+        "object": "database access"
+      }
+    ],
+    "preview": "\n\n# 6.4.3 Evaluation\n\nThe proposed authentication schema addresses the key issues #1, #2, #4, #5, #6, #7, #8, #9, #10, #11\n\nNote. The authentication mechanisms described in the solution may be applicable to other O-RAN parts of the architecture.\n\n# 6.5 Solution #4: Authorization framework for APIs\n\n# 6.5.1 Introduction\n\nThe proposed authorization framework is based on OAuth 2.0 as specified in RFC..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [
+      "3GPP SBA",
+      "JSON Web Token (JWT)",
+      "RFC 7519",
+      "Message Authentication Core (MAC)",
+      "JSON Web Signature (JWS)",
+      "RFC 7515",
+      "ETSI MEC",
+      "Near-RT RIC",
+      "Enablement Discovery API",
+      "OAuth 2.0",
+      "xApp",
+      "Service Logic Description (SDL)",
+      "Management Module",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "relations": [
+      {
+        "subject": "3GPP SBA",
+        "predicate": "specifies",
+        "object": "JSON Web Token (JWT)"
+      },
+      {
+        "subject": "JSON Web Token (JWT)",
+        "predicate": "secured with",
+        "object": "Message Authentication Core (MAC)"
+      },
+      {
+        "subject": "JSON Web Token (JWT)",
+        "predicate": "secured with",
+        "object": "JSON Web Signature (JWS)"
+      },
+      {
+        "subject": "3GPP SBA",
+        "predicate": "referenced in",
+        "object": "RFC 7519"
+      },
+      {
+        "subject": "3GPP SBA",
+        "predicate": "referenced in",
+        "object": "RFC 7515"
+      },
+      {
+        "subject": "ETSI MEC",
+        "predicate": "can use",
+        "object": "JSON Web Token (JWT)"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "uses",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "involves",
+        "object": "Enablement Discovery API"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "registers with",
+        "object": "Management Module"
+      },
+      {
+        "subject": "Management Module",
+        "predicate": "maintains information of",
+        "object": "available producers and their supported services"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "supports",
+        "object": "Role-Based Access Control (RBAC)"
+      }
+    ],
+    "preview": "\n\n![](images/ae67074bd9cfd35769f87efdb1da8aed4ac46aa185af57713866e2da119bf005.jpg)\n\n> **Image Summary:** {\n\n}\n  \nFigure 4 - from RFC 6749\n\n3 3GPP SBA specifies in [13] that access tokens shall be JSON Web Tokens as described in RFC 7519 [18], and are   \n4 secured with digital signatures or Message Authentication Cores (MAC) based on JSON Web Signature (JWS) as   \n5 described in RFC 7515 [18]. ETSI..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [
+      "xApp Solution Provider",
+      "Service Provider",
+      "System Management Object (SMO)",
+      "database token",
+      "xApp",
+      "Security Function",
+      "role(s)",
+      "access control mechanism",
+      "API repository/registry",
+      "API Enablement function",
+      "Near-RT RIC Platform",
+      "authentication",
+      "registration",
+      "RBAC roles",
+      "access authorization step",
+      "client authorization request",
+      "client authorization response",
+      "permission",
+      "discovery service",
+      "enablement APIs"
+    ],
+    "relations": [
+      {
+        "subject": "xApp Solution Provider",
+        "predicate": "generates",
+        "object": "database token"
+      },
+      {
+        "subject": "Service Provider",
+        "predicate": "vets",
+        "object": "database token"
+      },
+      {
+        "subject": "System Management Object (SMO)",
+        "predicate": "passes_to",
+        "object": "database token"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "requires",
+        "object": "registration"
+      },
+      {
+        "subject": "Security Function",
+        "predicate": "uses",
+        "object": "database token"
+      },
+      {
+        "subject": "Service Provider",
+        "predicate": "manages access using",
+        "object": "access control mechanism"
+      },
+      {
+        "subject": "Solution",
+        "predicate": "relates_to",
+        "object": "data protection and privacy issue"
+      },
+      {
+        "subject": "API Enablement function",
+        "predicate": "provides services to",
+        "object": "xApp"
+      }
+    ],
+    "preview": "# 6.6.2 Solution details\n\nThe solution is comprised of separate steps during the Onboarding to SMO process and during the SDL Registration process. RBAC roles are assigned during the onboarding process where privileges are defined by the xApp Solution Provider by a xApp database “token” and vetted by the Service Provider. The token needs granularity for data and operations in order to control acce..."
+  },
+  {
+    "chunk_id": 34,
+    "entities": [
+      "Solution Provider (SP)",
+      "System Management Object (SMO)",
+      "xApp",
+      "Service Provider",
+      "Security Function",
+      "SDL (Service Delivery Layer)",
+      "Database Token",
+      "OAuth 2.0",
+      "Near-RT RIC Platform"
+    ],
+    "relations": [
+      {
+        "subject": "Solution Provider (SP)",
+        "predicate": "sends",
+        "object": "Database Token"
+      },
+      {
+        "subject": "Service Provider",
+        "predicate": "validates",
+        "object": "Database Token"
+      },
+      {
+        "subject": "System Management Object (SMO)",
+        "predicate": "receives",
+        "object": "Database Token"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "registers with",
+        "object": "SDL (Service Delivery Layer)"
+      },
+      {
+        "subject": "Security Function",
+        "predicate": "authorizes access using",
+        "object": "Database Token"
+      },
+      {
+        "subject": "SDL (Service Delivery Layer)",
+        "predicate": "arranges permissions for",
+        "object": "xApp"
+      },
+      {
+        "subject": "OAuth 2.0",
+        "predicate": "provides authorization mechanism for",
+        "object": "API Enablement Function"
+      }
+    ],
+    "preview": "\n\n![](images/33a63efaa39a50acba398887c1caf9b3e6727757cf77bd1076a1b815d75630cc.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image depicts a sequence diagram illustrating a data exchange process involving a Solution Provider (SP) and a System Management Object (SMO). It shows the Solution Provider sending an xApp database token, the SP validating it, and then forwarding the token back to the SMO, l..."
+  },
+  {
+    "chunk_id": 35,
+    "entities": [
+      "API authentication",
+      "mutual TLS",
+      "authorization",
+      "OAuth 2.0",
+      "access control",
+      "API Enablement function",
+      "Near-RT RIC",
+      "xApps",
+      "solution #1",
+      "solution #3",
+      "solution #4",
+      "secure onboarding",
+      "deployment procedure",
+      "level of trust",
+      "valid solution provider",
+      "integrity protection",
+      "security requirements",
+      "E2 interface",
+      "O-RAN.SFG.ORAN-Security-Requirements-Specifications-v-02.00",
+      "A1 interface",
+      "Non-RT RIC",
+      "confidentiality",
+      "mutual authentication",
+      "zero-trust architecture",
+      "perimeter security",
+      "internal threats",
+      "policy validation",
+      "defined schema",
+      "rate limiting",
+      "security logging",
+      "failure events"
+    ],
+    "relations": [
+      {
+        "subject": "API authentication",
+        "predicate": "uses",
+        "object": "mutual TLS"
+      },
+      {
+        "subject": "authorization",
+        "predicate": "uses",
+        "object": "OAuth 2.0"
+      },
+      {
+        "subject": "solution #3",
+        "predicate": "describes",
+        "object": "API authentication"
+      },
+      {
+        "subject": "solution #4",
+        "predicate": "describes",
+        "object": "authorization"
+      },
+      {
+        "subject": "secure onboarding",
+        "predicate": "ensures",
+        "object": "level of trust"
+      },
+      {
+        "subject": "secure onboarding",
+        "predicate": "validates",
+        "object": "valid solution provider"
+      },
+      {
+        "subject": "secure onboarding",
+        "predicate": "provides",
+        "object": "integrity protection"
+      },
+      {
+        "subject": "solution #1",
+        "predicate": "describes",
+        "object": "secure onboarding"
+      },
+      {
+        "subject": "security mechanisms",
+        "predicate": "address",
+        "object": "key issues #3, #5, and #10"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "specified in",
+        "object": "O-RAN.SFG.ORAN-Security-Requirements-Specifications-v-02.00"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "provides",
+        "object": "confidentiality"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "provides",
+        "object": "integrity"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "provides",
+        "object": "mutual authentication"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "complies with",
+        "object": "zero-trust architecture"
+      },
+      {
+        "subject": "policy validation",
+        "predicate": "checks against",
+        "object": "defined schema"
+      },
+      {
+        "subject": "solution #12",
+        "predicate": "describes",
+        "object": "A1 Policy Authentication"
+      },
+      {
+        "subject": "rate limiting",
+        "predicate": "prevents",
+        "object": "resource exhaustion"
+      },
+      {
+        "subject": "security logging",
+        "predicate": "records",
+        "object": "failure events"
+      }
+    ],
+    "preview": "# 6.8.2 Solution details\n\nAPI authentication (mutual TLS) and authorization (OAuth 2.0) mechanisms, providing the necessary access control to API Enablement function, are described in solutions #3 and #4 of the present document respectively.\n\nSecure onboarding and deployment procedure of xApps in Near-RT RIC, considers the level of trust related to the xApp by ensuring that the xApp comes from a v..."
+  },
+  {
+    "chunk_id": 36,
+    "entities": [
+      "Near-RT-RIC",
+      "A1 Termination",
+      "security controls",
+      "policies",
+      "defined schema",
+      "policy values",
+      "rate limiting",
+      "DoS",
+      "security logging",
+      "failure events",
+      "O1 interface",
+      "SFG specifications",
+      "ORAN-Security-Requirements-Specifications-v-02.00",
+      "clause 3.2.2",
+      "xApps",
+      "RIC function procedure",
+      "Conflict Mitigation function",
+      "overlapping or conflicting requests",
+      "Subscription Management function",
+      "E2 Subscription procedure",
+      "xApp Registration",
+      "E2 Guidance Request procedure"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT-RIC",
+        "predicate": "has",
+        "object": "security controls"
+      },
+      {
+        "subject": "A1 Termination",
+        "predicate": "includes",
+        "object": "Check policies received on A1 conform to defined schema"
+      },
+      {
+        "subject": "policies",
+        "predicate": "conform to",
+        "object": "defined schema"
+      },
+      {
+        "subject": "policy values",
+        "predicate": "validate for",
+        "object": "validity and range"
+      },
+      {
+        "subject": "A1",
+        "predicate": "provide rate limiting on",
+        "object": "resource exhaustion"
+      },
+      {
+        "subject": "A1",
+        "predicate": "prevent",
+        "object": "DoS"
+      },
+      {
+        "subject": "security logging",
+        "predicate": "implement for",
+        "object": "failure events"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "has secure mechanisms in",
+        "object": "ORAN-Security-Requirements-Specifications-v-02.00"
+      },
+      {
+        "subject": "SFG specifications",
+        "predicate": "provide",
+        "object": "Secure mechanisms for O1 interface"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "managed via",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Conflict Mitigation function",
+        "predicate": "resolve",
+        "object": "overlapping or conflicting requests"
+      },
+      {
+        "subject": "Subscription Management function",
+        "predicate": "initiate",
+        "object": "Conflict Mitigation guidance"
+      },
+      {
+        "subject": "E2 Subscription procedure",
+        "predicate": "performed during",
+        "object": "xApp Registration"
+      },
+      {
+        "subject": "xApp",
+        "predicate": "initiated E2 Guidance Request procedure",
+        "object": "during xApp Registration"
+      }
+    ],
+    "preview": "# 6.10.2 Solution details\n\necurity controls for the Near-RT-RIC that could be implemented as part of its A1 Termination include:\n\n1. Check policies received on A1 conform to defined schema. See also clause 6.13, Solution #12: A1 Policy   \nAuthentication of the present document.   \n2. Validate policy values for validity and range   \n3. Provide rate limiting on A1 to prevent resource exhaustion and ..."
+  },
+  {
+    "chunk_id": 37,
+    "entities": [
+      "Conflict Mitigation guidance",
+      "xApp",
+      "E2 Subscription procedure",
+      "Section 9.3.2.1",
+      "E2 Guidance Request",
+      "Section 9.3.3.1",
+      "xApp Registration",
+      "newly deployed xApps",
+      "additional Conflict Mitigation messages",
+      "WG3",
+      "Key Issue #3",
+      "A1 policies",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "A1 interface",
+      "TLS",
+      "Near-RT RIC APIs",
+      "A1 Policy Setup",
+      "A1 Policy Update",
+      "A1 Policy Delete",
+      "key issues 10 and 11",
+      "solutions 3, 4, and 13",
+      "malicious A1 policy",
+      "policy type check",
+      "A1 Termination",
+      "xApp exploitation",
+      "Key Issue 9",
+      "security threats",
+      "adversary",
+      "endpoint security",
+      "A1 interface endpoints",
+      "Near-RT RIC side",
+      "SMO requirements",
+      "SecureNonRTRIC",
+      "Non-RT RIC security",
+      "data privacy",
+      "R1 interface",
+      "external interfaces",
+      "authentication and authorization"
+    ],
+    "relations": [
+      {
+        "subject": "Conflict Mitigation guidance",
+        "predicate": "initiated by",
+        "object": "xApp"
+      },
+      {
+        "subject": "E2 Subscription procedure",
+        "predicate": "described in",
+        "object": "Section 9.3.2.1"
+      },
+      {
+        "subject": "E2 Guidance Request",
+        "predicate": "described in",
+        "object": "Section 9.3.3.1"
+      },
+      {
+        "subject": "xApp Registration",
+        "predicate": "performs",
+        "object": "E2 Subscription procedure"
+      },
+      {
+        "subject": "newly deployed xApps",
+        "predicate": "mitigate conflicts from",
+        "object": "Conflict Mitigation guidance"
+      },
+      {
+        "subject": "additional Conflict Mitigation messages",
+        "predicate": "defined in",
+        "object": "WG3"
+      },
+      {
+        "subject": "Key Issue #3",
+        "predicate": "addressed by",
+        "object": "A1 Policy authentication"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "provides",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "receives",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has security protections as defined in",
+        "object": "[2]"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses",
+        "object": "TLS"
+      },
+      {
+        "subject": "Near-RT RIC APIs",
+        "predicate": "include",
+        "object": "A1 Policy Setup"
+      },
+      {
+        "subject": "Near-RT RIC APIs",
+        "predicate": "include",
+        "object": "A1 Policy Update"
+      },
+      {
+        "subject": "Near-RT RIC APIs",
+        "predicate": "include",
+        "object": "A1 Policy Delete"
+      },
+      {
+        "subject": "key issues 10 and 11",
+        "predicate": "consider security for",
+        "object": "Near-RT RIC APIs"
+      },
+      {
+        "subject": "solutions 3, 4, and 13",
+        "predicate": "address security for",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "malicious A1 policy",
+        "predicate": "requires valid policy type",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "policy type check",
+        "predicate": "performed at",
+        "object": "A1 Termination"
+      },
+      {
+        "subject": "malicious A1 policy",
+        "predicate": "needs to map to",
+        "object": "xApp"
+      },
+      {
+        "subject": "Key Issue 9",
+        "predicate": "describes security threats via",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "adversary",
+        "predicate": "requires skilled knowledge to exploit",
+        "object": "xApp"
+      },
+      {
+        "subject": "endpoint security",
+        "predicate": "addresses",
+        "object": "A1 interface endpoints"
+      },
+      {
+        "subject": "Near-RT RIC side",
+        "predicate": "secured by work item",
+        "object": "WG3Sec"
+      },
+      {
+        "subject": "SMO requirements",
+        "predicate": "addressed in",
+        "object": "SecureNonRTRIC"
+      },
+      {
+        "subject": "SecureNonRTRIC",
+        "predicate": "secures",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Near-RT RIC side",
+        "predicate": "secured by work item",
+        "object": "WG3Sec"
+      },
+      {
+        "subject": "SecureNonRTRIC",
+        "predicate": "addresses security and data privacy for",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "SecureNonRTRIC",
+        "predicate": "addresses security and data privacy for",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "SecureNonRTRIC",
+        "predicate": "addresses security and data privacy for",
+        "object": "external interfaces"
+      },
+      {
+        "subject": "A1 Policy authentication",
+        "predicate": "deemed unnecessary at the moment due to",
+        "object": "low likelihood of xApp exploitation"
+      },
+      {
+        "subject": "low likelihood of xApp exploitation",
+        "predicate": "due to",
+        "object": "challenges in generating malicious A1 policies"
+      },
+      {
+        "subject": "low likelihood of xApp exploitation",
+        "predicate": "due to",
+        "object": "ongoing work items for security controls"
+      }
+    ],
+    "preview": "# 6.12.2 Solution details\n\nThis solution proposes to make the first procedure, Conflict Mitigation guidance initiated by an authorized xApp, mandatory during the E2 Subscription procedure, which is performed at the end of xApp Registration. The E2 Subscription procedure is detailed in [3] in Section 9.3.2.1, with the xApp initiated E2 Guidance Request procedure described in Section 9.3.3.1 [3].\n\nP..."
+  },
+  {
+    "chunk_id": 38,
+    "entities": [
+      "Near-RT RIC",
+      "xApp",
+      "A1 interface",
+      "SMO",
+      "Non-RT RIC",
+      "REST APIs",
+      "gRPC APIs",
+      "TLS",
+      "IPSec",
+      "DTLS",
+      "HTTP/2",
+      "SCTP",
+      "JSON",
+      "Protobuf"
+    ],
+    "relations": [
+      {
+        "subject": "A1 policy",
+        "predicate": "affects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "malicious A1 policy",
+        "predicate": "contains valid policy type",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "malicious A1 policy",
+        "predicate": "mapped to",
+        "object": "xApp"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "secured at endpoints",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "secured at endpoints",
+        "object": "SMO"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "being secured",
+        "object": "SecureNonRTRIC work item"
+      },
+      {
+        "subject": "REST APIs",
+        "predicate": "use",
+        "object": "HTTP"
+      },
+      {
+        "subject": "REST APIs",
+        "predicate": "support",
+        "object": "TLS"
+      },
+      {
+        "subject": "REST APIs",
+        "predicate": "utilize",
+        "object": "JSON"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "use",
+        "object": "HTTP/2"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "support",
+        "object": "TLS"
+      },
+      {
+        "subject": "gRPC APIs",
+        "predicate": "utilize",
+        "object": "Protobuf"
+      },
+      {
+        "subject": "E2 related APIs",
+        "predicate": "use",
+        "object": "SCTP"
+      },
+      {
+        "subject": "E2 related APIs",
+        "predicate": "prefer",
+        "object": "IPSec"
+      },
+      {
+        "subject": "E2 related APIs",
+        "predicate": "optionally use",
+        "object": "DTLS"
+      }
+    ],
+    "preview": "# 6.13.2 Solution details\n\nFor a malicious A1 policy to successfully affect the Near-RT RIC, the policy first must contain a valid policy type supported by the Near-RT RIC, in order to pass the policy type check at the A1 Termination in the Near-RT RIC. The policy must then be mapped to an xApp in the Near-RT RIC. Finally, to exploit an xApp for malicious intent as\n\ndescribed in Key Issue 9, the A..."
+  },
+  {
+    "chunk_id": 39,
+    "entities": [
+      "#1: Malicious xApps deployed on Near-RT RIC",
+      "#10: Near-RT RIC APIs authentication",
+      "#11: Near-RT RIC APIs authorization",
+      "Solution #1: Secure onboarding and deployment of xApps in Near-RT RIC",
+      "Solution #3: Authentication schema for APIs",
+      "Solution #4: Authorization framework for APIs"
+    ],
+    "relations": [
+      {
+        "subject": "Solution #1: Secure onboarding and deployment of xApps in Near-RT RIC",
+        "predicate": "addresses",
+        "object": "#1: Malicious xApps deployed on Near-RT RIC"
+      },
+      {
+        "subject": "Solution #3: Authentication schema for APIs",
+        "predicate": "addresses",
+        "object": "#10: Near-RT RIC APIs authentication"
+      },
+      {
+        "subject": "Solution #4: Authorization framework for APIs",
+        "predicate": "addresses",
+        "object": "#11: Near-RT RIC APIs authorization"
+      }
+    ],
+    "preview": "\n\n# 6.14.3 Evaluation\n\nNetwork Security layer for APIs shall be consider as a basic requirement in Near-RT RIC architecture. The choice will depend on the selected network protocol stacks.\n\nThe solution addresses key issues #1, #2, #4, #5, #6, #7, #8, #9 and #10\n\n# 7. Conclusions\n\n# 7.1 Key Issue Solution Mapping\n\nThis document currently contains 11 key issues and 13 solutions proposals to address..."
+  },
+  {
+    "chunk_id": 40,
+    "entities": [
+      "Affiliate",
+      "Compliant Implementation",
+      "Adopter(s)",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "O-RAN Alliance",
+      "Grant Copyright License"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants license to",
+        "object": "Adopter"
+      }
+    ],
+    "preview": "# Section 1: DEFINITIONS\n\n1.1 “Affiliate” means an entity that directly or indirectly controls, is controlled by, or is under common control with another entity, so long as such control exists. For the purpose of this Section, “Control” means beneficial ownership of fifty $( 5 0 \\% )$ percent or more of the voting stock or equity in an entity.\n\n1.2 “Compliant Implementation” means any system, devi..."
+  },
+  {
+    "chunk_id": 41,
+    "entities": [
+      "O-RAN Alliance",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Necessary Claims",
+      "Compliant Implementations"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Academic Contributors"
+      }
+    ],
+    "preview": "# 34 Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN Alliance hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementa..."
+  },
+  {
+    "chunk_id": 42,
+    "entities": [
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopter",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license under",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license under",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license under",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license under",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license under",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license under",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "license",
+        "object": "Compliant Implementations"
+      },
+      {
+        "subject": "Surviving Sections",
+        "predicate": "apply to",
+        "object": "O-RAN Specifications"
+      }
+    ],
+    "preview": "# 1 Section 3: FRAND LICENSE\n\n2 3 3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and   \n4 conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to   \n5 Defensive Suspension),..."
+  },
+  {
+    "chunk_id": 43,
+    "entities": [
+      "O-RAN Alliance",
+      "Adopter",
+      "Agreement",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "may terminate Agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "continues to grant licenses for",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "maintains confidentiality of",
+        "object": "O-RAN Specifications"
+      }
+    ],
+    "preview": "# Section 4: TERM AND TERMINATION\n\n4.1 This Agreement shall remain in force, unless early terminated according to this Section 4.\n\n4.2 O-RAN Alliance on behalf of its Members, Contributors and Academic Contributors may terminate this Agreement if Adopter materially breaches this Agreement and does not cure or is not capable of curing such breach within thirty (30) days after being given notice spe..."
+  },
+  {
+    "chunk_id": 44,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "Affiliates",
+      "contractors",
+      "consultants",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "uses",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "discloses to",
+        "object": "Affiliates"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "discloses to",
+        "object": "contractors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "discloses to",
+        "object": "consultants"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "provides approval for disclosure",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Academic Contributors"
+      }
+    ],
+    "preview": "# 37 Section 5: CONFIDENTIALITY\n\nAdopter will use the same care and discretion to avoid disclosure, publication, and dissemination of O-RAN Specifications to third parties, as Adopter employs with its own confidential information, but no less than reasonable care. Any disclosure by Adopter to its Affiliates, contractors and consultants should be subject to an obligation of confidentiality at least..."
+  },
+  {
+    "chunk_id": 45,
+    "entities": [
+      "Adopter",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Indemnitees",
+      "Affiliates"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Indemnitees"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "assigns",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Members",
+        "predicate": "are entitled to rights as a third-party beneficiary under",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "are entitled to rights as a third-party beneficiary under",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "are entitled to rights as a third-party beneficiary under",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "is bound by the obligations of",
+        "object": "Affiliates"
+      },
+      {
+        "subject": "Affiliates",
+        "predicate": "are entitled to benefits under",
+        "object": "this Agreement"
+      }
+    ],
+    "preview": "# 3 Section 6: INDEMNIFICATION\n\n4 Adopter shall indemnify, defend, and hold harmless the O-RAN Alliance, its Members, Contributors or Academic   \n5 Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”),   \n6 against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or   \n7 imposed u..."
+  }
+]

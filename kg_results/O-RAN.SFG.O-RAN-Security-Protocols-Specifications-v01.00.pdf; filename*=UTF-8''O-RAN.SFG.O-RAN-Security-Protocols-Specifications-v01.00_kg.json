@@ -1,0 +1,1067 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN - SFG Security Task Group",
+      "Security Protocols Specifications",
+      "O-RAN ALLIANCE e.V.",
+      "SSH",
+      "TLS",
+      "Release xx.yy.zz"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "produced",
+        "object": "Security Protocols Specifications"
+      },
+      {
+        "subject": "Security Protocols Specifications",
+        "predicate": "specifies",
+        "object": "SSH"
+      },
+      {
+        "subject": "Security Protocols Specifications",
+        "predicate": "specifies",
+        "object": "TLS"
+      }
+    ],
+    "preview": "\n\n# O-RAN - SFG Security Task Group (SFG)\n\n# Security Protocols Specifications\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifica..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN ALLIANCE e.V.",
+      "SFG Security Task Group (SFG)",
+      "Technical Specification",
+      "SSH",
+      "TLS",
+      "RFC 4252",
+      "OpenSSH",
+      "moz://a",
+      "ORAN-WG4.MP.0-v06.00",
+      "Security/Server Side TLS",
+      "OWASP Cheat Sheet Series",
+      "O-RAN-WG1.O1-Interface-v04.00",
+      "RFC 6668",
+      "RFC 8268",
+      "RFC 8308",
+      "RFC 8332",
+      "RFC 8709",
+      "RFC 8758",
+      "RFC 5246",
+      "RFC 8446",
+      "SP 800-52 Rev.2"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "SFG Security Task Group (SFG)",
+        "predicate": "specifies",
+        "object": "SSH"
+      },
+      {
+        "subject": "SFG Security Task Group (SFG)",
+        "predicate": "specifies",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN.org",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "Copyright",
+        "object": "2021"
+      },
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "references",
+        "object": "Vocabulary for 3GPP Specifications"
+      },
+      {
+        "subject": "RFC 4252",
+        "predicate": "defines",
+        "object": "SSH Authentication Protocol"
+      },
+      {
+        "subject": "OpenSSH",
+        "predicate": "implements",
+        "object": "SSH"
+      },
+      {
+        "subject": "moz://a",
+        "predicate": "provides guidelines for",
+        "object": "OpenSSH"
+      },
+      {
+        "subject": "IANA",
+        "predicate": "assigns parameters for",
+        "object": "SSH"
+      },
+      {
+        "subject": "ORAN-WG4.MP.0-v06.00",
+        "predicate": "specifies",
+        "object": "Management Plane Specification"
+      },
+      {
+        "subject": "Mozilla Wiki",
+        "predicate": "documents",
+        "object": "Security/Server Side TLS"
+      },
+      {
+        "subject": "IANA",
+        "predicate": "assigns parameters for",
+        "object": "TLS"
+      },
+      {
+        "subject": "OWASP Cheat Sheet Series",
+        "predicate": "provides guidelines for",
+        "object": "TLS Cipher String"
+      },
+      {
+        "subject": "O-RAN-WG1.O1-Interface-v04.00",
+        "predicate": "specifies",
+        "object": "Operations and Maintenance Interface Specification"
+      },
+      {
+        "subject": "RFC 6668",
+        "predicate": "defines",
+        "object": "SHA-2 Data Integrity Verification for SSH"
+      },
+      {
+        "subject": "RFC 8268",
+        "predicate": "defines",
+        "object": "MODP Diffie-Hellman Key Exchange Groups for SSH"
+      },
+      {
+        "subject": "RFC 8308",
+        "predicate": "defines",
+        "object": "Extension Negotiation in SSH Protocol"
+      },
+      {
+        "subject": "RFC 8332",
+        "predicate": "defines",
+        "object": "Use of RSA Keys with SHA-256 and SHA-512 in SSH"
+      },
+      {
+        "subject": "RFC 8709",
+        "predicate": "defines",
+        "object": "Ed25519 and Ed448 Public Key Algorithms for SSH"
+      },
+      {
+        "subject": "RFC 8758",
+        "predicate": "deprecates",
+        "object": "RC4 in SSH"
+      },
+      {
+        "subject": "RFC 5246",
+        "predicate": "defines",
+        "object": "TLS v1.2"
+      },
+      {
+        "subject": "RFC 8446",
+        "predicate": "defines",
+        "object": "TLS v1.3"
+      },
+      {
+        "subject": "NIST",
+        "predicate": "publishes guidelines for",
+        "object": "Selection, Configuration, and Use of TLS Implementations"
+      }
+    ],
+    "preview": "\n\n# O-RAN - SFG Security Task Group (SFG)\n\n# Security Protocols Specifications\n\nPrepared by the O-RAN ALLIANCE e.V.   \nCopyright $©$ 2021 by the O-RAN ALLIANCE e.V.\n\n# Introductory Material\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by the O-RAN.org.\n\nThe contents of the present document are subject to continuing work within O-RAN SFG and may change following formal O-RAN approva..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN",
+      "3GPP TR 21.905",
+      "SSHv2",
+      "TLS 1.2",
+      "TLS 1.3",
+      "OpenSSL",
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "implements",
+        "object": "SSHv2"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "chacha20-poly1305@openssh.com"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "aes256-gcm@openssh.com"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "aes128-gcm@openssh.com"
+      },
+      {
+        "subject": "OpenSSL",
+        "predicate": "implements",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "hmac-sha2-512-etm@openssh.com"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 [1] and the following apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR 21.905 [1].\n\n# 1.3.2 Abbreviations and acronyms\n\nFor the purposes of the present document, the abbreviatio..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN",
+      "SSH",
+      "TLS",
+      "ecdsa-sha2-nistp256",
+      "ecdsa-sha2-nistp384",
+      "ecdsa-sha2-nistp521",
+      "ssh-ed25519",
+      "ssh-ed448",
+      "ssh-rsa",
+      "ssh-dss",
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "curve25519-sha256@libssh.org",
+      "Diffie-hellman-group1-sha1",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-512",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-256",
+      "umac-128@openssh.com",
+      "hmac-sha1",
+      "TLS 1.2",
+      "TLS 1.3",
+      "Modern ciphers",
+      "Intermediate ciphers",
+      "Old ciphers",
+      "Mozilla Operations Security",
+      "Enterprise Information Security teams",
+      "NIST guidelines"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "SSH"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "mandates",
+        "object": "M-plane"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp384"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp521"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ssh-ed25519"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ssh-ed448"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "insecure",
+        "object": "ssh-rsa"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "insecure",
+        "object": "ssh-dss"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "supports",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "supports",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "configures",
+        "object": "Intermediate ciphers"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "configures",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "shall support",
+        "object": "Intermediate ciphers"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "should support",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "Mozilla Operations Security and Enterprise Information Security teams",
+        "predicate": "maintains",
+        "object": "TLS landscape reference guide"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "follows",
+        "object": "NIST guidelines"
+      }
+    ],
+    "preview": "\n\n# 2.1.2 Required ciphers\n\nAs of the first release of this document, O-RAN specifies the use of the following ciphers when using SSH. For more information see [2][5]Error! Reference source not found.[11][12][13][14]. See the Security chapter of the O-RAN Working Group 4 Management Plane Specification for the M-plane mandated SSH ciphers [6].\n\n# 2.1.2.1 Key agreeement\n\nNote that this document uses..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "O-RAN",
+      "TLS Protocol profiles specifications",
+      "Intermediate ciphers",
+      "Modern ciphers",
+      "Old ciphers",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+      "TLS 1.2",
+      "X25519",
+      "prime256v1",
+      "secp256r1",
+      "secp384r1",
+      "ECDSA (P-256)",
+      "RSA (2048 bits)",
+      "DH parameter size: 2048",
+      "HTTP Strict Transport Security (HSTS)",
+      "max-age 63072000",
+      "two years",
+      "90 days",
+      "NIST guidelines [19]",
+      "IANA cipher naming conventions [5]"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "Intermediate ciphers"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "should support",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "O-RAN implementations that use TLS 1.3",
+        "predicate": "shall use",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "Mozilla Operations Security and Enterprise Information Security teams",
+        "predicate": "maintains",
+        "object": "web page [7]"
+      },
+      {
+        "subject": "TLS ciphers",
+        "predicate": "are classified into",
+        "object": "Modern"
+      },
+      {
+        "subject": "TLS ciphers",
+        "predicate": "are classified into",
+        "object": "Intermediate"
+      },
+      {
+        "subject": "TLS ciphers",
+        "predicate": "are classified into",
+        "object": "Old"
+      },
+      {
+        "subject": "Modern clients",
+        "predicate": "support",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "Intermediate configuration",
+        "predicate": "is recommended for",
+        "object": "general-purpose server"
+      },
+      {
+        "subject": "Old ciphers",
+        "predicate": "are used by",
+        "object": "very old clients or libraries"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "shall support all",
+        "object": "Intermediate ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+        "predicate": "is a required cipher suite",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "Protocols: TLS 1.2",
+        "predicate": "are used in",
+        "object": "Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS curves: X25519",
+        "predicate": "are supported in",
+        "object": "Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS curves: prime256v1 (also called secp256r1)",
+        "predicate": "are supported in",
+        "object": "Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "TLS curves: secp384r1 [15] [15]",
+        "predicate": "are supported in",
+        "object": "Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "Certificate type: ECDSA (P-256) (recommended)",
+        "predicate": "is a required certificate type",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "Certificate type: RSA (2048 bits)",
+        "predicate": "is a required certificate type",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "DH parameter size: 2048 (ffdhe2048, RFC 7919)",
+        "predicate": "is the required DH parameter size",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "HTTP Strict Transport Security (HSTS): max-age 63072000 (two years)",
+        "predicate": "is the HSTS setting",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "Maximum certificate lifespan: 90 days (recommended) to 2 years",
+        "predicate": "is the maximum certificate lifespan",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      },
+      {
+        "subject": "Cipher preference: client chooses",
+        "predicate": "is the cipher preference",
+        "object": "for Intermediate Ciphers for TLS 1.2"
+      }
+    ],
+    "preview": "# 2.2.2 TLS Protocol profiles specifications\n\n15 The Mozilla Operations Security and Enterprise Information Security teams maintains a web page [7] that serves as a   \n16 reference guide for navigating the TLS landscape. Mozilla divides the TLS ciphers into three classifications: Modern,   \n17 Intermediate and Old.\n\nModern: Modern clients that support TLS 1.3, with no need for backwards compatibil..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "Intermediate Ciphers",
+      "TLS 1.2",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+      "X25519",
+      "prime256v1",
+      "secp256r1",
+      "secp384r1",
+      "ECDSA (P-256)",
+      "RSA (2048 bits)",
+      "DH parameter size 2048",
+      "ffdhe2048",
+      "RFC 7919",
+      "HSTS max-age 63072000",
+      "Maximum certificate lifespan 90 days to 2 years",
+      "TLS_AES_128_GCM_SHA256",
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_CHACHA20_POLY1305_SHA256",
+      "TLS 1.3"
+    ],
+    "relations": [
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "includes",
+        "object": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "X25519"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "prime256v1"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "secp256r1"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "secp384r1"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "ECDSA (P-256)"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "RSA (2048 bits)"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "DH parameter size 2048"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "references",
+        "object": "RFC 7919"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "HSTS max-age 63072000"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "defines",
+        "object": "Maximum certificate lifespan 90 days to 2 years"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "TLS_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "uses",
+        "object": "TLS 1.3"
+      }
+    ],
+    "preview": "# 2.2.2.1 Intermediate Ciphers for TLS 1.2\n\nThis is the required set of ciphers, protocols, TLS curves, supported certificate types, Diffie-Hellman parameter size, etc. The Intermediate ciphers and configuration parameters are highly secure and compatible with nearly every client released in the last five (or more) years. Note that this document uses the IANA cipher naming conventions [5]\n\nCipher ..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "Intermediate Ciphers",
+      "TLS 1.3",
+      "Cipher suites",
+      "TLS_AES_128_GCM_SHA256",
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_CHACHA20_POLY1305_SHA256",
+      "Protocols",
+      "TLS curves",
+      "X25519",
+      "prime256v1",
+      "secp384r1",
+      "Certificate type",
+      "ECDSA (P-256)",
+      "RSA (2048 bits)",
+      "DH parameter size",
+      "ffdhe2048",
+      "RFC 7919",
+      "HTTP Strict Transport Security (HSTS)",
+      "max-age=63072000",
+      "Maximum certificate lifespan",
+      "Modern Ciphers",
+      "NETCONF",
+      "Management Plane Specification",
+      "Mplane mandated TLS ciphers",
+      "O-RAN Adopter License Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "are part of",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "Cipher suites",
+        "predicate": "include",
+        "object": "TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "Cipher suites",
+        "predicate": "include",
+        "object": "TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "Cipher suites",
+        "predicate": "include",
+        "object": "TLS_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "Protocols",
+        "predicate": "include",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "TLS curves",
+        "predicate": "include",
+        "object": "X25519"
+      },
+      {
+        "subject": "TLS curves",
+        "predicate": "include",
+        "object": "prime256v1"
+      },
+      {
+        "subject": "TLS curves",
+        "predicate": "include",
+        "object": "secp384r1"
+      },
+      {
+        "subject": "Certificate type",
+        "predicate": "include",
+        "object": "ECDSA (P-256)"
+      },
+      {
+        "subject": "Certificate type",
+        "predicate": "include",
+        "object": "RSA (2048 bits)"
+      },
+      {
+        "subject": "DH parameter size",
+        "predicate": "include",
+        "object": "ffdhe2048"
+      },
+      {
+        "subject": "DH parameter size",
+        "predicate": "reference",
+        "object": "RFC 7919"
+      },
+      {
+        "subject": "HTTP Strict Transport Security (HSTS)",
+        "predicate": "include",
+        "object": "max-age=63072000"
+      },
+      {
+        "subject": "Maximum certificate lifespan",
+        "predicate": "range from",
+        "object": "90 days to 2 years"
+      },
+      {
+        "subject": "NETCONF",
+        "predicate": "use",
+        "object": "TLS"
+      },
+      {
+        "subject": "Management Plane Specification",
+        "predicate": "mandate",
+        "object": "Mplane mandated TLS ciphers"
+      },
+      {
+        "subject": "O-RAN Adopter License Agreement",
+        "predicate": "govern",
+        "object": "access to O-RAN Specifications"
+      }
+    ],
+    "preview": "# 2.2.2.2 Intermediate Ciphers for TLS 1.3\n\n7 The following ciphers and are considered Intermediate for TLS 1.3.\n\nCipher suites (TLS 1.3): o TLS_AES_128_GCM_SHA256 o TLS_AES_256_GCM_SHA384 o TLS_CHACHA20_POLY1305_SHA256   \n• Protocols: TLS 1.3   \n• TLS curves: X25519, prime256v1, secp384r1   \n• Certificate type: ECDSA (P-256) (recommended), or RSA (2048 bits)   \n• DH parameter size: 2048 (ffdhe204..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "NETCONF",
+      "TLS ciphers",
+      "O-RAN Specifications",
+      "Affiliate",
+      "Adopter",
+      "Member",
+      "Contributor",
+      "Academic Contributor",
+      "Compliant Implementation",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "O-RAN Adopter License Agreement",
+      "copyright license"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "agrees to",
+        "object": "O-RAN Adopter License Agreement"
+      },
+      {
+        "subject": "Affiliate",
+        "predicate": "means",
+        "object": "entity that directly or indirectly controls, is controlled by, or is under common control with another entity"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "means",
+        "object": "system, device, method or operation that fully conforms to a Final Specification"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "means",
+        "object": "update or revision to an O-RAN Specification without significant new features or functionality"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "means",
+        "object": "patent claims necessarily infringed by a Compliant Implementation"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "means",
+        "object": "license term allowing suspension against a licensee who brings a patent infringement suit"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "include",
+        "object": "Minor Updates"
+      }
+    ],
+    "preview": "\n\n# 2.3 Support NETCONF over secure Transport\n\nNETCONF Service management service providers and consumers [10] that use TLS SHALL follow the cipher requirements defined in section 2.2 (TLS) of this document.\n\nAs exception, see the Security chapter of the O-RAN Working Group 4 Management Plane Specification for the Mplane mandated TLS ciphers [6] to be used with NETCONF.\n\n# 1 Annex A (informative):..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Patent License Agreement",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "FRAND",
+      " Defensive Suspension"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members, Contributors and Academic Contributors",
+        "predicate": "grant",
+        "object": "Patent License Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "makes reciprocal grant",
+        "object": "Members, Contributors and Academic Contributors"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "license applies to",
+        "object": "Compliant Implementations"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "use restriction",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "licensed under",
+        "object": "FRAND terms and conditions"
+      }
+    ],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN Alliance hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopter"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "terminate agreement",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license to",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license to",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license to",
+        "object": "Academic Contributors"
+      }
+    ],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "Adopter",
+      "O-RAN Specifications",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "uses care and discretion for",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies, defends, and holds harmless",
+        "object": "O-RAN Alliance, its Members, Contributors or Academic Contributors, and their employees, agents and successors"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "are provided without warranty by",
+        "object": "O-RAN Alliance and its Members, Contributors or Academic Contributors"
+      }
+    ],
+    "preview": "# Section 5: CONFIDENTIALITY\n\nAdopter will use the same care and discretion to avoid disclosure, publication, and dissemination of O-RAN Specifications to third parties, as Adopter employs with its own confidential information, but no less than reasonable care. Any disclosure by Adopter to its Affiliates, contractors and consultants should be subject to an obligation of confidentiality at least as..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Germany"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "disclaims warranty",
+        "object": "warranty"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "has obligations under",
+        "object": "Section 3"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "governs by law",
+        "object": "Germany"
+      },
+      {
+        "subject": "Members",
+        "predicate": "are third-party beneficiaries under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "are third-party beneficiaries under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Academic Contributors",
+        ".predicate": "are third-party beneficiaries under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Affiliates",
+        "predicate": "bound to obligations under",
+        "object": "Agreement"
+      }
+    ],
+    "preview": "# Section 7: LIMITATIONS ON LIABILITY; NO WARRANTY\n\n50 EXCEPT FOR BREACH OF CONFIDENTIALITY, ADOPTER’S BREACH OF SECTION 3, AND ADOPTER’S   \n51 INDEMNIFICATION OBLIGATIONS, IN NO EVENT SHALL ANY PARTY BE LIABLE TO ANY OTHER   \n1 PARTY OR THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL   \n2 DAMAGES RESULTING FROM ITS PERFORMANCE OR NON-PERFORMANCE UNDER THIS AGREEMENT, ..."
+  }
+]

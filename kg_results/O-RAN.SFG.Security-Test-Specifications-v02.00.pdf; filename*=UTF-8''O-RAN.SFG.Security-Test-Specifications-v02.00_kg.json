@@ -1,0 +1,3392 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN ALLIANCE e.V.",
+      "O-RAN Security Test Specifications",
+      "IPR Policy",
+      "Adopter",
+      "Final Specifications",
+      "Copyright"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "published",
+        "object": "O-RAN Security Test Specifications"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "enforced",
+        "object": "IPR Policy"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "agreed_to",
+        "object": "O-RAN Adopter License Agreement"
+      },
+      {
+        "subject": "Final Specifications",
+        "predicate": "accessed_by",
+        "object": "Adopter"
+      }
+    ],
+    "preview": "\n\n# O-RAN ALLIANCE Security Focus Group\n\n# O-RAN Security Test Specifications\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specificat..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN",
+      "Security Protocols Validation",
+      "SSH Server & Client",
+      "TLS",
+      "DTLS",
+      "IPSec",
+      "Test description and applicability",
+      "Test setup and configuration",
+      "Test procedure",
+      "Test requirements"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "includes",
+        "object": "Security Protocols Validation"
+      },
+      {
+        "subject": "Security Protocols Validation",
+        "predicate": "includes_test_case",
+        "object": "SSH Server & Client"
+      },
+      {
+        "subject": "Security Protocols Validation",
+        "predicate": "includes_test_case",
+        "object": "TLS"
+      },
+      {
+        "subject": "Security Protocols Validation",
+        "predicate": "includes_test_case",
+        "object": "DTLS"
+      },
+      {
+        "subject": "Security Protocols Validation",
+        "predicate": "includes_test_case",
+        "object": "IPSec"
+      },
+      {
+        "subject": "SSH Server & Client",
+        "predicate": "has",
+        "object": "Test description and applicability"
+      },
+      {
+        "subject": "SSH Server & Client",
+        "predicate": "has",
+        "object": "Test setup and configuration"
+      },
+      {
+        "subject": "SSH Server & Client",
+        "predicate": "has",
+        "object": "Test procedure"
+      },
+      {
+        "subject": "SSH Server & Client",
+        "predicate": "has",
+        "object": "Test requirements"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "has",
+        "object": "Test description and applicability"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "has",
+        "object": "Test setup and configuration"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "has",
+        "object": "Test procedure"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "has",
+        "object": "Test requirements"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "has",
+        "object": "Test description and applicability"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "has",
+        "object": "Test setup and configuration"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "has",
+        "object": "Test procedure"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "has",
+        "object": "Test requirements"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "has",
+        "object": "Test description and applicability"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "has",
+        "object": "Test setup and configuration"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "has",
+        "object": "Test procedure"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "has",
+        "object": "Test requirements"
+      }
+    ],
+    "preview": "\n\n# O-RAN ALLIANCE Security Focus Group\n\n# O-RAN Security Test Specifications\n\nCopyright $©$ 2022 by O-RAN ALLIANCE e.V.\n\n# Revision History\n\n> **Table Summary:** {}\n\n# Contents\n\n# Revision History.....\n\n# Chapter 1 Scope and Definitions .... .6\n\n1.1 Scope ..... ... 6   \n1.2 References . .................................................................................................................."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "STC-Chapter 4-001: SSH Server & Client",
+      "STC-Chapter 4-002: TLS",
+      "STC-Chapter 4-003 DTLS",
+      "STC-Chapter 4-004 IPSec",
+      "STC-Chapter 5-5.2-001: Service Enumeration",
+      "STC-Chapter 5-5.3-001 – Brute Forcing",
+      "STC-Chapter 5-5.3-002 – Unauthorized Password Reset",
+      "STC-Chapter 5-5.3-003 – Password Policy Enforcement",
+      "STC-Chapter 5-5.5-001 – Protocol, Application and Volumetric Based DDoS Attacks",
+      "STC-Chapter 6-6.2-001: System Vulnerability Scanning",
+      "STC-Chapter 7-7.4-001: SBOM Signature",
+      "STC-Chapter 7-7.4-002: SBOM Data Fields",
+      "STC-Chapter 9-9.2-002: Supplicant Validation",
+      "STC-Chapter 15-15.2-001: O1 Interface NACM Validation"
+    ],
+    "relations": [
+      {
+        "subject": "STC-Chapter 4-001: SSH Server & Client",
+        "predicate": "part of",
+        "object": "Chapter 4 Security Protocols Validation"
+      },
+      {
+        "subject": "STC-Chapter 4-002: TLS",
+        "predicate": "part of",
+        "object": "Chapter 4 Security Protocols Validation"
+      },
+      {
+        "subject": "STC-Chapter 4-003 DTLS",
+        "predicate": "part of",
+        "object": "Chapter 4 Security Protocols Validation"
+      },
+      {
+        "subject": "STC-Chapter 4-004 IPSec",
+        "predicate": "part of",
+        "object": "Chapter 4 Security Protocols Validation"
+      },
+      {
+        "subject": "STC-Chapter 5-5.2-001: Service Enumeration",
+        "predicate": "part of",
+        "object": "Chapter 5 Common Network Security Tests for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 5-5.3-001 – Brute Forcing",
+        "predicate": "part of",
+        "object": "Chapter 5 Common Network Security Tests for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 5-5.3-002 – Unauthorized Password Reset",
+        "predicate": "part of",
+        "object": "Chapter 5 Common Network Security Tests for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 5-5.3-003 – Password Policy Enforcement",
+        "predicate": "part of",
+        "object": "Chapter 5 Common Network Security Tests for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 5-5.5-001 – Protocol, Application and Volumetric Based DDoS Attacks",
+        "predicate": "part of",
+        "object": "Chapter 5 Common Network Security Tests for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 6-6.2-001: System Vulnerability Scanning",
+        "predicate": "part of",
+        "object": "Chapter 6 System security evaluation for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 7-7.4-001: SBOM Signature",
+        "predicate": "part of",
+        "object": "Chapter 7 Software security evaluation for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 7-7.4-002: SBOM Data Fields",
+        "predicate": "part of",
+        "object": "Chapter 7 Software security evaluation for O-RAN components"
+      },
+      {
+        "subject": "STC-Chapter 9-9.2-002: Supplicant Validation",
+        "predicate": "part of",
+        "object": "Chapter 9 Security test of Open Fronthaul"
+      },
+      {
+        "subject": "STC-Chapter 15-15.2-001: O1 Interface NACM Validation",
+        "predicate": "part of",
+        "object": "Chapter 15 Security test of SMO"
+      }
+    ],
+    "preview": "# Chapter 4 Security Protocols Validation .. ...13\n\n4.1 Overview . ................................................................................................ . 13   \n4.2 STC-Chapter 4-001: SSH Server & Client . .................................................................................................... ..... 13   \n4.2.1 Test description and applicability ... ............................"
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "Service Enumeration",
+      "Network Boundary Examination",
+      "Password-Based Authentication",
+      "Brute Forcing",
+      "Unauthorized Password Reset",
+      "Password Policy Enforcement",
+      "Network Protocol Fuzzing",
+      "Denial of Service",
+      "Message Flooding",
+      "Protocol Based DDoS Attacks",
+      "Application Based DDoS Attacks",
+      "Volumetric Based DDoS Attacks",
+      "System Vulnerability Scanning",
+      "Data and Information Protection",
+      "System logging",
+      "Open-Source Software Component Analysis",
+      "Binary Static Analysis",
+      "Software Bill of Materials (SBOM)",
+      "ML Data Poisoning",
+      "Open Fronthaul",
+      "Point-to-Point LAN Segment",
+      "Supplicant Validation",
+      "O-RU",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "xApps",
+      "rApps",
+      "SMO",
+      "O1 Interface Network Configuration Access Control Model (NACM) Validation",
+      "O1 Interface NACM Validation",
+      "O-Cloud",
+      "VNF/CNF/PNF"
+    ],
+    "relations": [
+      {
+        "subject": "Service Enumeration",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.2-001"
+      },
+      {
+        "subject": "Network Boundary Examination",
+        "predicate": "is part of",
+        "object": "Chapter 5"
+      },
+      {
+        "subject": "Password-Based Authentication",
+        "predicate": "is part of",
+        "object": "Chapter 5.3"
+      },
+      {
+        "subject": "Brute Forcing",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.3-001"
+      },
+      {
+        "subject": "Unauthorized Password Reset",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.3-002"
+      },
+      {
+        "subject": "Password Policy Enforcement",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.3-003"
+      },
+      {
+        "subject": "Network Protocol Fuzzing",
+        "predicate": "is part of",
+        "object": "Chapter 5.4"
+      },
+      {
+        "subject": "Denial of Service",
+        "predicate": "is part of",
+        "object": "Chapter 5.5"
+      },
+      {
+        "subject": "Message Flooding",
+        "predicate": "is part of",
+        "object": "Chapter 5.5"
+      },
+      {
+        "subject": "Protocol Based DDoS Attacks",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.5-001"
+      },
+      {
+        "subject": "Application Based DDoS Attacks",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.5-001"
+      },
+      {
+        "subject": "Volumetric Based DDoS Attacks",
+        "predicate": "is part of",
+        "object": "STC-Chapter 5-5.5-001"
+      },
+      {
+        "subject": "System Vulnerability Scanning",
+        "predicate": "is part of",
+        "object": "STC-Chapter 6-6.2-001"
+      },
+      {
+        "subject": "Data and Information Protection",
+        "predicate": "is part of",
+        "object": "Chapter 6.3"
+      },
+      {
+        "subject": "System logging",
+        "predicate": "is part of",
+        "object": "Chapter 6.4"
+      },
+      {
+        "subject": "Open-Source Software Component Analysis",
+        "predicate": "is part of",
+        "object": "Chapter 7.2"
+      },
+      {
+        "subject": "Binary Static Analysis",
+        "predicate": "is part of",
+        "object": "Chapter 7.3"
+      },
+      {
+        "subject": "Software Bill of Materials (SBOM)",
+        "predicate": "is part of",
+        "object": "Chapter 7.4"
+      },
+      {
+        "subject": "ML Data Poisoning",
+        "predicate": "is part of",
+        "object": "Chapter 8.2"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "is part of",
+        "object": "Chapter 9"
+      },
+      {
+        "subject": "Point-to-Point LAN Segment",
+        "predicate": "is part of",
+        "object": "Chapter 9.2"
+      },
+      {
+        "subject": "Supplicant Validation",
+        "predicate": "is part of",
+        "object": "STC-Chapter 9-9.2-002"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "is part of",
+        "object": "Chapter 10"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is part of",
+        "object": "Chapter 11"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "is part of",
+        "object": "Chapter 12"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "is part of",
+        "object": "Chapter 13"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "is part of",
+        "object": "Chapter 14"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "is part of",
+        "object": "Chapter 15"
+      },
+      {
+        "subject": "O1 Interface Network Configuration Access Control Model (NACM) Validation",
+        "predicate": "is part of",
+        "object": "Chapter 15.2"
+      },
+      {
+        "subject": "O1 Interface NACM Validation",
+        "predicate": "is part of",
+        "object": "STC-Chapter 15-15.2-001"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "is part of",
+        "object": "Chapter 16"
+      },
+      {
+        "subject": "VNF/CNF/PNF",
+        "predicate": "is part of",
+        "object": "Chapter 17"
+      }
+    ],
+    "preview": "# Chapter 5 Common Network Security Tests for O-RAN components ... .17\n\n5.1 Overview ...... . 17   \n5.2 Service Enumeration/ Network Boundary Examination.. ...................................................................... .. 17   \n5.2.1 STC-Chapter 5-5.2-001: Service Enumeration. ................................................................................ .... 17   \n5.3 Password-Based Aut..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Specification",
+      "Test and measurement equipment list",
+      "Logical Architecture of O-RAN system",
+      "Security Tests",
+      "Security functions",
+      "security protocols requirements",
+      "risk analysis",
+      "O-RAN systems",
+      "A1 interface",
+      "non-RT RIC",
+      "Near-RT RIC",
+      "policy-driven guidance",
+      "AI/ML workflow",
+      "E2 interface",
+      "O-CU-CPs",
+      "O-CU-UPs",
+      "O-DUs",
+      "RAN",
+      "Radio Access Network",
+      "3GPP TR 21.905",
+      "Vocabulary for 3GPP Specifications",
+      "Release 16",
+      "3GPP TS 33.117",
+      "Catalogue of General Security Assurance Requirements",
+      "SCAS",
+      "gNodeB",
+      "eNodeB",
+      "Openssh Security Vulnerabilities",
+      "CVE Details website",
+      "IEEE Standard 802.1X-2020",
+      "Network Configuration Access Control Model",
+      "RFC 8341"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "describes",
+        "object": "Security Tests"
+      },
+      {
+        "subject": "Security Tests",
+        "predicate": "validate",
+        "object": "security functions"
+      },
+      {
+        "subject": "Security Tests",
+        "predicate": "based on",
+        "object": "risk analysis"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produced",
+        "object": "O-RAN Architecture Description 5.0"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produced",
+        "object": "O-RAN Security Protocols Specification 3.0"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "connects",
+        "object": "non-RT RIC and Near-RT RIC"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC and O-CU-CPs, O-CU-UPs, O-DUs"
+      },
+      {
+        "subject": "RAN",
+        "predicate": "defined as",
+        "object": "Radio Access Network"
+      },
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "defines",
+        "object": "Vocabulary for 3GPP Specifications"
+      },
+      {
+        "subject": "3GPP TS 33.117",
+        "predicate": "catalogues",
+        "object": "General Security Assurance Requirements"
+      },
+      {
+        "subject": "SCAS",
+        "predicate": "specifies security assurance for",
+        "object": "gNodeB and eNodeB"
+      },
+      {
+        "subject": "RFC 8341",
+        "predicate": "defines",
+        "object": "Network Configuration Access Control Model"
+      }
+    ],
+    "preview": "\n\n# List of Tables\n\nTable 3-1 Test and measurement equipment list ........ . 12   \nTable Annex A-1 List of sample open source security testing tools/toolset . . 42\n\n# List of Figures\n\nFigure Chapter 3-1: Logical Architecture of O-RAN system ............ . 10\n\n# Chapter 1 Scope and Definitions\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by the O-RAN ALLIANCE (O-RAN).\n\nThe contents ..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "A1",
+      "Interface",
+      "non-RT RIC",
+      "Near-RT RIC",
+      "policy-driven guidance",
+      "AI/ML workflow",
+      "E2",
+      "O-CU-CPs",
+      "O-CU-UPs",
+      "O-DUs",
+      "RAN",
+      "Radio Access Network",
+      "Physical Network Function",
+      "Precision Timing Protocol",
+      "Role-based Access Control",
+      "Resource Description Format",
+      "RIC",
+      "O-RAN RAN Intelligent Controller",
+      "Software Bill of Materials",
+      "Software Development Lifecycle",
+      "Secure Shell",
+      "System Under Test",
+      "Transport Layer Security",
+      "Virtualized Network Function",
+      "Web Application Security",
+      "Extensible Markup Language",
+      "YAML Ain’t Markup Language",
+      "O-RAN system",
+      "security protocols requirements",
+      "security attacks",
+      "robustness",
+      "service impact",
+      "security mitigation method",
+      "risk assessment",
+      "security threats",
+      "testing methodology",
+      "configuration",
+      "Common Network Security Tests",
+      "System Security Evaluation",
+      "Software Security Evaluation",
+      "ML Security Test",
+      "Open Fronthaul",
+      "O-RU",
+      "xApps",
+      "rApps",
+      "SMO",
+      "O-Cloud",
+      "VNF/CNF/PNF"
+    ],
+    "relations": [
+      {
+        "subject": "A1",
+        "predicate": "is",
+        "object": "Interface between non-RT RIC and Near-RT RIC"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "RAN",
+        "predicate": "refers to",
+        "object": "Radio Access Network"
+      },
+      {
+        "subject": "A1",
+        "predicate": "enables",
+        "object": "policy-driven guidance of Near-RT RIC applications/functions"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects to",
+        "object": "O-CU-CPs"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects to",
+        "object": "O-CU-UPs"
+      },
+      {
+        "subject": "E2",
+        "predicate": "connects to",
+        "object": "O-DUs"
+      },
+      {
+        "subject": "A1",
+        "predicate": "supports",
+        "object": "AI/ML workflow"
+      },
+      {
+        "subject": "RIC",
+        "predicate": "stands for",
+        "object": "O-RAN RAN Intelligent Controller"
+      },
+      {
+        "subject": "PNF",
+        "predicate": "stands for",
+        "object": "Physical Network Function"
+      },
+      {
+        "subject": "PTP",
+        "predicate": "stands for",
+        "object": "Precision Timing Protocol"
+      },
+      {
+        "subject": "RBAC",
+        "predicate": "stands for",
+        "object": "Role-based Access Control"
+      },
+      {
+        "subject": "RDF",
+        "predicate": "stands for",
+        "object": "Resource Description Format"
+      },
+      {
+        "subject": "SBOM",
+        "predicate": "stands for",
+        "object": "Software Bill of Materials"
+      },
+      {
+        "subject": "SDLC",
+        "predicate": "stands for",
+        "object": "Software Development Lifecycle"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "stands for",
+        "object": "Secure Shell"
+      },
+      {
+        "subject": "SUT",
+        "predicate": "stands for",
+        "object": "System Under Test"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "stands for",
+        "object": "Transport Layer Security"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "stands for",
+        "object": "Virtualized Network Function"
+      },
+      {
+        "subject": "WAS",
+        "predicate": "stands for",
+        "object": "Web Application Security"
+      },
+      {
+        "subject": "XML",
+        "predicate": "stands for",
+        "object": "Extensible Markup Language"
+      },
+      {
+        "subject": "YAML",
+        "predicate": "stands for",
+        "object": "YAML Ain’t Markup Language"
+      },
+      {
+        "subject": "This security test specification",
+        "predicate": "is focused on",
+        "object": "validating the proper implementation of security protocols requirements specified in [2]"
+      },
+      {
+        "subject": "This security test specification",
+        "predicate": "emulates",
+        "object": "security attacks against the O-RAN component(s), interfaces, and the system"
+      },
+      {
+        "subject": "This security test specification",
+        "predicate": "measures",
+        "object": "the robustness of the O-RAN system and the service impact(s)"
+      },
+      {
+        "subject": "This security test specification",
+        ".predicate": "validates",
+        "object": "the effectiveness of the security mitigation method(s) to protect the O-RAN system and the services it offers"
+      },
+      {
+        "subject": "This security test specification",
+        "predicate": "is based on",
+        "object": "the priority of the risk assessment of the O-RAN security threats and security requirements of the O-RAN system"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR21.905[6], O-RAN Architecture Description[1], and the following in this section apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR21.905[6] and O-RAN Architecture Description[1].\n\nA1: Int..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "Physical Network Function",
+      "Precision Timing Protocol",
+      "Role-based Access Control",
+      "Resource Description Format",
+      "O-RAN RAN Intelligent Controller",
+      "Software Bill of Materials",
+      "Software Development Lifecycle",
+      "Secure Shell",
+      "System Under Test",
+      "Transport Layer Security",
+      "Virtualized Network Function",
+      "Web Application Security",
+      "Extensible Markup Language",
+      "YAML Ain't Markup Language",
+      "O-RAN component",
+      "security protocols requirements",
+      "security attacks",
+      "robustness of the O-RAN system",
+      "service impact",
+      "effectiveness of security mitigation methods",
+      "priority of risk assessment",
+      "O-RAN security threats",
+      "O-RAN security requirements",
+      "testing methodology and configuration",
+      "test conditions",
+      "methodologies",
+      "procedures",
+      "reproduction of test results",
+      "comparison or reference purposes",
+      "Common Network Security Tests",
+      "System Security Evaluation",
+      "Software Security Evaluation",
+      "ML Security Test",
+      "Security Test of Open Fronthaul",
+      "Security Test of O-RU",
+      "Security Test of Near-RT RIC",
+      "Security Test of Non-RT RIC",
+      "Security Test of xApps",
+      "Security Test of rApps",
+      "Security Test of SMO",
+      "Security Test of O-Cloud",
+      "Security Test of VNF/CNF/PNF"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN RAN Intelligent Controller",
+        "predicate": "is_an_abbreviation_for",
+        "object": "RIC"
+      },
+      {
+        "subject": "Software Bill of Materials",
+        "predicate": "is_an_abbreviation_for",
+        "object": "SBOM"
+      },
+      {
+        "subject": "Secure Shell",
+        "predicate": "is_an_abbreviation_for",
+        "object": "SSH"
+      },
+      {
+        "subject": "System Under Test",
+        "predicate": "is_an_abbreviation_for",
+        "object": "SUT"
+      },
+      {
+        "subject": "Transport Layer Security",
+        "predicate": "is_an_abbreviation_for",
+        "object": "TLS"
+      },
+      {
+        "subject": "Virtualized Network Function",
+        "predicate": "is_an_abbreviation_for",
+        "object": "VNF"
+      },
+      {
+        "subject": "Web Application Security",
+        "predicate": "is_an_abbreviation_for",
+        "object": "WAS"
+      },
+      {
+        "subject": "Extensible Markup Language",
+        "predicate": "is_an_abbreviation_for",
+        "object": "XML"
+      },
+      {
+        "subject": "YAML Ain't Markup Language",
+        "predicate": "is_an_abbreviation_for",
+        "object": "YAML"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "is_part_of",
+        "object": "security test specification"
+      },
+      {
+        "subject": "testing methodology and configuration",
+        "predicate": "describes",
+        "object": "test conditions, methodologies, and procedures"
+      },
+      {
+        "subject": "test conditions",
+        "predicate": "should_reflect",
+        "object": "realistic operational environment"
+      },
+      {
+        "subject": "methodologies",
+        "predicate": "ensure",
+        "object": "fair and comparable test results"
+      },
+      {
+        "subject": "procedures",
+        "predicate": "allow_for",
+        "object": "reproduction of test results"
+      }
+    ],
+    "preview": "\n\n# 1.3.2 Abbreviations\n\nFor the purposes of the present document, the abbreviations given 3GPP TR21.905[6], O-RAN Architecture Description[1], and the following in this section apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR21.905[6] and O-RAN Architecture Description[1].\n\n> **Table Summary:** {\n\"summary\": \"The table provides..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "DUT",
+      "SUT",
+      "Service Management and Orchestration (SMO)",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "xApps",
+      "rApps",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "Open Fronthaul CUS-Plane Interface",
+      "Open Fronthaul M-Plane Interface",
+      "A1 Interface",
+      "O1 Interface",
+      "O2 Interface",
+      "E2 Interface",
+      "O-Cloud"
+    ],
+    "relations": [
+      {
+        "subject": "DUT",
+        "predicate": "is_part_of",
+        "object": "SUT"
+      },
+      {
+        "subject": "Service Management and Orchestration (SMO)",
+        "predicate": "connects_via",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "uses",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "connects_via",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "SMO"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "connects_via",
+        "object": "E2 Interface"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is_connected_to",
+        "object": "O-eNB"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "uses",
+        "object": "Open Fronthaul CUS-Plane Interface"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "connects_via",
+        "object": "Open Fronthaul CUS-Plane Interface"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "uses",
+        "object": "Open Fronthaul M-Plane Interface"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "connects_via",
+        "object": "Open Fronthaul M-Plane Interface"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "uses",
+        "object": "Open Fronthaul M-Plane Interface"
+      }
+    ],
+    "preview": "# Chapter 3 Testing methodology and configuration\n\nThis chapter describes the common testing methods and configurations which will be used in the subsequent chapters. To ensure fair and comparable test results among various test campaigns, consistent test setups should be utilized. The test conditions should reflect the realistic operational environment as much as possible to ensure meaningful and..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "A1 Interface",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "O1 Interface",
+      "SMO",
+      "O-CU-CPs",
+      "O-CU-UPs",
+      "O-DUs",
+      "E2 Interface",
+      "Open Fronthaul CUS-Plane Interface",
+      "O-RU",
+      "Test Setup",
+      "Test and measurement equipment",
+      "Packet capture",
+      "Fuzzing",
+      "Vulnerability scanning",
+      "NFV benchmarking",
+      "Protocol auditing (SSH, TLS, DTLS, IKE)",
+      "Network layers 2-7",
+      "Protocols (Ethernet, IP, TCP, TLS)",
+      "Test report",
+      "Photos and screenshots",
+      "Test environment",
+      "Additional parameters",
+      "Security Protocols Validation",
+      "STC-Chapter 4-001: SSH Server & Client",
+      "Network Security Protocol - SSH",
+      "O-RAN Security Protocols Specification 3.0",
+      "Threat References (T-O-RAN-05)",
+      "O-DU",
+      "O-RU",
+      "Supported version of SSH protocol (v2)",
+      "Robustness of cryptographic algorithms",
+      "Host key algorithms",
+      "Symmetric ciphers",
+      "Key exchange algorithms",
+      "Message authentication codes (MACs)",
+      "Common Vulnerabilities and Exposures (CVE)"
+    ],
+    "relations": [
+      {
+        "subject": "A1 Interface",
+        "predicate": "connects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "SMO"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-CU-CPs"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-CU-UPs"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "connects",
+        "object": "O-DUs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-CU-CPs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-CU-UPs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-DUs"
+      },
+      {
+        "subject": "E2 Interface",
+        "predicate": "connects",
+        "object": "O-eNBs"
+      },
+      {
+        "subject": "Open Fronthaul CUS-Plane Interface",
+        "predicate": "connects",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Open Fronthaul CUS-Plane Interface",
+        "predicate": "connects",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Open Fronthaul M-Plane Interface",
+        "predicate": "connects",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Open Fronthaul M-Plane Interface",
+        "predicate": "connects",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Open Fronthaul M-Plane Interface",
+        "predicate": "connects",
+        "object": "SMO"
+      },
+      {
+        "subject": "Test Setup",
+        "predicate": "referenced in",
+        "object": "security test cases"
+      },
+      {
+        "subject": "Test and measurement equipment",
+        "predicate": "supports",
+        "object": "packet capture"
+      },
+      {
+        "subject": "Test and measurement equipment",
+        "predicate": "supports",
+        "object": "fuzzing"
+      },
+      {
+        "subject": "Test and measurement equipment",
+        "predicate": "supports",
+        "object": "vulnerability scanning"
+      },
+      {
+        "subject": "Test and measurement equipment",
+        "predicate": "supports",
+        "object": "NFV benchmarking"
+      },
+      {
+        "subject": "Test and measurement equipment",
+        "predicate": "supports",
+        "object": "protocol auditing (SSH, TLS, DTLS, IKE)"
+      },
+      {
+        "subject": "Network layers 2-7",
+        "predicate": "supported by",
+        "object": "Test and measurement equipment"
+      },
+      {
+        "subject": "Protocols (Ethernet, IP, TCP, TLS)",
+        "predicate": "supported by",
+        "object": "Test and measurement equipment"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "includes",
+        "object": "Photos and screenshots"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "describes",
+        "object": "test environment"
+      },
+      {
+        "subject": "Additional parameters",
+        "predicate": "specified in",
+        "object": "description of each test"
+      },
+      {
+        "subject": "Security Protocols Validation",
+        "predicate": "contains",
+        "object": "STC-Chapter 4-001: SSH Server & Client"
+      },
+      {
+        "subject": "Network Security Protocol - SSH",
+        "predicate": "referenced in",
+        "object": "O-RAN Security Protocols Specification 3.0"
+      },
+      {
+        "subject": "Threat References (T-O-RAN-05)",
+        "predicate": "associated with",
+        "object": "Network Security Protocol - SSH"
+      },
+      {
+        "subject": "Network Security Protocol - SSH",
+        "predicate": "applies to",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Network Security Protocol - SSH",
+        "predicate": "applies to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "STC-Chapter 4-001: SSH Server & Client",
+        "predicate": "validates",
+        "object": "Supported version of SSH protocol (v2)"
+      },
+      {
+        "subject": "STC-Chapter 4-001: SSH Server & Client",
+        "predicate": "validates",
+        "object": "Robustness of cryptographic algorithms"
+      },
+      {
+        "subject": "Robustness of cryptographic algorithms",
+        "predicate": "includes",
+        "object": "Host key algorithms"
+      },
+      {
+        "subject": "Robustness of cryptographic algorithms",
+        "predicate": "includes",
+        "object": "Symmetric ciphers"
+      },
+      {
+        "subject": "Robustness of cryptographic algorithms",
+        "predicate": "includes",
+        "object": "Key exchange algorithms"
+      },
+      {
+        "subject": "Robustness of cryptographic algorithms",
+        "predicate": "includes",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "STC-Chapter 4-001: SSH Server & Client",
+        "predicate": "checks for",
+        "object": "Common Vulnerabilities and Exposures (CVE)"
+      }
+    ],
+    "preview": "# Maintained interfaces by O-RAN:\n\n• A1 Interface between Non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflow.   \n. O1 Interface connecting the SMO to the Near-RT RIC, one or more O-CU-CPs, one or more O-CU-UPs, and one or more O-DUs.   \n• O2 Interface between the SMO and the O-Cloud   \n. E2 Interface connecting the Near-RT ..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "O-RAN",
+      "SSH",
+      "O-DU",
+      "O-RU",
+      "T-O-RAN-05",
+      "STC-Chapter 4-001",
+      "Network Security Protocol"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "uses",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "uses",
+        "object": "O-RU"
+      },
+      {
+        "subject": "STC-Chapter 4-001",
+        "predicate": "tests",
+        "object": "SSH"
+      },
+      {
+        "subject": "T-O-RAN-05",
+        "predicate": "refers to",
+        "object": "SSH"
+      },
+      {
+        "subject": "Network Security Protocol",
+        "predicate": "applies to",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Network Security Protocol",
+        "predicate": "uses",
+        "object": "SSH"
+      }
+    ],
+    "preview": "\n\n# 3.5 Assumptions\n\nEditor’s notes: This section will be updated in subsequent versions of the security test specification.\n\n# Chapter 4 Security Protocols Validation\n\n# 4.1 Overview\n\nThis chapter contains a set of tests which allow to validate implementation of security protocols against O-RAN security requirements.\n\n# 4.2 STC-Chapter 4-001: SSH Server & Client\n\nRequirement Name: Network Securit..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "SSH audit tool",
+      "approved SSH protocols",
+      "Security Protocols Specifications",
+      "Common Vulnerabilities and Exposures (CVE)",
+      "TLS v1.2",
+      "TLS v1.3",
+      "TLS scanning tool",
+      "DTLS v1.2",
+      "DTLS scanning tool",
+      "O-RAN components"
+    ],
+    "relations": [
+      {
+        "subject": "SSH audit tool",
+        "predicate": "used to test",
+        "object": "server-side testing"
+      },
+      {
+        "subject": "SSH audit tool",
+        "predicate": "compares with",
+        "object": "approved SSH protocols"
+      },
+      {
+        "subject": "SSH audit tool",
+        "predicate": "checks for",
+        "object": "Common Vulnerabilities and Exposures (CVE)"
+      },
+      {
+        "subject": "TLS scanning tool",
+        "predicate": "tests",
+        "object": "TLS v1.2"
+      },
+      {
+        "subject": "TLS scanning tool",
+        "predicate": "tests",
+        "object": "TLS v1.3"
+      },
+      {
+        "subject": "DTLS scanning tool",
+        "predicate": "tests",
+        "object": "DTLS v1.2"
+      },
+      {
+        "subject": "Security Protocols Specifications",
+        "predicate": "defines",
+        "object": "approved SSH protocols"
+      },
+      {
+        "subject": "Security Protocols Specifications",
+        "predicate": "defines",
+        "object": "TLS protocol profiles"
+      },
+      {
+        "subject": "O-RAN components",
+        "predicate": "support",
+        "object": "TLS v1.2"
+      },
+      {
+        "subject": "O-RAN components",
+        "predicate": "support",
+        "object": "TLS v1.3"
+      },
+      {
+        "subject": "O-RAN components",
+        "predicate": "support",
+        "object": "DTLS v1.2"
+      }
+    ],
+    "preview": "\n\n# 4.2.3 Test procedure\n\n# Server-side testing:\n\nRun SSH audit tool in server audit mode against each SSH server service from tester’s PC Compare the tool’s output with the list of approved SSH protocols and algorithms (for host key, symmetric encryption, key exchange, and MACs) as defined by Security Protocols Specifications Review the tool’s output for reported vulnerabilities\n\n# Client-side te..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "TLS",
+      "TLS 1.2",
+      "TLS 1.3",
+      "DTLS",
+      "DTLS 1.2",
+      "cipher suites",
+      "elliptic curves",
+      "certificate type",
+      "Diffie-Hellman groups",
+      "compression methods",
+      "vulnerabilities",
+      "IPSec",
+      "ESP Encryption Transforms",
+      "ENCR_NULL",
+      "ENCR_AES_CBC",
+      "ENCR_AES_GCM_16",
+      "ESP Authentication Transforms",
+      "AUTH_AES_128_GMAC",
+      "AUTH_HMAC_SHA2_256_128",
+      "Diffie-Hellman groups",
+      "DH group 19 (256-bit ECP group)",
+      "certificates",
+      "X.509v3",
+      "O-RAN",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-eNB",
+      "O-Cloud"
+    ],
+    "relations": [
+      {
+        "subject": "TLS",
+        "predicate": "version",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "version",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "version",
+        "object": "DTLS 1.2"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "supported_cipher_suites",
+        "object": "cipher suites"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "supported_elliptic_curves",
+        "object": "elliptic curves"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "certificate_type",
+        "object": "certificate type"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "supported_diffie_hellman_groups",
+        "object": "Diffie-Hellman groups"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "supported_compression_methods",
+        "object": "compression methods"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "encryption_transforms",
+        "object": "ESP Encryption Transforms"
+      },
+      {
+        "subject": "ESP Encryption Transforms",
+        "predicate": "include",
+        "object": "ENCR_NULL"
+      },
+      {
+        "subject": "ESP Encryption Transforms",
+        "predicate": "include",
+        "object": "ENCR_AES_CBC"
+      },
+      {
+        "subject": "ESP Encryption Transforms",
+        "predicate": "include",
+        "object": "ENCR_AES_GCM_16"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "authentication_transforms",
+        "object": "ESP Authentication Transforms"
+      },
+      {
+        "subject": "ESP Authentication Transforms",
+        "predicate": "include",
+        "object": "AUTH_AES_128_GMAC"
+      },
+      {
+        "subject": "ESP Authentication Transforms",
+        "predicate": "include",
+        "object": "AUTH_HMAC_SHA2_256_128"
+      },
+      {
+        "subject": "IPSec",
+        "predicate": "supported_diffie_hellman_groups",
+        "object": "DH group 19 (256-bit ECP group)"
+      },
+      {
+        "subject": "certificates",
+        "predicate": "format",
+        "object": "X.509v3"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "O-eNB"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "component",
+        "object": "O-Cloud"
+      }
+    ],
+    "preview": "\n\n# 4.3.4 Test requirements (expected results)\n\nProper TLS versions (1.2 and 1.3) support with no older version(s) enabled.   \nProper TLS protocol profiles support without default cryptographically insecure ciphers support No well-known TLS vulnerabilities found   \nProviding evidence (logs, results, report, screenshots, …)\n\n# 4.4 STC-Chapter 4-003 DTLS\n\nRequirement Name: Network Security Protocol ..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-RAN",
+      "SMO",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "O-Cloud",
+      "Network protocols and services"
+    ],
+    "relations": [
+      {
+        "subject": "SMO",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-CU-CP",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-CU-UP",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-eNB",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "is part of",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Network protocols and services",
+        "predicate": "are supported by",
+        "object": "O-RAN component"
+      }
+    ],
+    "preview": "\n\n# Chapter 5 Common Network Security Tests for O-RAN components\n\n# 5.1 Overview\n\nThis chapter contains a set of security evaluations that are performed from outside and inside of the network function in a network capacity. It is used to measure the external exposure and risk(s) of the function in place and leverages common techniques used in cyber security to evaluate the risk(s) device under tes..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Network protocols and services",
+      "Section 3.3.3",
+      "O-RAN Security Requirements Specifications 2.0 [5]",
+      "T-O-RAN-01",
+      "T-O-RAN-02",
+      "SMO",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-Cloud",
+      "TCP Port Scanning",
+      "SCTP Port Scanning",
+      "UDP Port Scanning",
+      "HTTP 1.1 GET",
+      "TFTP read",
+      "NG Reset packet"
+    ],
+    "relations": [
+      {
+        "subject": "Network protocols and services",
+        "predicate": "is referenced in",
+        "object": "Section 3.3.3"
+      },
+      {
+        "subject": "Network protocols and services",
+        "predicate": "is part of",
+        "object": "O-RAN Security Requirements Specifications 2.0 [5]"
+      },
+      {
+        "subject": "Network protocols and services",
+        "predicate": "references threat",
+        "object": "T-O-RAN-01"
+      },
+      {
+        "subject": "Network protocols and services",
+        "predicate": "references threat",
+        "object": "T-O-RAN-02"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "O-CU-CP",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "O-CU-UP",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "is covered by",
+        "object": "Network protocols and services"
+      },
+      {
+        "subject": "TCP Port Scanning",
+        "predicate": "is used for",
+        "object": "Service Enumeration"
+      },
+      {
+        "subject": "SCTP Port Scanning",
+        "predicate": "is used for",
+        "object": "Service Enumeration"
+      },
+      {
+        "subject": "UDP Port Scanning",
+        "predicate": "is used for",
+        "object": "Service Enumeration"
+      },
+      {
+        "subject": "HTTP 1.1 GET",
+        "predicate": "is sent to",
+        "object": "TCP port 80"
+      },
+      {
+        "subject": "TFTP read",
+        "predicate": "is sent to",
+        "object": "UDP port 69"
+      },
+      {
+        "subject": "NG Reset packet",
+        ".predicate": "is sent to",
+        "object": "SCTP port 38412"
+      }
+    ],
+    "preview": "# 5.2 Service Enumeration/ Network Boundary Examination\n\n5.2.1 STC-Chapter 5-5.2-001: Service Enumeration\n\nRequirement Name: Network protocols and services\n\nRequirement Reference: Section 3.3.3, O-RAN Security Requirements Specifications 2.0 [5]\n\nRequirement Description: A list of network protocols and services supported on the O-RAN component shall be clearly documented by its vendor. Unused prot..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Service enumeration",
+      "DUT",
+      "TCP Port Scanning",
+      "SCTP Port Scanning",
+      "UDP Port Scanning",
+      "HTTP 1.1 GET",
+      "HTTP2 GET",
+      "TFTP read",
+      "NG Reset packet",
+      "allow-list",
+      "network services",
+      "password brute-force protection mechanism",
+      "Threat References",
+      "O-RAN Component References",
+      "SMO",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-Cloud"
+    ],
+    "relations": [
+      {
+        "subject": "Service enumeration",
+        "predicate": "involves",
+        "object": "TCP Port Scanning"
+      },
+      {
+        "subject": "Service enumeration",
+        "predicate": "involves",
+        "object": "SCTP Port Scanning"
+      },
+      {
+        "subject": "Service enumeration",
+        "predicate": "involves",
+        "object": "UDP Port Scanning"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "requires",
+        "object": "allow-list"
+      },
+      {
+        "subject": "TCP Port Scanning",
+        "predicate": "sends",
+        "object": "HTTP 1.1 GET"
+      },
+      {
+        "subject": "TCP Port Scanning",
+        "predicate": "sends",
+        "object": "HTTP2 GET"
+      },
+      {
+        "subject": "UDP Port Scanning",
+        "predicate": "sends",
+        "object": "TFTP read"
+      },
+      {
+        "subject": "SCTP Port Scanning",
+        "predicate": "sends",
+        "object": "NG Reset packet"
+      },
+      {
+        "subject": "allow-list",
+        "predicate": "compares against",
+        "object": "network services"
+      },
+      {
+        "subject": "password brute-force protection mechanism",
+        "predicate": "protects against",
+        "object": "Threat References"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "SMO"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "O-RU"
+      },
+      {
+        "subject": "O-RAN Component References",
+        "predicate": "includes",
+        "object": "O-Cloud"
+      }
+    ],
+    "preview": "# 5.2.1.1 Test description and applicability\n\nService enumeration is the discovery of network services that are managed or handled by the DUT. Service enumeration for O-RAN component first requires both internal and external \"port scans\" to discover ports that are servicing application and network protocols.\n\nTCP Port Scanning o Sending a TCP SYN packet to each port. A response with SYN/ACK indica..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "DUT",
+      "listening TCP ports",
+      "listening UDP ports",
+      "listening SCTP ports",
+      "network handshake",
+      "service offered",
+      "allow-list",
+      "enumerated ports",
+      "enumerated services",
+      "password brute-force protection mechanism",
+      "management plane protocol",
+      "authentication mechanism",
+      "reasonable password database",
+      "rap sheet",
+      "rockyou",
+      "increasing the delay after each unsuccessful password entry",
+      "commonly used password",
+      "out-of-band password recovery mechanism",
+      "Web UI",
+      "hardware switch",
+      "factory default password",
+      "user configuration",
+      "user data",
+      "secure password policy",
+      "Section 3.3.8, O-RAN Security Requirements Specifications 2.0 [5]",
+      "Section 3.3.7, O-RAN Security Requirements Specifications 2.0 [5]",
+      "password-based authentication",
+      "brute-forcing",
+      "unauthorized password reset",
+      "STC-Chapter 5-5.3-001",
+      "STC-Chapter 5-5.3-002",
+      "STC-Chapter 5-5.3-003"
+    ],
+    "relations": [
+      {
+        "subject": "DUT",
+        "predicate": "scans",
+        "object": "listening TCP ports"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "scans",
+        "object": "listening UDP ports"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "scans",
+        "object": "listening SCTP ports"
+      },
+      {
+        "subject": "network handshake",
+        "predicate": "sent to",
+        "object": "each port determined to be listening"
+      },
+      {
+        "subject": "service offered",
+        "predicate": "identified by",
+        "object": "network handshake"
+      },
+      {
+        "subject": "anything not included in the allow-list",
+        "predicate": "should have",
+        "object": "explanation"
+      },
+      {
+        "subject": "password brute-force protection mechanism",
+        "predicate": "present on",
+        "object": "DUT"
+      },
+      {
+        "subject": "management plane protocol",
+        "predicate": "discovered and has",
+        "object": "authentication mechanism"
+      },
+      {
+        "subject": "reasonable password database",
+        "predicate": "used to brute force",
+        "object": "credentials"
+      },
+      {
+        "subject": "rap sheet",
+        "predicate": "provides",
+        "object": "credentials"
+      },
+      {
+        "subject": "rockyou",
+        "predicate": "used as",
+        "object": "password database"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "shall deny",
+        "object": "all requests with commonly used password"
+      },
+      {
+        "subject": "out-of-band password recovery mechanism",
+        ".predicate": "absent on",
+        "object": "DUT"
+      },
+      {
+        "subject": "Web UI",
+        "predicate": "accessible via",
+        "object": "ethernet interface"
+      },
+      {
+        "subject": "hardware switch",
+        "predicate": "used to reset",
+        "object": "password"
+      },
+      {
+        "subject": "factory default password",
+        "predicate": "resetted to",
+        "object": "Web UI"
+      },
+      {
+        "subject": "secure password policy",
+        "predicate": "supported and enforced on",
+        "object": "DUT"
+      }
+    ],
+    "preview": "\n\n# 5.2.1.3 Test procedure\n\n1. Scan the IP address of the DUT for listening TCP, UDP, and SCTP ports.   \n2. For each port determined to be listening, send the expected network handshake typically used on that port, and identify the service offered.\n\n# 5.2.1.4 Test requirements (expected results)\n\nA list of enumerated ports and services on the DUT. Anything that is not included in the allow-list sh..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "out-of-band mechanisms",
+      "password",
+      "Web UI",
+      "ethernet interface",
+      "DUT",
+      "O-RAN component",
+      "authentication module",
+      "SSH",
+      "HTTP Auth",
+      "admin password(s)",
+      "hardware switch",
+      "user configuration and data",
+      "Password-Based Authentication",
+      "Section 3.3.7, O-RAN Security Requirements Specifications 2.0 [5]",
+      "Threat References: T-O-RAN-02, T-O-RAN-03, T-O-RAN-05, T-O-RAN-06",
+      "O-RAN Component References: SMO, Non-RT RIC, Near-RT RIC, O-CU-CP, O-CU-UP, O-DU, O-RU, O-Cloud",
+      "password policy",
+      "Mobile Network Operators (MNOs)",
+      "brute force password guessing",
+      "password dictionaries",
+      "length, complexity, reuse, change frequency, and aging requirements of passwords",
+      "fuzzing",
+      "invalid or random inputs",
+      "SUT",
+      "malfunction or crash",
+      "telecommunication network protocols",
+      "network ports"
+    ],
+    "relations": [
+      {
+        "subject": "out-of-band mechanisms",
+        "predicate": "used to",
+        "object": "reset password"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "is an instance of",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "has",
+        "object": "authentication module"
+      },
+      {
+        "subject": "authentication module",
+        "predicate": "includes examples such as",
+        "object": "SSH, HTTP Auth"
+      },
+      {
+        "subject": "Web UI",
+        "predicate": "is accessible via",
+        "object": "ethernet interface"
+      },
+      {
+        "subject": "password recovery",
+        "predicate": "can be done using",
+        "object": "hardware switch"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "should not have",
+        "object": "out-of-band password recovery mechanisms supported and/or enabled"
+      },
+      {
+        "subject": "Web UI reset",
+        "predicate": "can be done via",
+        "object": "physical switch or authenticated user access"
+      },
+      {
+        "subject": "Password-Based Authentication",
+        "predicate": "is a requirement for",
+        "object": "O-RAN components"
+      },
+      {
+        "subject": "password policy",
+        "predicate": "must enforce",
+        "object": "acceptable password values"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "should deny usage of",
+        "object": "non-compliant passwords"
+      },
+      {
+        "subject": "brute force password guessing",
+        "predicate": "uses",
+        "object": "password dictionaries"
+      },
+      {
+        "subject": "fuzzing",
+        "predicate": "involves sending",
+        "object": "invalid or random inputs to SUT"
+      }
+    ],
+    "preview": "\n\n# 5.3.2.1 Test description and applicability\n\nTest and verify whether any out-of-band mechanisms exist (and exposed), which can be used to circumvent, disable, or reset the password. In the case of any Web UI accessible via the Ethernet interface, test whether it is possible to recover the user password using a hardware switch or via any other applicable means.\n\n# 5.3.2.2 Test setup and configur..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "password policy",
+      "O-RAN component",
+      "DUT",
+      "fuzzing",
+      "network protocol",
+      "SUT",
+      "E1AP",
+      "E2AP",
+      "eCPRI",
+      "General Transport Protocols",
+      "M-Plane protocol",
+      "Denial of Service (DoS)",
+      "volumetric DDoS attack",
+      "O-RAN system",
+      "Mobile Network Operators (MNOs)",
+      "logging",
+      "fuzzing test cases",
+      "buffer overflow",
+      "software crash",
+      "state machine",
+      "authenticated session",
+      "management protocols"
+    ],
+    "relations": [
+      {
+        "subject": "DUT",
+        "predicate": "enforces",
+        "object": "password policy"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "uses",
+        "object": "password policy"
+      },
+      {
+        "subject": "fuzzing",
+        "predicate": "covers",
+        "object": "network protocol"
+      },
+      {
+        "subject": "SUT",
+        "predicate": "uses",
+        "object": "O-RAN specific protocols"
+      },
+      {
+        "subject": "M-Plane protocol",
+        "predicate": "is part of",
+        "object": "O-RAN Fronthaul"
+      },
+      {
+        "subject": "fuzzing",
+        "predicate": "tests for",
+        "object": "buffer overflow"
+      },
+      {
+        "subject": "fuzzing",
+        "predicate": "tests for",
+        "object": "software crash"
+      },
+      {
+        "subject": "Denial of Service (DoS)",
+        "predicate": "affects",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Mobile Network Operators (MNOs)",
+        "predicate": "determines",
+        "object": "password policy requirements"
+      },
+      {
+        "subject": "logging",
+        "predicate": "monitors",
+        "object": "underlying platform"
+      },
+      {
+        "subject": "fuzzing test cases",
+        "predicate": "test for",
+        "object": "Denial of Service (DoS)"
+      }
+    ],
+    "preview": "\n\n# 5.3.3.1 Test description and applicability\n\nVerify that policies on acceptable password values are enforced properly. Applicable at least to remote password-based (e.g. SSH) and Web UI login.\n\n# 5.3.3.2 Test setup and configuration\n\nDUT is an O-RAN component listed in the reference above that has a password policy running as part of the configuration of the component. This is either on the fir..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "E1AP",
+      "E2AP",
+      "eCPRI",
+      "Fuzzing tests",
+      "M-Plane protocol",
+      "Configuration of O-RAN Fronthaul",
+      "Robustness against Volumetric DDoS Attack"
+    ],
+    "relations": [
+      {
+        "subject": "Fuzzing tests",
+        "predicate": "test",
+        "object": "M-Plane protocol"
+      },
+      {
+        "subject": "O-RAN system/major interfaces",
+        "predicate": "require robustness against",
+        "object": "Volumetric DDoS Attack"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"The table lists common network transport protocols, categorized into 'General Transport Protocols' and 'O-RAN Specific Protocols'. It provides a mapping of widely used protocols like TCP, UDP, HTTP, and SSH alongside protocols specific to Open RAN (O-RAN) architectures, such as E1AP, E2AP, and eCPRI. This appears to be a reference list delineating different com..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "O-RAN system",
+      "SUT",
+      "authentication",
+      "control plane module",
+      "denial of service (DoS)",
+      "distributed denial of service (DDoS)",
+      "Protocol layer attacks",
+      "SYN Floods",
+      "Ping of Death",
+      "Smurf DDoS",
+      "Volume based attacks",
+      "UDP floods",
+      "ICMP floods",
+      "Application layer attacks",
+      "GET/POST floods",
+      "low-and-slow attacks",
+      "Apache",
+      "Windows",
+      "OpenBSD",
+      "network function",
+      "SMO",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "ORU",
+      "System security evaluation",
+      "vulnerability scanning",
+      "data and information protection",
+      "system logging"
+    ],
+    "relations": [
+      {
+        "subject": "SUT",
+        "predicate": "is",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "SMO"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "includes",
+        "object": "ORU"
+      },
+      {
+        "subject": "System security evaluation",
+        "predicate": "covers",
+        "object": "vulnerability scanning"
+      },
+      {
+        "subject": "System security evaluation",
+        "predicate": "covers",
+        "object": "data and information protection"
+      },
+      {
+        "subject": "System security evaluation",
+        "predicate": "covers",
+        "object": "system logging"
+      }
+    ],
+    "preview": "# 5.5.1.1 Test description and applicability\n\nEach authentication or control plane module shall be tested to validate how handling of large amounts of requests is done, similar to what is seen from denial of service(DoS) or/and distributed denial of service(DDoS) attempts, either on purpose (malicious) or because of network/operator error. Typically, DoS/DDoS attacks will come in three forms: Prot..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "SUT",
+      "O-RAN System",
+      "Network Function",
+      "Vulnerability Scanning",
+      "Security Controls",
+      "OS",
+      "Applications",
+      "SMO",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "ORU",
+      "SBOM Signature",
+      "Software Bill of Materials (SBOM)"
+    ],
+    "relations": [
+      {
+        "subject": "SUT",
+        "predicate": "is a part of",
+        "object": "O-RAN System"
+      },
+      {
+        "subject": "Network Function",
+        "predicate": "interacts with",
+        "object": "O-RAN System"
+      },
+      {
+        "subject": "Vulnerability Scanning",
+        "predicate": "is a part of",
+        "object": "Security Evaluations"
+      },
+      {
+        "subject": "Vulnerability Scanning",
+        "predicate": "applies to",
+        "object": "OS"
+      },
+      {
+        "subject": "Vulnerability Scanning",
+        "predicate": "applies to",
+        "object": "Applications"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "is a component of",
+        "object": "O-RAN System"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "is a component of",
+        "object": "O-RAN System"
+      },
+      {
+        "subject": "SBOM Signature",
+        "predicate": "is a requirement for",
+        "object": "Software Bill of Materials (SBOM)"
+      }
+    ],
+    "preview": "\n\n# 5.5.1.2 Test setup and configuration\n\nSUT is an O-RAN system with access to its major interfaces.\n\n# 5.5.1.3 Test procedure\n\n1. Set up a call flow that will send repeated requests for authentication that fails at an increasing rate over time. Mark the failure point of receiving rejection messages.   \n2. Set up a call flow that will send repeated requests for authentication that is permitted at..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "DUT",
+      "Vulnerability Scanning Tool",
+      "Vulnerabilities",
+      "Severity Level",
+      "O-RAN Component",
+      "Known Vulnerabilities",
+      "Mitigation Controls",
+      "System Logging",
+      "Software Security Evaluations",
+      "Open RAN Software Producers",
+      "SBOM (Software Bill of Materials)",
+      "Digital Signature",
+      "Security Testing",
+      "Threats",
+      "AI/ML Models"
+    ],
+    "relations": [
+      {
+        "subject": "DUT",
+        "predicate": "is a",
+        "object": "O-RAN Component"
+      },
+      {
+        "subject": "Vulnerability Scanning Tool",
+        "predicate": "evaluates",
+        "object": "O-RAN Component"
+      },
+      {
+        "subject": "Vulnerabilities",
+        "predicate": "have",
+        "object": "Severity Level"
+      },
+      {
+        "subject": "O-RAN Component",
+        "predicate": "should be free from",
+        "object": "Known Vulnerabilities"
+      },
+      {
+        "subject": "O-RAN Component",
+        "predicate": "has",
+        "object": "Mitigation Controls"
+      },
+      {
+        "subject": "System Logging",
+        "predicate": "is part of",
+        "object": "Security Test Specification"
+      },
+      {
+        "subject": "Software Security Evaluations",
+        "predicate": "cover",
+        "object": "Software Lifecycle Management"
+      },
+      {
+        "subject": "Open RAN Software Producers",
+        "predicate": "provide",
+        "object": "SBOM"
+      },
+      {
+        "subject": "SBOM",
+        "predicate": "must have",
+        "object": "Digital Signature"
+      },
+      {
+        "subject": "Security Testing",
+        "predicate": "defends against",
+        "object": "Threats"
+      },
+      {
+        "subject": "AI/ML Models",
+        "predicate": "are used in",
+        "object": "O-RAN System"
+      }
+    ],
+    "preview": "\n\n# 6.2.1.2 Test setup and configuration\n\nDUT is an O-RAN component with IP enabled network interfaces.\n\n# 6.2.1.3 Test procedure\n\nRun the vulnerability scanning tool and check the potential known vulnerabilities existing on the O-RAN component at the system level (OS and applications).\n\nThe severity level of the existing vulnerabilities shall be evaluated.\n\n# 6.2.1.4 Test requirements (expected r..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "SBOM",
+      "Open RAN software producer",
+      "network operator",
+      "minimum set of data fields",
+      "REQ-SBOM-011",
+      " SPDX",
+      " CycloneDX",
+      " SWID",
+      "Software Development Lifecycle (SDLC)",
+      "AI/ML technologies",
+      "models",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "traffic steering",
+      "massive MIMO optimization",
+      "radio resource allocation for UAV applications",
+      "data poisoning",
+      "backdoor",
+      "evasion",
+      "model stealing",
+      "data extraction",
+      "Open Fronthaul interface",
+      "IEEE 802.1X-2020",
+      "port-based network access control",
+      "supplicant",
+      "authenticator",
+      "authentication server",
+      "O-DU",
+      "O-RU"
+    ],
+    "relations": [
+      {
+        "subject": "Open RAN software producer",
+        "predicate": "provides",
+        "object": "SBOM"
+      },
+      {
+        "subject": "SBOM",
+        "predicate": "includes",
+        "object": "minimum set of data fields"
+      },
+      {
+        "subject": "Open RAN software producer",
+        "predicate": "delivers to",
+        "object": "network operator"
+      },
+      {
+        "subject": "SBOM file",
+        "predicate": "conforms to",
+        "object": "REQ-SBOM-011"
+      },
+      {
+        "subject": " SPDX",
+        "predicate": "has minimum set of data fields",
+        "object": "[based on [12]]"
+      },
+      {
+        "subject": " CycloneDX",
+        "predicate": "has minimum set of data fields",
+        "object": "[based on [13]]"
+      },
+      {
+        "subject": " SWID",
+        "predicate": "has minimum set of data fields",
+        "object": "[based on [13]]"
+      },
+      {
+        "subject": "Test procedure",
+        "predicate": "uses",
+        "object": "SBOM check tool"
+      },
+      {
+        "subject": "Test",
+        "predicate": "is part of",
+        "object": "Software Development Lifecycle (SDLC)"
+      },
+      {
+        "subject": "AI/ML technologies and models",
+        "predicate": "are adopted in",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "AI/ML technologies and models",
+        "predicate": "are adopted in",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "enables",
+        "object": "traffic steering"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "massive MIMO optimization"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "radio resource allocation for UAV applications"
+      },
+      {
+        "subject": "AI/ML",
+        "predicate": "brings in security attacks such as",
+        "object": "data poisoning"
+      },
+      {
+        "subject": "AI/ML",
+        "predicate": "brings in security attacks such as",
+        "object": "backdoor"
+      },
+      {
+        "subject": "AI/ML",
+        "predicate": "brings in security attacks such as",
+        "object": "evasion"
+      },
+      {
+        "subject": "AI/ML",
+        "predicate": "brings in security attacks such as",
+        "object": "model stealing"
+      },
+      {
+        "subject": "AI/ML",
+        "predicate": "brings in security attacks such as",
+        "object": "data extraction"
+      },
+      {
+        "subject": "IEEE 802.1X-2020 Port-based Network Access Control",
+        "predicate": "provides",
+        "object": "means to control network access"
+      },
+      {
+        "subject": "Port-based network access control",
+        "predicate": "comprises",
+        "object": "supplicant"
+      },
+      {
+        "subject": "Port-based network access control",
+        "predicate": "comprises",
+        "object": "authenticator"
+      },
+      {
+        "subject": "Port-based network access control",
+        "predicate": "comprises",
+        "object": "authentication server entities"
+      },
+      {
+        "subject": "security test cases",
+        "predicate": "cover validation of",
+        "object": "authenticator"
+      },
+      {
+        "subject": "security test cases",
+        "predicate": "cover validation of",
+        "object": "supplicant functionalities"
+      }
+    ],
+    "preview": "\n\n# 7.4.2.1 Test description and applicability\n\nOpen RAN software producers should provide the SBOM for every O-RAN software delivery, including patches, to the network operator. Minimum set of the data fields must be present. Additional fields may be present if agreed on the contractual basis. Purpose of the test is to verify that there the minimum set of the data fields is present in SBOM.\n\n# 7...."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "O-RAN",
+      "Open Fronthaul",
+      "O-DU",
+      "O-RU",
+      "IEEE 802.1X-2020",
+      "RADIUS",
+      "EAP TLS"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "is related to",
+        "object": "Open Fronthaul"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "uses",
+        "object": "IEEE 802.1X-2020"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "is part of",
+        "object": "Open Fronthaul"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "is part of",
+        "object": "Open Fronthaul"
+      },
+      {
+        "subject": "RADIUS",
+        "predicate": "is used by",
+        "object": "O-DU"
+      },
+      {
+        "subject": "RADIUS",
+        "predicate": "is used by",
+        "object": "O-RU"
+      },
+      {
+        "subject": "IEEE 802.1X-2020",
+        "predicate": "uses",
+        "object": "EAP TLS"
+      }
+    ],
+    "preview": "\n\n# 8.2 ML Data Poisoning\n\nEditor’s notes: This section will be updated in subsequent versions of the security test specification.\n\n# Chapter 9 Security test of Open Fronthaul\n\n# 9.1 Overview\n\nThis chapter contains a set of security tests to validate the security protection mechanism at the O-RAN open fronthaul interface.\n\n# 9.2 Open Fronthaul Point-to-Point LAN Segment\n\nIEEE 802.1X-2020 Port-base..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "Open fronthaul network component",
+      "O-RU",
+      "O-DU",
+      "802.1X",
+      "EAP TLS authentication",
+      "RADIUS server",
+      "free radius on Linux",
+      "certificates",
+      ".cnf files",
+      "eap.conf",
+      "DUT",
+      "O-RAN component with IP enabled network interface",
+      "802.1X test tool host/device",
+      "supplicant(s)",
+      "Identity (Certificate DN)",
+      "Client Certificate",
+      "Radius server"
+    ],
+    "relations": [
+      {
+        "subject": "RADIUS2 server",
+        "predicate": "configured with",
+        "object": "certificates"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "serves as",
+        "object": "authenticator for supplicant(s)"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "serves as",
+        "object": "authenticator for supplicant(s)"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "uses",
+        "object": "802.1X"
+      }
+    ],
+    "preview": "\n\n# 9.2.1.1 Test description and applicability\n\nOpen fronthaul network component (such as O-RU and O-DU) could serve the authenticator role of the 802.1X for port-based network access control. This test validates the authenticator requirements of the network component to serve the request from supplicant(s) using EAP TLS authentication per 802.1X-2020 [11].\n\n# 9.2.1.2 Test setup and configuration\n..."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [
+      "O-RAN component",
+      "supplicant",
+      "authenticator",
+      "RADIUS server",
+      "EAP authentication",
+      "802.1X protocol",
+      "Client Certificate",
+      "Identity (Certificate DN)",
+      "EAPoL",
+      "EAP non-TLS",
+      "MD5 authentication",
+      "port-based network access request",
+      "successful RADIUS authentication",
+      "failed RADIUS authentication"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN component",
+        "predicate": "authenticates",
+        "object": "supplicant"
+      },
+      {
+        "subject": "RADIUS server",
+        "predicate": "provides",
+        "object": "EAP authentication"
+      },
+      {
+        "subject": "802.1X protocol",
+        "predicate": "uses",
+        "object": "EAPoL"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "emulates",
+        "object": "authenticator"
+      },
+      {
+        "subject": "supplicant",
+        "predicate": "sends",
+        "object": "port-based network access request"
+      },
+      {
+        "subject": "RADIUS server",
+        "predicate": "checks",
+        "object": "Client Certificate"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "interacts with",
+        "object": "RADIUS server"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "uses",
+        "object": "EAP TLS authentication"
+      },
+      {
+        "subject": "authenticator",
+        "predicate": "receives",
+        "object": "port connection request"
+      },
+      {
+        "subject": "RADIUS server",
+        "predicate": "authenticates",
+        "object": "supplicant"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "validates",
+        "object": "Identity (Certificate DN)"
+      }
+    ],
+    "preview": "# 9.2.1.3 Test procedure\n\nFirst set up the 802.1X test tool host/device with EAP authentication for 802.1X protocol.\n\nRun the 802.1X test tool emulating the request(s) from the supplicant(s) towards the DUT as the authenticator, and check the 802.1X authentication process to it completion.\n\nThe following test scenarios should be covered for validation:\n\n1. Test tool (as supplicant) setting for 802..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [
+      "Supplicant function",
+      "O-RAN component",
+      "Section 3.2.5.5.2",
+      "O-RAN Security Requirements Specifications 2.0",
+      "T-FRHAUL-02",
+      "O-DU",
+      "O-RU",
+      "802.1X",
+      "port-based network access control",
+      "EAP TLS authentication",
+      "RADIUS server",
+      "free radius on Linux",
+      "certificates",
+      "root certificate",
+      "server certificate",
+      "client certificate",
+      ".cnf files",
+      "eap.conf",
+      "test tool host/device",
+      "authenticator",
+      "O-RAN component open fronthaul interface",
+      "EAPoL",
+      "Identity (Certificate DN)",
+      "Client Certificate",
+      "RADIUS server authentication"
+    ],
+    "relations": [
+      {
+        "subject": "Supplicant function",
+        "predicate": "is part of",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "Section 3.2.5.5.2",
+        "predicate": "references",
+        "object": "O-RAN Security Requirements Specifications 2.0"
+      },
+      {
+        "subject": "T-FRHAUL-02",
+        "predicate": "is a threat reference for",
+        "object": "Supplicant function"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "references",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "references",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "802.1X",
+        "predicate": "is used for",
+        "object": "port-based network access control"
+      },
+      {
+        "subject": "EAP TLS authentication",
+        "predicate": "is part of",
+        "object": "802.1X"
+      },
+      {
+        "subject": "RADIUS server",
+        "predicate": "uses",
+        "object": "certificates"
+      },
+      {
+        "subject": "free radius on Linux",
+        "predicate": "is an example of",
+        "object": "RADIUS server"
+      },
+      {
+        "subject": ".cnf files",
+        "predicate": "are used in",
+        "object": "RADIUS server configuration"
+      },
+      {
+        "subject": "eap.conf",
+        "predicate": "configures",
+        "object": "EAP TLS authentication"
+      },
+      {
+        "subject": "test tool host/device",
+        "predicate": "acts as",
+        "object": "authenticator"
+      },
+      {
+        "subject": "O-RAN component open fronthaul interface",
+        "predicate": "initiates",
+        "object": "port connection request"
+      },
+      {
+        "subject": "EAPoL",
+        "predicate": "is used in",
+        "object": "802.1X authentication"
+      },
+      {
+        "subject": "Identity (Certificate DN)",
+        "predicate": "is part of",
+        "object": "EAP TLS authentication"
+      },
+      {
+        "subject": "Client Certificate",
+        "predicate": "is provisioned on",
+        "object": "RADIUS server"
+      }
+    ],
+    "preview": "\n\n# 9.2.2 STC-Chapter 9-9.2-002: Supplicant Validation\n\nRequirement Name: Supplicant function of O-RAN component\n\nRequirement Reference: Section 3.2.5.5.2, O-RAN Security Requirements Specifications 2.0 [5]\n\nRequirement Description: Requirements of Supplicant in the open fronthaul network\n\nThreat References: T-FRHAUL-02\n\nO-RAN Component References: O-DU, O-RU\n\n# 9.2.2.1 Test description and applic..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [
+      "O-RAN",
+      "O-RU",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "xApps",
+      "rApps",
+      "SMO",
+      "O1 Interface",
+      "NACM"
+    ],
+    "relations": [
+      {
+        "subject": "O-RU",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "has",
+        "object": "security test"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "uses",
+        "object": "NACM"
+      }
+    ],
+    "preview": "# 9.2.2.4 Test requirements (expected results)\n\nThe O-RAN component should be granted or denied the 802.1X port-based network access request as the supplicant with successful or failed EAP authentication per test scenarios listed above:\n\n1. Successful RADIUS authentication by the authentication server;   \n2. Failed RADIUS authentication (wrong certificate) by the authentication server;   \n3. Faile..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [
+      "O-RU",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "xApps",
+      "rApps",
+      "SMO",
+      "NACM",
+      "O1 Interface",
+      "O-CU-CP",
+      "O-CU-UP"
+    ],
+    "relations": [
+      {
+        "subject": "Chapter 10",
+        "predicate": "validates security mechanisms of",
+        "object": "O-RU"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "deployed on",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "deployed on",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "has security tests involving",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "O1 Interface",
+        "predicate": "uses for access control",
+        "object": "NACM"
+      }
+    ],
+    "preview": "\n\n# Chapter 10 Security test of O-RU\n\n# 10.1 Overview\n\nThis chapter contains a set of security tests to validate the security protection mechanism specific to O-RU.\n\nEditor’s notes: This chapter will be updated in subsequent versions of the security test specification.\n\n# Chapter 11 Security test of Near-RT RIC\n\n# 11.1 Overview\n\nThis chapter contains a set of security tests to validate the securit..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O1 Interface",
+      "NACM"
+    ],
+    "relations": [
+      {
+        "subject": "O1 Interface",
+        "predicate": "has_security_requirements",
+        "object": "security requirements"
+      },
+      {
+        "subject": "Test",
+        "predicate": "enforce",
+        "object": "NACM rule(s)"
+      },
+      {
+        "subject": "O-RAN Component",
+        "predicate": "uses",
+        "object": "NACM"
+      }
+    ],
+    "preview": "# 15.2.1 STC-Chapter 15-15.2-001: O1 Interface NACM Validation\n\nRequirement Name: O1 Interface security requirements\n\nRequirement Reference: Section 3.2.2.1, O-RAN Security Requirements Specifications 2.0 [5]\n\nRequirement Description: Requirements of O1 Interface Confidentiality, Integrity & Authenticity protection and Least Privilege Access Control\n\nThreat References: T-O-RAN-02, T-O-RAN-06\n\nO-RA..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [
+      "O-RAN component",
+      "SMO",
+      "O1 interface",
+      "NETCONF session",
+      "TLS",
+      "role-based access control",
+      "NACM rule set enforcement",
+      "RADIUS server",
+      "EAP configuration",
+      "certificate",
+      "server certificate",
+      "certificate authorities (CAs)",
+      "client root CA",
+      "NETCONF client certificate",
+      "TLS Client-to-NETCONF username mapping",
+      "host/device",
+      "TLS client software",
+      "OpenSSL",
+      "user account",
+      "O1_nacm_management group",
+      "global NACM enforcement control setting",
+      "pre-defined groups"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN component",
+        "predicate": "managed by",
+        "object": "SMO"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "uses",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "supports",
+        "object": "NETCONF session"
+      },
+      {
+        "subject": "NETCONF session",
+        "predicate": "secured by",
+        "object": "TLS"
+      },
+      {
+        "subject": "role-based access control",
+        "predicate": "enforced by",
+        "object": "NACM rule set enforcement"
+      },
+      {
+        "subject": "RADIUS server",
+        "predicate": "configured with",
+        "object": "EAP configuration"
+      },
+      {
+        "subject": "O-RAN component",
+        ".predicate": "requires",
+        "object": "certificate"
+      },
+      {
+        "subject": "server certificate",
+        "predicate": "includes",
+        "object": "certificate authorities (CAs)"
+      },
+      {
+        "subject": "client root CA",
+        "predicate": "used to validate",
+        "object": "NETCONF client certificate"
+      },
+      {
+        "subject": "TLS Client-to-NETCONF username mapping",
+        "predicate": "configured on",
+        "object": "O-RAN component"
+      },
+      {
+        "subject": "host/device",
+        "predicate": "installed with",
+        "object": "TLS client software"
+      },
+      {
+        "subject": "TLS client software",
+        "predicate": "e.g.",
+        "object": "OpenSSL"
+      },
+      {
+        "subject": "user account",
+        "predicate": "part of",
+        "object": "O1_nacm_management group"
+      },
+      {
+        "subject": "global NACM enforcement control setting",
+        "predicate": "includes",
+        "object": "enable-nacm=true"
+      },
+      {
+        "subject": "global NACM enforcement control setting",
+        "predicate": "includes",
+        "object": "read-default=permit"
+      },
+      {
+        "subject": "global NACM enforcement control setting",
+        "predicate": "includes",
+        "object": "write-default=deny"
+      },
+      {
+        "subject": "global NACM enforcement control setting",
+        "predicate": "includes",
+        "object": "exec-default=deny"
+      },
+      {
+        "subject": "global NACM enforcement control setting",
+        "predicate": "includes",
+        "object": "enable-external-groups=true"
+      },
+      {
+        "subject": "pre-defined groups",
+        "predicate": "include",
+        "object": "O1_nacm_management group"
+      }
+    ],
+    "preview": "# 15.2.1.1 Test description and applicability\n\nO-RAN component(s) managed by SMO through O1 interface shall support secured NETCONF session over TLS and role-based least privilege access control enforced by NACM [14]. This test validates the O1 interface security requirements of the O-RAN component(s) with the focus on role-based NACM rule(s) set enforcement to further secure the access to NETCONF..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [
+      "O-RAN component",
+      "TLS client software",
+      "OpenSSL",
+      "client certificates",
+      "keys",
+      "root CA certificate",
+      "intermediate CA certificates",
+      "NETCONF-over-TLS session",
+      "DUT O1 interface",
+      "TLSv1.2",
+      "TLSv1.3",
+      "O1_nacm_management group",
+      "NETCONF user",
+      "NACM enforcement control settings",
+      "enable-nacm",
+      "read-default",
+      "write-default",
+      "exec-default",
+      "enable-external-groups",
+      "pre-defined groups",
+      "O1_user_management",
+      "O1_network_management",
+      "O1_network_monitoring",
+      "O1_software_management",
+      "NACM rule sets",
+      "NETCONF operations set(s)",
+      "O-Cloud",
+      "VNF/CNF/PNF",
+      "CNF/VNF",
+      "PNF",
+      "security testing tools",
+      "DTLS",
+      "IPSec IKE",
+      "SSH",
+      "TLS",
+      "GitHub repository",
+      "test report",
+      "Test No.",
+      "Test name",
+      "Test status",
+      "B. TEST AND MEASUREMENT EQUIPMENT AND TOOLS",
+      "sub-module version",
+      "vulnerability database version",
+      "SYSTEM UNDER TEST",
+      "DUT",
+      "C3 component type",
+      "C4 serial number",
+      "C5 supplier or manufacturer",
+      "C6 software version",
+      "C7 hardware version",
+      "C8 interface or IoT profiles",
+      "C9 component parameters, settings, and configurations",
+      "TEST CONFIGURATION",
+      "D1 Function(s) and Service(s) setting",
+      "D2 Network setting"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN component",
+        "predicate": "uses",
+        "object": "TLS client software"
+      },
+      {
+        "subject": "TLS client software",
+        "predicate": "installed on",
+        "object": "Linux"
+      },
+      {
+        "subject": "OpenSSL",
+        "predicate": "used for",
+        "object": "NETCONF-over-TLS session"
+      },
+      {
+        "subject": "O-RAN component",
+        "predicate": "supports",
+        "object": "NACM enforcement control settings"
+      },
+      {
+        "subject": "O1_nacm_management group",
+        "predicate": "associated with",
+        "object": "NETCONF user"
+      },
+      {
+        "subject": "NACM rule sets",
+        "predicate": "applied to",
+        "object": "pre-defined groups"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "hosts",
+        "object": "O-RAN components/system"
+      },
+      {
+        "subject": "CNF/VNF",
+        "predicate": "deployed on",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "PNF",
+        "predicate": "deployed as",
+        "object": "standalone hardware/appliance"
+      },
+      {
+        "subject": "security testing tools",
+        "predicate": "used for",
+        "object": "DTLS"
+      },
+      {
+        "subject": "GitHub repository",
+        "predicate": "linked to",
+        "object": "OpenSSL"
+      },
+      {
+        "subject": "test report",
+        "predicate": "contains",
+        "object": "Test No."
+      },
+      {
+        "subject": "B. TEST AND MEASUREMENT EQUIPMENT AND TOOLS",
+        "predicate": "includes",
+        "object": "sub-module version"
+      },
+      {
+        "subject": "SYSTEM UNDER TEST",
+        "predicate": "identifies",
+        "object": "DUT"
+      },
+      {
+        "subject": "TEST CONFIGURATION",
+        "predicate": "documents",
+        "object": "Function(s) and Service(s) setting"
+      }
+    ],
+    "preview": "# 15.2.1.3 Test procedure\n\nFirst set up a host/device (e.g. Linux) with TLS client software installed (e.g. OpenSSL), and proper client certificates, keys, the root CA certificate for the server (O-RAN component), and all intermediate CA certificates required to validate the client certificate.\n\nThe following test steps should be followed for the validation:\n\n1) Start the NETCONF-over-TLS session ..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 15.2.1.4 Test requirements (expected results)\n\nThe O-RAN component should be able to support the NETCONF over TLS session over its O1 interface and NACM enforcement control settings.\n\n# Chapter 16 Security test of O-Cloud\n\n# 16.1 Overview\n\nThis chapter contains a set of security tests to validate the security protection mechanism specific to O-Cloud hosting the O-RAN components/system.\n\nEditor..."
+  },
+  {
+    "chunk_id": 34,
+    "entities": [
+      "Affiliate",
+      "Compliant Implementation",
+      "Final Specification",
+      "Adopter(s)",
+      "O-RAN Specifications",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "Copyright License"
+    ],
+    "relations": [
+      {
+        "subject": "Affiliate",
+        "predicate": "is defined in",
+        "object": "Section 1.1"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "uses under license",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "is an update to",
+        "object": "O-RAN Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "are necessarily infringed by",
+        "object": "Compliant Implementation"
+      }
+    ],
+    "preview": "# Section 1: DEFINITIONS\n\n1.1 “Affiliate” means an entity that directly or indirectly controls, is controlled by, or is under common control with another entity, so long as such control exists. For the purpose of this Section, “Control” means beneficial ownership of fifty $( 5 0 \\% )$ percent or more of the voting stock or equity in an entity.\n\n1.2 “Compliant Implementation” means any system, devi..."
+  },
+  {
+    "chunk_id": 35,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Academic Contributors"
+      }
+    ],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN ALLIANCE hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 36,
+    "entities": [
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopter",
+      "O-RAN ALLIANCE",
+      "Compliant Implementations",
+      "Necessary Claims",
+      "Indemnitees",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "terminate agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grant license to",
+        "object": "new Adopters"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "maintain confidentiality of",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Indemnitees"
+      }
+    ],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 37,
+    "entities": [
+      "Adopter",
+      "O-RAN ALLIANCE",
+      "Indemnitees",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Indemnitees"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "may assign",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Members",
+        "predicate": "are",
+        "object": "third-party beneficiaries under this Agreement"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "are",
+        "object": "third-party beneficiaries under this Agreement"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "are",
+        "object": "third-party beneficiaries under this Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "may not assign without consent",
+        "object": "O-RAN ALLIANCE"
+      }
+    ],
+    "preview": "# Section 6: INDEMNIFICATION\n\nAdopter shall indemnify, defend, and hold harmless the O-RAN ALLIANCE, its Members, Contributors or Academic Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”), against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or imposed upon any of the Inde..."
+  }
+]

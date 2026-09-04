@@ -1,0 +1,660 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN Focus Group",
+      "Circular economy guidelines",
+      "network equipment",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "circularity aspects",
+      "indicators",
+      "reduction of environmental impact",
+      "equipment lifecycle",
+      "circular economy model",
+      "product durability",
+      "ability to recycle",
+      "ability to repair",
+      "ability to reuse",
+      "ability to upgrade",
+      "manufacturer level"
+    ],
+    "relations": [
+      {
+        "subject": "Circular economy guidelines",
+        "predicate": "focuses on",
+        "object": "network equipment"
+      },
+      {
+        "subject": "O-RAN Focus Group",
+        "predicate": "produced by",
+        "object": "O-RAN ALLIANCE e.V."
+      },
+      {
+        "subject": "Circular economy guidelines",
+        "predicate": "includes",
+        "object": "circularity aspects"
+      },
+      {
+        "subject": "Circular economy guidelines",
+        "predicate": "includes",
+        "object": "indicators"
+      },
+      {
+        "subject": "network equipment",
+        "predicate": "applies to",
+        "object": "O-CU"
+      },
+      {
+        "subject": "network equipment",
+        "predicate": "applies to",
+        "object": "O-DU"
+      },
+      {
+        "subject": "network equipment",
+        "predicate": "applies to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "circularity aspects",
+        "predicate": "contributes to",
+        "object": "reduction of environmental impact"
+      },
+      {
+        "subject": "equipment lifecycle",
+        "predicate": "aspects to consider",
+        "object": "network equipment"
+      },
+      {
+        "subject": "circular economy model",
+        "predicate": "supports",
+        "object": "product durability"
+      },
+      {
+        "subject": "circular economy model",
+        "predicate": "supports",
+        "object": "ability to recycle"
+      },
+      {
+        "subject": "circular economy model",
+        "predicate": "supports",
+        "object": "ability to repair"
+      },
+      {
+        "subject": "circular economy model",
+        "predicate": "supports",
+        "object": "ability to reuse"
+      },
+      {
+        "subject": "circular economy model",
+        "predicate": "supports",
+        "object": "ability to upgrade"
+      },
+      {
+        "subject": "manufacturer level",
+        "predicate": "contributes to",
+        "object": "circular economy model"
+      }
+    ],
+    "preview": "\n\n# O-RAN Focus Group (Sustainability Focus Group)\n\nCircular economy guidelines on network equipment\n\nCopyright $\\circledcirc$ 2022 by the O-RAN ALLIANCE e.V.\n\n# Contents\n\nList of figures ............ .3   \nList of tables ... .3   \nForeword... ...4   \nModal verbs terminology . ..4   \nExecutive summary ... ..4   \nIntroduction .. ..4   \n1 Scope ...... ...5   \n2 References ... ...5   \n2.1 Informative..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "Circular Economy Model",
+      "Network Equipment",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "Circular Economy",
+      "Product Durability",
+      "Recycling",
+      "Repair",
+      "Reuse",
+      "Upgrade",
+      "Manufacturer Level",
+      "ITU-T L.1023 (08/2023)",
+      "Guidelines",
+      "GSMA /March 2022: Strategy Paper for Circular Economy: Network equipment",
+      "NGMN 1.0/July 2021: Green Future Networks. Network Equipment Eco-Design and End to End Service Footprint"
+    ],
+    "relations": [
+      {
+        "subject": "Circular Economy Model",
+        "predicate": "reduces",
+        "object": "Environmental Impact"
+      },
+      {
+        "subject": "Network Equipment",
+        "predicate": "includes",
+        "object": "O-CU"
+      },
+      {
+        "subject": "Network Equipment",
+        "predicate": "includes",
+        "object": "O-DU"
+      },
+      {
+        "subject": "Network Equipment",
+        "predicate": "includes",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Circular Economy",
+        "predicate": "involves",
+        "object": "Product Durability"
+      },
+      {
+        "subject": "Circular Economy",
+        "predicate": "involves",
+        "object": "Recycling"
+      },
+      {
+        "subject": "Circular Economy",
+        "predicate": "involves",
+        "object": "Repair"
+      },
+      {
+        "subject": "Circular Economy",
+        "predicate": "involves",
+        "object": "Reuse"
+      },
+      {
+        "subject": "Circular Economy",
+        "predicate": "involves",
+        "object": "Upgrade"
+      },
+      {
+        "subject": "Network Equipment",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "ITU-T L.1023 (08/2023)",
+        "predicate": "provides",
+        "object": "Assessment Method for Circularity Performance Scoring"
+      },
+      {
+        "subject": "Guidelines",
+        "predicate": "based on",
+        "object": "ITU-T L.1023 (08/2023)"
+      },
+      {
+        "subject": "GSMA /March 2022: Strategy Paper for Circular Economy: Network equipment",
+        "predicate": "assists with",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "NGMN 1.0/July 2021: Green Future Networks. Network Equipment Eco-Design and End to End Service Footprint",
+        "predicate": "contributes to",
+        "object": "Eco-Design"
+      }
+    ],
+    "preview": "# Introduction\n\nCircular economy model reduces environmental impact supporting the reduction of material use, recycling, and recovering of product, product parts, components, and materials to circulate them in the value chain for as long as possible.\n\nThe present document identifies circular economy aspects and indicators applicable on network equipment such as: O-CU, O-DU and O-RU including their..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "Circular economy",
+      "ICT goods",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "RAN",
+      "CE",
+      "ICT",
+      "NE",
+      "PD",
+      "3Rue",
+      "3Rum"
+    ],
+    "relations": [
+      {
+        "subject": "Circular economy",
+        "predicate": "defined by",
+        "object": "ITU-T L.1020"
+      },
+      {
+        "subject": "ICT goods",
+        "predicate": "defined by",
+        "object": "ITU-T L.1410"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "defined by",
+        "object": "O-RAN.WG1.Use-Cases-Detailed-Specification-R003-v11.00"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "defined by",
+        "object": "O-RAN.WG1.Use-Cases-Detailed-Specification-R003-v11.00"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "defined by",
+        "object": "O-RAN.WG1.Use-Cases-Detailed-Specification-R003-v11.00"
+      },
+      {
+        "subject": "RAN",
+        "predicate": "defined by",
+        "object": "O-RAN.WG1.Use-Cases-Detailed-Specification-R003-v11.00"
+      }
+    ],
+    "preview": "\n\n# 2 References\n\n# 2.1 Informative references\n\nReferences are either specific (identified by date of publication and/or edition number or version number) or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies.\n\nNOTE: While any hyperlinks included in this clause were val..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "Circular Economy",
+      "Information and communication technology",
+      "Network equipment",
+      "O-RAN Central Unit",
+      "O-RAN Distributed Unit",
+      "O-RAN Radio Unit",
+      "Product durability",
+      "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+      "Ability to Recycle, Repair, Reuse, and Upgrade, Manufacturer level",
+      "ITU-T L.1023",
+      "circularity indicators",
+      "circularity aspects"
+    ],
+    "relations": [
+      {
+        "subject": "Circular Economy",
+        "predicate": "abbreviation of",
+        "object": "CE"
+      },
+      {
+        "subject": "Information and communication technology",
+        "predicate": "abbreviation of",
+        "object": "ICT"
+      },
+      {
+        "subject": "Network equipment",
+        "predicate": "abbreviation of",
+        "object": "NE"
+      },
+      {
+        "subject": "O-RAN Central Unit",
+        "predicate": "abbreviation of",
+        "object": "O-CU"
+      },
+      {
+        "subject": "O-RAN Distributed Unit",
+        "predicate": "abbreviation of",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN Radio Unit",
+        "predicate": "abbreviation of",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Product durability",
+        "predicate": "abbreviation of",
+        "object": "PD"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+        "predicate": "abbreviation of",
+        "object": "3Rue"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Manufacturer level",
+        "predicate": "abbreviation of",
+        "object": "3Rum"
+      },
+      {
+        "subject": "ITU-T L.1023",
+        "predicate": "defines",
+        "object": "methodology for identifying circularity in ICT goods"
+      },
+      {
+        "subject": "Product durability",
+        "predicate": "includes",
+        "object": "indicators related to promoting the life span and durability of products by adapting their design and upgrading software to a new version and service support by ensuring the product can be used for as long as possible by the first user or subsequent users"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+        "predicate": "includes",
+        "object": "indicators related to the product´s structure and access to its priority parts for repair, connecting, systems to facilitate disassembly and reassembly, spare parts, diagnostic and information availability"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+        "predicate": "relates to",
+        "object": "Possibilities to refurbish the ICT good"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+        "predicate": "relates to",
+        "object": "Possibilities to reuse product parts and components within the ICT good (after first use) in refurbishment of similar or other ICT goods"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Equipment level",
+        "predicate": "relates to",
+        "object": "Facilitate the identification, separation and recycling of materials. Addresses separate collection of products for better recycling and development of designated recycling technologies"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Manufacturer level",
+        "predicate": "includes",
+        "object": "indicators related to the manufacturer ability (on company level) to facilitate recycling, repair, reuse, and upgrade. These requirements are not directly connected to the equipment, but to the infrastructure and support to be developed or supported by the manufacturer"
+      },
+      {
+        "subject": "Ability to Recycle, Repair, Reuse, and Upgrade, Manufacturer level",
+        "predicate": "relates to",
+        "object": "Availability of service support in terms of information, infrastructure, and spare parts"
+      }
+    ],
+    "preview": "\n\n# 3.2 Symbols\n\nVoid\n\n# 3.3 Abbreviations\n\nFor the purposes of the present document, the [following] abbreviations [given in i.1 and the following] apply:\n\nCE Circular Economy   \nICT Information and communication technology   \nNE Network equipment   \nO-CU O-RAN Central Unit   \nO-DU O-RAN Distributed Unit   \nO-RU O-RAN Radio Unit   \nPD Product durability   \nRAN Radio Access Network   \n3Rue Ability..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "Circular Economy",
+      "Network Equipment",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "Product Durability",
+      "Ability to Recycle, Repair, Reuse, Upgrade (Equipment level)",
+      "Ability to Recycle, Repair, Reuse, Upgrade (Manufacturer level)",
+      "Software and Data Support",
+      "Scratch Resistance",
+      "Maintenance Support",
+      "Robustness",
+      "Fasteners and Connectors",
+      "Diagnostic Support",
+      "Material Recycling Compatibility - Plastic Parts",
+      "Material Recycling Compatibility - Metal Parts",
+      "Recycled/ Renewable Plastics",
+      "Recycled Metals",
+      "Material Identification",
+      "Hazardous Substances (Bromine and Chlorine)",
+      "Critical Raw Materials",
+      "Packaging Recycling",
+      "Technical Performance Product Mass-Based Materials Efficiency"
+    ],
+    "relations": [
+      {
+        "subject": "Circular Economy",
+        "predicate": "contributes to",
+        "object": "Network Equipment"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "is part of",
+        "object": "Network Equipment"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "is part of",
+        "object": "Network Equipment"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "is part of",
+        "object": "Network Equipment"
+      },
+      {
+        "subject": "Product Durability",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Software and Data Support",
+        "predicate": "is part of",
+        "object": "Product Durability"
+      },
+      {
+        "subject": "Scratch Resistance",
+        "predicate": "is part of",
+        "object": "Product Durability"
+      },
+      {
+        "subject": "Maintenance Support",
+        "predicate": "is part of",
+        "object": "Product Durability"
+      },
+      {
+        "subject": "Robustness",
+        "predicate": "is part of",
+        "object": "Product Durability"
+      },
+      {
+        "subject": "Fasteners and Connectors",
+        "predicate": "contributes to",
+        "object": "Ability to Recycle, Repair, Reuse, Upgrade (Equipment level)"
+      },
+      {
+        "subject": "Diagnostic Support",
+        "predicate": "contributes to",
+        "object": "Ability to Recycle, Repair, Reuse, Upgrade (Equipment level)"
+      },
+      {
+        "subject": "Material Recycling Compatibility - Plastic Parts",
+        "predicate": "contributes to",
+        "object": "Ability to Recycle, Repair, Reuse, Upgrade (Equipment level)"
+      },
+      {
+        "subject": "Material Recycling Compatibility - Metal Parts",
+        "predicate": "contributes to",
+        "object": "Ability to Recycle, Repair, Reuse, Upgrade (Equipment level)"
+      },
+      {
+        "subject": "Recycled/ Renewable Plastics",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Recycled Metals",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Material Identification",
+        "predicate": "facilitates",
+        "object": "Subsequent Recycling of Equipment"
+      },
+      {
+        "subject": "Hazardous Substances (Bromine and Chlorine)",
+        "predicate": "impacts",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Critical Raw Materials",
+        "predicate": "impacts",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Packaging Recycling",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      },
+      {
+        "subject": "Technical Performance Product Mass-Based Materials Efficiency",
+        "predicate": "contributes to",
+        "object": "Circular Economy"
+      }
+    ],
+    "preview": "# 4 Circular economy on network equipment\n\nBased on ITU-T L.1023 recommendation, there is a three-step methodology to identify an information and communication technology (ICT) good´s circularity in three dimensions via three circularity aspects: first, the ICT good durability, second, the ICT good ability to be recycled, repaired, reused and upgraded; and third, the manufacturers ability to recyc..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "network equipment circularity aspects",
+      "indicators",
+      "Battery for portable ICT goods",
+      "Data security",
+      "Product durability",
+      "Software and data support",
+      "Scratch resistance",
+      "Maintenance support",
+      "Robustness",
+      "Recycle, repair, reuse, upgrade - Equipment level",
+      "Fasteners and connectors",
+      "Diagnostic support",
+      "Material recycling compatibility - Plastic parts",
+      "Material recycling compatibility - Metal parts",
+      "Recycled/renewable plastics",
+      "Recycled metals",
+      "Material identification",
+      "Hazardous substances (Bromine and Chlorine)",
+      "Critical Raw Materials",
+      "Packaging recycling",
+      "Technical performance product mass-based materials efficiency",
+      "Ability to Recycle, Repair, Reuse, upgrade - Manufacturer level",
+      "Service offered by manufacturer",
+      "Spare parts distribution",
+      "Spare parts availability",
+      "Disassembly information",
+      "Collection and recycling programmes",
+      "Environmental footprint assessment knowledge publicly available",
+      "EN 45554",
+      "ISO 11469",
+      "IEEE1680",
+      "ITU-T K.20/21/45"
+    ],
+    "relations": [
+      {
+        "head": "Software and firmware updates availability",
+        "tail": "contributes to circular economy",
+        "relation": "if categorized as long-term (class A)"
+      },
+      {
+        "head": "Spare parts availability",
+        "tail": "does not contribute to circular economy",
+        "relation": "if no information on duration is provided"
+      },
+      {
+        "head": "Disassembly information",
+        "tail": "contributes to circular economy",
+        "relation": "if publicly available (class A)"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"This table outlines different aspects of product durability, categorized by equipment and manufacturer levels. It maps durability factors to specific strategies for extending product life, including repair, reuse, recycling, and upgrades. The equipment-level durability factors encompass software support, physical robustness, and maintenance. The manufacturer-le..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "Repair Services",
+      "Reuse Services",
+      "Upgrade Services",
+      "EN 45554",
+      "Spare Parts Distribution",
+      "Class A (Spare Parts)",
+      "Class B (Spare Parts)",
+      "Spare Parts Availability",
+      "Disassembly Information",
+      "Class A (Disassembly)",
+      "Class D (Disassembly)",
+      "Collection and Recycling Programmes",
+      "Germanium",
+      "Tantalum",
+      "Indium",
+      "Environmental Footprint Assessment",
+      "ISO 14040",
+      "ISO 14044",
+      "ITU-T L.1410",
+      "Priority Level Definition",
+      "Table 4-2",
+      "O-CU/O-DU",
+      "O-RU",
+      "Figure A.1-1",
+      "Reduction of Environmental Impact"
+    ],
+    "relations": [
+      {
+        "subject": "Repair Services",
+        "predicate": "related to",
+        "object": "EN 45554"
+      },
+      {
+        "subject": "Reuse Services",
+        "predicate": "related to",
+        "object": "EN 45554"
+      },
+      {
+        "subject": "Upgrade Services",
+        "predicate": "related to",
+        "object": "EN 45554"
+      },
+      {
+        "subject": "Spare Parts Distribution",
+        "predicate": "categorized under",
+        "object": "Class A (Spare Parts)"
+      },
+      {
+        "subject": "Spare Parts Distribution",
+        "predicate": "categorized under",
+        "object": "Class B (Spare Parts)"
+      },
+      {
+        "subject": "Spare Parts Availability",
+        "predicate": "related to",
+        "object": "EN 45554"
+      },
+      {
+        "subject": "Disassembly Information",
+        "predicate": "categorized under",
+        "object": "Class A (Disassembly)"
+      },
+      {
+        "subject": "Disassembly Information",
+        "predicate": "categorized under",
+        "object": "Class D (Disassembly)"
+      },
+      {
+        "subject": "Collection and Recycling Programmes",
+        "predicate": "includes",
+        "object": "Germanium"
+      },
+      {
+        "subject": "Collection and Recycling Programmes",
+        "predicate": "includes",
+        "object": "Tantalum"
+      },
+      {
+        "subject": "Collection and Recycling Programmes",
+        "predicate": "includes",
+        "object": "Indium"
+      },
+      {
+        "subject": "Environmental Footprint Assessment",
+        "predicate": "based on",
+        "object": "ISO 14040"
+      },
+      {
+        "subject": "Environmental Footprint Assessment",
+        "predicate": "based on",
+        "object": "ISO 14044"
+      },
+      {
+        "subject": "Environmental Footprint Assessment",
+        "predicate": "based on",
+        "object": "ITU-T L.1410"
+      },
+      {
+        "subject": "Priority Level Definition",
+        "predicate": "defined in",
+        "object": "Table 4-2"
+      },
+      {
+        "subject": "Reduction of Environmental Impact",
+        "predicate": "includes",
+        "object": "O-CU/O-DU"
+      },
+      {
+        "subject": "Reduction of Environmental Impact",
+        "predicate": "includes",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Figure A.1-1",
+        "predicate": "illustrates",
+        "object": "Reduction of Environmental Impact"
+      }
+    ],
+    "preview": "# 3. Ability to Recycle, Repair, Reuse, upgrade - Manufacturer level\n\n3.1. Service offered by manufacturer: Duration of Repair, Reuse, upgrade services (according to EN 45554).\n\nThe most contributing variable to the circularity of the equipment: Repair, Reuse and upgrade service availability can be categorized as long-term (class A). NOTE: Expected durability is the time a customer (the user of th..."
+  }
+]

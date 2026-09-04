@@ -1,0 +1,3073 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN ALLIANCE e.V.",
+      "Security Threat Modeling",
+      "Remediation Analysis",
+      "Specification Document"
+    ],
+    "relations": [
+      {
+        "subject": "Specification Document",
+        "predicate": "prepared by",
+        "object": "O-RAN ALLIANCE e.V."
+      },
+      {
+        "subject": "Methodology",
+        "predicate": "includes",
+        "object": "Security Threat Modeling"
+      },
+      {
+        "subject": "Methodology",
+        "predicate": "includes",
+        "object": "Remediation Analysis"
+      }
+    ],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# O-RAN Security Threat Modeling and Remediation Analysis\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and ..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [],
+    "relations": [],
+    "preview": "# Chapter 2 Overview ... 1\n\n2.1 Objective and structure ... ............................................................................................................ ... 11   \n2.2 Methodology..... ......................................................................................................... . 11   \n2.3 Perimeter........ ..................................................................."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN",
+      "3GPP",
+      "Compatibility Statement",
+      "Assets",
+      "Threats",
+      "Security Requirements",
+      "Roles-Assumptions-Assets",
+      "Stakeholders Roles and Responsibilities",
+      "Assumptions and Prerequisites",
+      "Critical Assets",
+      "Threat Model",
+      "Threats to Open Source Code",
+      "Physical Threats",
+      "Threats Against 5G Radio Networks",
+      "Threats Against ML System",
+      "Coverage Matrix of Threats",
+      "Security Principles",
+      "Mutual Authentication (SP-AUTH)",
+      "Access Control (SP-ACC)",
+      "Secure Cryptographic, Key Management and PKI (SP-CRYPTO)",
+      "Trusted Communication (SP-TCOMM)",
+      "Secure Storage (SP-SS)",
+      "Secure Boot and Self-Configuration (SP-SB)",
+      "Secure Update (SP-UPDT)",
+      "Recoverability & Backup (SP-RECO)",
+      "Security Management of Risks in Open Source Components (SP-OPNS)",
+      "Security Assurance (SP-ASSU)",
+      "Privacy (SP-PRV)",
+      "Continuous Security Development, Testing, Logging, Monitoring and Vulnerability Handling (SP-SLC)",
+      "Robust Isolation (SP-ISO)",
+      "Physical Security (SP-PHY)",
+      "Secure Cloud Computing and Virtualization (SP-CLD)",
+      "Robustness (SP-ROB)",
+      "O-RAN Threat Inventory",
+      "O-Cloud",
+      "Adopter License Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "has_compatibility_statement_with",
+        "object": "3GPP"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes",
+        "object": "Assets"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "identifies",
+        "object": "Threats"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "has",
+        "object": "Security Requirements"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "covers",
+        "object": "Roles-Assumptions-Assets"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "defines",
+        "object": "Stakeholders Roles and Responsibilities"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "lists",
+        "object": "Assumptions and Prerequisites"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "identifies",
+        "object": "Critical Assets"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "models",
+        "object": "Threat Model"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "includes",
+        "object": "Threats to Open Source Code"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "includes",
+        "object": "Physical Threats"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "includes",
+        "object": "Threats Against 5G Radio Networks"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "includes",
+        "object": "Threats Against ML System"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "has_coverage_matrix_for",
+        "object": "Coverage Matrix of Threats"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "establishes",
+        "object": "Security Principles"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Mutual Authentication (SP-AUTH)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Access Control (SP-ACC)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Secure Cryptographic, Key Management and PKI (SP-CRYPTO)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Trusted Communication (SP-TCOMM)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Secure Storage (SP-SS)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Secure Boot and Self-Configuration (SP-SB)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Secure Update (SP-UPDT)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Recoverability & Backup (SP-RECO)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Security Management of Risks in Open Source Components (SP-OPNS)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Security Assurance (SP-ASSU)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Privacy (SP-PRV)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Continuous Security Development, Testing, Logging, Monitoring and Vulnerability Handling (SP-SLC)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Robust Isolation (SP-ISO)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Physical Security (SP-PHY)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Secure Cloud Computing and Virtualization (SP-CLD)"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "includes",
+        "object": "Robustness (SP-ROB)"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "documents",
+        "object": "O-RAN Threat Inventory"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "affects",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "has",
+        "object": "Adopter License Agreement"
+      }
+    ],
+    "preview": "\n\n# Chapter 3 Statement of compatibility with 3GPP.. . 15\n\n3.1 Assets and Threats ..\n\n3.2 Security requirements . . 15\n\n# Chapter 4 Roles-Assumptions-Assets .....\n\n4.1 Stakeholders roles and responsibilities ....... .... 17   \n4.2 Assumptions and prerequisites . . 20   \n4.3 Critical assets ....... ... 21\n\n# Chapter 5 Threat model .. .27\n\n5.4.3 Threats to open source code .. .........................."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN",
+      "Near-RT-RIC",
+      "xApps",
+      "gNB",
+      "O-Cloud",
+      "Threats",
+      "Vulnerabilities",
+      "Security Threat Modeling",
+      "Remediation Analysis",
+      "Security Principles"
+    ],
+    "relations": [
+      {
+        "subject": "Logical Architecture of O-RAN system",
+        "predicate": "relates_to",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "Near-RT-RIC",
+        "predicate": "interacts_with",
+        "object": "UE Identification"
+      },
+      {
+        "subject": "Near-RT-RIC",
+        "predicate": "conflicts_with",
+        "object": "gNB"
+      },
+      {
+        "subject": "Threats",
+        "predicate": "target",
+        "object": "O-RAN LLS 7-2x"
+      },
+      {
+        "subject": "Threats",
+        "predicate": "target",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Security Threat Modeling and Remediation Analysis",
+        "predicate": "purposes_to",
+        "object": "Secure end-to-end O-RAN system"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "used_for",
+        "object": "Improving security of O-RAN components"
+      }
+    ],
+    "preview": "# List of Figures\n\nFigure 2-1 : Logical Architecture of O-RAN system [13]. . 14   \nFigure 5-1 : Threats and Vulnerabilities for O-RAN LLS 7-2x.. ........................................................ . 32   \nFigure 5-2 : UE Identification in Near-RT-RIC.. ................................................................................ . 35   \nFigure 5-3 : Near-RT-RIC and xApps conflict with gNB...."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "O-RAN",
+      "Security Threat Modeling",
+      "Remediation Analysis",
+      "assets",
+      "vulnerabilities",
+      "threats",
+      "security principles",
+      "stakeholders",
+      "secure end-to-end O-RAN system",
+      "system-level security principles",
+      "design",
+      "development",
+      "operation",
+      "normative security referential",
+      "security requirements",
+      "recommendations",
+      "countermeasures"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "Security Threat Modeling and Remediation Analysis"
+      },
+      {
+        "subject": "present document",
+        "predicate": "identifies",
+        "object": "assets to be protected"
+      },
+      {
+        "subject": "present document",
+        "predicate": "analyzes",
+        "object": "O-RAN components for vulnerabilities"
+      },
+      {
+        "subject": "present document",
+        "predicate": "examines",
+        "object": "potential threats associated with those vulnerabilities"
+      },
+      {
+        "subject": "present document",
+        "predicate": "provides",
+        "object": "security principles"
+      },
+      {
+        "subject": "stakeholders",
+        "predicate": "should address",
+        "object": "security principles"
+      },
+      {
+        "subject": "present document",
+        "predicate": "has purpose",
+        "object": "present a list of system-level security principles as a basic guideline"
+      },
+      {
+        "subject": "future versions",
+        "predicate": "aim to accomplish",
+        "object": "normative security referential"
+      },
+      {
+        "subject": "normative security referential",
+        "predicate": "includes",
+        "object": "elaborating on each of security principles in more details"
+      },
+      {
+        "subject": "normative security referential",
+        ".predicate": "includes",
+        "object": "setting precisely what is required (SHALL), recommended (SHOULD) or optional (MAY)"
+      },
+      {
+        "subject": "normative security referential",
+        "predicate": "includes",
+        "object": "refining security principles into requirements, recommendations and potential countermeasures"
+      }
+    ],
+    "preview": "\n\n# Chapter 1 Introductory Material\n\n# 1.1 Scope\n\nThe contents of the present document are subject to continuing work within O-RAN and may change following formal O-RAN approval. Should the O-RAN ALLIANCE modify the contents of the present document, it will be re-released by O-RAN with an identifying change of release date and an increase in version number as follows:\n\nRelease xx.yy.zz\n\nwhere:\n\nxx..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "O-RAN",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "E2 interface",
+      "A1 policy",
+      "FCAPS",
+      "Intents",
+      "3GPP TR 21.905",
+      "3GPP TS 33.511 V16.4.0 (2020-07)",
+      "ENISA threat landscape for 5g networks",
+      "A Survey on C-RAN Security",
+      "Intelligent O-RAN for Beyond 5G and 6G Wireless Networks",
+      "Security Considerations for the 5G Era",
+      "5G NR Jamming, Spoofing, and Sniffing: Threat Assessment and Mitigation",
+      "5G NR Physical Layer Vulnerability- Jamming, Sniffing and Spoofing",
+      "ERICSSON ‘Security Considerations of Open RAN’ whitepaper",
+      "ORAN.WG1.O-RAN-Architecture-Description-v04.00.03",
+      "ISO 27005",
+      "NIST Special Publication 800-154",
+      "Resource Allocation Scheme in 5G Network Slices",
+      "Security Assurance Methodology (SECAM)",
+      "NIST SP 800-190",
+      "CSA Best Practices for Mitigating Risks in Virtualized Environments",
+      "Fraunhofer AISEC - threat analysis of container-as-a-service for network function virtualization",
+      "Ecology-Based DoS Attack in Cognitive Radio Networks",
+      "AN ARCHITECTURAL RISK ANALYSIS OF MACHINE LEARNING SYSTEMS: Toward More Secure Machine Learning"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "enables guidance",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "FCAPS",
+        "predicate": "encompasses",
+        "object": "Fault, Configuration, Accounting, Performance, Security"
+      },
+      {
+        "subject": "Intents",
+        "predicate": "steer",
+        "object": "RAN functions"
+      },
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "reference",
+        "object": "3GPP TR 21.905"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "real-time control and optimization of RAN elements and resources"
+      }
+    ],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\nReferences are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.   \n• For a specific reference, subsequent revisions do not apply. For a non-specific reference, the latest version applies. In the..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "A1",
+      "A1 policy",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "E2 interface",
+      "E2 Node",
+      "FCAPS",
+      "Intents",
+      "O-CU",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "RAN",
+      "O1"
+    ],
+    "relations": [
+      {
+        "subject": "A1",
+        "predicate": "connects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "A1",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "connects",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2 Node",
+        "predicate": "terminates",
+        "object": "E2 interface"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "handles",
+        "object": "AI/ML workflow"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "includes",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "includes",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "real-time control and optimization of RAN elements and resources via fine-grained data collection and actions over E2 interface"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions, Abbreviations and Terms\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 and the following apply:\n\nA1: Interface between non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflow.\n\nA1 policy: Type of declarative policies expressed using formal st..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 1.3.2 Abbreviations\n\nFor the purposes of the present document, the abbreviations given in 3GPP TR 21.905 and the following apply:\n\n> **Table Summary:** {}\n\n# 1.3.3 Terms\n\nIn this document, the significance is following the words defined in the RFC 2119 publication by IETF. These words are:\n\n\"SHALL\" This word, or the words \"REQUIRED\" and \"MUST\" mean that the process is an absolute requirement o..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Chapter 2 Overview\n\n# 2.1 Objective and structure\n\nO-RAN architecture [13] is quite different from the architecture of 3GPP RAN, where new components, interfaces and technologies are proposed, new actors (stakeholders) arise and novel business models are made possible. The attack surface is bigger and we foresee that O-RAN design and deployment will raise numerous security challenges and resul..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [],
+    "relations": [],
+    "preview": "# 2.2 Methodology\n\nThe methodology adopted in this document is based on the standard ISO 27005 [14] which provide a detailed and flexible structure to release a risk assessment.\n\nRefer to NIST SP 800-154 [15] for the definition of Attack, Attack Surface, Attack Vector, Controls, Risk, Risk Mitigation, Threat, and Vulnerability.\n\nThe methodology followed in this document comprises three stages:\n\n1)..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "TLS",
+      "O1 interface",
+      "NETCONF over TLS",
+      "JSON/REST over TLS",
+      "A1 interface",
+      "SSH",
+      "Fronthaul M-Plane",
+      "IPSEC",
+      "E2 traffic",
+      "PTP",
+      "3GPP interfaces",
+      "UE",
+      "MEC",
+      "Core",
+      "Antennas",
+      "O-RAN system",
+      "Security Features",
+      "Confidentiality",
+      "Integrity",
+      "Authenticity",
+      "Assets",
+      "Threats",
+      "Requirements",
+      "Mobile Network Operator (MNO)",
+      "Trust Management Mechanism",
+      "Log files",
+      "Secrets",
+      "Credentials",
+      "Audit records"
+    ],
+    "relations": [
+      {
+        "subject": "TLS",
+        "predicate": "used_in",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "used_for",
+        "object": "NETCONF over TLS"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "used_for",
+        "object": "JSON/REST over TLS"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "used_in",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "used_in",
+        "object": "Fronthaul M-Plane"
+      },
+      {
+        "subject": "IPSEC",
+        "predicate": "used_for",
+        "object": "E2 traffic"
+      },
+      {
+        "subject": "PTP",
+        "predicate": "IEEE_standard",
+        "object": "1588-2019"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "uses_protocol",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "uses_protocol",
+        "object": "SSH"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "uses_protocol",
+        "object": "IPSEC"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "uses_protocol",
+        "object": "PTP"
+      },
+      {
+        "subject": "Security Features",
+        "predicate": "includes",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Security Features",
+        "predicate": "includes",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Security Features",
+        "predicate": "includes",
+        "object": "Authenticity"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "compatible_with",
+        "object": "3GPP Assets"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "compatible_with",
+        "object": "3GPP Threats"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "compatible_with",
+        "object": "3GPP Requirements"
+      },
+      {
+        "subject": "Mobile Network Operator (MNO)",
+        "predicate": "responsible_for",
+        "object": "System Testing"
+      },
+      {
+        "subject": "Trust Management Mechanism",
+        "predicate": "important_for",
+        "object": "Cooperation Among Stakeholders"
+      },
+      {
+        "subject": "Log files",
+        "predicate": "protected_by_access_control",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Secrets",
+        "predicate": "protected_by_access_control",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Credentials",
+        "predicate": "protected_by_access_control",
+        "object": "O-RAN system"
+      }
+    ],
+    "preview": "# Relevant Protocols used by O-RAN system for enforcing security:\n\nTLS o Should be used to protect the traffic between the O-RAN system and other network elements. It establishes a secure channel and provides CIA (Confidentiality, Integrity, Authenticity) features. o Should be used in O1 interface for NETCONF over TLS and JSON/REST over TLS o Should be used in A1 interface SSH o Should be used in ..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n![](images/1f630aa30165df5d5bd60b88e411b3468a1688c40e3af3a7aa12bc4376c26312.jpg)\n\n> **Image Summary:** {\n\"summary\": \"This image depicts a logical architecture for a 5G network, specifically focusing on the Open RAN (O-RAN) interface framework. It outlines the relationships and interfaces between various components like the O-CU (Control Unit), O-DU (Distributed Unit), O-RU (Radio Unit), and thei..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-RAN system",
+      "Critical assets",
+      "Service Management and Orchestration (SMO)",
+      "Near-RT RIC software",
+      "O-CU-CP software",
+      "O-CU-UP software",
+      "O-DU software",
+      "O-RU software",
+      "0-eNB",
+      "0-Cloud",
+      "xApps",
+      "rApps",
+      "Non-RTRIC software",
+      "ML components",
+      "PNF NF equipment",
+      "Open Source Code",
+      "Trust Chain",
+      "Containerization",
+      "Virtualization",
+      "Lower Layer Split (LLS)",
+      "A1 interface",
+      "E2 interface",
+      "O1 interface",
+      "O2 interface",
+      "Open Fronthaul"
+    ],
+    "relations": [
+      {
+        "subject": "Service Management and Orchestration (SMO)",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Near-RT RIC software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O-CU-CP software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O-CU-UP software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O-DU software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O-RU software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "0-eNB",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "0-Cloud",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "xApps",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Non-RTRIC software",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "ML components",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "PNF NF equipment",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Open Source Code",
+        "predicate": "affects",
+        "object": "Trust Chain"
+      },
+      {
+        "subject": "Containerization",
+        "predicate": "increases threat to",
+        "object": "Trust Chain"
+      },
+      {
+        "subject": "Virtualization",
+        "predicate": "increases threat to",
+        "object": "Trust Chain"
+      },
+      {
+        "subject": "Lower Layer Split (LLS)",
+        "predicate": "modifies architecture of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "E2 interface",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O1 interface",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "O2 interface",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "is part of",
+        "object": "O-RAN system"
+      }
+    ],
+    "preview": "\n\n# 4.3 Critical assets\n\nThe following table gives the list of critical assets to be protected within the O-RAN system. For each asset, the protection level is proposed. The table only considers critical assets, components and interfaces introduced by O-RAN Alliance.\n\nTable 4-2 : Critical assets\n\n> **Table Summary:** {\n\"table\": {\n\"headers\": [\n\"ASSET\",\n\"DESCRIPTION\",\n\"Component\",\n\"Component (logi\\n..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "SMO",
+      "Non-Real-Time RIC",
+      "Near-Real-Time RIC",
+      "A1",
+      "E2",
+      "O1",
+      "O2",
+      "Open Fronthaul",
+      "Lower Layer Split (LLS) 7-2x",
+      "Trust Chain",
+      "Containerization and Virtualization",
+      "Disaggregation of software and hardware",
+      "Open Source Code",
+      "API between planes",
+      "Threats coming from inside the O-RAN system",
+      "Threats coming from outside the O-RAN system",
+      "Cyber-criminals",
+      "Insiders",
+      "Hacktivists",
+      "Cyber-terrorists",
+      "Script kiddies",
+      "Nation-State"
+    ],
+    "relations": [
+      {
+        "subject": "SMO",
+        "predicate": "Threat Surface",
+        "object": "Additional functions"
+      },
+      {
+        "subject": "Non-Real-Time RIC",
+        "predicate": "Threat Surface",
+        "object": "Additional functions"
+      },
+      {
+        "subject": "Near-Real-Time RIC",
+        "predicate": "Threat Surface",
+        "object": "Additional functions"
+      },
+      {
+        "subject": "A1",
+        "predicate": "Threat Surface",
+        "object": "Additional open interfaces"
+      },
+      {
+        "subject": "E2",
+        "predicate": "Threat Surface",
+        "object": "Additional open interfaces"
+      },
+      {
+        "subject": "O1",
+        "predicate": "Threat Surface",
+        "object": "Additional open interfaces"
+      },
+      {
+        "subject": "O2",
+        "predicate": "Threat Surface",
+        "object": "Additional open interfaces"
+      },
+      {
+        "subject": "Open Fronthaul",
+        "predicate": "Threat Surface",
+        "object": "Additional open interfaces"
+      },
+      {
+        "subject": "Lower Layer Split (LLS) 7-2x",
+        "predicate": "Threat Surface",
+        "object": "Modified architecture"
+      },
+      {
+        "subject": "Trust Chain",
+        "predicate": "Threat Surface",
+        "object": "Decoupling increases threat to Trust Chain"
+      },
+      {
+        "subject": "Containerization and Virtualization",
+        "predicate": "Threat Surface",
+        "object": "Disaggregation of software and hardware"
+      },
+      {
+        "subject": "Open Source Code",
+        "predicate": "Threat Surface",
+        "object": "Exposure to public exploits may be increased due to use of Open Source Code"
+      },
+      {
+        "subject": "API between planes",
+        "predicate": "Threat Surface",
+        "object": "Entry points facilitating threat propagation"
+      },
+      {
+        "subject": "Threats coming from inside the O-RAN system",
+        "predicate": "Threat Surface",
+        "object": "Internal threats"
+      },
+      {
+        "subject": "Threats coming from outside the O-RAN system",
+        "predicate": "Threat Surface",
+        "object": "External threats"
+      },
+      {
+        "subject": "Cyber-criminals",
+        "predicate": "Threat Agent",
+        "object": "Individuals who commit cybercrimes"
+      },
+      {
+        "subject": "Insiders",
+        "predicate": "Threat Agent",
+        "object": "Malicious attacks by authorized users"
+      },
+      {
+        "subject": "Hacktivists",
+        "predicate": "Threat Agent",
+        "object": "Cyber-attacks for political or social gains"
+      },
+      {
+        "subject": "Cyber-terrorists",
+        "predicate": "Threat Agent",
+        "object": "Attacks against O-RAN infrastructures by subnational groups"
+      },
+      {
+        "subject": "Script kiddies",
+        "predicate": "Threat Agent",
+        "object": "Actors with limited technical expertise"
+      },
+      {
+        "subject": "Nation-State",
+        "predicate": "Threat Agent",
+        "object": "State-sponsored cyber-attacks"
+      }
+    ],
+    "preview": "# 5.1 Threat surface\n\nThe O-RAN architecture [13] introduces new functions and interfaces. The introduction of additional interfaces and nodes, and the decoupling of hardware and software, expands the threat and attack surface of the network. Threat surfaces may be divided into 6 main groups:\n\n• Additional functions: SMO, Non-Real-Time RIC, Near-Real-Time RIC   \n• Additional open interfaces: A1, E..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Cyber-criminals",
+      "Insiders",
+      "Hacktivists",
+      "Cyber-terrorists",
+      "Script kiddies",
+      "Nation-State actors",
+      "O-RAN specific vulnerabilities",
+      "Unauthorized access to O-DU",
+      "Unauthorized access to O-CU-CP",
+      "Unauthorized access to O-CU-UP",
+      "Unauthorized access to RU",
+      "Unprotected synchronization and control plane traffic on Open Fronthaul Interface",
+      "Disable over-the-air ciphers for eavesdropping",
+      "Near-RT RIC conflicts with O-gNB",
+      "x/rApps conflicts",
+      "x/rApps access to network and subscriber data",
+      "Unprotected management interface",
+      "CP UL or DL messages can be injected for attack on UP",
+      "Decoupling of functions without hardware root of trust and software trust chain",
+      "Exposure to public exploits from use of Open Source code",
+      "Misconfiguration, poor isolation or insufficient access management in the O-Cloud platform",
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+    ],
+    "relations": [
+      {
+        "subject": "Cyber-criminals",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Insiders",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Hacktivists",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Cyber-terrorists",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Script kiddies",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Nation-State actors",
+        "predicate": "are categorized as",
+        "object": "Threat agents"
+      },
+      {
+        "subject": "Unauthorized access to O-DU",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Unauthorized access to O-CU-CP",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Unauthorized access to O-CU-UP",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Unauthorized access to RU",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Unprotected synchronization and control plane traffic on Open Fronthaul Interface",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Unprotected synchronization and control plane traffic on Open Fronthaul Interface",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Disable over-the-air ciphers for eavesdropping",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Near-RT RIC conflicts with O-gNB",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "x/rApps conflicts",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "x/rApps access to network and subscriber data",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Unprotected management interface",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Unprotected management interface",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Unprotected management interface",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "CP UL or DL messages can be injected for attack on UP",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Decoupling of functions without hardware root of trust and software trust chain",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Exposure to public exploits from use of Open Source code",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Exposure to public exploits from use of Open Source code",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Exposure to public exploits from use of Open Source code",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Misconfiguration, poor isolation or insufficient access management in the O-Cloud platform",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Misconfiguration, poor isolation or insufficient access management in the O-Cloud platform",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Misconfiguration, poor isolation or insufficient access management in the O-Cloud platform",
+        "predicate": "impacts",
+        "object": "Availability"
+      }
+    ],
+    "preview": "# 5.2 Threat agent\n\nThreat agents can be categorized as follows:\n\nCyber-criminals: Represents individuals who commits cybercrimes, where he/she makes use of the computer either as a tool or as a target or as both. • Insiders: Represents malicious attacks perpetrated on a network or computer system by a person with authorized system access. Hacktivists: Represents actors that perform cyber-attacks ..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "O-RAN",
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "O-DU",
+      "O-CU-CP",
+      "O-CU-UP",
+      "RU",
+      "Open Fronthaul Interface",
+      "near-RT RIC",
+      "O-gNB",
+      "x/rApps",
+      "network data",
+      "subscriber data",
+      "management interface",
+      "functions",
+      "hardware root of trust",
+      "software trust chain",
+      "Open Source code",
+      "misconfiguration",
+      "poor isolation",
+      "insufficient access management",
+      "O-Cloud platform",
+      "CP UL or DL messages",
+      "UP",
+      "firewall",
+      "network protocols",
+      "IP",
+      "TCP",
+      "UDP",
+      "application protocols",
+      "brute force attacks",
+      "FTP passwords",
+      "HTTP user sessions"
+    ],
+    "relations": [
+      {
+        "subject": "Unauthorized access",
+        "predicate": "affects",
+        "object": "O-DU, O-CU-CP, O-CU-UP and RU"
+      },
+      {
+        "subject": "Unprotected synchronization and control plane traffic",
+        "predicate": "affects",
+        "object": "Open Fronthaul Interface"
+      },
+      {
+        "subject": "Disable over-the-air ciphers",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "near-RT RIC conflicts with O-gNB",
+        "predicate": "affects",
+        "object": "Availability"
+      },
+      {
+        "subject": "x/rApps conflicts",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "x/rApps access to network and subscriber data",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Unprotected management interface",
+        "predicate": "affects",
+        "object": "Confidentiality, Integrity, Availability"
+      },
+      {
+        "subject": "CP UL or DL messages can be injected for attack on UP",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Decoupling of functions without hardware root of trust and software trust chain",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Exposure to public exploits from use of Open Source code",
+        "predicate": "affects",
+        "object": "Confidentiality, Integrity, Availability"
+      },
+      {
+        "subject": "Misconfiguration, poor isolation or insufficient access management in the O-Cloud platform",
+        "predicate": "impacts",
+        "object": "Confidentiality, Integrity, Availability"
+      },
+      {
+        "subject": "Bypassing information flow control policy implemented by the firewall",
+        "predicate": "allows",
+        "object": "unauthorized access to O-RAN components"
+      },
+      {
+        "subject": "Attacking network protocols (IP, TCP, UDP, application protocols)",
+        "predicate": "enables",
+        "object": "intrusion or denial of service"
+      },
+      {
+        "subject": "Brute force attacks on FTP passwords",
+        "predicate": "can lead to",
+        "object": "unauthorized access"
+      },
+      {
+        "subject": "Improper HTTP user sessions",
+        "predicate": "impacts",
+        "object": "availability and confidentiality"
+      }
+    ],
+    "preview": "# 5.3 Potential vulnerabilities\n\nThis document addresses the following potential security vulnerabilities that could be exploited through attacks against Confidentiality, Integrity, and Availability:\n\nO-RAN specific vulnerabilities\n\no Unauthorized access to O-DU, O-CU-CP, O-CU-UP and RU to degrade RAN performance or execut broader network attack (Availability)   \no Unprotected synchronization and ..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {}\n\n\nAt the end of this chapter a matrix is provided depicting the mapping between threats and the following elements:\n\n> **Table Summary:** {}\n\n\nThe template of the matrix is as follows:\n\n> **Table Summary:** {\"table_summary\": \"This table outlines potential cybersecurity threats and their associated details. It maps specific Threat IDs to Threat Titles and identifies the Th..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\"summary\": \"The table describes the threat T-O-RAN-04, which involves an attacker jamming an airlink signal using infected IoT devices. This threat falls under the category of DDoS attacks targeting O-RAN systems, exploiting the increased number of IoT devices connected to 5G networks. The attack utilizes a botnet comprised of IoT devices infected with a 'remote-reboot' mal..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "O-Cloud",
+      "VM/CN",
+      "Hypervisor/Container Engine",
+      "Underlying Hardware Resources",
+      "Security Vulnerabilities in O-CLOUD Infrastructure",
+      "Unauthorized Hosts Joining System",
+      "Shared Authentication Keys",
+      "Unencrypted and Unauthenticated Communication Channels",
+      "Orchestrator",
+      "Administrators",
+      "Hosts",
+      "Network Spoofing",
+      "Eavesdropping",
+      "Container Engines",
+      "Hypervisors",
+      "Excessive Access to System Resources",
+      "RAM",
+      "Disk Volumes",
+      "O-RAN Network Data",
+      "Direct Access to Underlying Network Stack",
+      "Malicious Actors Intercepting and Manipulating Network Traffic",
+      "Vulnerable Open-Source Software Components",
+      "Untrusted Libraries",
+      "Code Exposing Systems to Backdoor Attacks",
+      "Exploitation of Publicly Available Vulnerabilities",
+      "Lack of Dependency Tracking",
+      "Inconsistent Supply Chain Security",
+      "Adequate Coding Practices",
+      "Compromise of Hypervisors",
+      "Operating Systems",
+      "Containers",
+      "T-OPENSRC-02 Threat",
+      "Trusted Developer Introducing Malicious Code",
+      "Backdoor Exploitation",
+      "Performance Degradation (DoS)",
+      "Data Loss",
+      "Physical Access to O-RAN Components",
+      "Inadequate Physical Security Measures",
+      "Data Center Protection",
+      "Power Supply Safeguards",
+      "Disaster Preparedness",
+      "Hardware Backdoors",
+      "Configuration Manipulation",
+      "Unauthorized Access through Unsecured Management Ports",
+      "JTAG",
+      "Serial Consoles",
+      "Manipulation of Software Configuration/Management",
+      "Injection of Malware",
+      "Stealing Unprotected Private Keys",
+      "Certificates",
+      "Hash Values",
+      "Disabling Security Features",
+      "Creating Performance Issues by Manipulating Parameters",
+      "Eavesdropping or Wiretapping on Various CUS & M Planes",
+      "Reaching the Network Beyond O-RAN",
+      "Gaining Access to O-RAN Components",
+      "Denial of Service",
+      "Intrusion",
+      "Replay Attacks",
+      "Fronthaul Network Security Vulnerabilities",
+      "5G Radio Networks Threats",
+      "RF Spoofing",
+      "Digital Signatures as Mitigation (Proposed but No Agreement)",
+      "Operator Alert Systems for Attack Detection",
+      "O-RAN OEMs Developing Intelligence for Proactive Alerts",
+      "Radio Jamming",
+      "Blocking or Creating Interference with Authorized Wireless Networks",
+      "Radio Sniffing",
+      "Decoding Network Configuration Details",
+      "Optimizing and Crafting Attacks",
+      "Deceptive Signal Emulation to Mimic Primary Users",
+      "Disruption of Cognitive Radio Functionality",
+      "Spectrum Sensing",
+      "Agile Radio",
+      "Regulatory Compliance",
+      "Vulnerability of Liability Rule",
+      "Threats against ML Systems in O-RAN Architecture",
+      "Manipulating ML Models to Alter Predictions",
+      "Incorrect Business Decisions",
+      "Data Breaches",
+      "Transfer Learning Vulnerabilities",
+      "Publicly Available Pretrained Models Exploitation",
+      "ML Security Risks and Controls",
+      "BIML Risk Analysis",
+      "Threat Inventory for O-RAN System",
+      "Mapping Between Threats, Vulnerabilities, and Assets",
+      "O-RAN Specific Threats",
+      "General Threats",
+      "Physical",
+      "Open Source",
+      "Virtualization",
+      "IoT",
+      "Radio Aspects",
+      "Threat Agents",
+      "Vulnerabilities",
+      "Threatened Assets",
+      "Affected Components",
+      "Misuse of VM/CN to Attack Other VM/CN, Hypervisor/Container Engine, Other Hosts",
+      "Memory, Network, and Storage Exploitation",
+      "Secure VM/CN Runtime Configuration Mitigation",
+      "Addressing Flaws in O-RAN VNFs/CNFs",
+      "ASSET-D-12",
+      "ASSET-D-13",
+      "ASSET-D-14",
+      "ASSET-D-15",
+      "ASSET-D-16",
+      "ASSET-D-17",
+      "ASSET-D-18",
+      "ASE-D-19",
+      "A-2",
+      "ASSET-D-24",
+      "ASSET-D-29",
+      "Security Principles for O-RAN System",
+      "High-Level and Abstract Statements of Intended Solutions to Counter Potential Threats",
+      "Normative Future Development into Security Requirements, Recommendations, and Countermeasures",
+      "SHOULD Clause in Current Version"
+    ],
+    "relations": [
+      {
+        "head": "O-Cloud",
+        "tail": "VM/CN",
+        "relation": "Threatened by misuse of"
+      },
+      {
+        "head": "O-Cloud",
+        "tail": "Hypervisor/Container Engine",
+        "relation": "Threatened by attack on"
+      },
+      {
+        "head": "O-Cloud",
+        "tail": "Underlying Hardware Resources",
+        "relation": "Threatened through exploitation of"
+      },
+      {
+        "head": "Security Vulnerabilities in O-CLOUD Infrastructure",
+        "tail": "Unauthorized Hosts Joining System",
+        "relation": "Result from"
+      },
+      {
+        "head": "Unauthorized Hosts Joining System",
+        "tail": "Shared Authentication Keys",
+        "relation": "Exploiting"
+      },
+      {
+        "head": "Unauthorized Hosts Joining System",
+        "tail": "Unencrypted and Unauthenticated Communication Channels",
+        "relation": "Exploiting"
+      },
+      {
+        "head": "Security Vulnerabilities in O-CLOUD Infrastructure",
+        "tail": "Orchestrator",
+        "relation": "Affecting"
+      },
+      {
+        "head": "Security Vulnerabilities in O-CLOUD Infrastructure",
+        "tail": "Administrators",
+        "relation": "Compromising"
+      },
+      {
+        "head": "Security Vulnerabilities in O-CLOUD Infrastructure",
+        "tail": "Hosts",
+        "relation": "Targeting"
+      },
+      {
+        "head": "Network Spoofing and Eavesdropping",
+        "tail": "Container Engines",
+        "relation": "Affecting"
+      },
+      {
+        "head": "Network Spoofing and Eavesdropping",
+        "tail": "Hypervisors",
+        "relation": "Exploiting"
+      },
+      {
+        "head": "Excessive Access to System Resources",
+        "tail": "RAM",
+        "relation": "Including"
+      },
+      {
+        "head": "Excessive Access to System Resources",
+        "tail": "Disk Volumes",
+        "relation": "Including"
+      },
+      {
+        "head": "O-RAN Network Data",
+        "tail": "Excessive Access to System Resources",
+        "relation": "Compromised by"
+      },
+      {
+        "head": "Direct Access to Underlying Network Stack",
+        "tail": "Malicious Actors Intercepting and Manipulating Network Traffic",
+        "relation": "Enabling"
+      },
+      {
+        "head": "Vulnerable Open-Source Software Components",
+        "tail": "Untrusted Libraries",
+        "relation": "Including"
+      },
+      {
+        "head": "Exploitation of Publicly Available Vulnerabilities",
+        "tail": "Lack of Dependency Tracking",
+        "relation": "Resulting from"
+      },
+      {
+        "head": "Exploitation of Publicly Available Vulnerabilities",
+        "tail": "Inconsistent Supply Chain Security",
+        "relation": "Resulting from"
+      },
+      {
+        "head": "Exploitation of Publicly Available Vulnerabilities",
+        "tail": "Adequate Coding Practices",
+        "relation": "Mitigated by"
+      },
+      {
+        "head": "Compromise of Hypervisors",
+        "tail": "Operating Systems",
+        "relation": "Including"
+      },
+      {
+        "head": "Compromise of Hypervisors",
+        "tail": "Containers",
+        "relation": "Including"
+      },
+      {
+        "head": "T-OPENSRC-02 Threat",
+        "tail": "Trusted Developer Introducing Malicious Code",
+        "relation": "Involving"
+      },
+      {
+        "head": "Backdoor Exploitation",
+        "tail": "Performance Degradation (DoS)",
+        "relation": "Leading to"
+      },
+      {
+        "head": "Backdoor Exploitation",
+        "tail": "Data Loss",
+        "relation": "Resulting in"
+      },
+      {
+        "head": "Physical Access to O-RAN Components",
+        "tail": "Inadequate Physical Security Measures",
+        "relation": "Exploiting"
+      },
+      {
+        "head": "Unauthorized Access through Unsecured Management Ports",
+        "tail": "JTAG",
+        "relation": "Including"
+      },
+      {
+        "head": "Unauthorized Access through Unsecured Management Ports",
+        "tail": "Serial Consoles",
+        "relation": "Including"
+      },
+      {
+        "head": "Manipulation of Software Configuration/Management",
+        "tail": "Injection of Malware",
+        "relation": "Including"
+      },
+      {
+        "head": "Stealing Unprotected Private Keys",
+        "tail": "Certificates",
+        "relation": "Including"
+      },
+      {
+        "head": "Stealing Unprotected Private Keys",
+        "tail": "Hash Values",
+        "relation": "Including"
+      },
+      {
+        "head": "Disabling Security Features",
+        "tail": "Creating Performance Issues by Manipulating Parameters",
+        "relation": "Leading to"
+      },
+      {
+        "head": "Eavesdropping or Wiretapping on Various CUS & M Planes",
+        "tail": "Reaching the Network Beyond O-RAN",
+        "relation": "Enabling"
+      },
+      {
+        "head": "Gaining Access to O-RAN Components",
+        "tail": "Denial of Service",
+        "relation": "Leading to"
+      },
+      {
+        "head": "Fronthaul Network Security Vulnerabilities",
+        "tail": "Intrusion",
+        "relation": "Enabling"
+      },
+      {
+        "head": "Fronthaul Network Security Vulnerabilities",
+        "tail": "Replay Attacks",
+        "relation": "Resulting in"
+      },
+      {
+        "head": "5G Radio Networks Threats",
+        "tail": "RF Spoofing",
+        "relation": "Including"
+      },
+      {
+        "head": "Digital Signatures as Mitigation (Proposed but No Agreement)",
+        "tail": "Operator Alert Systems for Attack Detection",
+        "relation": "Requiring"
+      },
+      {
+        "head": "O-RAN OEMs Developing Intelligence for Proactive Alerts",
+        "tail": "Operator Alert Systems for Attack Detection",
+        "relation": "Supporting"
+      },
+      {
+        "head": "Radio Jamming",
+        "tail": "Blocking or Creating Interference with Authorized Wireless Networks",
+        "relation": "Involving"
+      },
+      {
+        "head": "Radio Sniffing",
+        "tail": "Decoding Network Configuration Details",
+        "relation": "Enabling"
+      },
+      {
+        "head": "Optimizing and Crafting Attacks",
+        "tail": "Radio Sniffing",
+        "relation": "Resulting from"
+      },
+      {
+        "head": "Deceptive Signal Emulation to Mimic Primary Users",
+        "tail": "Disruption of Cognitive Radio Functionality",
+        "relation": "Causing"
+      },
+      {
+        "head": "Spectrum Sensing",
+        "tail": "Disruption of Cognitive Radio Functionality",
+        "relation": "Affecting"
+      },
+      {
+        "head": "Agile Radio",
+        "tail": "Disruption of Cognitive Radio Functionality",
+        "relation": "Affecting"
+      },
+      {
+        "head": "Regulatory Compliance",
+        "tail": "Disruption of Cognitive Radio Functionality",
+        "relation": "Impact on"
+      },
+      {
+        "head": "Vulnerability of Liability Rule",
+        "tail": "Disruption of Cognitive Radio Functionality",
+        "relation": "Contributing to"
+      },
+      {
+        "head": "Threats against ML Systems in O-RAN Architecture",
+        "tail": "Manipulating ML Models to Alter Predictions",
+        "relation": "Including"
+      },
+      {
+        "head": "Incorrect Business Decisions",
+        "tail": "Manipulating ML Models to Alter Predictions",
+        "relation": "Resulting from"
+      },
+      {
+        "head": "Data Breaches",
+        "tail": "Manipulating ML Models to Alter Predictions",
+        "relation": "Resulting from"
+      },
+      {
+        "head": "Transfer Learning Vulnerabilities",
+        "tail": "Publicly Available Pretrained Models Exploitation",
+        "relation": "Including"
+      },
+      {
+        "head": "ML Security Risks and Controls",
+        "tail": "BIML Risk Analysis",
+        "relation": "Referenced in"
+      },
+      {
+        "head": "Threat Inventory for O-RAN System",
+        "tail": "Mapping Between Threats, Vulnerabilities, and Assets",
+        "relation": "Providing"
+      },
+      {
+        "head": "O-RAN Specific Threats",
+        "tail": "General Threats",
+        "relation": "Grouped with"
+      },
+      {
+        "head": "Threat Agents",
+        "tail": "Vulnerabilities",
+        "relation": "Interacting with"
+      },
+      {
+        "head": "Threatened Assets",
+        "tail": "Affected Components",
+        "relation": "Impact on"
+      },
+      {
+        "head": "Misuse of VM/CN to Attack Other VM/CN, Hypervisor/Container Engine, Other Hosts",
+        "tail": "Memory, Disk Volumes, and Network Traffic",
+        "relation": "Exploiting"
+      },
+      {
+        "head": "Malicious Actors Intercepting and Manipulating Network Traffic",
+        "tail": "Direct Access to Underlying Network Stack",
+        "relation": "Enabling"
+      },
+      {
+        "head": "SHOULD Clause in Current Version",
+        "tail": "Normative Future Development into Security Requirements, Recommendations, and Countermeasures",
+        "relation": "Part of"
+      }
+    ],
+    "preview": "\n\n![](images/1548312c01b5f133f0d1ac3ec811cc8c7da06f4cd0e86e28d2bfcdd2a3722213.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"This diagram illustrates a virtualization or containerization architecture. It depicts multiple Virtual Machines/Containers (VM/CN) running on top of a Hypervisor/Container Engine layer, which in turn leverages underlying hardware resources. The image likely aims to visually expl..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "O-RAN System",
+      "Mutual Authentication",
+      "Access Control",
+      "VM/CN",
+      "Hypervisor/Container Engine",
+      "Network Access Controls",
+      "Configuration Access Controls",
+      "Hardware Access Controls",
+      "Credentials"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN System",
+        "predicate": "uses",
+        "object": "Mutual Authentication"
+      },
+      {
+        "subject": "O-RAN System",
+        "predicate": "uses",
+        "object": "Access Control"
+      },
+      {
+        "subject": "Mutual Authentication",
+        ".predicate": "involves",
+        "object": "Credentials"
+      },
+      {
+        "subject": "Access Control",
+        "predicate": "includes",
+        "object": "Network Access Controls"
+      },
+      {
+        "subject": "Access Control",
+        "predicate": "includes",
+        "object": "Configuration Access Controls"
+      },
+      {
+        "subject": "Access Control",
+        "predicate": "includes",
+        "object": "Hardware Access Controls"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"Threat\": \"Misuse of a VM/CN to attack other VM/CN,hypervisor/container engine,other hosts(memory,network,toge),tc\",\n\"Likelihood\": \"All\",\n\"Impact\": \"All\",\n\"Vulnerability\": \"Compromised VM/CN\",\n\"Mitigation\": [\n\"Secure VM/CN runtime configuration\",\n\"Address flaws in the O-RAN VNFs/CNFs\"\n],\n\"Asset\": \"ASSET-D-12, ASSET-D-13, ASSET-D-14,ASSET-D-15, ASSET-D-16, ASSET-D-17,ASSET-..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "O-RAN system",
+      "Mutual Authentication",
+      "fake base stations",
+      "unauthorized components",
+      "malicious applications",
+      "malicious users/administrators",
+      "unique identifier",
+      "credentials",
+      "Access Controls",
+      "Network Access Controls",
+      "component configurations",
+      "hardware trust chain",
+      "Secure cryptographic schemes",
+      "key management",
+      "PKI",
+      "Certificate Authority (CA)",
+      "Certificate Policy",
+      "relying parties",
+      "algorithms",
+      "integrity algorithms",
+      "ciphering algorithms",
+      "Trusted Communication",
+      "resources in transit",
+      "Critical Assets",
+      "Secure storage",
+      "private keys",
+      "certificates",
+      "hash-values at rest",
+      "Secure boot",
+      "self-configuration",
+      "verified platform firmware",
+      "operating system (OS) boot loader",
+      "hypervisor",
+      "container runtime layers",
+      "chain of trust (CoT)",
+      "boot process",
+      "signature verification"
+    ],
+    "relations": [
+      {
+        "subject": "Mutual Authentication",
+        "predicate": "used for",
+        "object": "detecting fake base stations"
+      },
+      {
+        "subject": "Mutual Authentication",
+        "predicate": "used for",
+        "object": "unauthorized components"
+      },
+      {
+        "subject": "Mutual Authentication",
+        "predicate": "used for",
+        "object": "malicious applications"
+      },
+      {
+        "subject": "Mutual Authentication",
+        "predicate": "used for",
+        "object": "malicious users/administrators"
+      },
+      {
+        "subject": "unique identifier",
+        "predicate": "needed for",
+        "object": "authenticating each component"
+      },
+      {
+        "subject": "credentials",
+        "predicate": "kept secret for",
+        "object": "authenticating each component"
+      },
+      {
+        "subject": "Access Controls",
+        "predicate": "required for",
+        "object": "Network Access Controls"
+      },
+      {
+        "subject": "Access Controls",
+        "predicate": "required for",
+        "object": "component configurations"
+      },
+      {
+        "subject": "Access Controls",
+        "predicate": "required for",
+        "object": "hardware trust chain"
+      },
+      {
+        "subject": "Secure cryptographic schemes",
+        "predicate": "used for",
+        "object": "key management"
+      },
+      {
+        "subject": "PKI",
+        "predicate": "used for",
+        "object": "authentication"
+      },
+      {
+        "subject": "PKI",
+        "predicate": "used for",
+        "object": "data encryption"
+      },
+      {
+        "subject": "Certificate Authority (CA)",
+        "predicate": "implements",
+        "object": "Certificate Policy"
+      },
+      {
+        "subject": "algorithms",
+        "predicate": "configured in",
+        "object": "O-RU"
+      },
+      {
+        "subject": "integrity algorithms",
+        "predicate": "used for",
+        "object": "component configurations"
+      },
+      {
+        "subject": "ciphering algorithms",
+        "predicate": "used for",
+        "object": "component configurations"
+      },
+      {
+        "subject": "Trusted Communication",
+        "predicate": "ensures",
+        "object": "integrity of resources in transit"
+      },
+      {
+        "subject": "Trusted Communication",
+        "predicate": "ensures",
+        "object": "confidentiality of resources in transit"
+      },
+      {
+        "subject": "Trusted Communication",
+        "predicate": "ensures",
+        "object": "availability of resources in transit"
+      },
+      {
+        "subject": "Trusted Communication",
+        "predicate": "ensures",
+        "object": "authenticity of resources in transit"
+      },
+      {
+        "subject": "Secure storage",
+        "predicate": "protects",
+        "object": "private keys"
+      },
+      {
+        "subject": "Secure storage",
+        "predicate": "protects",
+        "object": "certificates"
+      },
+      {
+        "subject": "Secure storage",
+        "predicate": "protects",
+        "object": "hash-values at rest"
+      },
+      {
+        "subject": "Secure boot",
+        "predicate": "verifies",
+        "object": "verified platform firmware"
+      },
+      {
+        "subject": "Secure boot",
+        "predicate": "verifies",
+        "object": "operating system (OS) boot loader"
+      },
+      {
+        "subject": "self-configuration",
+        "predicate": "authenticates",
+        "object": "O-RAN components"
+      },
+      {
+        "subject": "chain of trust (CoT)",
+        "predicate": "establishes",
+        "object": "transitive trust"
+      },
+      {
+        "subject": "signature verification",
+        "predicate": "performed during",
+        "object": "boot process"
+      }
+    ],
+    "preview": "\n\n# 6.1 Principles (SP)\n\n# 6.1.1 SP-AUTH Mutual Authentication\n\nMutual authentication SHOULD be established to allow the O-RAN system verifying who performs what, thus possible to detect fake base stations, unauthorized or malicious components, malicious applications and malicious users/administrators. To authenticate each component, a unique identifier and one or more credentials that SHOULD be k..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Authenticity",
+      "Replay Protection",
+      "Resources",
+      "Critical Assets",
+      "O-RAN Interfaces",
+      "Private Keys",
+      "Certificates",
+      "Hash-Values",
+      "Firmware",
+      "Configuration",
+      "Operating System (OS)",
+      "Boot Loader",
+      "Software Components",
+      "Hypervisor",
+      "Container Runtime Layers",
+      "Secure Boot Process",
+      "Signature Verification",
+      "Self-Configuration",
+      "O-RAN Vendors",
+      "Cryptography Algorithms"
+    ],
+    "relations": [
+      {
+        "subject": "Integrity",
+        "predicate": "ensures",
+        "object": "Resources"
+      },
+      {
+        "subject": "Confidentiality",
+        "predicate": "ensures",
+        "object": "Resources"
+      },
+      {
+        "subject": "Availability",
+        "predicate": "ensures",
+        "object": "Resources"
+      },
+      {
+        "subject": "Authenticity",
+        "predicate": "ensures",
+        "object": "Resources"
+      },
+      {
+        "subject": "Replay Protection",
+        "predicate": "ensures",
+        "object": "Resources"
+      },
+      {
+        "subject": "Critical Assets",
+        "predicate": "protects",
+        "object": "Resources"
+      },
+      {
+        "subject": "O-RAN Interfaces",
+        "predicate": "transit",
+        "object": "Resources"
+      },
+      {
+        "subject": "Private Keys",
+        "predicate": "protects",
+        "object": "Critical Assets"
+      },
+      {
+        "subject": "Certificates",
+        "predicate": "protects",
+        "object": "Critical Assets"
+      },
+      {
+        "subject": "Hash-Values",
+        "predicate": "protects",
+        "object": "Critical Assets"
+      },
+      {
+        "subject": "Firmware",
+        "predicate": "verified by",
+        "object": "Platform Firmware"
+      },
+      {
+        "subject": "Operating System (OS)",
+        "predicate": "verified by",
+        "object": "Boot Loader"
+      },
+      {
+        "subject": "Software Components",
+        "predicate": "verified by",
+        "object": "Operating System (OS)"
+      },
+      {
+        "subject": "Hypervisor",
+        "predicate": "verified by",
+        "object": "Operating System (OS)"
+      },
+      {
+        "subject": "Container Runtime Layers",
+        "predicate": "verified by",
+        "object": "Operating System (OS)"
+      },
+      {
+        "subject": "Secure Boot Process",
+        "predicate": "authenticates",
+        "object": "O-RAN Components"
+      },
+      {
+        "subject": "Signature Verification",
+        "predicate": "authenticates",
+        "object": "O-RAN Components"
+      },
+      {
+        "subject": "Self-Configuration",
+        "predicate": "authenticates",
+        "object": "O-RAN Components"
+      },
+      {
+        "subject": "O-RAN Vendors",
+        "predicate": "provides",
+        "object": "Security Monitoring"
+      },
+      {
+        "subject": "O-RAN Vendors",
+        "predicate": "provides",
+        "object": "Patches"
+      }
+    ],
+    "preview": "\n\n# 6.1.4 SP-TCOMM Trusted Communication\n\nIntegrity, confidentiality, availability, authenticity and replay protection of resources SHOULD be ensured in transit (see ‘Critical Assets) over O-RAN interfaces according to industry best practices.\n\n# 6.1.5 SP-SS Secure storage\n\nIntegrity, confidentiality, availability protection of resources SHOULD be ensured at rest (see ‘Critical Assets) according t..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "Secure Update",
+      "Recoverability & Backup",
+      "denial of service",
+      "DoS attacks",
+      "Recovery Plan",
+      "cryptographic algorithms",
+      "vulnerabilities",
+      "O-RAN components",
+      "Backup Systems",
+      "security monitoring"
+    ],
+    "relations": [
+      {
+        "subject": "Recoverability process",
+        "predicate": "deals with",
+        "object": "denial of service"
+      },
+      {
+        "subject": "DoS attacks",
+        "predicate": "are mitigated by",
+        "object": "Recovery Plan"
+      },
+      {
+        "subject": "O-RAN vendors",
+        "predicate": "provide",
+        "object": "security monitoring"
+      },
+      {
+        "subject": "Backup Systems",
+        "predicate": "secure",
+        "object": "data or component"
+      }
+    ],
+    "preview": "# 6.1.7 SP-UPDT Secure Update\n\nA secure update management process SHOULD be implemented for introducing a new component or software change into the O-RAN system. The process SHOULD consider the ability to update the cryptographic algorithms and to adapt to upcoming O-RAN security challenges. O-RAN vendors SHOULD constantly provide ongoing security monitoring and patches for all of O-RAN components..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "Recoverability Process",
+      "Denial of Service (DoS)",
+      "O-RAN Components",
+      "Trustworthy State",
+      "Backup Systems",
+      "O-RAN Data/Components",
+      "Open Source Components",
+      "Industry Coding Best Practices",
+      "Software Bill of Materials (SBOM)",
+      "Security Analysis",
+      "Vulnerabilities",
+      "Issue Identification/Patching",
+      "Open Source Software"
+    ],
+    "relations": [
+      {
+        "subject": "Recoverability Process",
+        "predicate": "addresses",
+        "object": "Denial of Service (DoS)"
+      },
+      {
+        "subject": "Recoverability Process",
+        "predicate": "resets",
+        "object": "O-RAN Components"
+      },
+      {
+        "subject": "Recoverability Process",
+        "predicate": "ensures",
+        "object": "Trustworthy State"
+      },
+      {
+        "subject": "Backup Systems",
+        "predicate": "secures",
+        "object": "O-RAN Data/Components"
+      },
+      {
+        "subject": "Backup Systems",
+        "predicate": "ensures",
+        "object": "Availability and Reliability"
+      },
+      {
+        "subject": "Open Source Components",
+        "predicate": "uses",
+        "object": "Industry Coding Best Practices"
+      },
+      {
+        "subject": "Software Bill of Materials (SBOM)",
+        "predicate": "documents",
+        "object": "Open Source Components"
+      },
+      {
+        "subject": "Security Analysis",
+        ".predicate": "checks for",
+        "object": "Vulnerabilities"
+      },
+      {
+        "subject": "Issue Identification/Patching",
+        "predicate": "applies to",
+        "object": "Open Source Software"
+      }
+    ],
+    "preview": "# 6.1.8 SP-RECO Recoverability & Backup\n\nRecoverability process in terms of the capacity of recovery in case of denial of service SHOULD be implemented. An approach for detecting and mitigating DoS attacks SHOULD be in place.\n\nO-RAN vendors SHOULD define a recovery plan that resets the O-RAN components to a trustworthy state in case of a malfunction or an attack (e.g. DoS).\n\nBackup systems SHOULD ..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "Vendors",
+      "Open source components",
+      "Software Bill of Materials (SBOM)",
+      "Security Analysis",
+      "Policy",
+      "Process",
+      "3GPP Security Assurance Specifications (SCAS)",
+      "O-RAN security tests",
+      "O-RAN alliance recommendations",
+      "National cybersecurity regulations",
+      "Risk assessment",
+      "Secure code review",
+      "Penetration testing",
+      "Vulnerability analysis",
+      "Hardening guidelines"
+    ],
+    "relations": [
+      {
+        "subject": "Vendors",
+        "predicate": "enhance security of",
+        "object": "Open source components"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "maintain",
+        "object": "Software Bill of Materials (SBOM)"
+      },
+      {
+        "subject": "Security Analysis",
+        "predicate": "is performed on",
+        "object": "Open source components"
+      },
+      {
+        "subject": "Vendors",
+        ".predicate": "ensure compliance with",
+        "object": "3GPP Security Assurance Specifications (SCAS)"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "ensure compliance with",
+        "object": "O-RAN security tests"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "ensure compliance with",
+        "object": "O-RAN alliance recommendations"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "comply with",
+        "object": "National cybersecurity regulations"
+      },
+      {
+        "subject": "Vendors",
+        ".predicate": "provide",
+        "object": "Risk assessment"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "provide",
+        "object": "Secure code review"
+      },
+      {
+        "subject": "Vendors",
+        ".predicate": "provide",
+        "object": "Penetration testing"
+      },
+      {
+        "subject": "Vendors",
+        ".predicate": "provide",
+        "object": "Vulnerability analysis"
+      },
+      {
+        "subject": "Vendors",
+        ".predicate": "provide",
+        "object": "Hardening guidelines"
+      }
+    ],
+    "preview": "# 6.1.9 SP-OPNS Security management of risks in open source components\n\nVendors using open source code SHOULD enhance its security by applying industry coding best practices. It is recommended that vendors practice a higher level of due diligence for exposure to public exploits when using Open Source code.\n\nA Software Bill of Materials (SBOM) SHOULD be maintained to understand which open source co..."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [
+      "Vendors",
+      "Software or Hardware",
+      "3GPP Security Assurance Specifications (SCAS)",
+      "O-RAN security tests, requirements and recommendations",
+      "O-RAN Alliance",
+      "Cyber Act",
+      "GDPR",
+      "risk assessment",
+      "secure code review",
+      "penetration testing",
+      "vulnerability analysis",
+      "hardening guidelines",
+      "O-RAN components",
+      "End Users' Privacy",
+      "data privacy",
+      "identity privacy",
+      "personal information privacy",
+      "communication services",
+      "end users",
+      "sensitive information",
+      "UE priority",
+      "location information",
+      "trajectory",
+      "preference",
+      "adversaries"
+    ],
+    "relations": [
+      {
+        "subject": "Vendors",
+        "predicate": "ensure",
+        "object": "Software or Hardware meets 3GPP Security Assurance Specifications (SCAS)"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "ensure",
+        "object": "Software or Hardware fulfils O-RAN security tests, requirements and recommendations"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "comply with",
+        "object": "Cyber Act"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "comply with",
+        "object": "GDPR"
+      },
+      {
+        "subject": "Vendors",
+        "predicate": "provide",
+        "object": "risk assessment, secure code review, penetration testing, vulnerability analysis and hardening guidelines"
+      },
+      {
+        "subject": "End Users' Privacy",
+        "predicate": "is divided into",
+        "object": "data privacy, identity privacy and personal information privacy"
+      },
+      {
+        "subject": "communication services",
+        "predicate": "gather data about",
+        "object": "end users"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract personal information about",
+        "object": "UE priority, location information, trajectory and preference"
+      }
+    ],
+    "preview": "# 6.1.10 SP-ASSU Security Assurance\n\n• Mobile networks are classified as critical infrastructure making security assurance especially more than relevant:\n\no Vendors SHOULD ensure and prove that its software or hardware meets 3GPP Security Assurance Specifications (SCAS).   \no Vendors SHOULD ensure and prove that its software or hardware fulfils O-RAN security tests, requirements and recommendation..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [
+      "SP-PRV Privacy",
+      "end users",
+      "data privacy",
+      "identity privacy",
+      "personal information privacy",
+      "communication services",
+      "sensitive information",
+      "adversaries",
+      "UE priority",
+      "location information",
+      "trajectory",
+      "preference",
+      "SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling",
+      "continuous development",
+      "continuous integration (CD/CI)",
+      "regression testing",
+      "software security auditing",
+      "activities events",
+      "logs",
+      "real time analysis",
+      "potential security attacks",
+      "security auditing",
+      "continuous monitoring",
+      "wanted security state",
+      "lifecycle of deployed O-RAN components",
+      "vulnerability management",
+      "track vulnerabilities",
+      "identify vulnerabilities",
+      "remediate vulnerable applications",
+      "vendors",
+      "customer product security incidents",
+      "reported security issues"
+    ],
+    "relations": [
+      {
+        "subject": "SP-PRV Privacy",
+        "predicate": "considers",
+        "object": "end users"
+      },
+      {
+        "subject": "privacy of end users",
+        "predicate": "includes",
+        "object": "data privacy"
+      },
+      {
+        "subject": "privacy of end users",
+        "predicate": "includes",
+        "object": "identity privacy"
+      },
+      {
+        "subject": "privacy of end users",
+        "predicate": "includes",
+        "object": "personal information privacy"
+      },
+      {
+        "subject": "communication services",
+        "predicate": "gather",
+        "object": "data and personal information around end users"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract",
+        "object": "more personal information about end users"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract",
+        "object": "UE priority"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract",
+        "object": "location information"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract",
+        "object": "trajectory"
+      },
+      {
+        "subject": "adversaries",
+        "predicate": "extract",
+        "object": "preference"
+      },
+      {
+        "subject": "SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling",
+        "predicate": "implements",
+        "object": "continuous development"
+      },
+      {
+        "subject": "SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling",
+        "predicate": "uses",
+        "object": "continuous integration (CD/CI)"
+      },
+      {
+        "subject": "SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling",
+        "predicate": "conducts",
+        "object": "regression testing"
+      },
+      {
+        "subject": "SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling",
+        "predicate": "performs",
+        "object": "software security auditing"
+      },
+      {
+        "subject": "Relevant activities events",
+        "predicate": "are logged"
+      },
+      {
+        "subject": "logs",
+        "predicate": "are analyzed",
+        "object": "real time analysis"
+      },
+      {
+        "subject": "real time analysis of logs",
+        "predicate": "identifies",
+        "object": "potential security attacks"
+      },
+      {
+        "subject": "real time analysis of logs",
+        "predicate": "performs",
+        "object": "security auditing"
+      },
+      {
+        "subject": "continuous monitoring",
+        "predicate": "verifies",
+        "object": "wanted security state"
+      },
+      {
+        "subject": "continuous monitoring",
+        "predicate": "maintains throughout the lifecycle of deployed O-RAN components"
+      },
+      {
+        "subject": "vulnerability management",
+        "predicate": "tracks",
+        "object": "vulnerabilities"
+      },
+      {
+        "subject": "vulnerability management",
+        "predicate": "identifies",
+        "object": "vulnerabilities"
+      },
+      {
+        "subject": "vulnerability management",
+        "predicate": "remediates",
+        "object": "vulnerable applications"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "track",
+        "object": "new vulnerabilities discovered"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "act on",
+        "object": "customer product security incidents"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "handle",
+        "object": "reported security issues affecting O-RAN components"
+      }
+    ],
+    "preview": "# 6.1.11 SP-PRV Privacy\n\nIn O-RAN, the privacy of end users SHOULD be considered. The privacy of end users can be divided into data privacy, identity privacy and personal information privacy. Most Communication services are to gather data and personal information around end users themselves, which may reveal information sensitive to their privacy. Adversaries would further extract more personal in..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [
+      "Continuous Integration/Continuous Development (CD/CI)",
+      "Continuous Regression Testing",
+      "Software Security Auditing",
+      "Log Analysis",
+      "Potential Security Attacks",
+      "Security Auditing",
+      "Continuous Monitoring",
+      "Wanted Security State",
+      "Vulnerability Management",
+      "Vulnerable Applications",
+      "New Vulnerabilities",
+      "Customer Product Security Incidents",
+      "Reported Security Issues",
+      "Robust Isolation",
+      "Multi-Vendor Environment",
+      "Intra-Domain Host Isolation",
+      "Virtual Machines (VMs)",
+      "Container Networks (CNs)",
+      "Virtualization/Container Layer",
+      "CPU",
+      "Storage",
+      "Network",
+      "System Security Orchestration",
+      "Segmentation",
+      "Lifecycle Management",
+      "Time Scheduling",
+      "Monitoring",
+      "Audit",
+      "Management Plane",
+      "Signaling Plane",
+      "Control Plane",
+      "Data Plane"
+    ],
+    "relations": [
+      {
+        "subject": "Continuous Integration/Continuous Development (CD/CI)",
+        "predicate": "includes",
+        "object": "Continuous Regression Testing"
+      },
+      {
+        "subject": "Continuous Integration/Continuous Development (CD/CI)",
+        "predicate": "includes",
+        "object": "Software Security Auditing"
+      },
+      {
+        "subject": "Log Analysis",
+        "predicate": "identifies",
+        "object": "Potential Security Attacks"
+      },
+      {
+        "subject": "Log Analysis",
+        "predicate": "supports",
+        "object": "Security Auditing"
+      },
+      {
+        "subject": "Continuous Monitoring",
+        "predicate": "ensures",
+        "object": "Wanted Security State"
+      },
+      {
+        "subject": "Vulnerability Management",
+        "predicate": "manages",
+        "object": "Vulnerable Applications"
+      },
+      {
+        "subject": "Vulnerability Management",
+        "predicate": "tracks",
+        "object": "New Vulnerabilities"
+      },
+      {
+        "subject": "Vulnerability Management",
+        "predicate": "handles",
+        "object": "Customer Product Security Incidents"
+      },
+      {
+        "subject": "Vulnerability Management",
+        "predicate": "addresses",
+        "object": "Reported Security Issues"
+      },
+      {
+        "subject": "Robust Isolation",
+        "predicate": "applies to",
+        "object": "Multi-Vendor Environment"
+      },
+      {
+        "subject": "Robust Isolation",
+        "predicate": "includes",
+        "object": "Intra-Domain Host Isolation"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "Virtual Machines (VMs)"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "Container Networks (CNs)"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "Virtualization/Container Layer"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "CPU"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "Storage"
+      },
+      {
+        "subject": "Intra-Domain Host Isolation",
+        "predicate": "secures",
+        "object": "Network"
+      },
+      {
+        "subject": "System Security Orchestration",
+        ".predicate": "includes",
+        "object": "Segmentation"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "includes",
+        "object": "Lifecycle Management"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "includes",
+        "object": "Time Scheduling"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "includes",
+        "object": "Monitoring"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "includes",
+        "object": "Audit"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "applies to",
+        "object": "Management Plane"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "applies to",
+        "object": "Signaling Plane"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "applies to",
+        "object": "Control Plane"
+      },
+      {
+        "subject": "System Security Orchestration",
+        "predicate": "applies to",
+        "object": "Data Plane"
+      }
+    ],
+    "preview": "# 6.1.12 SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling\n\nContinuous development and continuous integration (CD/CI) with continuous regression testing and software security auditing SHOULD be implemented.\n\nRelevant activities events SHOULD be logged and logs collected SHOULD be analyzed in real time for the identification of potential security attack..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [
+      "multi-vendor environment",
+      "intra-domain host isolation",
+      "VMs",
+      "CNs",
+      "virtualization/container layer",
+      "CPU",
+      "storage",
+      "network security isolation of resources",
+      "system security orchestration",
+      "segmentation",
+      "lifecycle management",
+      "time scheduling",
+      "monitoring and audit",
+      "management plane",
+      "signaling plane",
+      "control plane",
+      "data plane",
+      "execution of virtualized O-RAN components",
+      "O-RAN system",
+      "physically secure environment",
+      "sensitive data",
+      "cryptographic keys",
+      "configuration data",
+      "execution of sensitive functions",
+      "encryption/decryption",
+      "authentication",
+      "execution of boot and update processes",
+      "site intrusion",
+      "physical access threats",
+      "O-RU sites",
+      "unnecessary physical ports",
+      "unnecessary logical ports",
+      "unnecessary protocols",
+      "unnecessary interfaces",
+      "secure physical connections",
+      "O&M operations",
+      "secure laptop with secure credentials"
+    ],
+    "relations": [
+      {
+        "subject": "multi-vendor environment",
+        "predicate": "SHOULD enforce intra-domain host isolation",
+        "object": "intra-domain host isolation"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "VMs"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "CNs"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "virtualization/container layer"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "CPU"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "storage"
+      },
+      {
+        "subject": "same host",
+        "predicate": "SHOULD ensure security isolation of resources",
+        "object": "network security isolation of resources"
+      },
+      {
+        "subject": "system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit",
+        "predicate": "are implemented on",
+        "object": "management plane"
+      },
+      {
+        "subject": "system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit",
+        "predicate": "are implemented on",
+        "object": "signaling plane"
+      },
+      {
+        "subject": "system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit",
+        "predicate": "are implemented on",
+        "object": "control plane"
+      },
+      {
+        "subject": "system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit",
+        "predicate": "are implemented on",
+        "object": "data plane"
+      },
+      {
+        "subject": "execution of virtualized O-RAN components",
+        "predicate": "is ensured by implementing system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "SHOULD be located in",
+        "object": "physically secure environment"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "SHOULD support secure storage of",
+        "object": "sensitive data"
+      },
+      {
+        "subject": "sensitive data",
+        "predicate": "includes",
+        "object": "cryptographic keys"
+      },
+      {
+        "subject": "sensitive data",
+        "predicate": "includes",
+        "object": "configuration data"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "SHOULD support execution of",
+        "object": "execution of sensitive functions"
+      },
+      {
+        "subject": "execution of sensitive functions",
+        "predicate": "includes",
+        "object": "encryption/decryption"
+      },
+      {
+        "subject": "execution of sensitive functions",
+        "predicate": "includes",
+        "object": "authentication"
+      },
+      {
+        "subject": "O-RAN system",
+        "predicate": "SHOULD support execution of",
+        "object": "execution of boot and update processes"
+      },
+      {
+        "subject": "special attention SHOULD be paid to",
+        "object": "site intrusion"
+      },
+      {
+        "subject": "special attention SHOULD be paid to",
+        "object": "physical access threats"
+      },
+      {
+        "subject": "O-RU sites",
+        "predicate": "are subject to",
+        "object": "site intrusion"
+      },
+      {
+        "subject": "O-RU sites",
+        "predicate": "are subject to",
+        "object": "physical access threats"
+      },
+      {
+        "subject": "O-RU equipment",
+        "predicate": "SHOULD disable all unnecessary",
+        "object": "unnecessary physical ports"
+      },
+      {
+        "subject": "O-RU equipment",
+        "predicate": "SHOULD disable all unnecessary",
+        "object": "unnecessary logical ports"
+      },
+      {
+        "subject": "O-RU equipment",
+        "predicate": "SHOULD disable all unnecessary",
+        "object": "unnecessary protocols"
+      },
+      {
+        "subject": "O-RU equipment",
+        "predicate": "SHOULD disable all unnecessary",
+        "object": "unnecessary interfaces"
+      },
+      {
+        "subject": "secure physical connections to O-RU for O&M operations",
+        "predicate": "SHOULD be implemented",
+        "object": "secure physical connections"
+      },
+      {
+        "subject": "O&M operations",
+        "predicate": "are performed via",
+        "object": "secure physical connections"
+      },
+      {
+        "subject": "secure laptop with secure credentials",
+        "predicate": "is an example of",
+        "object": "secure physical connections"
+      }
+    ],
+    "preview": "# 6.1.13 SP-ISO Robust Isolation\n\nIn a multi-vendor environment, intra-domain host isolation SHOULD be enforced. In the same host, VMs, CNs, virtualization/container layer, CPU, storage, and network security isolation of resources SHOULD be ensured by implementing system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit on the management, signaling, ..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.14 SP-PHY Physical security\n\nThe O-RAN system SHOULD be located at physically secure environment in a way that minimizes the risk of resource theft and destruction. It SHOULD support secure storage of sensitive data (cryptographic keys and configuration data), execution of sensitive functions (encryption/decryption, authentication), and execution of boot and update processes.\n\nSpecial attent..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [
+      "Security Principles",
+      "Threats",
+      "O-RAN Adopter",
+      "Agreement",
+      "O-RAN Specifications",
+      "Adopter License Agreement",
+      "Copyright License",
+      "Affiliates",
+      "Compliant Implementation",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Adopter",
+        "predicate": "is part of",
+        "object": "Affiliation"
+      },
+      {
+        "subject": "Agreement",
+        "predicate": "grants",
+        "object": "Copyright License"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "is interoperable with",
+        "object": "Prior Version of O-RAN Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "are licensable by",
+        "object": "Member, Contributor, or Academic Contributor"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "allows licensor to suspend license against",
+        "object": "licensee who brings patent infringement suit"
+      },
+      {
+        "subject": "Security Principles",
+        "predicate": "cover",
+        "object": "Threats"
+      }
+    ],
+    "preview": "\n\n# 6.2 Coverage Threats - Security principles\n\nThe table below illustrates how threats are covered by security principles. It outlines the list of security principles contributing to counter threats.\n\nTable 6-1 : Coverage Security principles-Threats\n\n> **Table Summary:** {\"code\": \"This HTML table represents a schedule or assignment grid. It uses 'colspan' to merge cells, suggesting a hierarchical..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants",
+        "object": "Compliant Implementations"
+      }
+    ],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN ALLIANCE hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopter",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "O-RAN Specifications",
+      "Indemnitees"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "make reciprocal grant to",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "make reciprocal grant to",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "make reciprocal grant to",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "terminate agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Indemnitees"
+      }
+    ],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 34,
+    "entities": [
+      "Adopter",
+      "O-RAN ALLIANCE",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Indemnitees",
+      "Affiliates",
+      "export control laws",
+      "antitrust laws"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "provides",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "cannot assign",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Members",
+        "predicate": "are third-party beneficiaries",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "are third-party beneficiaries",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "are third-party beneficiaries",
+        "object": "this Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "binds Affiliates",
+        "object": "Agreement obligations"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "are governed by",
+        "object": "export control laws"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "are governed by",
+        "object": "antitrust laws"
+      }
+    ],
+    "preview": "# Section 6: INDEMNIFICATION\n\nAdopter shall indemnify, defend, and hold harmless the O-RAN ALLIANCE, its Members, Contributors or Academic Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”), against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or imposed upon any of the Inde..."
+  }
+]

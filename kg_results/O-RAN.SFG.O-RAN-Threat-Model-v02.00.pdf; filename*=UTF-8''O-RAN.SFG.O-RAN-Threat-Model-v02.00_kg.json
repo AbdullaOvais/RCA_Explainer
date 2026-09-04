@@ -1,0 +1,236 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# O-RAN Security Threat Modeling and Remediation Analysis\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and ..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# O-RAN Security Threat Modeling and Remediation Analysis\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and ..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# O-RAN Security Threat Modeling and Remediation Analysis\n\nPrepared by the O-RAN ALLIANCE e.V.   \nCopyright $©$ 2021 by O-RAN ALLIANCE e.V.\n\nRevision History\n\n> **Table Summary:** {\n    \"summary\": \"This table documents the revision history of a document, tracking changes over time. It details the date, revision number, document status, author, and a brief de..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [],
+    "relations": [],
+    "preview": "# Annex ZZZ : O-RAN Adopter License Agreement ................................................................................ ..60\n\nSection 1: DEFINITIONS . ................................................................................. . 60   \nSection 2: COPYRIGHT LICENSE . ..................................................................................................... ... 60   \nSection 3..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [],
+    "relations": [],
+    "preview": "# List of Figures\n\nFigure 2-1 : Logical Architecture of O-RAN system [13].. . 11   \nFigure 5-1 : Threats and Vulnerabilities for O-RAN LLS 7-2x... .................................................................. . 29   \nFigure 5-2 : UE Identification in Near-RT-RIC... ........................................................................... . 32   \nFigure 5-3 : Near-RT-RIC and xApps conflict w..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Chapter 1 Introductory Material\n\n# 1.1 Scope\n\nThe contents of the present document are subject to continuing work within O-RAN and may change following formal O-RAN approval. Should the O-RAN ALLIANCE modify the contents of the present document, it will be re-released by O-RAN with an identifying change of release date and an increase in version number as follows:\n\nRelease xx.yy.zz\n\nwhere:\n\nxx..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [],
+    "relations": [],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\nReferences are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.   \n• For a specific reference, subsequent revisions do not apply. For a non-specific reference, the latest version applies. In the..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 1.3 Definitions, Abbreviations and Terms\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 and the following apply:\n\nA1: Interface between non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflow.\n\nA1 policy: Type of declarative policies expressed using formal st..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 1.3.2 Abbreviations\n\nFor the purposes of the present document, the abbreviations given in 3GPP TR 21.905 and the following apply:\n\n> **Table Summary:** {}\n\n# 1.3.3 Terms\n\nIn this document, the significance is following the words defined in the RFC 2119 publication by IETF. These words are:\n\n\"SHALL\" This word, or the words \"REQUIRED\" and \"MUST\" mean that the process is an absolute requirement o..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Chapter 2 Overview\n\n# 2.1 Objective and structure\n\nO-RAN architecture [13] is quite different from the architecture of 3GPP RAN, where new components, interfaces and technologies are proposed, new actors (stakeholders) arise and novel business models are made possible. The attack surface is bigger and we foresee that O-RAN design and deployment will raise numerous security challenges and resul..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [],
+    "relations": [],
+    "preview": "# 2.2 Methodology\n\nThe methodology adopted in this document is based on the standard ISO 27005 [14] which provide a detailed and flexible structure to release a risk assessment.\n\nRefer to NIST SP 800-154 [15] for the definition of Attack, Attack Surface, Attack Vector, Controls, Risk, Risk Mitigation, Threat, and Vulnerability.\n\nThe methodology followed in this document comprises three stages:\n\n1)..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [],
+    "relations": [],
+    "preview": "# Relevant Protocols used by O-RAN system for enforcing security:\n\nTLS o Should be used to protect the traffic between the O-RAN system and other network elements. It establishes a secure channel and provides CIA (Confidentiality, Integrity, Authenticity) features. o Should be used in O1 interface for NETCONF over TLS and JSON/REST over TLS o Should be used in A1 interface SSH o Should be used in ..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n![](images/eaf91d71d5499488ab30ca44a4bb924e970cdc5a165c358fbbcc94dc6f310fa0.jpg)\n\n> **Image Summary:** {\n\"Summary\": \"This diagram illustrates the architecture of a cloud-native RAN (Radio Access Network) focusing on the interfaces between the different functional entities within the Radio Infrastructure Controller (RIC) and the Open RAN (O-RAN) components. It showcases the connections for contro..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 4.3 Critical assets\n\nThe following table gives the list of critical assets to be protected within the O-RAN system. For each asset, the protection level is proposed. The table only considers critical assets, components and interfaces introduced by O-RAN Alliance.\n\nTable 4-2 : Critical assets\n\n> **Table Summary:** {\n\"table_name\": \"Asset Table\",\n\"columns\": [\n\"Asset ID\",\n\"Asset Description\",\n\"Com..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [],
+    "relations": [],
+    "preview": "# 5.1 Threat surface\n\nThe O-RAN architecture [13] introduces new functions and interfaces. The introduction of additional interfaces and nodes, and the decoupling of hardware and software, expands the threat and attack surface of the network. Threat surfaces may be divided into 6 main groups:\n\n• Additional functions: SMO, Non-Real-Time RIC, Near-Real-Time RIC   \n• Additional open interfaces: A1, E..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [],
+    "relations": [],
+    "preview": "# 5.2 Threat agent\n\nThreat agents can be categorized as follows:\n\nCyber-criminals: Represents individuals who commits cybercrimes, where he/she makes use of the computer either as a tool or as a target or as both. • Insiders: Represents malicious attacks perpetrated on a network or computer system by a person with authorized system access. Hacktivists: Represents actors that perform cyber-attacks ..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [],
+    "relations": [],
+    "preview": "# 5.4 Threats\n\nThreats can be grouped in seven categories:\n\nThreats against O-RAN system • Threats against O-CLOUD • Threats to open source code • Physical Threats • Threats against 5G radio networks • Threats against ML system\n\nThe threat analysis is carried out using a well-defined structure to present each threat cases and simplify the risk analysis associated with each threat. In the following..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\"response\": \"This table defines the structure and meaning of threat information within a security context. It establishes a mapping between a unique identifier (\", \"ThreatID\":\") and descriptive details about each threat. The \",\"Threat title\":\" and \",\"Threat description\":\" columns provide textual explanations for each identified threat. Essentially, the table serves as a dat..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"This table details a specific security threat, identified as T-rApp-02, related to rApp management interfaces. The threat describes a scenario where an attacker exploits vulnerabilities in web front-ends or REST APIs to bypass authentication and authorization controls. This allows the attacker to potentially impersonate a tenant and manipulate configurations or..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n![](images/79fa66e4e83e7a1d9ff1d05d5212796b9fee28ec555081f5e30fcc6dd6121181.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image depicts a virtualized environment, showcasing how Virtual Machines (VMs) or Containers (CNs) operate on top of a hypervisor/container engine which itself sits directly on hardware. It visually illustrates the layered architecture of virtualization, highlighting how VMs/..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** { \"table\": \"\n\n<table{\\\">{\\\"}}\" }\n\n> **Table Summary:** {\n\"summary\": \"The table details two specific threats related to machine learning (ML) systems. Threat ID T-ML-02 describes the risk of an attacker directly manipulating an ML model's parameters to influence its output and potentially extract sensitive training data. Threat ID T-ML-03 highlights the vulnerability of syste..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\n\"threat_landscape\": [\n{\"threat_id\": \"T-PHYS-01\", \"threat_description\": \"An intruder into a site gains physical access to O-RAN components to causedamage oraccesssensitive data\", \"affected_asset\": \"All\", \"vulnerability\": \"Improper physicalsecurity protection of data centres, PNFs,operationareas, etc.\", \"impact\": \"Damage to O-RAN components, data breach\"},\n{\"threat_id\": \"T-R..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 6.1 Principles (SP)\n\n# 6.1.1 SP-AUTH Mutual Authentication\n\nMutual authentication SHOULD be established to allow the O-RAN system verifying who performs what, thus possible to detect fake base stations, unauthorized or malicious components, malicious applications and malicious users/administrators. To authenticate each component, a unique identifier and one or more credentials that SHOULD be k..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 6.1.4 SP-TCOMM Trusted Communication\n\nIntegrity, confidentiality, availability, authenticity and replay protection of resources SHOULD be ensured in transit (see ‘Critical Assets) over O-RAN interfaces according to industry best practices.\n\n# 6.1.5 SP-SS Secure storage\n\nIntegrity, confidentiality, availability protection of resources SHOULD be ensured at rest (see ‘Critical Assets) according t..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.7 SP-UPDT Secure Update\n\nA secure update management process SHOULD be implemented for introducing a new component or software change into the O-RAN system. The process SHOULD consider the ability to update the cryptographic algorithms and to adapt to upcoming O-RAN security challenges. O-RAN vendors SHOULD constantly provide ongoing security monitoring and patches for all of O-RAN components..."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.8 SP-RECO Recoverability & Backup\n\nRecoverability process in terms of the capacity of recovery in case of denial of service SHOULD be implemented. An approach for detecting and mitigating DoS attacks SHOULD be in place.\n\nO-RAN vendors SHOULD define a recovery plan that resets the O-RAN components to a trustworthy state in case of a malfunction or an attack (e.g. DoS).\n\nBackup systems SHOULD ..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.9 SP-OPNS Security management of risks in open source components\n\nVendors using open source code SHOULD enhance its security by applying industry coding best practices. It is recommended that vendors practice a higher level of due diligence for exposure to public exploits when using Open Source code.\n\nA Software Bill of Materials (SBOM) SHOULD be maintained to understand which open source co..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.10 SP-ASSU Security Assurance\n\n• Mobile networks are classified as critical infrastructure making security assurance especially more than relevant:\n\no Vendors SHOULD ensure and prove that its software or hardware meets 3GPP Security Assurance Specifications (SCAS).   \no Vendors SHOULD ensure and prove that its software or hardware fulfils O-RAN security tests, requirements and recommendation..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.11 SP-PRV Privacy\n\nIn O-RAN, the privacy of end users SHOULD be considered. The privacy of end users can be divided into data privacy, identity privacy and personal information privacy. Most Communication services are to gather data and personal information around end users themselves, which may reveal information sensitive to their privacy. Adversaries would further extract more personal in..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.12 SP-SLC Continuous security development, testing, logging, monitoring and vulnerability handling\n\nContinuous development and continuous integration (CD/CI) with continuous regression testing and software security auditing SHOULD be implemented.\n\nRelevant activities events SHOULD be logged and logs collected SHOULD be analyzed in real time for the identification of potential security attack..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.13 SP-ISO Robust Isolation\n\nIn a multi-vendor environment, intra-domain host isolation SHOULD be enforced. In the same host, VMs, CNs, virtualization/container layer, CPU, storage, and network security isolation of resources SHOULD be ensured by implementing system security orchestration, segmentation, lifecycle management, time scheduling, monitoring and audit on the management, signaling, ..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.14 SP-PHY Physical security\n\nThe O-RAN system SHOULD be located at physically secure environment in a way that minimizes the risk of resource theft and destruction. It SHOULD support secure storage of sensitive data (cryptographic keys and configuration data), execution of sensitive functions (encryption/decryption, authentication), and execution of boot and update processes.\n\nSpecial attent..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1.17 SP-ROB Robustness\n\nThe O-RAN system SHOULD not only ensure the robustness of software or hardware resources, but also guarantee the robustness of the cognitive radio channel for meeting the QoS of communication services required by users. In some scenarios, the robustness of spectrum sensing SHOULD be enhanced when some sensing nodes (e.g. O-RU) are easily malfunctioned. Robustness is an ..."
+  },
+  {
+    "chunk_id": 34,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 6.2 Coverage Threats - Security principles\n\nThe table below illustrates how threats are covered by security principles. It outlines the list of security principles contributing to counter threats.\n\nTable 6-1 : Coverage Security principles-Threats\n\n> **Table Summary:** {\n  \"table\": {\n    \"columns\": [\n      \"PY\",\n      \"S\",\n      \"B\",\n      \"SP\",\n      \"SC\",\n      \"PY\",\n      \"S\",\n      \"B\",\n   ..."
+  },
+  {
+    "chunk_id": 35,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {}\n\n# 1 O-RAN.WG4.CUS.0-v06.00\n\n2 Network timing is distributed from O-DU to O-RU via direct connection between O-DU site and O-RU site. O-DU is acting as a master and directly synchronizes ORU.\n\n3 Network timing is distributed from O-DU to O-RU between O-DU sites and O-RU sites. One or more Ethernet switches are allowed in the fronthaul network. O-DU acting as master to dis..."
+  },
+  {
+    "chunk_id": 36,
+    "entities": [],
+    "relations": [],
+    "preview": "# Configuration LLS-C4\n\nLocal PRTC timing that provides time synchronization to the O-RU (it could be embedded in the O-RU).\n\nDoS attacks against the master clock may affect only one O-RU. Consequently, the severity level is ‘Low’.   \nMITM random delay attacks against selective PTP messages: Not applicable (No PTP messages required).\n\nAccording to what we described in the here above two notes, Thr..."
+  },
+  {
+    "chunk_id": 37,
+    "entities": [],
+    "relations": [],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN ALLIANCE hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 38,
+    "entities": [],
+    "relations": [],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 39,
+    "entities": [],
+    "relations": [],
+    "preview": "# Section 6: INDEMNIFICATION\n\nAdopter shall indemnify, defend, and hold harmless the O-RAN ALLIANCE, its Members, Contributors or Academic Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”), against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or imposed upon any of the Inde..."
+  }
+]

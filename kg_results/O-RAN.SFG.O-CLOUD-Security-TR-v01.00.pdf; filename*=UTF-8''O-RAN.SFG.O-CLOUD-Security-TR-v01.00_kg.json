@@ -1,0 +1,5472 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN SFG",
+      "Study on Security for O-CLOUD",
+      "Final Specifications",
+      "IPR Policy",
+      "Prior Written Permission",
+      "Copying",
+      "Incorporation",
+      "Personal Use",
+      "Third Parties"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN SFG",
+        "predicate": "conducts",
+        "object": "Study on Security for O-CLOUD"
+      },
+      {
+        "subject": "Study on Security for O-CLOUD",
+        "predicate": "requires",
+        "object": "Prior Written Permission"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group (SFG)\n\n# Study on Security for O-CLOUD\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications sha..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN Security Focus Group (SFG)",
+      "Study on Security for O-CLOUD",
+      "O-Cloud Architecture",
+      "SMO",
+      "Hardware resources",
+      "Operating System (OS)",
+      "Vitualization Layer",
+      "NFs Layer",
+      "O-Cloud images repository",
+      "Interfaces",
+      "SERV#01 SMO-O-Cloud O2 services",
+      "SERV#03 O-Cloud monitoring service",
+      "SERV#04 O-Cloud provisioning service",
+      "SERV#05 O-Cloud software management service",
+      "SERV#06 O-Cloud fault management service",
+      "SERV#07 O-Cloud performance service"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Focus Group (SFG)",
+        "predicate": "conducts study on",
+        "object": "Study on Security for O-CLOUD"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "SMO"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Hardware resources"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Operating System (OS)"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Vitualization Layer"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "NFs Layer"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "O-Cloud images repository"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Interfaces"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#01 SMO-O-Cloud O2 services"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#03 O-Cloud monitoring service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#04 O-Cloud provisioning service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#05 O-Cloud software management service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#06 O-Cloud fault management service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#07 O-Cloud performance service"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group (SFG)\n\n# Study on Security for O-CLOUD\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications sha..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN Security Focus Group (SFG)",
+      "Study on Security for O-CLOUD",
+      "O-Cloud Architecture",
+      "SMO",
+      "Hardware resources",
+      "Operating System (OS)",
+      "Virtualization Layer",
+      "NFs Layer",
+      "O-Cloud images repository",
+      "Interfaces",
+      "SERV#01 SMO-O-Cloud O2 services",
+      "SERV#03 O-Cloud monitoring service",
+      "SERV#04 O-Cloud provisioning service",
+      "SERV#05 O-Cloud software management service",
+      "SERV#06 O-Cloud fault management service",
+      "SERV#07 O-Cloud performance service",
+      "Cloud deployment scenarios",
+      "Main actors",
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Focus Group (SFG)",
+        "predicate": "conducted study",
+        "object": "Study on Security for O-CLOUD"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "SMO"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Hardware resources"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Operating System (OS)"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "Virtualization Layer"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "NFs Layer"
+      },
+      {
+        "subject": "O-Cloud Architecture",
+        "predicate": "includes component",
+        "object": "O-Cloud images repository"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#01 SMO-O-Cloud O2 services"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#03 O-Cloud monitoring service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#04 O-Cloud provisioning service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#05 O-Cloud software management service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#06 O-Cloud fault management service"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "includes service",
+        "object": "SERV#07 O-Cloud performance service"
+      },
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "includes aspect",
+        "object": "Main actors"
+      },
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "includes model",
+        "object": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "includes model",
+        "object": "Platform as a Service (PaaS)"
+      },
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "includes model",
+        "object": "Software as a Service (SaaS)"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group (SFG)\n\n# Study on Security for O-CLOUD\n\n# Revision History\n\n> **Table Summary:** {\n  \"summary\": \"This table documents the revision history of a document, tracking its evolution over time. It details the date, revision number, document status (all currently 'Draft'), author (SFG), and a brief description of changes made for each version. The revisions primarily reflec..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "Cloud deployment scenarios",
+      "Main actors",
+      "Cloud service models",
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Roles and responsibilities",
+      "Security Problem Definition",
+      "Assets",
+      "Threats",
+      "Threat and impact types",
+      "Attack surface",
+      "Vulnerabilities",
+      "Threat events"
+    ],
+    "relations": [
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "has_child",
+        "object": "Main actors"
+      },
+      {
+        "subject": "Cloud deployment scenarios",
+        "predicate": "has_child",
+        "object": "Cloud service models"
+      },
+      {
+        "subject": "Cloud service models",
+        "predicate": "has_child",
+        "object": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "subject": "Cloud service models",
+        "predicate": "has_child",
+        "object": "Platform as a Service (PaaS)"
+      },
+      {
+        "subject": "Cloud service models",
+        "predicate": "has_child",
+        "object": "Software as a Service (SaaS)"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Assets"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Threats"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Threat and impact types"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Attack surface"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Vulnerabilities"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "has_child",
+        "object": "Threat events"
+      }
+    ],
+    "preview": "# 3 Cloud deployment scenarios .......\n\n3.1 Main actors ... .................................................. . 17   \n3.2 Cloud service models.. ............................................................................................ ... 17   \n3.2.1 Infrastructure as a Service (IaaS) ............................................................................................. . 17   \n3.2.2 Pl..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "Security Problem Definition",
+      "Assets",
+      "Threats",
+      "Attack surface",
+      "Vulnerabilities",
+      "Threat events",
+      "Recommendations and best practices",
+      "REC-CM Certificate management",
+      "REC-NS Network Segmentation & Filter Network Traffic",
+      "REC-IAM Identity, Authentication and Access Management",
+      "REC-VHPM Vulnerability Handling and Patch Management",
+      "REC-SCONF Security Configuration",
+      "REC-SDLC Secure Development Lifecycle",
+      "REC-SNFLC Security App/VNF/CNF lifecycle",
+      "REC-IMGP Image Protection",
+      "REC-LOG Logging, Monitoring and Alerting",
+      "REC-SB Secure Boot",
+      "REC-ISO Strong Isolation",
+      "REC-AUD Security Audit",
+      "REC-SS Secure Storage",
+      "REC-PHY Physical Security Protection",
+      "REC-RA Remote Attestation"
+    ],
+    "relations": [
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "includes",
+        "object": "Assets"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "includes",
+        "object": "Threats"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "includes",
+        "object": "Attack surface"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "includes",
+        "object": "Vulnerabilities"
+      },
+      {
+        "subject": "Security Problem Definition",
+        "predicate": "includes",
+        "object": "Threat events"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-CM Certificate management"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-NS Network Segmentation & Filter Network Traffic"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-IAM Identity, Authentication and Access Management"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-VHPM Vulnerability Handling and Patch Management"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-SCONF Security Configuration"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-SDLC Secure Development Lifecycle"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-SNFLC Security App/VNF/CNF lifecycle"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-IMGP Image Protection"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-LOG Logging, Monitoring and Alerting"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-SB Secure Boot"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-ISO Strong Isolation"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-AUD Security Audit"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-SS Secure Storage"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-PHY Physical Security Protection"
+      },
+      {
+        "subject": "Recommendations and best practices",
+        "predicate": "includes",
+        "object": "REC-RA Remote Attestation"
+      }
+    ],
+    "preview": "# 5 Security Problem Definition....... ..28\n\n5.1 5.2 Assets.....Threats ... ................................................................................................................ ... 28... 32   \nThreat and impact types ..........................................................................................................................   \n5.2.2 Attack surface.... ......................."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "Recommendations",
+      "REC-CM",
+      "REC-NS",
+      "REC-IAM",
+      "REC-VHPM",
+      "REC-SCONF",
+      "REC-SDLC",
+      "REC-SNFLC",
+      "REC-IMGP",
+      "REC-LOG",
+      "REC-SB",
+      "REC-ISO",
+      "REC-AUD",
+      "REC-SS",
+      "REC-PHY",
+      "REC-RA",
+      "Risk Assessment",
+      "Annex A",
+      "Annex ZZZ",
+      "Tables",
+      "Figures"
+    ],
+    "relations": [
+      {
+        "subject": "REC-CM",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-NS",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-IAM",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-VHPM",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-SCONF",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-SDLC",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-SNFLC",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-IMGP",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-LOG",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-SB",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-ISO",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-AUD",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-SS",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-PHY",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "REC-RA",
+        "predicate": "is part of",
+        "object": "Recommendations"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "supports",
+        "object": "O-RAN specifications"
+      },
+      {
+        "subject": "Annex A",
+        "predicate": "provides",
+        "object": "additional information"
+      },
+      {
+        "subject": "Annex ZZZ",
+        "predicate": "includes",
+        "object": "license agreement"
+      },
+      {
+        "subject": "Tables",
+        "predicate": "supports",
+        "object": "understanding architecture"
+      },
+      {
+        "subject": "Figures",
+        "predicate": "illustrates",
+        "object": "attack vectors"
+      }
+    ],
+    "preview": "# 6 Recommendations and best practices.. ..45\n\n48 6.1 REC-CM Certificate management.. .................................................. .. 45   \n49 6.2 REC-NS Network Segmentation & Filter Network Traffic.................................................................... ....... 46   \n50 6.3 REC-IAM Identity, Authentication and Access Management.... ................................................."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-CLOUD architecture",
+      "IaaS cloud service model",
+      "PaaS cloud service model",
+      "SaaS cloud service model",
+      "On site private cloud",
+      "Outsourced private cloud",
+      "On site community cloud",
+      "Outsourced community cloud",
+      "Public cloud",
+      "Hybrid cloud",
+      "Attack vectors",
+      "Vulnerabilities",
+      "VM/Container escape attack",
+      "Migration flooding attack",
+      "False resource advertising attack",
+      "Migration MITM attack",
+      "Theft-of-Service/DoS Attack",
+      "VM/Container hyperjacking attack",
+      "Cross VM/Container side channel attack",
+      "Assets",
+      "Threats",
+      "Security problem definition",
+      "Risk assessment"
+    ],
+    "relations": [
+      {
+        "subject": "Figure 2-1",
+        "predicate": "describes",
+        "object": "O-CLOUD architecture"
+      },
+      {
+        "subject": "Figure 3-1",
+        "predicate": "illustrates",
+        "object": "IaaS cloud service model"
+      },
+      {
+        "subject": "Figure 3-2",
+        "predicate": "illustrates",
+        "object": "PaaS cloud service model"
+      },
+      {
+        "subject": "Figure 3-3",
+        "predicate": "illustrates",
+        "object": "SaaS cloud service model"
+      },
+      {
+        "subject": "Figure 3-4",
+        "predicate": "illustrates",
+        "object": "On site private cloud"
+      },
+      {
+        "subject": "Figure 3-5",
+        "predicate": "illustrates",
+        "object": "Outsourced private cloud"
+      },
+      {
+        "subject": "Figure 3-6",
+        "predicate": "illustrates",
+        "object": "On site community cloud"
+      },
+      {
+        "subject": "Figure 3-7",
+        "predicate": "illustrates",
+        "object": "Outsourced community cloud"
+      },
+      {
+        "subject": "Figure 3-8",
+        "predicate": "illustrates",
+        "object": "Public cloud"
+      },
+      {
+        "subject": "Figure 3-9",
+        "predicate": "illustrates",
+        "object": "Hybrid cloud"
+      },
+      {
+        "subject": "Figure 5-1",
+        "predicate": "depicts",
+        "object": "Cartography of assets"
+      },
+      {
+        "subject": "Figure 5-2",
+        "predicate": "depicts",
+        "object": "Attack vectors"
+      },
+      {
+        "subject": "Figure 5-3",
+        "predicate": "shows",
+        "object": "Vulnerabilities within $\\textcircled{1}$, $\\textcircled{2}$, $\\textcircled{3}$"
+      },
+      {
+        "subject": "Figure 5-4",
+        "predicate": "illustrates",
+        "object": "VM/Container escape attack"
+      },
+      {
+        "subject": "Figure 5-5",
+        "predicate": "illustrates",
+        "object": "Migration flooding attack"
+      },
+      {
+        "subject": "Figure 5-6",
+        "predicate": "illustrates",
+        "object": "False resource advertising attack"
+      },
+      {
+        "subject": "Figure 5-7",
+        "predicate": "illustrates",
+        "object": "Migration MITM attack"
+      },
+      {
+        "subject": "Figure 5-8",
+        "predicate": "illustrates",
+        "object": "Theft-of-Service/DoS Attack"
+      },
+      {
+        "subject": "Figure 5-9",
+        "predicate": "illustrates",
+        "object": "VM/Container hyperjacking attack"
+      },
+      {
+        "subject": "Figure 5-10",
+        "predicate": "illustrates",
+        "object": "Cross VM/Container side channel attack"
+      },
+      {
+        "subject": "Chapter 2",
+        "predicate": "describes",
+        "object": "Cloud architecture"
+      },
+      {
+        "subject": "Chapter 3",
+        "predicate": "explores",
+        "object": "Deployment types and models"
+      },
+      {
+        "subject": "Chapter 5",
+        "predicate": "outlines",
+        "object": "Security problem definition"
+      },
+      {
+        "subject": "Threat modeling process",
+        "predicate": "includes",
+        "object": "Identify assets"
+      },
+      {
+        "subject": "Threat modeling process",
+        "predicate": "includes",
+        "object": "Identify threats"
+      },
+      {
+        "subject": "Threat modeling process",
+        "predicate": "includes",
+        "object": "Document the threats"
+      },
+      {
+        "subject": "Threat modeling process",
+        "predicate": "includes",
+        "object": "Rate the threats"
+      },
+      {
+        "subject": "Threat modeling process",
+        "predicate": "includes",
+        "object": "Define potential mitigations"
+      }
+    ],
+    "preview": "# List of Figures\n\nFigure 2-1 : O-CLOUD architecture.. .. 11   \nFigure 2-2 : Parallel reporting & Alarm correlation [1].. .................................................................................. ..... 15   \nFigure 3-1 : IaaS cloud service model . .................................................................................... . 17   \nFigure 3-2 : PaaS cloud service model . ............."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# 1 Inroduction\n\n# 1.1 Scope\n\nThis technical report is the threat model of identifying and prioritizing potential threats to the O-Cloud and determining the potential mitigations to reduce those threats.\n\nThe steps of the threat modelling process are as follows:\n\n1. Identify assets: Identify the valuable assets that the O-Cloud must protect.   \n2. Identify the threats: Identify the threats that ..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      {
+        "name": "O-RAN.WG6.O2-GA&P v01.02",
+        "description": "Document specifying O-RAN O2 interface General Aspects and Principles"
+      },
+      {
+        "name": "E2 Node",
+        "description": "Logical node terminating E2 interface in O-RAN architecture"
+      },
+      {
+        "name": "O-CU-CP",
+        "description": "O-RAN Central Unit - Control Plane logical node hosting RRC and control plane part of PDCP protocol"
+      },
+      {
+        "name": "Near-RT RIC",
+        "description": "O-RAN near-real-time Radio Access Network Intelligent Controller for real-time optimization"
+      },
+      {
+        "name": "Non-RT RIC",
+        "description": "O-RAN non-real-time Radio Access Network Intelligent Controller for AI/ML workflows and policy-based guidance"
+      },
+      {
+        "name": "FCAPS",
+        "description": "Fault, Configuration, Accounting, Performance, Security management functions"
+      },
+      {
+        "name": "NF Deployment Descriptor",
+        "description": "Data model providing O-Cloud necessary information to create a deployment"
+      },
+      {
+        "name": "O-Cloud Node",
+        "description": "Abstracted resource exposed over O2ims as collection of CPUs, Memory, Storage, NICs, etc."
+      },
+      {
+        "name": "3GPP TR 21.905",
+        "description": "Reference document for terms and definitions"
+      }
+    ],
+    "relations": [
+      {
+        "source": "E2 Node",
+        "target": "O-CU-CP",
+        "relation": "connects_to"
+      },
+      {
+        "source": "Near-RT RIC",
+        "target": "Non-RT RIC",
+        "relation": "receives_policy_guidance_from"
+      },
+      {
+        "source": "FCAPS",
+        "target": "O1 Interface",
+        "relation": "managed_via"
+      },
+      {
+        "source": "NF Deployment Descriptor",
+        "target": "O-Cloud",
+        "relation": "used_by"
+      }
+    ],
+    "preview": "# 26 1.2 References\n\n[1] O-RAN.WG6.O2-GA&P v01.02: O-RAN O2 Interface - General Aspects and Principles   \n[2] O-RAN.WG6.ORCH-USE-CASES v03.00: Cloudification and Orchestration Use Cases and Requirements fo O-RAN Virtualized RAN   \n[3] CISA/NSA - Kubernetes Hardening Guidance – August 2021 https://media.defense.gov/2021/Aug/03/2002820425/-1/- 1/1/CTR_KUBERNETESHARDENINGGUIDANCE.PDF   \n[4] MITRE ATT..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "A1",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "E2 Node",
+      "O-CU",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "FCAPS",
+      "Intents",
+      "RAN",
+      "NF Deployment",
+      "NF Deployment Descriptor",
+      "Deployment ID",
+      "O-Cloud Node",
+      "Service Provider",
+      "Solution Provider",
+      "AI/ML",
+      "CNF",
+      "DMS",
+      "eNB",
+      "FOCOM",
+      "gNB",
+      "IMS",
+      "KPI",
+      "KQI",
+      "LCM",
+      "MIMO",
+      "NF",
+      "NFO",
+      "NFVI",
+      "O-CU-UP",
+      "PRB",
+      "QoE",
+      "RIC",
+      "SINR",
+      "UAV",
+      "V2X",
+      "SMO",
+      "MNO",
+      "SDN",
+      "RBAC",
+      "LBT",
+      "NFV",
+      "PDCP",
+      "VM",
+      "VNF",
+      "LLS",
+      "NETCONF",
+      "SSH",
+      "IPSEC",
+      "TLS",
+      "PTP",
+      "FTP",
+      "FTPS"
+    ],
+    "relations": [
+      {
+        "subject": "A1",
+        "predicate": "connects_to",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "guides",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "enables_guidance",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "E2 Node",
+        "predicate": "connects_to",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "E2 Node",
+        "predicate": "connects_to",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "E2 Node",
+        "predicate": "connects_to",
+        "object": "ODUs"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "optimizes",
+        "object": "RAN elements"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "supports",
+        "object": "AI/ML workflow"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "hosts",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "hosts",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "hosts",
+        "object": "RLC/MAC/High-PHY layers"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "hosts",
+        "object": "Low-PHY layer"
+      },
+      {
+        "subject": "FCAPS",
+        "predicate": "covers",
+        "object": "Fault, Configuration, Accounting, Performance, Security"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 and the following apply:\n\nA1: Interface between non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflow.\n\nA1 policy: Type of declarative policies expressed using formal statement..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "AI/ML",
+      "CNF",
+      "DMS",
+      "eNB",
+      "FOCOM",
+      "gNB",
+      "IMS",
+      "KPI",
+      "KQI",
+      "LCM",
+      "MIMO",
+      "NF",
+      "NFO",
+      "NFVI",
+      "O-CU",
+      "O-CU-CP",
+      "O-DU-UP",
+      "O-DU",
+      "O-RU",
+      "PNF",
+      "PRB",
+      "QoE",
+      "RAN",
+      "RIC",
+      "SINR",
+      "UAV",
+      "V2X",
+      "SMO",
+      "MNO",
+      "SDN",
+      "RBAC",
+      "LBT",
+      "NF",
+      "NFV",
+      "PDCP",
+      "VM",
+      "VNF",
+      "LLS",
+      "NETCONF",
+      "SSH",
+      "IPSEC",
+      "TLS",
+      "PTP",
+      "FTP",
+      "FTPS",
+      "SHALL",
+      "REQUIRED",
+      "must",
+      "SHOULD",
+      "RECOMMENDED",
+      "MAY",
+      "optional"
+    ],
+    "relations": [
+      {
+        "subject": "AI/ML",
+        "predicate": "stands_for",
+        "object": "Artificial Intelligence/Machine Learning"
+      },
+      {
+        "subject": "CNF",
+        "predicate": "stands_for",
+        "object": "Containerized Network Function"
+      },
+      {
+        "subject": "DMS",
+        "predicate": "stands_for",
+        "object": "O-Cloud Deployment Management Services"
+      },
+      {
+        "subject": "eNB",
+        "predicate": "stands_for",
+        "object": "eNodeB (applies to LTE)"
+      },
+      {
+        "subject": "FOCOM",
+        "predicate": "stands_for",
+        "object": "Federated O-Cloud Orchestration & Management"
+      },
+      {
+        "subject": "gNB",
+        "predicate": "stands_for",
+        "object": "gNodeB (applies to NR)"
+      },
+      {
+        "subject": "IMS",
+        "predicate": "stands_for",
+        "object": "O-Cloud Infrastructure Management Services"
+      },
+      {
+        "subject": "KPI",
+        "predicate": "stands_for",
+        "object": "Key Performance Indicator"
+      },
+      {
+        "subject": "KQI",
+        "predicate": "stands_for",
+        "object": "Key Quality Indicator"
+      },
+      {
+        "subject": "LCM",
+        "predicate": "stands_for",
+        "object": "Life Cycle Management"
+      },
+      {
+        "subject": "MIMO",
+        "predicate": "stands_for",
+        "object": "Multiple Input, Multiple Output"
+      },
+      {
+        "subject": "NF",
+        "predicate": "stands_for",
+        "object": "Network Function"
+      },
+      {
+        "subject": "NFO",
+        "predicate": "stands_for",
+        "object": "Network Function Orchestration"
+      },
+      {
+        "subject": "NFVI",
+        "predicate": "stands_for",
+        "object": "Network Function Virtualization Infrastructure"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "stands_for",
+        "object": "O-RAN Central Unit as defined by O-RAN ALLIANCE"
+      },
+      {
+        "subject": "O-CU-CP",
+        "predicate": "stands_for",
+        "object": "O-CU Control Plane"
+      },
+      {
+        "subject": "O-DU-UP",
+        "predicate": "stands_for",
+        "object": "O-CU User Plane"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "stands_for",
+        "object": "O-RAN Distributed Unit (uses Lower-level Split)"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "stands_for",
+        "object": "O-RAN Radio Unit"
+      },
+      {
+        "subject": "PNF",
+        "predicate": "stands_for",
+        "object": "Physical Network Function"
+      },
+      {
+        "subject": "PRB",
+        "predicate": "stands_for",
+        "object": "Physical Resource Block"
+      },
+      {
+        "subject": "QoE",
+        "predicate": "stands_for",
+        "object": "Quality of Experience"
+      },
+      {
+        "subject": "RAN",
+        "predicate": "stands_for",
+        "object": "Radio Access Network"
+      },
+      {
+        "subject": "RIC",
+        "predicate": "stands_for",
+        "object": "O-RAN RAN Intelligent Controller"
+      },
+      {
+        "subject": "SINR",
+        "predicate": "stands_for",
+        "object": "Signal-to-Interference-plus-Noise Ratio"
+      },
+      {
+        "subject": "UAV",
+        "predicate": "stands_for",
+        "object": "Unmanned Aerial Vehicle"
+      },
+      {
+        "subject": "V2X",
+        "predicate": "stands_for",
+        "object": "Vehicle to Everything"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "stands_for",
+        "object": "Service Management and Orchestration"
+      },
+      {
+        "subject": "MNO",
+        "predicate": "stands_for",
+        "object": "Mobile Network Operator"
+      },
+      {
+        "subject": "SDN",
+        "predicate": "stands_for",
+        "object": "Software Defined Network"
+      },
+      {
+        "subject": "RBAC",
+        "predicate": "stands_for",
+        "object": "Role-based Access Control"
+      },
+      {
+        "subject": "LBT",
+        "predicate": "stands_for",
+        "object": "Listen Before Talk"
+      },
+      {
+        "subject": "NF",
+        "predicate": "stands_for",
+        "object": "Network Function"
+      },
+      {
+        "subject": "NFV",
+        "predicate": "stands_for",
+        "object": "Network Function Virtualisation"
+      },
+      {
+        "subject": "PDCP",
+        "predicate": "stands_for",
+        "object": "Packet Data Convergence Protocol"
+      },
+      {
+        "subject": "VM",
+        "predicate": "stands_for",
+        "object": "Virtual machine"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "stands_for",
+        "object": "Virtualised Network Function"
+      },
+      {
+        "subject": "LLS",
+        "predicate": "stands_for",
+        "object": "Lower Layer Split"
+      },
+      {
+        "subject": "NETCONF",
+        "predicate": "stands_for",
+        "object": "Network Configuration Protocol"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "stands_for",
+        "object": "Secure Shell"
+      },
+      {
+        "subject": "IPSEC",
+        "predicate": "stands_for",
+        "object": "Internet Protocol Security"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "stands_for",
+        "object": "Transport Layer Security"
+      },
+      {
+        "subject": "PTP",
+        "predicate": "stands_for",
+        "object": "Precision Timing Protocol"
+      },
+      {
+        "subject": "FTP",
+        "predicate": "stands_for",
+        "object": "File Transfer Protocol"
+      },
+      {
+        "subject": "FTPS",
+        "predicate": "stands_for",
+        "object": "File Transfer Protocol Secure"
+      },
+      {
+        "subject": "SHALL",
+        "predicate": "means",
+        "object": "absolute requirement of the specification"
+      },
+      {
+        "subject": "REQUIRED",
+        "predicate": "means",
+        "object": "absolute requirement of the specification"
+      },
+      {
+        "subject": "must",
+        "predicate": "means",
+        "object": "absolute requirement of the specification"
+      },
+      {
+        "subject": "SHOULD",
+        "predicate": "means",
+        "object": "there may exist valid reasons in particular circumstances to ignore this item, but the full implications should be understood, and the case carefully weighed before choosing a different course"
+      },
+      {
+        "subject": "RECOMMENDED",
+        "predicate": "means",
+        "object": "there may exist valid reasons in particular circumstances to ignore this item, but the full implications should be understood, and the case carefully weighed before choosing a different course"
+      },
+      {
+        "subject": "MAY",
+        "predicate": "means",
+        "object": "this item is truly optional"
+      },
+      {
+        "subject": "optional",
+        "predicate": "means",
+        "object": "this item is truly optional"
+      }
+    ],
+    "preview": "# 1.3.2 Abbreviations and acronyms\n\nFor the purposes of the present document, the abbreviations given in 3GPP TR 21.905 and the following apply:\n\nAI/ML Artificial Intelligence/Machine Learning   \nCNF Containerized Network Function   \nDMS O-Cloud Deployment Management Services   \neNB eNodeB (applies to LTE)   \nFOCOM Federated O-Cloud Orchestration & Management   \ngNB gNodeB (applies to NR)   \nIMS O..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "SHALL",
+      "REQUIRED",
+      "must",
+      "SHOULD",
+      "RECOMMENDED",
+      "MAY",
+      "optional",
+      "RFC 2119",
+      "IETF",
+      "O-RAN Alliance e.V.",
+      "O-Cloud architecture",
+      "SMO",
+      "Federated O-Cloud Orchestration and Management (FOCOM)",
+      "Network Function Orchestrator (NFO)",
+      "Infrastructure Management Services (IMS)",
+      "Deployment Management Services (DMS)",
+      "NF Deployments",
+      "Annex ZZZ"
+    ],
+    "relations": [
+      {
+        "subject": "SHALL",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "REQUIRED",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "must",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "SHOULD",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "RECOMMENDED",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "MAY",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "optional",
+        "predicate": "defined by",
+        "object": "RFC 2119"
+      },
+      {
+        "subject": "O-RAN Alliance e.V.",
+        "predicate": "holds copyright",
+        "object": "2022"
+      },
+      {
+        "subject": "FOCOM",
+        "predicate": "consumes services from",
+        "object": "IMS"
+      },
+      {
+        "subject": "NFO",
+        "predicate": "utilizes",
+        "object": "DMS"
+      },
+      {
+        "subject": "IMS",
+        "predicate": "provides services to",
+        "object": "FOCOM"
+      },
+      {
+        "subject": "DMS",
+        "predicate": "provides services to",
+        "object": "NFO"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "includes",
+        "object": "FOCOM"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "includes",
+        "object": "NFO"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "includes",
+        "object": "IMS"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "includes",
+        "object": "DMS"
+      }
+    ],
+    "preview": "# 1.3.3 Terms\n\nIn this document, the significance is following the words defined in the RFC 2119 publication by IETF. These words are:\n\n• \"SHALL\" This word, or the words \"REQUIRED\" and \"must\" mean that the process is an absolute requirement of the specification.   \n• \"SHOULD\" This word or the adjective \"RECOMMENDED\" means that there may exist valid reasons in particular circumstances to ignore thi..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-Cloud",
+      "O-Cloud Architecture",
+      "NFO",
+      "IMS",
+      "DMS",
+      "FOCOM",
+      "Hardware Accelerator Manager",
+      "ASIC",
+      "FPGA",
+      "DSP",
+      "GPU",
+      "Operating System",
+      "Hypervisor",
+      "VMs",
+      "Container Engine",
+      "Bare Metal Container Cluster",
+      "VM-based Container Cluster",
+      "VM Cluster",
+      "NF Deployment"
+    ],
+    "relations": [
+      {
+        "subject": "FOCOM",
+        "predicate": "consumes services from",
+        "object": "IMS"
+      },
+      {
+        "subject": "NFO",
+        "predicate": "uses",
+        "object": "DMS"
+      },
+      {
+        "subject": "IMS",
+        "predicate": "provides services for",
+        "object": "FOCOM"
+      },
+      {
+        "subject": "DMS",
+        "predicate": "manages",
+        "object": "NF Deployment"
+      },
+      {
+        "subject": "Underlay-Network",
+        "predicate": "connects",
+        "object": "Computer System"
+      },
+      {
+        "subject": "HW Accelerator Manager",
+        "predicate": "manages",
+        "object": "Hardware Accelerators"
+      },
+      {
+        "subject": "Operating System",
+        "predicate": "manages",
+        "object": "Hardware Resources"
+      },
+      {
+        "subject": "Operating System",
+        "predicate": "provides services for",
+        "object": "NFs"
+      },
+      {
+        "subject": "Hypervisor",
+        "predicate": "enables",
+        "object": "VMs"
+      },
+      {
+        "subject": "Container Engine",
+        "predicate": "supports",
+        "object": "Containers"
+      },
+      {
+        "subject": "Bare Metal Container Cluster",
+        "predicate": "includes",
+        "object": "Computer System"
+      },
+      {
+        "subject": "Bare Metal Container Cluster",
+        "predicate": "supports",
+        "object": "Containers"
+      },
+      {
+        "subject": "VM-based Container Cluster",
+        "predicate": "includes",
+        "object": "Virtual Machine"
+      },
+      {
+        "subject": "VM-based Container Cluster",
+        "predicate": "supports",
+        "object": "Containers"
+      },
+      {
+        "subject": "VM Cluster",
+        "predicate": "includes",
+        "object": "Computer System"
+      },
+      {
+        "subject": "VM Cluster",
+        "predicate": "supports",
+        "object": "Virtual Machines"
+      }
+    ],
+    "preview": "\n\n# 2 O-Cloud Architecture\n\nThe O-Cloud architecture is depicted in the following figure:\n\n![](images/78f259f2e2dd9e1e5d3fee10e814bdddd8752b728ba513c2b1b37d2e0ca407e6.jpg)\n\n> **Image Summary:** {\n\"Summary\": \"The image depicts a layered architecture illustrating the relationship between various cloud management components (O-Cloud, NF0, DMS) and underlying virtualization and hardware resources.  It..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Operating System",
+      "Computer System",
+      "Network Functions (NFs)",
+      "Hypervisor",
+      "Virtual Machines",
+      "Container Engine",
+      "Containers",
+      "Bare Metal Container Cluster",
+      "VM-based Container Cluster",
+      "VM Cluster",
+      "O-Cloud images repository",
+      "Software Images",
+      "O2dms interface",
+      "NF Deployments",
+      "O2ims interface",
+      "O-Cloud infrastructure",
+      "TLS 1.2/1.3",
+      "SERV#01 SMO-O-Cloud O2 services",
+      "SMO",
+      "Network Function deployment",
+      "O-Cloud Node",
+      "alarm event notifications",
+      "xAPP deployment"
+    ],
+    "relations": [
+      {
+        "subject": "Operating System",
+        "predicate": "manages",
+        "object": "Computer System hardware and software resources"
+      },
+      {
+        "subject": "Operating System",
+        "predicate": "provides services for",
+        "object": "Network Functions (NFs)"
+      },
+      {
+        "subject": "Hypervisor",
+        "predicate": "manages",
+        "object": "Virtual Machines"
+      },
+      {
+        "subject": "Container Engine",
+        "predicate": "manages",
+        "object": "Containers"
+      },
+      {
+        "subject": "Bare Metal Container Cluster",
+        "predicate": "supports",
+        "object": "containers in a cluster configuration"
+      },
+      {
+        "subject": "VM-based Container Cluster",
+        "predicate": "supports",
+        "object": "containers in a clustered configuration"
+      },
+      {
+        "subject": "VM Cluster",
+        "predicate": "supports",
+        "object": "virtual machines in a cluster configuration"
+      },
+      {
+        "subject": "O-Cloud images repository",
+        "predicate": "contains",
+        "object": "Software Images of O-RAN Network Functions"
+      },
+      {
+        "subject": "O2dms interface",
+        "predicate": "used for",
+        "object": "managing NF Deployments"
+      },
+      {
+        "subject": "O2ims interface",
+        "predicate": "used for",
+        "object": "managing O-Cloud infrastructure"
+      },
+      {
+        "subject": "O2dms interface",
+        "predicate": "exposed via",
+        "object": "APIs"
+      },
+      {
+        "subject": "O2ims interface",
+        "predicate": "exposed via",
+        "object": "APIs"
+      },
+      {
+        "subject": "O2dms interface",
+        "predicate": "secured using",
+        "object": "TLS 1.2/1.3"
+      },
+      {
+        "subject": "O2ims interface",
+        "predicate": "secured using",
+        "object": "TLS 1.2/1.3"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "provides",
+        "object": "boot image for remote node"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "sends",
+        "object": "cloud deployment and configuration files"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "queries",
+        "object": "O-Cloud for attributes such as SW inventory"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "requests download of",
+        "object": "xAPP deployment"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "subscribes to",
+        "object": "notification of configuration events, fault events and performance measurements"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "queries",
+        "object": "O-Cloud for DMS end points it supports"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "requests creation of",
+        "object": "Network Function deployment using cloud resources"
+      }
+    ],
+    "preview": "\n\n# 2.1.3 Operating System (OS)\n\nAn Operating system is a software platform that manages and abstracts the Computer System hardware and software resources as well as provides common services for NFs such as scheduling and network connectivity.\n\n# 2.1.4 Vitualization Layer\n\nHypervisor (VMs): An hypervisor is an OS that includes the ability to offer multiple Virtual Machines, each acting as a well-s..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Software Images",
+      "O-Cloud Images Repository",
+      "O2dms",
+      "O2ims",
+      "SMO",
+      "O-Cloud",
+      "SERV#01 SMO-O-Cloud O2 services",
+      "SERV#02 O-Cloud images service",
+      "SERV#03 O-Cloud monitoring service",
+      "Root Cause Analysis"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud Images Repository",
+        "predicate": "contains",
+        "object": "Software Images"
+      },
+      {
+        "subject": "O2dms",
+        "predicate": "interacts with",
+        "object": "SMO"
+      },
+      {
+        "subject": "O2ims",
+        "predicate": "interacts with",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "SERV#01 SMO-O-Cloud O2 services",
+        "predicate": "uses",
+        "object": "O2 interface"
+      },
+      {
+        "subject": "SERV#02 O-Cloud images service",
+        "predicate": "manages",
+        "object": "Software Images"
+      },
+      {
+        "subject": "SERV#03 O-Cloud monitoring service",
+        "predicate": "collects telemetry through",
+        "object": "O2dms"
+      },
+      {
+        "subject": "SERV#03 O-Cloud monitoring service",
+        "predicate": "collects telemetry through",
+        "object": "O2ims"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "aggregates problems for",
+        "object": "Root Cause Analysis"
+      }
+    ],
+    "preview": "\n\n# 2.1.6 O-Cloud images repository\n\nThe repository containing the Software Images of O-RAN Network Functions.\n\n# 2.2 Interfaces\n\nO-Cloud interfaces are illustrated in the following table:\n\n> **Table Summary:** {\n\"summary\": \"The table details two external interfaces, O2dms and O2ims, used for managing NF Deployments and O-Cloud infrastructure respectively. O2dms provides deployment management serv..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "SERV#02",
+      "O-Cloud images service",
+      "SoftwareImageId",
+      "Vendor",
+      "Version",
+      "SERV#03",
+      "O-Cloud monitoring service",
+      "telemetry information",
+      "Fault",
+      "Performance",
+      "Configuration Data",
+      "Managed Element Telemetry",
+      "Deployment Telemetry",
+      "Infrastructure Telemetry",
+      "O1",
+      "O2dms",
+      "O2ims",
+      "SMO",
+      "root cause analysis",
+      "SERV#04",
+      "O-Cloud provisioning service",
+      "Affinity",
+      "Anti-Affinity",
+      "Quorum Diversity Query"
+    ],
+    "relations": [
+      {
+        "subject": "SERV#02",
+        "predicate": "provides functions",
+        "object": "Add/Delete/Update/Query"
+      },
+      {
+        "subject": "O-Cloud images service",
+        "predicate": "manages information",
+        "object": "SoftwareImageId, Vendor, Version"
+      },
+      {
+        "subject": "SERV#03",
+        "predicate": "monitors using",
+        "object": "telemetry information"
+      },
+      {
+        "subject": "O-Cloud monitoring service",
+        "predicate": "collects",
+        "object": "Fault, Performance, Configuration Data"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "aggregates problems to",
+        "object": "root cause analysis"
+      },
+      {
+        "subject": "O-Cloud monitoring service",
+        "predicate": "uses interface",
+        "object": "O2dms, O2ims"
+      },
+      {
+        "subject": "SERV#04",
+        "predicate": "provides functions for",
+        "object": "Create/Read/Update/Delete rules"
+      },
+      {
+        "subject": "O-Cloud provisioning service",
+        "predicate": "manages",
+        "object": "Affinity, Anti-Affinity, Quorum Diversity Query"
+      }
+    ],
+    "preview": "\n\n# 2.3.2 SERV#02 O-Cloud images service\n\nIt provides Add/Delete/Update/Query functions of O-RAN Cloudified Network Functions images with their related information (e.g. SoftwareImageId, Vendor, and Version) from O-Cloud repository.\n\n# 2.3.3 SERV#03 O-Cloud monitoring service\n\nWhen the O-Cloud Infrastructure or the ORAN cloudified NFs fails, it needs to be fixed immediately, and preferably automat..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "O-Cloud Provisioning",
+      "O-RAN Cloudified Network Function",
+      "Affinity",
+      "Anti-Affinity",
+      "Quorum Diversity Query",
+      "O-Cloud Capacity",
+      "O-Cloud Availability",
+      "O-Cloud Software Management Service",
+      "Unauthorized Software",
+      "Catalog of Authorized Software",
+      "Software Version",
+      "Vendor Supported Software",
+      "O-Cloud Infrastructure Software",
+      "O-RAN Cloudified Network Function Software",
+      "O2 Interface"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "provides functionality for",
+        "object": "O-RAN Cloudified Network Function"
+      },
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "manages",
+        "object": "Affinity"
+      },
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "manages",
+        "object": "Anti-Affinity"
+      },
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "manages",
+        "object": "Quorum Diversity Query"
+      },
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "queries",
+        "object": "O-Cloud Capacity"
+      },
+      {
+        "subject": "O-Cloud Provisioning",
+        "predicate": "queries",
+        "object": "O-Cloud Availability"
+      },
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "prevents",
+        "object": "Unauthorized Software"
+      },
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "maintains",
+        "object": "Catalog of Authorized Software"
+      },
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "provides visibility into",
+        "object": "Software Version"
+      },
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "monitors",
+        "object": "Vendor Supported Software"
+      },
+      {
+        "subject": "O2 Interface",
+        "predicate": "manages",
+        "object": "O-Cloud Infrastructure Software"
+      },
+      {
+        "subject": "O2 Interface",
+        "predicate": "manages",
+        "object": "O-RAN Cloudified Network Function Software"
+      }
+    ],
+    "preview": "# 2.3.4 SERV#04 O-Cloud provisioning service\n\nO-Cloud Provisioning is the allocation of O-Cloud’s resources and services to an O-RAN Cloudified Network Function. This is one of the key functionalities of the O-Cloud, relating to how an O-RAN Cloudified Network Function procures O-Cloud services and resources. O-Cloud Provisioning shall provide:\n\nCreate/Read/Update/Delete rules for Affinity, Anti-A..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "O-Cloud Software Management Service",
+      "O-Cloud Infrastructure Software",
+      "O-RAN Cloudified Network Function Software",
+      "O-Cloud Fault Management Service",
+      "IMS Fault Management",
+      "DMS Fault Management",
+      "SMO",
+      "O2 Interface",
+      "O1 Interface",
+      "O2dms Interface",
+      "O2ims Interface",
+      "O-DU Application",
+      "O-Cloud Performance Service"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "manages",
+        "object": "O-Cloud Infrastructure Software"
+      },
+      {
+        "subject": "O-Cloud Software Management Service",
+        "predicate": "manages",
+        "object": "O-RAN Cloudified Network Function Software"
+      },
+      {
+        "subject": "O-Cloud Fault Management Service",
+        "predicate": "relates to",
+        "object": "IMS Fault Management"
+      },
+      {
+        "subject": "O-Cloud Fault Management Service",
+        "predicate": "relates to",
+        "object": "DMS Fault Management"
+      },
+      {
+        "subject": "Fault notifications",
+        "predicate": "originate from",
+        "object": "IMS"
+      },
+      {
+        "subject": "Fault notifications",
+        "predicate": "collected by",
+        "object": "SMO"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "receives notifications through",
+        "object": "O2ims Interface"
+      },
+      {
+        "subject": "DMS resource faults",
+        "predicate": "associated with",
+        "object": "workload"
+      },
+      {
+        "subject": "NFs faults",
+        "predicate": "reported through",
+        "object": "O1 Interface"
+      },
+      {
+        "subject": "O-DU Application",
+        "predicate": "reports fault on",
+        "object": "O1 Interface"
+      }
+    ],
+    "preview": "# 2.3.5 SERV#05 O-Cloud software management service\n\nSoftware management will manage the O-Cloud software. The software management should be a priority as without proper management unnecessary risks may be taken. The software management ensures security, cost management and software support. There are many benefits to software management, of which the main benefits are:\n\n• Prevents unauthorized so..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "IMS resources",
+      "workloads and applications",
+      "System Management Operations (SMO) layer",
+      "performance",
+      "O-Cloud resources",
+      "operator/administrator",
+      "faults",
+      "Operator",
+      "CSP (Cloud Service Provider)",
+      "Vendors",
+      "Third parties",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)"
+    ],
+    "relations": [
+      {
+        "subject": "System Management Operations (SMO) layer",
+        "predicate": "controls",
+        "object": "workloads and applications"
+      },
+      {
+        "subject": "workloads and applications",
+        "predicate": "uses",
+        "object": "IMS resources"
+      },
+      {
+        "subject": "performance",
+        "predicate": "reports to",
+        "object": "operator/administrator"
+      },
+      {
+        "subject": "performance",
+        "predicate": "is related to",
+        "object": "O-Cloud resources"
+      },
+      {
+        "subject": "faults",
+        "predicate": "stored at",
+        "object": "O-Cloud resource"
+      },
+      {
+        "subject": "Platform as a Service (PaaS)",
+        "predicate": "is grouped into",
+        "object": "cloud architecture"
+      },
+      {
+        "subject": "Software as a Service (SaaS)",
+        "predicate": "is grouped into",
+        "object": "cloud architecture"
+      },
+      {
+        "subject": "Infrastructure as a Service (IaaS)",
+        "predicate": "is grouped into",
+        "object": "cloud architecture"
+      }
+    ],
+    "preview": "\n\n![](images/198f320dcbfa1657798a1644c86a36922beca49bb6acbd828b4a7fa78b32c9a8.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image illustrates a hierarchical system architecture, likely representing data management or application layering. It shows the relationship between IMS resources at the base, progressing through workloads and applications, and culminating in a System Management Operations (S..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "Operator",
+      "CSP (Cloud Service Provider)",
+      "Vendors",
+      "Third parties",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Private cloud",
+      "On-site private cloud",
+      "Outsourced private cloud",
+      "NFV",
+      "CNF",
+      "Host OS",
+      "Hypervisor",
+      "Container engine"
+    ],
+    "relations": [
+      {
+        "subject": "Operator",
+        "predicate": "provisions",
+        "object": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "subject": "CSP (Cloud Service Provider)",
+        "predicate": "offers",
+        "object": "Platform as a Service (PaaS)"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "deploys",
+        "object": "VNFs/CNFs"
+      },
+      {
+        "subject": "CSP (Cloud Service Provider)",
+        "predicate": "provides",
+        "object": "Software as a Service (SaaS)"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "manages",
+        "object": "VNFs/CNFs"
+      },
+      {
+        "subject": "CSP (Cloud Service Provider)",
+        "predicate": "provides",
+        "object": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "controls",
+        "object": "Host OS"
+      },
+      {
+        "subject": "CSP (Cloud Service Provider)",
+        "predicate": "manages",
+        "object": "underlying cloud infrastructure"
+      },
+      {
+        "subject": "Private cloud",
+        "predicate": "offers",
+        "object": "exclusive access to a single Operator"
+      }
+    ],
+    "preview": "\n\n# 3 Cloud deployment scenarios\n\n# 3.1 Main actors\n\n1. Operator   \n2. CSP (Cloud Service Provider)   \n3. Vendors   \n4. Third parties (e.g. service providers, verticals)\n\n# 3.2 Cloud service models\n\nDifferent levels of abstraction constitute the platform of the cloud architecture. These abstractions are grouped into the different service levels, depending on what resources are offered as a service..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "Operator",
+      "Cloud Provider",
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "Private cloud",
+      "Community cloud",
+      "On-site private cloud",
+      "Outsourced private cloud",
+      "VNF",
+      "CNF",
+      "NFVO",
+      "VIM",
+      "Host OS",
+      "Container engine/hypervisor",
+      "Hardware resources"
+    ],
+    "relations": [
+      {
+        "subject": "Operator",
+        "predicate": "manages",
+        "object": "hardware resources"
+      },
+      {
+        "subject": "Cloud Provider",
+        "predicate": "offers",
+        "object": "SaaS"
+      },
+      {
+        "subject": "Private cloud",
+        "predicate": "is managed by",
+        "object": "Operator or third party Cloud Provider"
+      },
+      {
+        "subject": "Community cloud",
+        "predicate": "serves",
+        "object": "group of Operators"
+      },
+      {
+        "subject": "On-site private cloud",
+        "predicate": "hosted on",
+        "object": "Operator's premises"
+      },
+      {
+        "subject": "Outsourced private cloud",
+        "predicate": "hosted by",
+        "object": "hosting company"
+      },
+      {
+        "subject": "NFVO",
+        "predicate": "manages",
+        "object": "VNF or CNF"
+      },
+      {
+        "subject": "VIM",
+        "predicate": "manages",
+        "object": "virtual infrastructure"
+      },
+      {
+        "subject": "Host OS",
+        "predicate": "runs on",
+        "object": "hardware resources"
+      }
+    ],
+    "preview": "\n\n![](images/9260535267c7ef60923594299562da64f44430f9b46a8a3842b2052013123273.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image illustrates a layered architecture typical of Software as a Service (SaaS) environments, specifically in the context of NIST standards. It shows the abstraction of underlying hardware resources (compute, storage, network) through a Host OS, virtualization layer (hypervi..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "On-Site Private Cloud",
+      "Outsourced Private Cloud",
+      "Community Cloud",
+      "Public Cloud",
+      "Hybrid Cloud",
+      "NFVO (Network Functions Virtualization Orchestrator)",
+      "VIM (Virtual Infrastructure Manager)",
+      "VNFs/CNFs (Virtual Network Functions/Containerized Network Functions)",
+      "Hardware Resources",
+      "Host OS",
+      "Hypervisor/Container Engine",
+      "Operators",
+      "CSPs (Cloud Service Providers)",
+      "Vendors",
+      "Figure 3-4",
+      "Figure 3-5",
+      "Figure 3-6",
+      "Figure 3-7",
+      "Figure 3-8",
+      "Figure 3-9",
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "On-Premise Model",
+      "Mission Objectives",
+      "Security",
+      "Privacy",
+      "Compliance Policy",
+      "Hosting Company",
+      "Operator’s Premise",
+      "Network Functions Virtualization (NFV)",
+      "Private Cloud Infrastructure"
+    ],
+    "relations": [
+      {
+        "subject": "On-Site Private Cloud",
+        "predicate": "is managed by",
+        "object": "Operators or CSPs"
+      },
+      {
+        "subject": "Outsourced Private Cloud",
+        "predicate": "is managed by",
+        "object": "Third Party Provider"
+      },
+      {
+        "subject": "Community Cloud",
+        "predicate": "serves",
+        "object": "Group of Operators"
+      },
+      {
+        "subject": "Figure 3-4",
+        "predicate": "depicts",
+        "object": "On-Site Private Cloud Architecture"
+      },
+      {
+        "subject": "Figure 3-5",
+        "predicate": "depicts",
+        "object": "Outsourced Private Cloud Architecture"
+      },
+      {
+        "subject": "Figure 3-6",
+        "predicate": "depicts",
+        "object": "On-Site Community Cloud"
+      },
+      {
+        "subject": "Figure 3-7",
+        "predicate": "depicts",
+        "object": "Outsourced Community Cloud"
+      },
+      {
+        "subject": "SaaS",
+        "predicate": "relates to",
+        "object": "Operators"
+      },
+      {
+        "subject": "IaaS",
+        "predicate": "relates to",
+        "object": "CSPs"
+      },
+      {
+        "subject": "PaaS",
+        "predicate": "relates to",
+        "object": "Vendors"
+      },
+      {
+        "subject": "Hybrid Cloud",
+        "predicate": "combines",
+        "object": "Private, Public or Community Clouds"
+      },
+      {
+        "subject": "Community Cloud",
+        "predicate": "is managed by",
+        "object": "Operators or Third Party Provider"
+      }
+    ],
+    "preview": "\n\n![](images/820a60d7fed0e0de26c2f45f945a1bab15aa9de7cac2f56f821d395840d2ae04.jpg)\n\n> **Image Summary:** {\n\"answer\": \"The image depicts the architecture of an on-site private cloud environment managed by an operator. It illustrates the layers of abstraction, starting from the underlying hardware resources and ascending to the Network Functions Virtualization Orchestrator (NFVO), which manages Virt..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "On-site Community Cloud",
+      "Outsourced community cloud",
+      "Public Cloud",
+      "Hybrid Cloud",
+      "VNFs/CNFs",
+      "Virtual Infrastructure Manager (VIM)",
+      "hardware resources"
+    ],
+    "relations": [
+      {
+        "subject": "On-site Community Cloud",
+        "predicate": "built upon",
+        "object": "hardware, virtualization, and operating systems"
+      },
+      {
+        "subject": "Outsourced community cloud",
+        "predicate": "implemented using",
+        "object": "On-Premise model"
+      },
+      {
+        "subject": "Public Cloud",
+        "predicate": "deploys",
+        "object": "VNFs/CNFs"
+      },
+      {
+        "subject": "Hybrid Cloud",
+        "predicate": "combines",
+        "object": "multiple cloud deployment models"
+      },
+      {
+        "subject": "Virtual Infrastructure Manager (VIM)",
+        "predicate": "manages",
+        "object": "hardware resources"
+      }
+    ],
+    "preview": "\n\n![](images/1c7e63f4adcd0ea57b99f202a494cda7ade6fb64b931dc515f92c7aaae82ebc1.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image depicts a layered architecture representing an 'On-site Community Cloud' with three separate operators (A, B, and C) contributing resources. Each operator manages a localized cloud environment built upon a foundational layer of hardware, virtualization (hypervisor/conta..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "O-RAN",
+      "Cloud Deployment Models",
+      "Private Cloud",
+      "Community Cloud",
+      "Public Cloud",
+      "Hybrid Cloud",
+      "Security Risk Assessment",
+      "Operator",
+      "Cloud Service Provider",
+      "Stakeholders",
+      "Third Party",
+      "Roles and Responsibilities",
+      "Threat Agents",
+      "Assets",
+      "O-Cloud Components",
+      "Risk Levels",
+      "High Security Risk",
+      "Medium Security Risk",
+      "Low Security Risk"
+    ],
+    "relations": [
+      {
+        "subject": "Operator",
+        "predicate": "responsible for",
+        "object": "Security Posture"
+      },
+      {
+        "subject": "Cloud Deployment Models",
+        "predicate": "include",
+        "object": "Private Cloud"
+      },
+      {
+        "subject": "Cloud Deployment Models",
+        "predicate": "include",
+        "object": "Community Cloud"
+      },
+      {
+        "subject": "Cloud Deployment Models",
+        "predicate": "include",
+        "object": "Public Cloud"
+      },
+      {
+        "subject": "Cloud Deployment Models",
+        "predicate": "include",
+        "object": "Hybrid Cloud"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "interacts with",
+        "object": "Stakeholders"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "interacts with",
+        "object": "Third Party"
+      },
+      {
+        "subject": "Cloud Service Provider",
+        "predicate": "enforces",
+        "object": "Separation of Duties"
+      },
+      {
+        "subject": "Cloud Service Provider",
+        "predicate": "configures",
+        "object": "Principles of Least Privilege Access Control"
+      },
+      {
+        "subject": "Security Risk Assessment",
+        "predicate": "evaluates",
+        "object": "Cybersecurity Challenges"
+      },
+      {
+        "subject": "Security Risk Assessment",
+        "predicate": "evaluates",
+        "object": "Personnel Expertise Challenges"
+      },
+      {
+        "subject": "Hybrid Cloud",
+        "predicate": "illustrated in",
+        "object": "Figure 3-9"
+      },
+      {
+        "subject": "High-Level Risk Assessment",
+        "predicate": "uses",
+        "object": "Risk Levels"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "identifies",
+        "object": "Threat Agents"
+      },
+      {
+        "subject": "O-Cloud Components",
+        "predicate": "include",
+        "object": "Open Source Software with Known Vulnerabilities"
+      },
+      {
+        "subject": "O-Cloud Components",
+        "predicate": "require",
+        "object": "Monitoring and Patching"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "defines",
+        "object": "Roles and Responsibilities"
+      }
+    ],
+    "preview": "\n\n![](images/04f65be4d747ffc7c6596ab016fd712754cef06124d7fc1909fccc33faeaff76.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"This diagram illustrates various cloud deployment models – Public, Community, Local, and Outsourced Private Clouds – and their respective relationships with operators and underlying infrastructure. The graphic shows how workloads and management components (VNFs, NFV, VM) are dist..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "O-Cloud",
+      "open source software with known vulnerabilities",
+      "patching for vulnerabilities",
+      "bug reports",
+      "issue tracker",
+      "mailing list",
+      "assets",
+      "inventory information",
+      "functional telemetry",
+      "provisioning data",
+      "software management",
+      "network function software",
+      "certificates",
+      "private keys",
+      "credentials",
+      "runtime software components",
+      "security event logs",
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Replay",
+      "Authenticity",
+      "CISA/NSA - Kubernetes Hardening Guidance",
+      "MITRE ATT&CK containers matrix",
+      "ENISA Threat Landscape for 5G Networks",
+      "ETSI Secure End-to-End VNF and NS management specification"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud",
+        "predicate": "maintains",
+        "object": "open source software with known vulnerabilities"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "includes",
+        "object": "patching for vulnerabilities"
+      },
+      {
+        "subject": "bug reports",
+        "predicate": "submitted via",
+        "object": "issue tracker"
+      },
+      {
+        "subject": "bug reports",
+        "predicate": "submitted via",
+        "object": "mailing list"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "protects",
+        "object": "assets"
+      },
+      {
+        "subject": "inventory information",
+        "predicate": "protected by",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "functional telemetry",
+        "predicate": "protected by",
+        "object": "Integrity"
+      },
+      {
+        "subject": "provisioning data",
+        "predicate": "protected by",
+        "object": "Availability"
+      },
+      {
+        "subject": "software management",
+        "predicate": "protected by",
+        "object": "Replay"
+      },
+      {
+        "subject": "network function software",
+        "predicate": "protected by",
+        "object": "Authenticity"
+      },
+      {
+        "subject": "CISA/NSA - Kubernetes Hardening Guidance",
+        "predicate": "identifies",
+        "object": "security threats"
+      },
+      {
+        "subject": "MITRE ATT&CK containers matrix",
+        "predicate": "identifies",
+        "object": "security threats"
+      },
+      {
+        "subject": "ENISA Threat Landscape for 5G Networks",
+        "predicate": "assesses",
+        "object": "security threats"
+      },
+      {
+        "subject": "ETSI Secure End-to-End VNF and NS management specification",
+        "predicate": "specifies",
+        "object": "secure management practices"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n\nTable 4-1 : List of Users\n\n> **Table Summary:** { \"table\": \"\n\n<table\\\\><tr\\\\><td\\\\></td><td\\\\>Maintenance of the O-Cloud components that includes monitoring for use of open source software with known vulnerabilities and patching for vulnerabilities.\\\\<td\\\\></td>\\\\<tr\\\\><td\\\\></td><td\\\\>Provide a process for users, including security researchers, to submit bug reports(e...."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [
+      "O-Cloud",
+      "services",
+      "assets",
+      "owner",
+      "security protection properties",
+      "hardware resources",
+      "NFV",
+      "applications",
+      "software layers",
+      "inventory information",
+      "functional telemetry",
+      "provisioning data",
+      "software management",
+      "network function software",
+      "certificates",
+      "private keys",
+      "credentials",
+      "runtime software components",
+      "security event logs",
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Replay",
+      "Authenticity",
+      "threats",
+      "attack surface",
+      "mitigation measures",
+      "Spoofing identity",
+      "Tampering with data",
+      "Repudiation",
+      "Information disclosure",
+      "Denial of service",
+      "Elevation of privileges"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud",
+        "predicate": "offers",
+        "object": "services"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "protects",
+        "object": "assets"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "includes",
+        "object": "hardware resources"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "includes",
+        "object": "NFV"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "includes",
+        "object": "applications"
+      },
+      {
+        "subject": "assets",
+        "predicate": "have",
+        "object": "security protection properties"
+      },
+      {
+        "subject": "threats",
+        "predicate": "impact",
+        "object": "O-Cloud assets"
+      },
+      {
+        "subject": "Threat ID",
+        "predicate": "impacts",
+        "object": "assets"
+      },
+      {
+        "subject": "Threat ID",
+        "predicate": "impacts",
+        "object": "services"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Spoofing identity"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Tampering with data"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Repudiation"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Information disclosure"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Denial of service"
+      },
+      {
+        "subject": "STRIDE",
+        "predicate": "includes",
+        "object": "Elevation of privileges"
+      }
+    ],
+    "preview": "\n\n# 5.1 Assets\n\nThe services offered by the O-Cloud must be available and non-corrupted and must protect the assets highlighted in the following cartography.\n\n![](images/182029665162f0cd366896a9013dbcc6c2bea839fbdf2c8ad0e9a9e6eace27de.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image illustrates the architecture of O-Cloud, a cloud infrastructure solution, detailing its different layers and compo..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [
+      "Spoofing",
+      "Tampering with data",
+      "Repudiation",
+      "Information disclosure",
+      "Denial of service",
+      "Elevation of privileges",
+      "STRIDE",
+      "Authenticity",
+      "Availability",
+      "VNFs/CNFs",
+      "Virtualization layer",
+      "Hardware resources",
+      "O-Cloud API",
+      "O2dms",
+      "O2ims",
+      "NFO",
+      "Federated O-Cloud O&M (FOCOM)",
+      "SMO",
+      "AAL"
+    ],
+    "relations": [
+      {
+        "subject": "Spoofing",
+        "predicate": "impacts",
+        "object": "Authenticity"
+      },
+      {
+        "subject": "Tampering with data",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Repudiation",
+        "predicate": "impacts",
+        "object": "Non-repudiation"
+      },
+      {
+        "subject": "Information disclosure",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Denial of service",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Elevation of privileges",
+        "predicate": "impacts",
+        "object": "Authorization"
+      },
+      {
+        "subject": "Spoofing",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Tampering with data",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Repudiation",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Information disclosure",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Denial of service",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Elevation of privileges",
+        "predicate": "is part of",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "VNFs/CNFs",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Virtualization layer",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Hardware resources",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "O-Cloud API",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "O2dms",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "O2ims",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "NFO",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Federated O-Cloud O&M (FOCOM)",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "AAL",
+        "predicate": "are components of",
+        "object": "O-Cloud"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"This table outlines a threat assessment matrix, detailing various security threats and their potential impact. It maps each threat (identified by a unique Threat ID and title) to different threat types (e.g., Spoofing, Denial of Service) and vulnerabilities exploited, such as impacts to Authenticity and Availability. The table also specifies the assets and serv..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {}\n\n# 5.2.2 Attack surface\n\nAn attack surface of a system refers to the set of various entry points that can be exploited. The various components that compose the attack surface of the O-Cloud are depicted in the following figure. They are as follows:\n\nCopyright $\\circledcirc$ 2022 by the O-RAN Alliance e.V. Your use is subject to the terms of the O-RAN Adopter License Agree..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [
+      {
+        "name": "O-Cloud",
+        "description": "The cloud infrastructure managed by O-RAN specifications."
+      },
+      {
+        "name": "VMs/Containers",
+        "description": "Virtual Machines or Containers used in the cloud environment."
+      },
+      {
+        "name": "Hypervisors/Container Engines",
+        "description": "Tools that manage VMs and containers."
+      },
+      {
+        "name": "Host OS",
+        "description": "The operating system on which hypervisors and container engines run."
+      },
+      {
+        "name": "Attack Vectors",
+        "description": "Points of entry for potential security threats."
+      },
+      {
+        "name": "Vulnerabilities",
+        "description": "Weaknesses in the system that can be exploited."
+      },
+      {
+        "name": "Threats",
+        "description": "Specific security risks, such as 'Threat T-GEN-01'."
+      },
+      {
+        "name": "Certificate Management",
+        "description": "Practices for managing cryptographic certificates."
+      },
+      {
+        "name": "Public Key Cryptography",
+        "description": "Methodology used for secure communication."
+      },
+      {
+        "name": "SMO",
+        "description": "Service Management Orchestration component."
+      },
+      {
+        "name": "NFO",
+        "description": "Network Functions Orchestration component."
+      },
+      {
+        "name": "FOCOM",
+        "description": "Function Composition component."
+      }
+    ],
+    "relations": [
+      {
+        "source": "O-Cloud",
+        "target": "VMs/Containers",
+        "relation_type": "Supports"
+      },
+      {
+        "source": "VMs/Containers",
+        "target": "Hypervisors/Container Engines",
+        "relation_type": "Managed By"
+      },
+      {
+        "source": "VMs/Containers",
+        "target": "Host OS",
+        "relation_type": "Depends On"
+      },
+      {
+        "source": "Hypervisors/Container Engines",
+        "target": "Attack Vectors",
+        "relation_type": "Uses For"
+      },
+      {
+        "source": "Vulnerabilities",
+        "target": "Threats",
+        "relation_type": "Relates To"
+      },
+      {
+        "source": "O-Cloud",
+        "target": "Certificate Management",
+        "relation_type": "Implements"
+      },
+      {
+        "source": "O-Cloud",
+        "target": "Public Key Cryptography",
+        "relation_type": "Uses For Secure Connections"
+      },
+      {
+        "source": "SMO",
+        "target": "NFO",
+        "relation_type": "Manages"
+      },
+      {
+        "source": "SMO",
+        "target": "FOCOM",
+        "relation_type": "Manages"
+      }
+    ],
+    "preview": "\n\n![](images/ef023aecf2febe484ec003d017e0bed73736c0916af06236bef34a4a228549df.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image depicts a layered architecture representing a cloud infrastructure, illustrating the progression from hardware resources to application deployment through various virtualization layers and management interfaces. It showcases the interplay between virtualization technolo..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [],
+    "relations": [],
+    "preview": "# 6.1 REC-CM Certificate management\n\nRecommendation: O-Cloud should support Public Key Cryptography for the purpose of distributing Public Key Certificates (PKC) for authenticating, authorizing, and encrypting links between components in O-Cloud. Each operator should develop Certificate Policy in accordance with their regional and national requirements. In addition, Operators should setup a renewa..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [
+      "O-RAN specifications",
+      "root cause analysis (RCA)",
+      "network security",
+      "O-Cloud environment",
+      "business practices (BPs)",
+      "restrict network access",
+      "filter traffic",
+      "detect/prevent malicious activity",
+      "isolate infrastructure",
+      "implement access controls",
+      "firewalls and proxies",
+      "intrusion detection/prevention systems",
+      "attack surface",
+      "potential breaches",
+      "IAM framework",
+      "authentication",
+      "authorization",
+      "accounting",
+      "access control",
+      "automated way",
+      "manage and secure access",
+      "NFO/FOCOM",
+      "VNFs/CNFs",
+      "Host OS",
+      "Hypervisor",
+      "Container Engine",
+      "data",
+      "services",
+      "credentials",
+      "accounts",
+      "root accounts for servers",
+      "O-Cloud control panel",
+      "privileged resources",
+      "Authentication, Authorization, and Accounting (AAA) systems",
+      "least privileges approach",
+      "history of user actions",
+      "detect unauthorized use and abuse",
+      "encryption/authentication mechanisms",
+      "untrusted network sources",
+      "passwords",
+      "access keys",
+      "strong passwords",
+      "regular rotation of credentials",
+      "insecure storage methods",
+      "NIST guidelines (SP 800-63B)",
+      "CIS benchmarks",
+      "compromised credentials",
+      "vulnerability handling process",
+      "find potentially exploitable software vulnerabilities",
+      "determine types and levels of threat",
+      "software exploits and 0-days against O-Cloud",
+      "remediate vulnerabilities",
+      "patch management process",
+      "check unused dependencies",
+      "unmaintained dependencies",
+      "previously vulnerable dependencies",
+      "unnecessary features",
+      "components",
+      "files",
+      "documentation",
+      "T-GEN-02",
+      "T-VM-C-01",
+      "T-VM-C-02",
+      "T-VM-C-03",
+      "T-VM-C-04",
+      "T-IMG-02",
+      "T-VL-01",
+      "T-O2-01",
+      "T-OCAPI-01",
+      "T-HW-02",
+      "T-ADMIN-02"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "relates to",
+        "object": "root cause analysis (RCA)"
+      },
+      {
+        "subject": "network security",
+        "predicate": "applies to",
+        "object": "O-Cloud environment"
+      },
+      {
+        "subject": "business practices (BPs)",
+        "predicate": "include",
+        "object": "restrict network access"
+      },
+      {
+        "subject": "business practices (BPs)",
+        "predicate": "include",
+        "object": "filter traffic"
+      },
+      {
+        "subject": "business practices (BPs)",
+        "predicate": "include",
+        "object": "detect/prevent malicious activity"
+      },
+      {
+        "subject": "IAM framework",
+        "predicate": "is based on",
+        "object": "Authentication, Authorization, and Accounting (AAA) systems"
+      },
+      {
+        "subject": "IAM framework",
+        "predicate": "uses",
+        "object": "least privileges approach"
+      },
+      {
+        "subject": "IAM framework",
+        "predicate": "protects",
+        "object": "credentials"
+      },
+      {
+        "subject": "IAM framework",
+        "predicate": "protects",
+        "object": "accounts"
+      },
+      {
+        "subject": "IAM framework",
+        "predicate": "limits access to",
+        "object": "O-Cloud control panel"
+      },
+      {
+        "subject": "patch management process",
+        "predicate": "checks for",
+        "object": "unused dependencies"
+      },
+      {
+        "subject": "patch management process",
+        "predicate": "checks for",
+        "object": "unmaintained and/or previously vulnerable dependencies"
+      },
+      {
+        "subject": "vulnerability handling process",
+        "predicate": "finds",
+        "object": "potentially exploitable software vulnerabilities"
+      },
+      {
+        "subject": "vulnerability handling process",
+        "predicate": "determines",
+        "object": "types and levels of threat"
+      }
+    ],
+    "preview": "\n\n# Best practices to fulfill this recommendation:\n\n> **Table Summary:** {\n  \"summary\": \"This table outlines a set of business practices (BPs) focused on network security within an O-Cloud environment, identified by codes like REC-NS-BP-1 through REC-NS-BP-12. Each BP details a specific measure to restrict network access, filter traffic, and detect/prevent malicious activity. The practices involve..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Best practices to fulfill this recommendation:\n\n> **Table Summary:** {\"error\": \"I am unable to fulfill this request. The provided HTML is malformed and exceeds the maximum token limit. Please provide a corrected and truncated version of the HTML table.\"}\n\n> **Table Summary:** {\"table_summary\": \"This table outlines security recommendations related to identity and access management (IAM) best pr..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [
+      "REC-SNFLC-BP-1",
+      "REC-SNFLC-BP-2",
+      "Network Functions (VNFs/CNFs)",
+      "configuration security",
+      "component integrity",
+      "trusted status",
+      "cloning",
+      "identical attributes",
+      "certificates",
+      "addresses",
+      "IDs",
+      "Trusted Platform Modules (TPMs)",
+      "hardware and physical location security",
+      "T-GEN-03",
+      "T-VM-C-01",
+      "T-VM-C-02",
+      "T-VM-C-04",
+      "T-VM-C-06",
+      "REC-IMGP Image Protection",
+      "App/VNF/CNF images",
+      "embedded secrets",
+      "passwords or credentials",
+      "critical configuration data",
+      "VNF Package",
+      "signature provided by the VNF provider",
+      "O-Cloud VL",
+      "secrets in images",
+      "VM/Container images",
+      "security patches",
+      "malware",
+      "base images",
+      "trusted publisher",
+      "in-house base images",
+      "MITM attacks",
+      "attack surface",
+      "App/VNF/CNF Image Signing",
+      "public/private key pair for code signing",
+      "CA certificate",
+      "image Digest",
+      "Hash function",
+      "signed App/VNF/CNF Image",
+      "App/VNF/CNF Image Verification",
+      "Operator or O-Cloud Operator",
+      "Software signing by Solution Provider/Vendor",
+      "Software verification at runtime by O-Cloud Operator",
+      "Software verification by operator before onboarding vendor images to the operator registry",
+      "Software signing by Operator",
+      "software re-signing by Operator before onboarding vendor images to the operator registry"
+    ],
+    "relations": [
+      {
+        "subject": "REC-SNFLC-BP-1",
+        "predicate": "requires",
+        "object": "verifying configuration security"
+      },
+      {
+        "subject": "REC-SNFLC-BP-2",
+        "predicate": "requires",
+        "object": "component integrity"
+      },
+      {
+        "subject": "REC-SNFLC-BP-1 and REC-SNFLC-BP-2",
+        "predicate": "focus on ensuring",
+        "object": "identical attributes"
+      },
+      {
+        "subject": "Trusted Platform Modules (TPMs)",
+        "predicate": "used to verify",
+        "object": "hardware and physical location security"
+      },
+      {
+        "subject": "REC-IMGP Image Protection",
+        "predicate": "recommends using",
+        "object": "images from secure and trusted sources"
+      },
+      {
+        "subject": "App/VNF/CNF images",
+        "predicate": "should not contain",
+        "object": "embedded secrets"
+      },
+      {
+        "subject": "VNF Package",
+        "predicate": "must be verified against",
+        "object": "signature provided by the VNF provider"
+      },
+      {
+        "subject": "O-Cloud VL",
+        "predicate": "enforces image scans to check for",
+        "object": "secrets in images"
+      },
+      {
+        "subject": "VM/Container images",
+        "predicate": "need frequent scanning throughout the lifecycle of",
+        "object": "App/VNF/CNF"
+      },
+      {
+        "subject": "O-RAN Solution Provider/Vendor",
+        "predicate": "recommends choosing",
+        "object": "base images from trusted publisher"
+      },
+      {
+        "subject": "minimal base images",
+        "predicate": "helps limit",
+        "object": "attack surface of O-RAN App/VNF/CNF"
+      },
+      {
+        "subject": "App/VNF/CNF Image Signing",
+        "predicate": "involves creating",
+        "object": "public/private key pair for code signing"
+      },
+      {
+        "subject": "CA certificate",
+        "predicate": "contains",
+        "object": "public key and image Digest"
+      },
+      {
+        "subject": "signed App/VNF/CNF Image",
+        "predicate": "includes",
+        "object": "Hash function on App/VNF/CNF Image"
+      },
+      {
+        "subject": "App/VNF/CNF Image Verification",
+        "predicate": "involves verifying",
+        "object": "CA certificate for authenticity"
+      },
+      {
+        "subject": "Software signing by Solution Provider/Vendor",
+        "predicate": "can be verified at runtime by",
+        "object": "O-Cloud Operator"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"The table outlines security requirements (REC-SNFLC-BP-1 and REC-SNFLC-BP-2) for the deployment of Network Functions (VNFs/CNFs) and applications. It details checks that the NFO/FOCOM system must perform *before* deployment, including verifying configuration security, component integrity, and trusted status. A key focus is ensuring identical attributes (certifi..."
+  },
+  {
+    "chunk_id": 34,
+    "entities": [
+      "App/VNF/CNF Image",
+      "CA certificate",
+      "public key",
+      "Digest",
+      "Hash function",
+      "Operator",
+      "O-Cloud Operator",
+      "Solution Provider/Vendor",
+      "Software signing",
+      "Software verification",
+      "Least privilege access",
+      "secure storage",
+      "Docker Content Trust",
+      "digital signatures",
+      "host images",
+      "registry",
+      "HSM",
+      "secrets",
+      "K8s secrets",
+      "external secrets managers",
+      "Vault",
+      "containerized applications",
+      "VNF volume disks",
+      "TPM module",
+      "hypervisor",
+      "VM swap areas",
+      "dm-crypt",
+      "T-GEN-01",
+      "T-GEN-03",
+      "T-IMG-01",
+      "T-IMG-02",
+      "T-IMG-03",
+      "T-IMG-04"
+    ],
+    "relations": [
+      {
+        "subject": "Operator or O-Cloud Operator",
+        "predicate": "verifies authenticity using",
+        "object": "CA certificate"
+      },
+      {
+        "subject": "public key",
+        "predicate": "decrypts",
+        "object": "Digest"
+      },
+      {
+        "subject": "Hash function",
+        "predicate": "computes",
+        "object": "Digest"
+      },
+      {
+        "subject": "Solution Provider/Vendor",
+        "predicate": "signs",
+        "object": "Software"
+      },
+      {
+        "subject": "O-Cloud Operator",
+        "predicate": "verifies at runtime",
+        "object": "Software"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "verifies before onboarding",
+        "object": "vendor images"
+      },
+      {
+        "subject": "Operator",
+        "predicate": "re-signs",
+        "object": "vendor images"
+      },
+      {
+        "subject": "Least privilege access",
+        "predicate": "limits and controls access to",
+        "object": "images' repository"
+      },
+      {
+        "subject": "Docker Content Trust",
+        "predicate": "ensures runtime verification of",
+        "object": "image integrity"
+      },
+      {
+        "subject": "Digitally signed host images",
+        "predicate": "validate the integrity of",
+        "object": "software on O-Cloud platform"
+      },
+      {
+        "subject": "secrets",
+        ".predicate": "stored outside",
+        "object": "App/VNF/CNF images"
+      },
+      {
+        "subject": "K8s secrets",
+        "predicate": "store",
+        "object": "secret and sensitive information"
+      },
+      {
+        "subject": "external secrets managers",
+        "predicate": "inject secrets into",
+        "object": "CNF container"
+      },
+      {
+        "subject": "VNF volume disks",
+        "predicate": "protected by encryption using",
+        "object": "TPM module"
+      },
+      {
+        "subject": "hypervisor",
+        "predicate": "securely wipes out",
+        "object": "virtual volume disks"
+      },
+      {
+        "subject": "VM swap areas",
+        "predicate": "encrypted using",
+        "object": "dm-crypt"
+      },
+      {
+        "subject": "Best practices",
+        "predicate": "mitigate threat vectors",
+        "object": "T-GEN-01, T-GEN-03, T-IMG-01, T-IMG-02, T-IMG-03, T-IMG-04"
+      }
+    ],
+    "preview": "\n\n# App/VNF/CNF Image Verification\n\nResponsible: Operator or O-Cloud Operator\n\n(1) Verify CA certificate for authenticity.   \n(2) Decrypt digest with public key   \n(3) Compare Decrypted digest with Digest computed as result of Hash function on App/VNF/CNF Image. (4) Verification is successful if both digest matches.\n\n# Proposed Signing/Verification Models\n\n1. Software signing by Solution Provider/..."
+  },
+  {
+    "chunk_id": 35,
+    "entities": [
+      "least privilege access",
+      "Docker Content Trust",
+      "digital signatures",
+      "host images",
+      "O-Cloud platform",
+      "registry",
+      "HSM",
+      "App/VNF/CNF images",
+      "secrets",
+      "K8s secrets",
+      "external secrets managers",
+      "Vault",
+      "VNF volume encryption",
+      "TPM module",
+      "VM swapping",
+      "dm-crypt",
+      "logging",
+      "monitoring",
+      "alerting",
+      "O-Cloud software",
+      "VNFs/CNFs",
+      "Hypervisor/Container Engine",
+      "Host OS",
+      "NFO/FOCOM",
+      "dynamic VM/Container deployment",
+      "microservice architecture",
+      "secure boot",
+      "root of trust",
+      "VNFs/CNFs sandboxing",
+      "VM/Container isolation",
+      "O-Cloud virtualization layer",
+      "rogue/misbehaving VM/Containers"
+    ],
+    "relations": [
+      {
+        "subject": "least privilege access",
+        "predicate": "limits and controls access to",
+        "object": "images’ repository and the repository of source code"
+      },
+      {
+        "subject": "Docker Content Trust",
+        "predicate": "utilizes",
+        "object": "digital signatures"
+      },
+      {
+        "subject": "host images",
+        "predicate": "should be",
+        "object": "digitally signed"
+      },
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "uses",
+        "object": "digitally signed host images"
+      },
+      {
+        "subject": "registry",
+        "predicate": "is the most sensitive part of the system and should be run in",
+        "object": "HSM"
+      },
+      {
+        "subject": "App/VNF/CNF images",
+        "predicate": "should not be packaged with",
+        "object": "embedded secrets"
+      },
+      {
+        "subject": "secrets",
+        "predicate": "have to be stored outside",
+        "object": "App/VNF/CNF images"
+      },
+      {
+        "subject": "K8s secrets",
+        "predicate": "can be used to store",
+        "object": "secret and sensitive information"
+      },
+      {
+        "subject": "external secrets managers",
+        "predicate": "like Vault can be used to store",
+        "object": "secrets"
+      },
+      {
+        "subject": "VNF volume encryption",
+        "predicate": "is recommended for virtual volume disks associated with",
+        "object": "VNFs"
+      },
+      {
+        "subject": "TPM module",
+        "predicate": "can be used to securely store",
+        "object": "cryptographic keys"
+      },
+      {
+        "subject": "VM swapping",
+        "predicate": "is a memory management technique that moves",
+        "object": "memory segments from main memory to disk"
+      },
+      {
+        "subject": "Linux based tools such as dm-crypt",
+        "predicate": "can be used for",
+        "object": "encrypting VM swap areas"
+      },
+      {
+        "subject": "logging, monitoring and alerting",
+        "predicate": "is a key activity to identify attacks and reconstruct them in",
+        "object": "O-Cloud software"
+      },
+      {
+        "subject": "VM/Container deployment",
+        "predicate": "is dynamic and requires handling many systems at once for",
+        "object": "monitoring and logging"
+      },
+      {
+        "subject": "secure boot",
+        ".predicate": "should be supported by all servers part of",
+        "object": "O-Cloud Infrastructure"
+      },
+      {
+        "subject": "VNFs/CNFs sandboxing",
+        "predicate": "should be strengthened to limit the impact of",
+        "object": "rogue/misbehaving VM/Containers"
+      },
+      {
+        "subject": "O-Cloud virtualization layer",
+        "predicate": "shall adopt measures to ensure",
+        "object": "strong VM/Container isolation"
+      }
+    ],
+    "preview": "# Other best practices:\n\nLeast privilege access that limits and controls access to the images’ repository and the repository of source code, secure storage, and automation for verifying the configuration of images before loading. Utilize a trust model such as Docker Content Trust with digital signatures to ensure runtime verification of the integrity and publisher of specific image tags. Implement..."
+  },
+  {
+    "chunk_id": 36,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n# Best practices to fulfill this recommendation:\n\n> **Table Summary:** {}\n\n\nThis recommendation can help to mitigate: T-GEN-01, T-GEN-02, T-GEN-03, T-VM-C-02, T-VM-C-03, T-VM-C04, T-VM-C-05, T-VM-C-06, T-IMG-01, T-IMG-02, T-IMG-04, T-VL-02\n\n# 6.10 REC-SB Secure Boot\n\nRecommendation: All servers part of O-Cloud Infrastructure should support a root of trust and secure boot to trust that the runnin..."
+  },
+  {
+    "chunk_id": 37,
+    "entities": [
+      "REC-AUD-BP-1",
+      "REC-AUD-BP-2",
+      "REC-AUD-BP-3",
+      "credential exposure",
+      "suspicious account management",
+      "routine permission checks",
+      "T-GEN-01",
+      "T-GEN-02",
+      "T-VM-C-05",
+      "T-IMG-01",
+      "T-IMG-03",
+      "T-IMG-04",
+      "T-ADMIN-01",
+      "T-ADMIN-02",
+      "REC-SS Secure Storage",
+      "encrypted storage",
+      "block storage",
+      "object storage",
+      "file storage",
+      "credentials",
+      "secrets",
+      "encryption keys",
+      "need to know",
+      "T-VM-C-01",
+      "T-VM-C-02",
+      "T-VM-C-03",
+      "T-VM-C-06",
+      "T-VL-01",
+      "T-OCAPI-01",
+      "T-HW-01",
+      "REC-PHY Physical Security Protection",
+      "unauthorized access",
+      "O-Cloud facilities",
+      "equipment",
+      "resources",
+      "T-VM-C-03",
+      "T-VM-C-05",
+      "T-VL-02",
+      "T-OCAPI-01",
+      "T-HW-02",
+      "REC-RA Remote Attestation",
+      "trustworthiness of O-Cloud components",
+      "malicious software execution",
+      "O-Cloud service deployment",
+      "software and firmware images",
+      "security subsystems",
+      "VNFs/CNFs",
+      "service(s)",
+      "root(s) of trust",
+      "chain of trust",
+      "NFO/FOCOM sub-systems",
+      "verification of the trust chain",
+      "sufficient level of assurance",
+      "different software elements constituting VNFs/CNFs",
+      "Measurement of VM/Container during launch",
+      "Protected VM/Container launch on a trusted O-Cloud platform",
+      "Measurement of VM/Container during launch and while in use",
+      "Remote attestation of secret storage",
+      "Secure VM/Container migration between two trusted O-Cloud platforms",
+      "RA capabilities",
+      "trust establishment",
+      "use case scenarios",
+      "Operators",
+      "datacenters",
+      "management entities",
+      "trustworthy element",
+      "unique identifier",
+      "certification",
+      "cryptographic signing",
+      "measurements and data about the state of that element",
+      "tamperproof and verifiable form",
+      "TPM2.0 quoting mechanism",
+      "TPMS_ATTEST data structure",
+      "Annex A",
+      "CISA/NSA Kubernetes security hardening best practices",
+      "CIS Docker security best practices",
+      "ONAP VNFs security best practices"
+    ],
+    "relations": [
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-GEN-01"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-GEN-02"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-VM-C-05"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-IMG-01"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-IMG-03"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-IMG-04"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-ADMIN-01"
+      },
+      {
+        "subject": "REC-AUD-BP-1",
+        "predicate": "mitigates",
+        "object": "T-ADMIN-02"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-VM-C-01"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-VM-C-02"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-VM-C-03"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-VM-C-06"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-VL-01"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-OCAPI-01"
+      },
+      {
+        "subject": "REC-SS Secure Storage",
+        "predicate": "mitigates",
+        "object": "T-HW-01"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-VM-C-03"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-VM-C-05"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-VL-02"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-OCAPI-01"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-HW-01"
+      },
+      {
+        "subject": "REC-PHY Physical Security Protection",
+        "predicate": "mitigates",
+        "object": "T-HW-02"
+      },
+      {
+        "subject": "REC-RA Remote Attestation",
+        "predicate": "addresses",
+        "object": "Measurement of VM/Container during launch"
+      },
+      {
+        "subject": "REC-RA Remote Attestation",
+        "predicate": "addresses",
+        "object": "Protected VM/Container launch on a trusted O-Cloud platform"
+      },
+      {
+        "subject": "REC-RA Remote Attestation",
+        "predicate": "addresses",
+        "object": "Measurement of VM/Container during launch and while in use"
+      },
+      {
+        "subject": "REC-RA Remote Attestation",
+        "predicate": "addresses",
+        "object": "Remote attestation of secret storage"
+      },
+      {
+        "subject": "REC-RA Remote Attestation",
+        "predicate": "addresses",
+        "object": "Secure VM/Container migration between two trusted O-Cloud platforms"
+      }
+    ],
+    "preview": "\n\n# Best practices to fulfill this recommendation:\n\n> **Table Summary:** {\n\"summary\": \"This table outlines requirements for auditing and security best practices. It details three specific requirements (REC-AUD-BP-1 through REC-AUD-BP-3) related to credential exposure, suspicious account management, and routine permission checks. The table maps a unique 'Req ID' to a textual description of each req..."
+  },
+  {
+    "chunk_id": 38,
+    "entities": [
+      "Remote Attestation (RA)",
+      "O-Cloud",
+      "Trustworthy Element",
+      "Unique Identifier",
+      "Certification",
+      "Cryptographic Signing",
+      "Measurements",
+      "Tamperproof Storage",
+      "TPM2.0",
+      "TPMS_ATTEST",
+      "CISA/NSA Kubernetes Security Hardening Best Practices",
+      "Immutable Container File Systems",
+      "Non-root Containers",
+      "Container Images",
+      "Image Scanning",
+      "Admission Controller",
+      "Hypervisors",
+      "Hyper-V"
+    ],
+    "relations": [
+      {
+        "subject": "Operators",
+        "predicate": "use",
+        "object": "Remote Attestation (RA)"
+      },
+      {
+        "subject": "Datacenters",
+        "predicate": "use",
+        "object": "Remote Attestation (RA)"
+      },
+      {
+        "subject": "Management Entities",
+        "predicate": "use",
+        "object": "Remote Attestation (RA)"
+      },
+      {
+        "subject": "Trustworthy Element",
+        "predicate": "has component",
+        "object": "Unique Identifier"
+      },
+      {
+        "subject": "Trustworthy Element",
+        "predicate": "has component",
+        "object": "Certification"
+      },
+      {
+        "subject": "Trustworthy Element",
+        "predicate": "has component",
+        "object": "Cryptographic Signing"
+      },
+      {
+        "subject": "Trustworthy Element",
+        "predicate": "has capability",
+        "object": "Measurements"
+      },
+      {
+        "subject": "Trustworthy Element",
+        "predicate": "has capability",
+        "object": "Tamperproof Storage"
+      },
+      {
+        "subject": "TPM2.0",
+        "predicate": "uses",
+        "object": "TPMS_ATTEST"
+      },
+      {
+        "subject": "CISA/NSA Kubernetes Security Hardening Best Practices",
+        "predicate": "include",
+        "object": "Container Scanning"
+      },
+      {
+        "subject": "CISA/NSA Kubernetes Security Hardening Best Practices",
+        "predicate": "include",
+        "object": "Least Privileges"
+      },
+      {
+        "subject": "CISA/NSA Kubernetes Security Hardening Best Practices",
+        "predicate": "include",
+        "object": "Network Separation"
+      },
+      {
+        "subject": "CISA/NSA Kubernetes Security Hardening Best Practices",
+        "predicate": "include",
+        "object": "Strong Authentication"
+      },
+      {
+        "subject": "CISA/NSA Kubernetes Security Hardening Best Practices",
+        "predicate": "include",
+        "object": "Log Auditing"
+      },
+      {
+        "subject": "Immutable Container File Systems",
+        "predicate": "prevent",
+        "object": "Post-exploitation Activities"
+      },
+      {
+        "subject": "Non-root Containers",
+        "predicate": "limit",
+        "object": "Root Execution"
+      },
+      {
+        "subject": "Container Images",
+        "predicate": "require",
+        "object": "Image Scanning"
+      },
+      {
+        "subject": "Admission Controller",
+        ".predicate": "block",
+        "object": "Non-compliant Deployments"
+      },
+      {
+        "subject": "Hypervisors",
+        "predicate": "enhance",
+        "object": "Container Isolation"
+      }
+    ],
+    "preview": "\n\n# Best practices to fulfill this recommendation:\n\n> **Table Summary:** {\n  \"summary\": \"This table documents requirements related to a Remote Attestation (RA) process. Each row details a specific requirement (Req ID) and provides a textual description of what is needed. The requirements appear to focus on security guidance and infrastructure components for the RA approach, referencing specific id..."
+  },
+  {
+    "chunk_id": 39,
+    "entities": [
+      "Pods",
+      "containers",
+      "non-root users",
+      "file systems",
+      "container images",
+      "admission controllers",
+      "hypervisors",
+      "Hyper-V",
+      "namespaces",
+      "network policies",
+      "LimitRange",
+      "ResourceQuota",
+      "control plane",
+      "worker nodes",
+      "TLS encryption",
+      "Secrets",
+      "cloud metadata services",
+      "Key Management Service (KMS)"
+    ],
+    "relations": [
+      {
+        "subject": "Non-root containers",
+        "predicate": "prevent",
+        "object": "root execution"
+      },
+      {
+        "subject": "Immutable container file systems",
+        "predicate": "lock down",
+        "object": "container file systems"
+      },
+      {
+        "subject": "Building secure container images",
+        "predicate": "involve scanning with",
+        "object": "admission controllers"
+      },
+      {
+        "subject": "Hardening container engines",
+        "predicate": "use",
+        "object": "hypervisors for isolation"
+      },
+      {
+        "subject": "Namespaces",
+        "predicate": "partition",
+        "object": "cluster resources"
+      },
+      {
+        "subject": "Network policies",
+        "predicate": "control",
+        "object": "traffic flow between_Pods, namespaces, and external IP addresses"
+      },
+      {
+        "subject": "Resource policies",
+        "predicate": "constrain",
+        "object": "resource usage for namespaces or nodes"
+      },
+      {
+        "subject": "Control plane",
+        "predicate": "require hardening via",
+        "object": "TLS and RBAC"
+      },
+      {
+        "subject": "Worker node segmentation",
+        "predicate": "limit",
+        "object": "attack surface"
+      },
+      {
+        "subject": "Encryption",
+        "predicate": "secure",
+        "object": "traffic with TLS"
+      },
+      {
+        "subject": "Secrets",
+        "predicate": "store sensitive information such as passwords, OAuth tokens, SSH and TLS keys."
+      },
+      {
+        "subject": "Secrets",
+        "predicate": "can be encrypted by",
+        "object": "Key Management Service (KMS)"
+      }
+    ],
+    "preview": "# Kubernetes Pod security\n\nPods are the smallest deployable Kubernetes unit and consist of one or more containers. Pods are often a cyber actor’s initial execution environment upon exploiting a container. For this reason, Pods should be hardened to make exploitation more difficult and to limit the impact of a successful compromise.\n\n“Non-root” containers: Preventing root execution by using non-roo..."
+  },
+  {
+    "chunk_id": 40,
+    "entities": [
+      "Kubernetes",
+      "Namespaces",
+      "Network policies",
+      "Resource separation",
+      "Encryption",
+      "Secrets",
+      "RBAC",
+      "Control plane hardening",
+      "Worker node segmentation",
+      "LimitRange",
+      "ResourceQuota",
+      "TLS 1.2 or 1.3",
+      "Kubernetes API server",
+      "Certificates",
+      "Cloud metadata services",
+      "Authentication methods"
+    ],
+    "relations": [
+      {
+        "subject": "Namespaces",
+        "predicate": "partition",
+        "object": "cluster resources"
+      },
+      {
+        "subject": "Network policies",
+        "predicate": "control",
+        "object": "traffic flow between Pods, namespaces, and external IP addresses"
+      },
+      {
+        "subject": "Resource separation",
+        "predicate": "limit",
+        "object": "cyber actor’s movement and escalation within a cluster"
+      },
+      {
+        "subject": "Encryption",
+        "predicate": "configure",
+        "object": "all traffic in the Kubernetes cluster to use TLS 1.2 or 1.3"
+      },
+      {
+        "subject": "Secrets",
+        "predicate": "maintain",
+        "object": "sensitive information such as passwords, OAuth tokens, SSH and TLS keys"
+      },
+      {
+        "subject": "RBAC",
+        "predicate": "control access to cluster resources based on",
+        "object": "roles of individuals within an organization"
+      },
+      {
+        "subject": "Control plane hardening",
+        "predicate": "protect",
+        "object": "Kubernetes API server"
+      },
+      {
+        "subject": "Worker node segmentation",
+        "predicate": "separate",
+        "object": "worker nodes from other network segments"
+      },
+      {
+        "subject": "LimitRange",
+        "predicate": "constrain",
+        "object": "individual resources per Pod or container within a particular namespace"
+      },
+      {
+        "subject": "ResourceQuota",
+        "predicate": "restrict",
+        "object": "aggregate resource usage for an entire namespace"
+      },
+      {
+        "subject": "Certificates",
+        "predicate": "distribute amongst nodes to communicate securely",
+        "object": "Kubernetes cluster components, nodes, and control plane"
+      },
+      {
+        "subject": "Cloud metadata services",
+        "predicate": "provide information about",
+        "object": "cloud infrastructure and possibly even short-lived credentials for cloud resources"
+      }
+    ],
+    "preview": "# Network separation and hardening\n\nCluster networking is a central concept of Kubernetes. Communication between containers, Pods, services, and external services must be taken into consideration. Resource separation and encryption can be an effective way to limit a cyber actor’s movement and escalation within a cluster.\n\nNamespaces: Kubernetes namespaces are one way to partition cluster resources..."
+  },
+  {
+    "chunk_id": 41,
+    "entities": [
+      "Authentication",
+      "Authorization",
+      "RBAC (Role-Based Access Control)",
+      "Logging",
+      "Auditing",
+      "SIEM Platforms",
+      "Alerting",
+      "Service Meshes",
+      "Fault Tolerance",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack"
+    ],
+    "relations": [
+      {
+        "subject": "Authentication",
+        "predicate": "managed through",
+        "object": "bearer tokens"
+      },
+      {
+        "subject": "RBAC (Role-Based Access Control)",
+        "predicate": "used for",
+        "object": "access control in Kubernetes"
+      },
+      {
+        "subject": "Logging",
+        "predicate": "involves capturing",
+        "object": "API request history"
+      },
+      {
+        "subject": "SIEM Platforms",
+        "predicate": "collect logs from",
+        "object": "organization’s network"
+      },
+      {
+        "subject": "Service Meshes",
+        "predicate": "manage",
+        "object": "service-to-service communication encryption"
+      },
+      {
+        "subject": "Fault Tolerance",
+        "predicate": "ensures",
+        "object": "logging service availability"
+      }
+    ],
+    "preview": "# Authentication and authorization\n\nAuthentication and authorization are the primary mechanisms to restrict access to cluster resources. Cyber actors can scan for well-known Kubernetes ports and access the cluster’s database or make API calls without being authenticated if the cluster is misconfigured. User authentication is not a built-in feature of Kubernetes. However, several methods exist for ..."
+  },
+  {
+    "chunk_id": 42,
+    "entities": [
+      "O-RAN specifications",
+      "Root Cause Analysis (RCA)",
+      "Kubernetes",
+      "Logging",
+      "Monitoring",
+      "Alerting",
+      "RBAC Policy Configurations",
+      "SIEM Platforms",
+      "Service Meshes",
+      "Fault Tolerance Policies",
+      "Prometheus",
+      "Grafana",
+      "ELK",
+      "Vulnerability Scans",
+      "Penetration Tests"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "includes",
+        "object": "Logging"
+      },
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "includes",
+        "object": "Monitoring"
+      },
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "includes",
+        "object": "Alerting"
+      },
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "utilizes",
+        "object": "RBAC Policy Configurations"
+      },
+      {
+        "subject": "Root Cause Analysis (RCA)",
+        "predicate": "benefits from",
+        "object": "SIEM Platforms"
+      },
+      {
+        "subject": "Service Meshes",
+        "predicate": "supports",
+        "object": "O-RAN specifications"
+      },
+      {
+        "subject": "Fault Tolerance Policies",
+        "predicate": "ensures",
+        "object": "logging service availability"
+      },
+      {
+        "subject": "Prometheus",
+        "predicate": "monitors",
+        "object": "events"
+      },
+      {
+        "subject": "Organizations",
+        "predicate": "perform",
+        "object": "Vulnerability Scans"
+      },
+      {
+        "subject": "Organizations",
+        "predicate": "conduct",
+        "object": "Penetration Tests"
+      }
+    ],
+    "preview": "# Log auditing\n\nLogs capture activity in the cluster. Auditing logs is necessary, not only for ensuring that services are operating and configured as intended, but also for ensuring the security of the system. Systematic audit requirements mandate consistent and thorough checks of security settings to help identify compromises. Kubernetes is capable of capturing audit logs for cluster actions and ..."
+  },
+  {
+    "chunk_id": 43,
+    "entities": [
+      "Kubernetes",
+      "Hypervisors",
+      "Virtualization software",
+      "Plugins",
+      "Operating systems",
+      "Applications",
+      "CIS benchmarks",
+      "Vulnerability scans",
+      "Penetration tests",
+      "Docker",
+      "Container host",
+      "Networking protocols",
+      "Containerized applications",
+      "Container images",
+      "Build files",
+      "Swarm mode",
+      "Manager nodes",
+      "Services",
+      "Network nodes",
+      "ONAP VNFs",
+      "General security requirements",
+      "User access control",
+      "Network security",
+      "ACLs",
+      "Infrastructure security",
+      "Vulnerability management",
+      "Compliance",
+      "Security patching",
+      "Logging/accounting",
+      "Authentication",
+      "Encryption",
+      "Role-based access control",
+      "Least privilege access/authorization"
+    ],
+    "relations": [
+      {
+        "subject": "Kubernetes",
+        "predicate": "orchestrates",
+        "object": "Containerized applications"
+      },
+      {
+        "subject": "Hypervisors",
+        "predicate": "are part of",
+        "object": "Kubernetes managed systems"
+      },
+      {
+        "subject": "CIS benchmarks",
+        "predicate": "provide guidelines for",
+        "object": "Docker Daemon Configuration"
+      },
+      {
+        "subject": "Vulnerability scans",
+        "predicate": "check security of",
+        "object": "Kubernetes"
+      },
+      {
+        "subject": "Container host",
+        "predicate": "needs hardening as per",
+        "object": "Docker Daemon Configuration"
+      },
+      {
+        "subject": "Networking protocols",
+        "predicate": "are managed alongside",
+        "object": "Kubernetes upgrades"
+      },
+      {
+        "subject": "ONAP VNFs",
+        "predicate": "have security requirements including",
+        "object": "User access control"
+      },
+      {
+        "subject": "Swarm mode",
+        "predicate": "is part of",
+        "object": "Docker Swarm Configuration"
+      },
+      {
+        "subject": "Container images",
+        "predicate": "are built with considerations from",
+        "object": "Container Images and Build File guidelines"
+      }
+    ],
+    "preview": "# Upgrading and application security practices\n\nCopyright $\\circledcirc$ 2022 by the O-RAN Alliance e.V. Your use is subject to the terms of the O-RAN Adopter License Agreement in Annex ZZZ\n\nSecurity of applications running on Kubernetes orchestrated containers is an ongoing process, and it is vital to keep up with patches, updates, and upgrades. The specific software components vary depending on ..."
+  },
+  {
+    "chunk_id": 44,
+    "entities": [
+      "ONAP",
+      "VNFs",
+      "user access control",
+      "network security",
+      "ACLs",
+      "infrastructure security",
+      "vulnerability management",
+      "compliance",
+      "security patching",
+      "logging/accounting",
+      "authentication",
+      "encryption",
+      "role-based access control",
+      "least privilege access/authorization",
+      "Principle of Least Privilege",
+      "Access Control List",
+      "automated system configuration auditing",
+      "GSMA NESAS Network Equipment Security Assurance Scheme",
+      "SEI CERT Coding Standards",
+      "hardened code",
+      "configuration files",
+      "containerized components",
+      "Docker",
+      "CIS Docker Community Edition Benchmarks",
+      "encrypted access protocols",
+      "TLS 1.2/1.3",
+      "SNMPv3",
+      "message authentication",
+      "HW Root of Trust",
+      "TPM",
+      "HSM",
+      "Syslog LOG_AUTHPRIV",
+      "Syslog LOG_AUTH"
+    ],
+    "relations": [
+      {
+        "subject": "ONAP",
+        "predicate": "provides details on",
+        "object": "VNF general security requirements"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "implement",
+        "object": "Principle of Least Privilege"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "provide mechanism for",
+        "object": "Access Control List"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "support",
+        "object": "automated system configuration auditing"
+      },
+      {
+        "subject": "VNF Provider",
+        "predicate": "follow",
+        "object": "GSMA NESAS Network Equipment Security Assurance Scheme"
+      },
+      {
+        "subject": "VNF Provider",
+        "predicate": "follow",
+        "object": "SEI CERT Coding Standards"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "require",
+        "object": "hardened code"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "support separation of traffic types",
+        "object": "signaling and payload traffic, operations, administration and management traffic, internal VNF traffic"
+      },
+      {
+        "subject": "VNF Provider",
+        ".predicate": "provide patches for",
+        "object": "vulnerabilities"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "support",
+        "object": "encrypted access protocols"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "store authentication credentials encrypted",
+        "object": "LOG_AUTHPRIV for sensitive information, LOG_AUTH for other events"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "support",
+        "object": "SNMPv3 with message authentication"
+      },
+      {
+        "subject": "VNF application processes",
+        "predicate": "should not run as",
+        "object": "root"
+      },
+      {
+        "subject": "VNFs",
+        "predicate": "require encrypted access protocols for login",
+        "object": "TLS 1.2/1.3"
+      },
+      {
+        "subject": "containerized components of VNFs",
+        "predicate": "follow recommendations from",
+        "object": "CIS Docker Community Edition Benchmarks"
+      }
+    ],
+    "preview": "# A.3 ONAP VNFs security best practices\n\nONAP provides details on the VNF general security requirements on various security areas such as user access control, network security, ACLs, infrastructure security, and vulnerability management. These requirements cover topics associated with compliance, security patching, logging/accounting, authentication, encryption, role-based access control, least pr..."
+  },
+  {
+    "chunk_id": 45,
+    "entities": [
+      "VNF",
+      "user access control",
+      "network security",
+      "ACLs",
+      "infrastructure security",
+      "vulnerability management",
+      "compliance",
+      "security patching",
+      "logging",
+      "accounting",
+      "authentication",
+      "encryption",
+      "role-based access control",
+      "least privilege access",
+      "authorization",
+      "access control list",
+      "automated system configuration auditing",
+      "GSMA vendor practices",
+      "SEI CERT Coding Standards",
+      "hardening",
+      "VLAN",
+      "VPN",
+      "encrypted access protocols",
+      "TLS 1.2/1.3",
+      "authentication credentials",
+      "HW Root of Trust",
+      "TPM",
+      "HSM",
+      "Syslog",
+      "LOG_AUTHPRIV",
+      "SNMPv3",
+      "root",
+      "encrypted protocol",
+      "Docker run-time environment",
+      "CIS Docker Community Edition Benchmarks",
+      "password complexity policy",
+      "LDAP",
+      "multifactor authentication",
+      "terminate idle sessions"
+    ],
+    "relations": [
+      {
+        "subject": "VNF",
+        "predicate": "must implement",
+        "object": "principle of least privilege"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must provide",
+        "object": "access control list"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "should provide",
+        "object": "automated system configuration auditing"
+      },
+      {
+        "subject": "VNF Provider",
+        "predicate": "must follow",
+        "object": "GSMA vendor practices"
+      },
+      {
+        "subject": "VNF Provider",
+        "predicate": "must follow",
+        "object": "SEI CERT Coding Standards"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must have",
+        "object": "hardened code and configuration files"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "should support",
+        "object": "separation of traffic using technologies such as VPN and VLAN"
+      },
+      {
+        "subject": "VNF Provider",
+        "predicate": "must have patches available for",
+        "object": "vulnerabilities in the VNF"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must support",
+        "object": "encrypted access protocols such as TLS 1.2/1.3"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must store",
+        "object": "authentication credentials encrypted"
+      },
+      {
+        "subject": "credentials",
+        "predicate": "should rely on",
+        "object": "HW Root of Trust such as TPM or HSM"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must log security events to",
+        "object": "Syslog using LOG_AUTHPRIV for sensitive information and LOG_AUTH otherwise"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must support at least",
+        "object": "SNMPv3 with message authentication"
+      },
+      {
+        "subject": "VNF application processes",
+        "predicate": "should not run as",
+        "object": "root"
+      },
+      {
+        "subject": "Login access to the virtualization layer",
+        "predicate": "must be through an encrypted protocol such as TLS 1.2/1.3"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must include a configuration that specifies targeted parameters over which it will communicate"
+      },
+      {
+        "subject": "Containerized components of VNFs",
+        "predicate": "should follow",
+        "object": "recommendations for Container Base Images and Build File Configuration in the latest available version of the CIS Docker Community Edition Benchmarks"
+      },
+      {
+        "subject": "Containerized components of VNFs",
+        ".predicate": "should execute in a Docker run-time environment that follows",
+        "object": "Container Runtime Configuration in the latest available version of the CIS Docker Community Edition Benchmarks"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must support creation of multiple IDs for individual accountability"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "must provide a mechanism for assigning roles and/or permissions to an identity"
+      },
+      {
+        "subject": "VNF",
+        ".predicate": "must support multifactor authentication on all protected interfaces exposed by the VNF for use by human users"
+      },
+      {
+        ".subject": "VNF",
+        "predicate": "must support account names that contain at least A-Z, a-z, and 0–9-character sets and be at least 6 characters in length"
+      },
+      {
+        "subject": "VNF",
+        ".predicate": "must comply with password complexity policy and support configurable password expiration"
+      },
+      {
+        ".subject": "VNF",
+        "predicate": "must allow the Operator to restrict access to protected resources based on assigned permissions associated with an ID"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must set default settings for user access to deny authorization except for a super user type of account"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must not store authentication credentials in clear text or any reversible form and must use salting"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must support the ability to lock out a userID after a configurable number of consecutive unsuccessful authentication attempts using the same userID"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must authenticate all access to protected resources"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must support LDAP in order to integrate with an external identity and access management system"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must not identify the reason for a failed authentication, only that the authentication failed"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must provide a means to explicitly logout ending that session"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must provide explicit confirmation of a session termination such as a message, new page, or rerouting to a login page"
+      },
+      {
+        ".subject": "VNF",
+        ".predicate": "must enforce a configurable terminate idle sessions policy by terminating the session after a configurable period of inactivity"
+      }
+    ],
+    "preview": "# VNF General Security Requirements\n\nThis section provides details on the VNF general security requirements on various security areas such as user access control, network security, ACLs, infrastructure security, and vulnerability management. These requirements cover topics associated with compliance, security patching, logging/accounting, authentication, encryption, role-based access control, leas..."
+  },
+  {
+    "chunk_id": 46,
+    "entities": [
+      "VNF",
+      "Identity and Access Management system",
+      "Multiple IDs",
+      "Roles",
+      "Permissions",
+      "Account names",
+      "Password complexity policy",
+      "Configurable password expiration",
+      "Multifactor authentication",
+      "Protected interfaces",
+      "Human users",
+      "UserID",
+      "Special characters",
+      "Super user type of account",
+      "Authentication credentials",
+      "Lockout mechanism",
+      "Configurable number of consecutive unsuccessful authentication attempts",
+      "LDAP",
+      "External identity and access management system",
+      "Failed authentication",
+      "Session termination",
+      "Idle sessions policy",
+      "Input validation control",
+      "Size (length) of all input",
+      "File size limit",
+      "Inappropriate input",
+      "SQL expressions",
+      "Spoofed MIME types",
+      "Multipurpose Internet Mail Extensions (MIME)",
+      "Operator’s authentication and authorization services"
+    ],
+    "relations": [
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Multiple IDs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "provides mechanism for assigning",
+        "object": "Roles"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "provides mechanism for assigning",
+        "object": "Permissions"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Multifactor authentication"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Account names"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "complies with",
+        "object": "Password complexity policy"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Configurable password expiration"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "restricts access to",
+        "object": "Protected resources"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "sets default settings for",
+        "object": "User access"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "does not store in clear text or reversible form",
+        "object": "Authentication credentials"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports lockout mechanism for",
+        "object": "UserID"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "authenticates access to",
+        "object": "Protected resources"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "LDAP"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "does not identify reason for",
+        "object": "Failed authentication"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "provides means to",
+        "object": "Explicit logout"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "provides explicit confirmation of",
+        "object": "Session termination"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "enforces configurable policy for",
+        "object": "Terminate idle sessions"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "integrates with",
+        "object": "Operator’s authentication and authorization services"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "implements input validation control for",
+        "object": "Size (length) of all input"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "implements input validation control for",
+        "object": "File size limit"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "implements input validation control to prevent",
+        "object": "Inappropriate input"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "validates correct and valid",
+        "object": "Multipurpose Internet Mail Extensions (MIME)"
+      }
+    ],
+    "preview": "# VNF Identity and Access Management Requirements\n\nThe following security requirements for logging, identity, and access management need to be met by the O-RAN NFs in a virtual environment:\n\n1. The VNF must, if not integrated with the Operator’s Identity and Access Management system, support the creation of multiple IDs so that individual accountability can be supported.   \n2. The VNF must, if not..."
+  },
+  {
+    "chunk_id": 47,
+    "entities": [
+      "VNF",
+      "Operator’s authentication and authorization services (e.g., IDAM)",
+      "Input validation control",
+      "Size limit enforcement",
+      "MIME type validation",
+      "Security event detection and notification",
+      "API-based monitoring",
+      "Malformed packet detection",
+      "Proactive monitoring",
+      "Resource exhaustion detection",
+      "Anti-virus software",
+      "Logging",
+      "Data capture",
+      "Tasking",
+      "DPI (Deep Packet Inspection)",
+      "Detection and notification",
+      "Resource exhaustion detection",
+      "Proactive and scalable monitoring",
+      "Mobility and guest VNF monitoring",
+      "Closed loop monitoring",
+      "Interfaces to management and orchestration",
+      "Malformed packet detections",
+      "Service chaining",
+      "Dynamic security control",
+      "Dynamic load balancing",
+      "Connection attempts to inactive ports (malicious port scanning)",
+      "Security audit logs",
+      "Authentication attempts logging",
+      "Logoffs logging",
+      "Starting and stopping of security logging",
+      "Creation, removal, or change to the inherent privilege level of users",
+      "Connections to network listeners",
+      "Event type in security audit logs",
+      "Date/time in security audit logs",
+      "Protocol in security audit logs",
+      "Service or program used for access in security audit logs",
+      "Success/failure in security audit logs",
+      "Login ID in security audit logs",
+      "Security alarms activation on unsuccessful login attempts",
+      "Security alarms activation on modification of critical files",
+      "Security alarms activation on unsuccessful permission assumption",
+      "Date in Security alarms",
+      "Time in Security alarms",
+      "Service or program used for access in Security alarms",
+      "Success/failure in Security alarms",
+      "Login ID in Security alarms",
+      "Criticality level of system security alarm change restriction",
+      "Security logging for VNFs and their OSs",
+      "Automatic routines to maintain activity records",
+      "Cleanup programs to ensure integrity of audit/logging systems",
+      "OWASP Top 10 web application security risks mitigation",
+      "Denial-of-service attacks protection",
+      "External denial of service protection tools integration",
+      "System clock synchronization with Operator’s trusted time source",
+      "UTC usage in log files",
+      "Source IP address logging",
+      "Secure transmission of security logs and events to remote system",
+      "Integrity maintenance of static files using cryptographic methods",
+      "Automated remote activities with elevated privileges logging"
+    ],
+    "relations": [
+      {
+        "subject": "VNF",
+        "predicate": "integrates_with",
+        "object": "Operator’s authentication and authorization services (e.g., IDAM)"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "implements",
+        "object": "Input validation control"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "enforces",
+        "object": "Size limit enforcement"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "validates",
+        "object": "MIME type validation"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects_and_notifies",
+        "object": "Security event detection and notification"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "API-based monitoring"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects",
+        "object": "Malformed packet detection"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "monitors_proactively",
+        "object": "Proactive monitoring"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects",
+        "object": "Resource exhaustion detection"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Anti-virus software"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs",
+        "object": "Logging"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "captures",
+        "object": "Data capture"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "tasks",
+        "object": "Tasking"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "performs",
+        "object": "DPI (Deep Packet Inspection)"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects_and_notifies",
+        "object": "Detection and notification"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "monitors_proactively",
+        "object": "Proactive monitoring"
+      },
+      {
+        "subject": "VNF",
+        ".predicate": "monitors_mobility_and_guest_vnf",
+        "object": "Mobility and guest VNF monitoring"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "implements",
+        "object": "Closed loop monitoring"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "interfaces_with",
+        "object": "Management and orchestration interfaces"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects",
+        "object": "Malformed packet detections"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "supports",
+        "object": "Service chaining"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "controls_security_dynamically",
+        "object": "Dynamic security control"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "balances_load_dynamically",
+        "object": "Dynamic load balancing"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "detects_connection_attempts_to_inactive_ports",
+        "object": "Connection attempts to inactive ports (malicious port scanning)"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "protects_audit_logs",
+        "object": "Security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_authentication_attempts",
+        "object": "Authentication attempts logging"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_logoffs",
+        "object": "Logoffs logging"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "monitors_security_logging_start_stop",
+        "object": "Starting and stopping of security logging"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_privilege_changes",
+        "object": "Creation, removal, or change to the inherent privilege level of users"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "monitors_network_connections",
+        "object": "Connections to network listeners"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_event_type",
+        "object": "Event type in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_date_time",
+        "object": "Date/time in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_protocol",
+        "object": "Protocol in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_service_access",
+        "object": "Service or program used for access in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_success_failure",
+        "object": "Success/failure in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_login_id",
+        "object": "Login ID in security audit logs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "activates_security_alarms_on_unsuccessful_logins",
+        "object": "Security alarms activation on unsuccessful login attempts"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "activates_security_alarms_on_file_modification",
+        "object": "Security alarms activation on modification of critical files"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "activates_security_alarms_on_unsuccessful_permission_assumption",
+        "object": "Security alarms activation on unsuccessful permission assumption"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_date_in_alarms",
+        "object": "Date in Security alarms"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_time_in_alarms",
+        "object": "Time in Security alarms"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_service_access_in_alarms",
+        "object": "Service or program used for access in Security alarms"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_success_failure_in_alarms",
+        "object": "Success/failure in Security alarms"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_login_id_in_alarms",
+        "object": "Login ID in Security alarms"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "restricts_criticality_level_changes",
+        "object": "Criticality level of system security alarm change restriction"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_security_logging_and_cleanup",
+        "object": "Security logging for VNFs and their OSs"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "maintains_activity_records_automatically",
+        "object": "Automatic routines to maintain activity records"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "ensures_audit_integrity",
+        "object": "Cleanup programs to ensure integrity of audit/logging systems"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "mitigates_risks",
+        "object": "OWASP Top 10 web application security risks mitigation"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "protects_against_dos_attacks",
+        "object": "Denial-of-service attacks protection"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "integrates_with_external_protection_tools",
+        "object": "External denial of service protection tools integration"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "synchronizes_clock",
+        "object": "System clock synchronization with Operator’s trusted time source"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "uses_utc_in_logs",
+        "object": "UTC usage in log files"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_source_ip_address",
+        "object": "Source IP address logging"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "transmits_security_logs_remotely_securely",
+        "object": "Secure transmission of security logs and events to remote system"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "maintains_static_files_integrity",
+        "object": "Integrity maintenance of static files using cryptographic methods"
+      },
+      {
+        "subject": "VNF",
+        "predicate": "logs_remote_activities_with_elevated_privileges",
+        "object": "Automated remote activities with elevated privileges logging"
+      }
+    ],
+    "preview": "# VNF API Security Requirements\n\nThis section covers API security requirements when these are used by the VNFs. Key security areas covered in API security are Access Control, Authentication, Passwords, PKI Authentication Alarming, Anomaly Detection, Lawful Intercept, Monitoring and Logging, Input Validation, Cryptography, Business continuity, Biometric Authentication, Identification, Confidentiali..."
+  },
+  {
+    "chunk_id": 48,
+    "entities": [],
+    "relations": [],
+    "preview": "# VNF Security Analytics Requirements\n\nThis section covers VNF security analytics requirements that are mostly applicable to security monitoring. The VNF Security Analytics cover the collection and analysis of data following key areas of security monitoring:\n\n. Anti-virus software   \n• Logging   \n• Data capture   \n• Tasking   \n• DPI   \n• API based monitoring   \n• Detection and notification   \n• Re..."
+  },
+  {
+    "chunk_id": 49,
+    "entities": [
+      "VNF Data Protection Requirements",
+      "access restriction",
+      "encryption in transit",
+      "non-volatile memory",
+      "paging",
+      "virtual memory",
+      "NIST cryptographic algorithms",
+      "industry standard cryptographic algorithms",
+      "SHA",
+      "DSS",
+      "MD5",
+      "SHA-1",
+      "Skipjack",
+      "S/MIME",
+      "TLS",
+      "SSH",
+      "IPSec",
+      "X.509 digital certificates",
+      "migrate to newer versions of cryptographic algorithms and protocols",
+      "digital certificates compliant with X.509 standards",
+      "keys generated or derived from predictable functions or values",
+      "external Certificate Authority",
+      "VNF Cryptography Requirements",
+      "automated certificate management protocol",
+      "CMPv2",
+      "Simple Certificate Enrollment Protocol (SCEP)",
+      "Automated Certificate Management Environment (ACME)",
+      "external encryption service",
+      "symmetric keys of at least 112 bits in length",
+      "asymmetric keys of at least 2048 bits in length",
+      "encryption algorithms or devices compliant with jurisdictional laws",
+      "certificate renewal and revocation",
+      "Certificate Revocation List (CRL)",
+      "distinguished name",
+      "HTTPS using TLS v1.2 or higher",
+      "strong cryptographic ciphers",
+      "X.509 certificates issued from any RFC5280 compliant CA"
+    ],
+    "relations": [
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "provides",
+        "object": "access restriction"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "encrypts",
+        "object": "data in transit on a physical or virtual network"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "encrypts",
+        "object": "data on non-volatile memory"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should disable",
+        "object": "paging of data requiring encryption"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "NIST cryptographic algorithms"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "complies with",
+        "object": "industry standard cryptographic algorithms"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "SHA"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "DSS"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "MD5"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "SHA-1"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "Skipjack"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "S/MIME"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "TLS"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "SSH"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "IPSec"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "uses",
+        "object": "X.509 digital certificates"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "supports",
+        "object": "migrate to newer versions of cryptographic algorithms and protocols"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "supports",
+        "object": "digital certificates compliant with X.509 standards"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "should not use",
+        "object": "keys generated or derived from predictable functions or values"
+      },
+      {
+        "subject": "VNF Data Protection Requirements",
+        "predicate": "supports",
+        "object": "external Certificate Authority"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "supports",
+        "object": "automated certificate management protocol"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "CMPv2"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "Simple Certificate Enrollment Protocol (SCEP)"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "Automated Certificate Management Environment (ACME)"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "supports",
+        "object": "external encryption service"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "symmetric keys of at least 112 bits in length"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "asymmetric keys of at least 2048 bits in length"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "supports",
+        "object": "encryption algorithms or devices compliant with jurisdictional laws"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "supports",
+        "object": "certificate renewal and revocation"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "checks",
+        "object": "Certificate Revocation List (CRL)"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "validates",
+        "object": "distinguished name"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "supports",
+        "object": "HTTPS using TLS v1.2 or higher"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "strong cryptographic ciphers"
+      },
+      {
+        "subject": "VNF Cryptography Requirements",
+        "predicate": "uses",
+        "object": "X.509 certificates issued from any RFC5280 compliant CA"
+      }
+    ],
+    "preview": "# VNF Data Protection Requirements\n\nThis section covers VNF data protection requirements that are mostly applicable to security monitoring.\n\n1. The VNF MUST provide the capability to restrict read and write access to data handled by the VNF.   \n2. The VNF MUST Provide the capability to encrypt data in transit on a physical or virtual network.   \n3. The VNF MUST provide the capability to encrypt da..."
+  },
+  {
+    "chunk_id": 50,
+    "entities": [],
+    "relations": [],
+    "preview": "# VNF Cryptography Requirements\n\nhis section covers VNF cryptography requirements that are mostly applicable to encryption or protocol methods.\n\n1. The VNF SHOULD support an automated certificate management protocol such as CMPv2, Simple Certificate Enrollment Protocol (SCEP) or Automated Certificate Management Environment (ACME).   \n2. The VNF SHOULD provide the capability to integrate with an ex..."
+  },
+  {
+    "chunk_id": 51,
+    "entities": [
+      "Affiliate",
+      "Control",
+      "Compliant Implementation",
+      "Final Specification",
+      "Adopter(s)",
+      "O-RAN Alliance",
+      "Minor Update",
+      "O-RAN Specifications",
+      "Necessary Claims",
+      "Patents",
+      "Defensive Suspension",
+      "License",
+      "Section 3"
+    ],
+    "relations": [
+      {
+        "subject": "Affiliate",
+        "predicate": "has",
+        "object": "Control"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "wishes to access",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "interoperable with",
+        "object": "O-RAN Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "infringed by",
+        "object": "Compliant Implementation"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "allows suspension of",
+        "object": "License"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants copyright license to",
+        "object": "Adopter(s)"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "restricted by",
+        "object": "Usage Terms"
+      }
+    ],
+    "preview": "# Section 1: DEFINITIONS\n\n1.1 “Affiliate” means an entity that directly or indirectly controls, is controlled by, or is under common control with another entity, so long as such control exists. For the purpose of this Section, “Control” means beneficial ownership of fifty $( 5 0 \\% )$ percent or more of the voting stock or equity in an entity.\n\n1 1.2 “Compliant Implementation” means any system, de..."
+  },
+  {
+    "chunk_id": 52,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Patent License Agreement",
+      "FRAND terms and conditions",
+      "Compliant Implementations",
+      "Necessary Claims",
+      "royalties"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants a nonexclusive copyright license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "uses O-RAN Specifications for",
+        "object": "implementations of an O-RAN Specification"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant patent licenses under FRAND terms to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants reciprocal FRAND licenses to",
+        "object": "Members"
+      },
+      {
+        "subject": "Patent License Agreement",
+        "predicate": "includes distribution by",
+        "object": "distributors and use by customers of such licensed Compliant Implementations"
+      }
+    ],
+    "preview": "# 34 Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN Alliance hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementa..."
+  },
+  {
+    "chunk_id": 53,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopter",
+      "Patent License Agreement",
+      "Fair Reasonable And Non-Discriminatory (FRAND)",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "Defensive Suspension",
+      "Section 3.1",
+      "Section 3.2",
+      "Section 3.3",
+      "Section 4",
+      "Section 5 - 11"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        ".predicate": "grant license to",
+        "object": "Members, Contributors, Academic Contributors"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "terminate agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Sections 1, 3, 5 - 11",
+        ".predicate": "survive termination of Agreement"
+      }
+    ],
+    "preview": "# 1 Section 3: FRAND LICENSE\n\n2 3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate   \n3 Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and   \n4 conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to   \n5 Defensive Suspensio..."
+  },
+  {
+    "chunk_id": 54,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopter",
+      "Agreement",
+      "Sections 1,3,5-11",
+      "Affiliates",
+      "contractors",
+      "consultants",
+      "third parties",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "may terminate",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "materially breaches",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Sections 1,3,5-11",
+        "predicate": "survive",
+        "object": "termination of Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "continues to grant licenses",
+        "object": "entities who become Adopters after termination"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants licenses",
+        "object": "future versions of O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "uses care and discretion",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "disclosure",
+        "predicate": "is subject to confidentiality obligation",
+        "object": "Affiliates, contractors, consultants"
+      }
+    ],
+    "preview": "# Section 4: TERM AND TERMINATION\n\n4.1 This Agreement shall remain in force, unless early terminated according to this Section 4.\n\n4.2 O-RAN Alliance on behalf of its Members, Contributors and Academic Contributors may terminate this Agreement if Adopter materially breaches this Agreement and does not cure or is not capable of curing such breach within thirty (30) days after being given notice spe..."
+  },
+  {
+    "chunk_id": 55,
+    "entities": [
+      "Adopter",
+      "O-RAN Specifications",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "employees",
+      "agents",
+      "successors",
+      "heirs",
+      "assigns"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "avoids disclosure of",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "employees"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "agents"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "successors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "heirs"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "assigns"
+      }
+    ],
+    "preview": "# 37 Section 5: CONFIDENTIALITY\n\nAdopter will use the same care and discretion to avoid disclosure, publication, and dissemination of O-RAN Specifications to third parties, as Adopter employs with its own confidential information, but no less than reasonable care. Any disclosure by Adopter to its Affiliates, contractors and consultants should be subject to an obligation of confidentiality at least..."
+  },
+  {
+    "chunk_id": 56,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopter",
+      "Affiliates",
+      "Indemnitees",
+      "Third-Party Beneficiaries",
+      "Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnification obligation towards",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnification obligation towards",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnification obligation towards",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnification obligation towards",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "may assign",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "bound by obligations under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Affiliates",
+        "predicate": "bound by obligations under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Members",
+        "predicate": "third-party beneficiary of",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "third-party beneficiary of",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "third-party beneficiary of",
+        "object": "Agreement"
+      }
+    ],
+    "preview": "# 3 Section 6: INDEMNIFICATION\n\n4 Adopter shall indemnify, defend, and hold harmless the O-RAN Alliance, its Members, Contributors or Academic   \n5 Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”),   \n6 against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or   \n7 imposed u..."
+  }
+]

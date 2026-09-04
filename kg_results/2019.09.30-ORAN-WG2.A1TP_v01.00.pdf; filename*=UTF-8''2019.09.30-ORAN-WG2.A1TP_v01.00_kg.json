@@ -1,0 +1,301 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN Alliance",
+      "O-RAN WG2",
+      "A1 interface",
+      "Transport Protocol",
+      "Technical Specification",
+      "References",
+      "RFC 793: Transmission Control Protocol",
+      "RFC 8446: The Transport Layer Security (TLS) Protocol Version 1",
+      "RFC 7230: HTTP over TLS",
+      "RFC 7321: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+      "RFC 8259: The JavaScript Object Notation (JSON) Data Interchange Format",
+      "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification",
+      "RFC 791: Internet Protocol",
+      "RFC 7540: Hypertext Transfer Protocol Version 2 (HTTP/2)",
+      "RFC 6902: JavaScript Object Notation (JSON) Patch",
+      "Chapter 1 Introduction",
+      "Chapter 3 Network layer",
+      "Chapter 4 Transport layer",
+      "Chapter 5 Security",
+      "Chapter 7 Data interchange format"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN WG2",
+        "predicate": "develops",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "produces",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 793: Transmission Control Protocol"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 8446: The Transport Layer Security (TLS) Protocol Version 1"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 7230: HTTP over TLS"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 7321: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 8259: The JavaScript Object Notation (JSON) Data Interchange Format"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 791: Internet Protocol"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 7540: Hypertext Transfer Protocol Version 2 (HTTP/2)"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "references",
+        "object": "RFC 6902: JavaScript Object Notation (JSON) Patch"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses",
+        "object": "Transport Protocol"
+      },
+      {
+        "subject": "Transport Protocol",
+        "predicate": "includes",
+        "object": "Chapter 2 A1 Interface protocol stack"
+      },
+      {
+        "subject": "Transport Protocol",
+        "predicate": "includes",
+        "object": "Chapter 3 Network layer"
+      },
+      {
+        "subject": "Transport Protocol",
+        "predicate": "includes",
+        "object": "Chapter 4 Transport layer"
+      },
+      {
+        "subject": "Transport Protocol",
+        "predicate": "includes",
+        "object": "Chapter 5 Security"
+      },
+      {
+        "subject": "Transport Protocol",
+        "predicate": "includes",
+        "object": "Chapter 7 Data interchange format"
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: Transport Protocol\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications shall no longe..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN",
+      "A1 interface",
+      "non-RT RIC",
+      "near-RT RIC",
+      "TCP",
+      "TLS",
+      "HTTP/1.1",
+      "JSON",
+      "IPv6",
+      "IPv4",
+      "RFC 793",
+      "RFC 8446",
+      "RFC 7230",
+      "RFC 7321",
+      "RFC 8259",
+      "RFC 8200",
+      "RFC 791",
+      "RFC 7540",
+      "RFC 6902",
+      "HTTP connection",
+      "TCP connection"
+    ],
+    "relations": [
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_protocol",
+        "object": "TCP"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_protocol",
+        "object": "TLS"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_protocol",
+        "object": "HTTP/1.1"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_protocol",
+        "object": "JSON"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_transport_layer",
+        "object": "IPv6"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "uses_transport_layer",
+        "object": "IPv4"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "defined_in",
+        "object": "RFC 793"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "defined_in",
+        "object": "RFC 8446"
+      },
+      {
+        "subject": "HTTP/1.1",
+        "predicate": "defined_in",
+        "object": "RFC 7230"
+      },
+      {
+        "subject": "JSON",
+        "predicate": "defined_in",
+        "object": "RFC 8259"
+      },
+      {
+        "subject": "IPv6",
+        "predicate": "defined_in",
+        "object": "RFC 8200"
+      },
+      {
+        "subject": "IPv4",
+        "predicate": "defined_in",
+        "object": "RFC 791"
+      },
+      {
+        "subject": "HTTP connection",
+        "predicate": "uses_protocol",
+        "object": "TLS"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "communicates_with",
+        "object": "near-RT RIC"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "acts_as",
+        "object": "HTTP client"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "acts_as",
+        "object": "HTTP server"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "acts_as",
+        "object": "HTTP client"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "acts_as",
+        "object": "HTTP server"
+      }
+    ],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\nReferences are either specific (identified by date of publication, edition number, version number, etc.) or non-specific. For a specific reference, subsequent revisions do not apply. For a non-specific reference, the latest version applies. In the case..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "A1 protocol stack",
+      "IPv6",
+      "RFC 8200",
+      "IPv4",
+      "RFC 791",
+      "TCP",
+      "RFC 8446",
+      "HTTP",
+      "RFC 7230",
+      "TLS",
+      "RFC 2246",
+      "HTTP/1.1",
+      "RFC 7231",
+      "HTTP/2",
+      "RFC 7540",
+      "JSON",
+      "RFC 8259",
+      "JSON Patch",
+      "RFC 6902"
+    ],
+    "relations": [
+      {
+        "subject": "A1 protocol stack",
+        "predicate": "transported_over",
+        "object": "IPv6"
+      },
+      {
+        "subject": "A1 protocol stack",
+        "predicate": "transported_over",
+        "object": "IPv4"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "used_by",
+        "object": "HTTP"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "supported_at",
+        "object": "transport layer"
+      },
+      {
+        "subject": "HTTP/1.1",
+        "predicate": "supported_as",
+        "object": "application delivery layer"
+      },
+      {
+        "subject": "HTTP/2",
+        "predicate": "preferred_over",
+        "object": "HTTP/1.1"
+      },
+      {
+        "subject": "JSON",
+        ".predicate": "used_for",
+        "object": "data interchange format"
+      },
+      {
+        "subject": "JSON Patch",
+        "predicate": "supports",
+        "object": "sequence of operations for JSON documents"
+      }
+    ],
+    "preview": "\n\n![](images/a8a12cc00cb1f5593411f97a56ab9c032e9c7ed8eca1311ec6281619fea6d2e6.jpg)\n\n> **Image Summary:** {\n\n\"summary\": \"The image illustrates a layered protocol stack, showcasing a typical data transmission flow. It demonstrates the progression from application-level data interchange (JSON, HTTP) through security (TLS), transport (TCP), network (IP), and down to the physical layer. This representa..."
+  }
+]

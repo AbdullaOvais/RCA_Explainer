@@ -1,0 +1,1297 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN",
+      "O-RAN ALLIANCE",
+      "Technical Report (TR)",
+      "Modal verbs terminology",
+      "Introduction",
+      "Scope",
+      "References",
+      "Definition of terms, symbols and abbreviations",
+      "Objectives and analysis approach",
+      "O-Cloud Energy Measurements",
+      "Foundational Requirements for O-Cloud",
+      "Energy consumption KPIs at hardware level",
+      "Energy consumption KPIs at Workload level",
+      "Granular Energy Measurement Reporting and Control",
+      "O-RU Energy Measurements",
+      "Foundational Requirement for O-RU",
+      "O-RU Energy measurements reporting",
+      "O-CU & O-DU Energy related Measurements",
+      "Foundational requirements for O-CU / O-DU",
+      "O-DU & O-CU Energy measurements reporting",
+      "SMO Automations",
+      "Foundational requirements on SMO Automations",
+      "SMO Capabilities related to Energy Measurements",
+      "Annex",
+      "Change history/Change request (history)",
+      "List of figures",
+      "Figure 1 – O-Cloud Resource Infrastructure Power Consumption Metrics [i.3]",
+      "Figure 2 – O-Cloud Resource Infrastructure Power Consumption Metrics [i.3]",
+      "Figure 3 – Energy Consumption of Containers [i.5]",
+      "Figure 4 – CPU Time usage counter [i.5]",
+      "Figure 5 – NF Deployment Energy Metrics [i.5]",
+      "Figure 6 – Cloudified NF Energy Efficiency [i.5]",
+      "Figure 7 – O-RU Architecture Example Implementation",
+      "List of tables",
+      "Table 5.1.1.2.2-1: PEE Measurements",
+      "Counters definition (see Table B.1-1 [i.10])",
+      "Energy, Power and Environmental Measurements (see Table B.5-1 [i.10])",
+      "O-RU Hardware components and purpose",
+      "Energy Saving Features and O-RU Roles",
+      "PEE measurements 3GPP TS 28.552 [i.6]",
+      "version xx.yy.zz",
+      "O-RAN Drafting Rules (Verbal forms for the expression of provisions)",
+      "Physical Environment Equipment (PEE)"
+    ],
+    "relations": [
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "produced by",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Modal verbs terminology"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Introduction"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Scope"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "References"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Definition of terms, symbols and abbreviations"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Objectives and analysis approach"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "O-Cloud Energy Measurements"
+      },
+      {
+        "subject": "O-Cloud Energy Measurements",
+        "predicate": "includes",
+        "object": "Foundational Requirements for O-Cloud"
+      },
+      {
+        "subject": "Foundational Requirements for O-Cloud",
+        "predicate": "includes",
+        "object": "Energy consumption KPIs at hardware level"
+      },
+      {
+        "subject": "Foundational Requirements for O-Cloud",
+        "predicate": "includes",
+        "object": "Energy consumption KPIs at Workload level"
+      },
+      {
+        "subject": "Foundational Requirements for O-Cloud",
+        "predicate": "includes",
+        "object": "Granular Energy Measurement Reporting and Control"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "O-RU Energy Measurements"
+      },
+      {
+        "subject": "O-RU Energy Measurements",
+        "predicate": "includes",
+        "object": "Foundational Requirement for O-RU"
+      },
+      {
+        "subject": "Foundational Requirement for O-RU",
+        "predicate": "includes",
+        "object": "O-RU Energy measurements reporting"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "O-CU & O-DU Energy related Measurements"
+      },
+      {
+        "subject": "O-CU & O-DU Energy related Measurements",
+        "predicate": "includes",
+        "object": "Foundational requirements for O-CU / O-DU"
+      },
+      {
+        "subject": "Foundational requirements for O-CU / O-DU",
+        "predicate": "includes",
+        "object": "O-DU & O-CU Energy measurements reporting"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "SMO Automations"
+      },
+      {
+        "subject": "SMO Automations",
+        "predicate": "includes",
+        "object": "Foundational requirements on SMO Automations"
+      },
+      {
+        "subject": "Foundational requirements on SMO Automations",
+        "predicate": "includes",
+        "object": "SMO Capabilities related to Energy Measurements"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Annex"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "Change history/Change request (history)"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "List of figures"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 1 – O-Cloud Resource Infrastructure Power Consumption Metrics [i.3]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 2 – O-Cloud Resource Infrastructure Power Consumption Metrics [i.3]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 3 – Energy Consumption of Containers [i.5]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 4 – CPU Time usage counter [i.5]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 5 – NF Deployment Energy Metrics [i.5]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 6 – Cloudified NF Energy Efficiency [i.5]"
+      },
+      {
+        "subject": "List of figures",
+        "predicate": "includes",
+        "object": "Figure 7 – O-RU Architecture Example Implementation"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "includes",
+        "object": "List of tables"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "Table 5.1.1.2.2-1: PEE Measurements"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "Counters definition (see Table B.1-1 [i.10])"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "Energy, Power and Environmental Measurements (see Table B.5-1 [i.10])"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "O-RU Hardware components and purpose"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "Energy Saving Features and O-RU Roles"
+      },
+      {
+        "subject": "List of tables",
+        "predicate": "includes",
+        "object": "PEE measurements 3GPP TS 28.552 [i.6]"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "versioning scheme",
+        "object": "version xx.yy.zz"
+      },
+      {
+        "subject": "O-RAN Drafting Rules (Verbal forms for the expression of provisions)",
+        "predicate": "references",
+        "object": "Modal verbs terminology"
+      },
+      {
+        "subject": "PEE measurements 3GPP TS 28.552 [i.6]",
+        "predicate": "defines",
+        "object": "Physical Environment Equipment (PEE)"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n  \"table_summary\": \"This table presents metadata and context for a technical report related to O-RAN (Open Radio Access Network). The report, titled \"\n\n> **Table Summary:** {}\n\n# Contents\n\nList of figures... 3   \nList of tables... 3   \nForeword... 4   \nModal verbs terminology.. . 4   \nIntroduction.... 4   \n1 Scope.... 5   \n2 References...... ... 5   \n2.1 Informative refere..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Report (TR)",
+      "Energy Management",
+      "Mobile Operators",
+      "Standardized Approach",
+      "Energy Consumption Measurements",
+      "Energy Efficiency KPIs",
+      "Gaps",
+      "MoU Release Operator Requirements",
+      "SDOs",
+      "3GPP",
+      "ETSI"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produced",
+        "object": "Technical Report (TR)"
+      },
+      {
+        "subject": "Energy Management",
+        "predicate": "is a",
+        "object": "sustainability objective"
+      },
+      {
+        "subject": "Mobile Operators",
+        "predicate": "aim to scale",
+        "object": "Open RAN technology"
+      },
+      {
+        "subject": "Standardized Approach",
+        "predicate": "required for",
+        "object": "energy efficiency"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "analyzes",
+        "object": "Energy Consumption Measurements"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "analyzes",
+        "object": "Energy Efficiency KPIs"
+      },
+      {
+        "subject": "Technical Report (TR)",
+        "predicate": "identifies gaps within",
+        "object": "O-RAN ALLIANCE specifications"
+      },
+      {
+        "subject": "Analysis includes",
+        "predicate": "operator requirements related to",
+        "object": "Energy Consumption Measurements"
+      },
+      {
+        "subject": "SDOs",
+        "predicate": "include",
+        "object": "3GPP and ETSI"
+      }
+    ],
+    "preview": "# Foreword\n\nThis Technical Report (TR) has been produced by O-RAN ALLIANCE . The content of the present document is subject to continuing work within O-RAN and may change following formal O-RAN approval. Should the O-RAN ALLIANCE modify the contents of the present document, it will be re-released by O-RAN with an identifying change of version date and an increase in version number as follows:\n\nver..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Standard Development Organizations (SDOs)",
+      "3GPP",
+      "ETSI",
+      "energy consumption measurements",
+      "energy efficiency KPIs",
+      "Open RAN MoU Group at Telecom Infra Project (TIP)",
+      "Network Energy Saving Use Cases Technical Report",
+      "O2 Interface General Aspects and Principles",
+      "Study on O-Cloud Energy Savings",
+      "Management and orchestration; 5G performance measurements",
+      "Report on energy efficiency aspects for NFV",
+      "Monitoring and control interface for infrastructure equipment",
+      "Management and orchestration; 5G end to end Key Performance Indicators (KPI)",
+      "Management Plane Specifications",
+      "Outdoor Macrocell Hardware Architecture and Requirements",
+      "Cloudification and Orchestration Use Cases and Requirements for O-RAN Virtualized RAN",
+      "Network Energy Savings Procedures and Performance Metrics",
+      "Performance assurance",
+      "Generic management services",
+      "End-to-end Test Specification",
+      "Environmental Engineering (EE); Metrics and measurement method for energy efficiency of wireless access network equipment; Part 1: Power consumption - static measurement method",
+      "Assessment of mobile network energy efficiency",
+      "O-RAN Operations and Maintenance Interface Specification",
+      "O-RAN Operations and Maintenance Architecture",
+      "Decoupled-SMO-Architecture",
+      "Use-Case-Requirements"
+    ],
+    "relations": [
+      {
+        "subject": "present document",
+        "predicate": "provides",
+        "object": "technical analysis report"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "has MoU with",
+        "object": "Telecom Infra Project (TIP)"
+      },
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "defines",
+        "object": "Vocabulary for 3GPP Specifications"
+      },
+      {
+        "subject": "ETSI ES 203 228",
+        "predicate": "assesses",
+        "object": "mobile network energy efficiency"
+      },
+      {
+        "subject": "ETSI ES 202 706-1",
+        "predicate": "defines",
+        "object": "metrics and measurement method for energy efficiency"
+      }
+    ],
+    "preview": "# 1 Scope\n\nThe present document provides a technical analysis report aimed at identifying gaps and inconsistencies in the definitions of energy consumption measurements and energy efficiency KPIs across O-RAN ALLIANCE specifications, current MoU Release Operator Requirements, and relevant Standard Development Organizations (SDOs), primarily 3GPP and ETSI. Its objective is to harmonize the reportin..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "Energy Efficiency",
+      "Energy Consumption",
+      "3GPP TR 21.905 [i.1]",
+      "ETSI ES 203 228 [i.18]",
+      "ETSI ES 202 706-1 [i.17]",
+      "PNF Deployment",
+      "ECNF Deployment",
+      "PcloudifiedNF",
+      "ECcloudifiedNF",
+      "EEcloudifiedNF"
+    ],
+    "relations": [
+      {
+        "subject": "Energy Efficiency",
+        "predicate": "is defined as",
+        "object": "Relation between the useful output and energy/power consumption as defined in ETSI ES 203 228 [i.18]"
+      },
+      {
+        "subject": "Energy Consumption",
+        "predicate": "is defined as",
+        "object": "Integral of power consumption over time as defined in ETSI ES 202 706-1 [i.17]"
+      },
+      {
+        "subject": "3GPP TR 21.905 [i.1]",
+        "predicate": "defines",
+        "object": "Vocabulary for 3GPP Specifications"
+      },
+      {
+        "subject": "PNF Deployment",
+        "predicate": "estimates",
+        "object": "Estimated power consumption of a NF deployment running in the O-Cloud"
+      },
+      {
+        "subject": "ECNF Deployment",
+        "predicate": "estimates",
+        "object": "Estimated energy consumption of a NF deployment running in the O-Cloud"
+      },
+      {
+        "subject": "PcloudifiedNF",
+        "predicate": "estimates",
+        "object": "Estimated power consumption of a Cloudified NF"
+      },
+      {
+        "subject": "ECcloudifiedNF",
+        "predicate": "estimates",
+        "object": "Estimated energy consumption of a Cloudified NF"
+      },
+      {
+        "subject": "EEcloudifiedNF",
+        "predicate": "measures",
+        "object": "Energy efficiency of a Cloudified NF"
+      }
+    ],
+    "preview": "\n\n# 3 Definition of terms, symbols and abbreviations\n\n# 3.1 Terms\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 [i.1]and the following apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR 21.905 [i.1]\n\nEnergy Efficiency: Relation between the useful output and energy/power consumption a..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "PNF Deployment",
+      "ECNF Deployment",
+      "PcloudifiedNF",
+      "ECcloudifiedNF",
+      "EEcloudifiedNF",
+      "CNF",
+      "NF",
+      "PNF",
+      "EE",
+      "3GPP",
+      "ETSI",
+      "O-RAN ALLIANCE specifications",
+      "industry KPIs"
+    ],
+    "relations": [
+      {
+        "subject": "CNF",
+        "predicate": "is_a_type_of",
+        "object": "NF"
+      },
+      {
+        "subject": "PNF",
+        "predicate": "is_a_type_of",
+        "object": "Network Function"
+      },
+      {
+        "subject": "EE",
+        "predicate": "is_related_to",
+        "object": "Energy Efficiency"
+      },
+      {
+        "subject": "O-RAN ALLIANCE specifications",
+        "predicate": "align_with",
+        "object": "industry KPIs"
+      },
+      {
+        "subject": "3GPP",
+        "predicate": "provides_standards_for",
+        "object": "industry KPIs"
+      },
+      {
+        "subject": "ETSI",
+        "predicate": "provides_standards_for",
+        "object": "industry KPIs"
+      }
+    ],
+    "preview": "# 3.2 Symbols\n\nFor the purposes of the present document, the following symbols apply:\n\nPNF Deployment, estimatedEstimated power consumption of a NF deployment running in the O-Cloud   \nECNF Deployment, estimated Estimated energy consumption of a NF deployment running in the O-Cloud   \nPcloudifiedNF, estimated Estimated power consumption of a Cloudified NF   \nECcloudifiedNF, estimatedEstimated ener..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "energy consumption measurement standards",
+      "industry KPIs",
+      "operator-specific KPIs",
+      "3GPP",
+      "ETSI",
+      "SuFG TG2 Energy Measurement analysis phase",
+      "O-Cloud platform",
+      "power, energy, and environmental (PEE) metrics",
+      "CPU",
+      "NIC",
+      "Accelerator card",
+      "O2 interface",
+      "SMO",
+      "proprietary NBI interface",
+      "NES work items",
+      "WG1",
+      "Network Energy Saving Use Cases Technical Report",
+      "WG6",
+      "Performance Management framework",
+      "O-Cloud Performance Basic Concepts",
+      "O-Cloud Resource Power Consumption Metrics",
+      "PowerCapacity",
+      "PowerConsumed",
+      "AveragePowerConsumed",
+      "MaxPowerConsumed",
+      "MinPowerConsumed",
+      "O-Cloud Node Energy Consumption Metrics",
+      "ECnode,core",
+      "ECnode,uncore",
+      "ECnode,dram",
+      "Container Energy Consumption",
+      "ECcontainer,total",
+      "ECcontainer,core"
+    ],
+    "relations": [
+      {
+        "subject": "SuFG TG2 Energy Measurement analysis phase",
+        "predicate": "analyzes",
+        "object": "O-RAN ALLIANCE specifications"
+      },
+      {
+        "subject": "SuFG TG2 Energy Measurement analysis phase",
+        "predicate": "evaluates",
+        "object": "energy consumption measurement standards"
+      },
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "provides",
+        "object": "power, energy, and environmental (PEE) metrics"
+      },
+      {
+        "subject": "O-RAN SuFG",
+        "predicate": "conducted analysis on",
+        "object": "Open RAN Technical Priority Documents"
+      },
+      {
+        "subject": "SuFG TG2 Energy Measurement analysis phase",
+        "predicate": "focuses on",
+        "object": "energy consumption measurements"
+      },
+      {
+        "subject": "WG1",
+        "predicate": "identifies requirement in",
+        "object": "Network Energy Saving Use Cases Technical Report"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "specifies",
+        "object": "Performance Management framework"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "introduces",
+        "object": "O-Cloud Resource Power Consumption Metrics"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "introduces",
+        "object": "O-Cloud Node Energy Consumption Metrics"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "introduces",
+        "object": "Container Energy Consumption metrics"
+      }
+    ],
+    "preview": "\n\n# 4 Objectives and analysis approach\n\n# 4.1 Objectives\n\nThis Technical Report presents the outcomes of the SuFG TG2 Energy Measurement analysis phase, with objectives in the pre-normative phase outlined as follows:\n\nThis report evaluates O-RAN ALLIANCE specifications and energy consumption measurement standards to align with industry KPIs, ensuring consistency with operator-specific KPIs that ad..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-Cloud platform",
+      "PEE metrics",
+      "hardware components",
+      "CPU",
+      "NIC",
+      "Accelerator card",
+      "O2 interface",
+      "SMO",
+      "proprietary NBI interface",
+      "MOU \"rel2_CaaS_123\"",
+      "WG1",
+      "Network Energy Saving Use Cases Technical Report",
+      "O-RAN.WG1.NESUC-R003-v02.00",
+      "WG6",
+      "Performance Management framework",
+      "O-Cloud Performance Basic Concepts",
+      "O-RAN.WG6.O2-GA&P-R003-v06.00",
+      "O-Cloud Energy Savings technical report",
+      "O-RAN.WG6.O-Cloud ES-v02.00",
+      "power consumption metrics",
+      "energy consumption metrics",
+      "efficiency metrics",
+      "PowerCapacity",
+      "PowerConsumed",
+      "AveragePowerConsumed",
+      "MaxPowerConsumed",
+      "MinPowerConsumed",
+      "O-Cloud Node Energy Consumption Metrics",
+      "ECnode,core",
+      "ECnode,uncore",
+      "ECnode,dram",
+      "Container Energy Consumption",
+      "ECcontainer,total",
+      "ECcontainer,core",
+      "3GPP TS 28.552 v18.5.0",
+      "PEE measurements",
+      "5G Physical Network Function (PNF)",
+      "ETSI ES 202 336-12 v1.2.1",
+      "ICT equipment",
+      "telecommunications networks",
+      "hardware energy efficiency",
+      "Compute/Watt"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "provides",
+        "object": "PEE metrics"
+      },
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "reports",
+        "object": "energy consumption via O2 interface"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "receives",
+        "object": "PEE metrics"
+      },
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "references",
+        "object": "MOU \"rel2_CaaS_123\""
+      },
+      {
+        "subject": "WG1",
+        "predicate": "identified requirement",
+        "object": "Network Energy Saving Use Cases Technical Report"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "specified",
+        "object": "Performance Management framework"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "introduced",
+        "object": "O-Cloud Resource Power Consumption Metrics"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "analyzed",
+        "object": "power and energy consumption metrics at the infrastructure level"
+      },
+      {
+        "subject": "3GPP TS 28.552 v18.5.0",
+        "predicate": "specifies",
+        "object": "PEE measurements for PNFs"
+      },
+      {
+        "subject": "ETSI ES 202 336-12 v1.2.1",
+        "predicate": "defines",
+        "object": "measurement methods for ICT equipment"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "lacks",
+        "object": "definition of hardware energy efficiency"
+      }
+    ],
+    "preview": "\n\n# 5\n\n# O-Cloud Energy Measurements\n\n# 5.1\n\n# Foundational Requirements for O-Cloud\n\n5.1.1 Energy consumption KPIs at hardware level\n\n5.1.1.1 Description\n\nThe O-Cloud platform to provide power, energy, and environmental (PEE) metrics for all hardware components, including CPU, NIC, and Accelerator card, reporting energy consumption via the O2 interface to the SMO, or through a proprietary NBI int..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "3GPP",
+      "ETSI",
+      "O-Cloud",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "O2 Interface",
+      "SMO",
+      "NBI interface",
+      "O-Cloud Energy Savings",
+      "Performance Management (PM)",
+      "Power Energy & Environmental (PEE)",
+      "Workload level",
+      "Container",
+      "Pod",
+      "CNF",
+      "Compute/Watt",
+      "Energy consumption metrics",
+      "ECcontainer,total",
+      "ECcontainer,core",
+      "ECNF Deployment, estimated",
+      "Network Energy Saving Use Cases Technical Report",
+      "O-RAN.WG1.NESUC-R003- v02.00",
+      "O-RAN.WG6.O-Cloud ES-v02.00",
+      "Technical Specification for O2 Interface General Aspects and Principles",
+      "MoU requirement rel2_CaaS_123",
+      "MoU requirement rel2_CaaS_124",
+      "SuFG TG2",
+      "WG1",
+      "WG6",
+      "TG2"
+    ],
+    "relations": [
+      {
+        "subject": "3GPP",
+        "predicate": "references",
+        "object": "ETSI ES 202 336-12 v1.2.1"
+      },
+      {
+        "subject": "SuFG TG2",
+        "predicate": "interprets",
+        "object": "MoU requirement rel2_CaaS_123"
+      },
+      {
+        "subject": "O-Cloud Platform",
+        "predicate": "provides",
+        "object": "PEE Parameters"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "reports",
+        "object": "Energy Efficiency"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "defines",
+        "object": "Energy consumption metrics"
+      },
+      {
+        "subject": "SuFG TG2",
+        "predicate": "conducted",
+        "object": "Gap Analysis"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n# Figure 5.1.1.2-1 – Excerpt from O-Cloud Resource Infrastructure Power Consumption Metrics [i.3]\n\nTable 6.2-2: O-Cloud Node Resource Energy Consumption\n\n> **Table Summary:** {}\n\n# Figure 5.1.1.2-2 – Excerpt from O-Cloud Node Power Consumption Metrics [i.3]\n\n# 5.1.1.2.2\n\n3GPP and ETSI references\n\n3GPP TS 28.552 v18.5.0 [i.6] clause 5.1.1.19 specifies following PEE (Power..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "O-Cloud Energy Measurement recommendations",
+      "energy consumption KPIs at Workload level",
+      "power, energy and environmental (PEE) parameters",
+      "workload level",
+      "container",
+      "pod",
+      "CNF",
+      "O-Cloud software components",
+      "energy efficiency",
+      "O2 interface",
+      "SMO",
+      "NBI interface",
+      "external tooling",
+      "MOU “rel2_CaaS_124”",
+      "WG1",
+      "Network Energy Saving Use Cases Technical Report",
+      "clause 4.2 of O-RAN.WG1.NESUC-R003- v02.00 [i.3]",
+      "WG6",
+      "Performance Management framework",
+      "O-Cloud resources",
+      "power and energy consumption metrics",
+      "Cloudified NFs",
+      "ECcontainer,total",
+      "ECcontainer,core",
+      "ECNF Deployment, estimated",
+      "Container Resource Utilization",
+      "CPU Time usage counter",
+      "NF Deployment Energy Metrics",
+      "Cloudified NF Energy Efficiency",
+      "ETSI GR NFV-EVE 021 [i.7]",
+      "3GPP TS 28.554 [i.9]"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "provides",
+        "object": "power, energy and environmental (PEE) parameters"
+      },
+      {
+        "subject": "O-Cloud platform",
+        "predicate": "reports",
+        "object": "energy efficiency"
+      },
+      {
+        "subject": "O2 interface",
+        "predicate": "supports",
+        "object": "PM reporting of O-Cloud resources to SMO"
+      },
+      {
+        "subject": "NBI interface",
+        "predicate": "supports",
+        "object": "reporting to external tooling"
+      },
+      {
+        "subject": "WG1",
+        "predicate": "identified",
+        "object": "Network Energy Saving Use Cases Technical Report"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "specified",
+        "object": "Performance Management framework"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "defined",
+        "object": "power and energy consumption metrics at the workload level"
+      },
+      {
+        "subject": "ETSI GR NFV-EVE 021 [i.7]",
+        "predicate": "referenced by",
+        "object": "3GPP TS 28.554 [i.9]"
+      },
+      {
+        "subject": "SuFG TG2",
+        "predicate": "expects",
+        "object": "normative specifications for deriving VNF/CNF power consumption"
+      }
+    ],
+    "preview": "\n\n# 5.1.1.4 Proposed Recommendations\n\nTable 5.1.1.4-1 O-Cloud Energy Measurement recommendations\n\n> **Table Summary:** {}\n\n# 5.1.2 Energy consumption KPIs at Workload level\n\n# 5.1.2.1 Description\n\nThe O-Cloud platform to provide power, energy and environmental (PEE) parameters and measurement data at the workload level e.g. container, pod, CNF, etc. as well as for the OCloud software components th..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "O-Cloud Energy Consumption",
+      "Container Resource Utilization",
+      "O-Cloud CPU Time usage counter",
+      "NF Deployment Energy Metrics",
+      "Cloudified NF Energy Efficiency",
+      "Key Performance Indicators (KPIs)",
+      "PcloudifiedNF,estimated",
+      "ECcloudifiedNF,cstimated",
+      "3GPP TS 28.554",
+      "ETSI GR NFV-EVE 021",
+      "ETSI NFV EVE",
+      "3GPP SA5",
+      "O-RAN MoU Requirements",
+      "rel_2_SMO_116",
+      "rel_2_SMO_118",
+      "WG6",
+      "SuFG TG2",
+      "Power consumption metrics/KPI/counters/logs of CNFs",
+      "Granular Energy Measurement Reporting and Control",
+      "O-CU/O-DU hardware",
+      "CaaS",
+      "PaaS",
+      "VNF/CNF power consumption"
+    ],
+    "relations": [
+      {
+        "subject": "O-Cloud Energy Consumption",
+        "predicate": "includes",
+        "object": "Container Resource Utilization"
+      },
+      {
+        "subject": "O-Cloud Energy Consumption",
+        "predicate": "includes",
+        "object": "O-Cloud CPU Time usage counter"
+      },
+      {
+        "subject": "NF Deployment Energy Metrics",
+        "predicate": "relates to",
+        "object": "Cloudified NF Energy Efficiency"
+      },
+      {
+        "subject": "Key Performance Indicators (KPIs)",
+        "predicate": "includes",
+        "object": "PcloudifiedNF,estimated"
+      },
+      {
+        "subject": "Key Performance Indicators (KPIs)",
+        "predicate": "includes",
+        "object": "ECcloudifiedNF,cstimated"
+      },
+      {
+        "subject": "ETSI GR NFV-EVE 021",
+        "predicate": "referenced by",
+        "object": "3GPP TS 28.554"
+      },
+      {
+        "subject": "ETSI NFV EVE",
+        "predicate": "collaborates with",
+        "object": "3GPP SA5"
+      },
+      {
+        "subject": "O-RAN MoU Requirements",
+        "predicate": "includes",
+        "object": "rel_2_SMO_116"
+      },
+      {
+        "subject": "O-RAN MoU Requirements",
+        "predicate": "includes",
+        "object": "rel_2_SMO_118"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "has observation about",
+        "object": "PM data reporting"
+      },
+      {
+        "subject": "SuFG TG2",
+        "predicate": "expects normative work from",
+        "object": "ETSI NFV"
+      },
+      {
+        "subject": "Power consumption metrics/KPI/counters/logs of CNFs",
+        "predicate": "related to",
+        "object": "SMO requirement rel_2_SMO_118"
+      },
+      {
+        "subject": "Granular Energy Measurement Reporting and Control",
+        "predicate": "involves",
+        "object": "O-CU/O-DU hardware"
+      },
+      {
+        "subject": "CaaS",
+        "predicate": "related to",
+        "object": "PaaS"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n> **Table Summary:** {}\n\n# Figure 5.1.2.2-1 - Excerpt from O-Cloud Energy Consumption of Containers [i.5]\n\nTable 6.3-2: Container Resource Utilization   \nFigure 5.1.2.2-2 - Excerpt from O-Cloud CPU Time usage counter [i.5]\n\n> **Table Summary:** {}\n\n> **Table Summary:** {}\n\n\nFigure 5.1.1.2-3 - Excerpt from O-Cloud NF Deployment Energy Metrics [i.5]\n\n> **Table Summary:** {..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "O-CU/O-DU hardware",
+      "O-Cloud",
+      "Energy Efficiency KPIs",
+      "Service Performance (p)",
+      "O-RAN.WG6.O2-GA&PR003-v06.00",
+      "O-RAN-WG6.ORCH-USE-CASESR003-v09.00",
+      "SMO Functions",
+      "Performance Management Jobs",
+      "3GPP TS 28.552",
+      "O-RAN.WG1.O1-Interface.0-v04.00",
+      "MoU Requirement rel_1_SMO_62"
+    ],
+    "relations": [
+      {
+        "subject": "O-CU/O-DU hardware",
+        "predicate": "has_capability_to_measure_and_report_power_consumption",
+        "object": "O-Cloud"
+      },
+      {
+        "subject": "Energy Efficiency KPIs",
+        "predicate": "determined_by_service_performance",
+        "object": "Service Performance (p)"
+      },
+      {
+        "subject": "O-RAN.WG6.O2-GA&PR003-v06.00",
+        "predicate": "details_energy_measurement",
+        "object": "Energy Efficiency KPIs"
+      },
+      {
+        "subject": "SMO Functions",
+        "predicate": "interacts_with_PM_services",
+        "object": "Performance Management Jobs"
+      },
+      {
+        "subject": "MoU Requirement rel_1_SMO_62",
+        "predicate": "connects_to_management_services_within_SMO",
+        "object": "Energy Efficiency KPIs"
+      }
+    ],
+    "preview": "\n\n# 5.1.2.4 Proposed Recommendations\n\nTable 5.1.2.4-1 – Workload Energy consumption measument recommendations\n\n> **Table Summary:** {}\n\n# 5.1.3 Granular Energy Measurement Reporting and Control\n\n# 5.1.3.1 Description\n\nO-CU/O-DU hardware (e.g. CPU, Accelerators, NIC cards, Fans(s), PSU, etc.) to have the capability to measure and report power consumption values to the O-Cloud (via O2 interface). Re..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "WG6",
+      "O2",
+      "PM",
+      "SMO",
+      "Performance Monitoring",
+      "Energy consumption",
+      "Energy efficiency",
+      "Cloudified NF",
+      "O-Cloud",
+      "NFPM SMOS",
+      "3GPP TS 28.552",
+      "3GPP TS 28.550",
+      "3GPP TS 28.532",
+      "3GPP TS 28.554",
+      "O-RAN.WG6.O2-GA&PR003-v06.00",
+      "O-RAN-WG6.ORCH-USE-CASESR003-v09.00",
+      "O-RAN.WG1.O1-Interface.0-v04.00",
+      "O-RAN.WG10.OAM-Architecture-R003-v11.00",
+      "O-RU",
+      "EPE-STATS",
+      "transceiver-stat",
+      "rx-window-stats",
+      "txmeasurement-objects",
+      "rel2_O-RU_43",
+      "rel3_RAN_features_48",
+      "rel_2_SMO_124",
+      "SuFG-to-WG6-REC-006",
+      "SuFG-to-WG6-REC-007",
+      "SuFG-to-WG1-REC-001"
+    ],
+    "relations": [
+      {
+        "subject": "WG6",
+        "predicate": "has document",
+        "object": "O-RAN.WG6.O2-GA&PR003-v06.00"
+      },
+      {
+        "subject": "WG6",
+        "predicate": "has document",
+        "object": "O-RAN-WG6.ORCH-USE-CASESR003-v09.00"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "interacts with",
+        "object": "PM services"
+      },
+      {
+        "subject": "WG1",
+        "predicate": "studied decoupling of",
+        "object": "SMO Services (SMOS)"
+      },
+      {
+        "subject": "NFPM SMOS",
+        "predicate": "provides mechanism for",
+        "object": "creation and termination of PM jobs"
+      },
+      {
+        "subject": "3GPP TS 28.552",
+        "predicate": "defines",
+        "object": "DL PDCP SDU Data Volume per interface"
+      },
+      {
+        "subject": "3GPP TS 28.552",
+        "predicate": "defines",
+        "object": "UL PDCP SDU Data Volume per interface"
+      },
+      {
+        "subject": "3GPP TS 28.552",
+        "predicate": "defines",
+        "object": "PNF Energy consumption"
+      },
+      {
+        "subject": "3GPP TS 28.552",
+        "predicate": "defines",
+        "object": "Power consumed by Physical Network Function & its components"
+      },
+      {
+        "subject": "O-Cloud",
+        "predicate": "expected to cover",
+        "object": "Stage 3 for O-Cloud PM for O2 interface"
+      },
+      {
+        "subject": "MoU Requirement rel_1_SMO_62",
+        "predicate": "requires",
+        "object": "SMO shall be capable to receive energy metrics / create KPIs to optimize the management devices"
+      },
+      {
+        "subject": "SuFG TG2",
+        "predicate": "interprets",
+        "object": "rel2_CaaS_123 as requirement towards O2 PM services"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n\nNOTE: “Further information on how these KPIs is calculated are available in the relevant 3GPP and ETSI specifications. Selection of a particular way of measuring the energy efficiency depends on the requirements, type of deployments and use-cases. It is expected that the SMO can compute the Energy consumption and efficiency of a Cloudified NF based on measurements from ..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "SuFG-to-WG6-REC-006",
+      "SuFG-to-WG6-REC-007",
+      "SuFG-to-WG1-REC-001",
+      "counters/KPIs",
+      "Management systems",
+      "external tooling",
+      "MoU Requirement rel2_O-RU_43",
+      "rel3_RAN_features_48",
+      "rel_2_SMO_124",
+      "O-RAN.WG4.MP.0-R004-v15.00",
+      "epe-stats",
+      "transceiver-stat",
+      "rx-window-stats",
+      "txmeasurement-objects",
+      "power",
+      "temperature",
+      "voltage",
+      "current",
+      "O-RU Hardware components",
+      "ORAN-RADIO",
+      "O-RU-POWER-AMPLIFIER",
+      "O-RU-FPGA",
+      "power supply",
+      "fan",
+      "CPU",
+      "Energy Saving features",
+      "WG1.O-RAN.WG1.NESUC-R003-v02.00",
+      "Carrier and Cell Switch Off/On",
+      "RF Channel Reconfiguration",
+      "Advanced Sleep Mode Selection",
+      "Deep-Hibernate sleep mode",
+      "rx-windowmeasurement-objects",
+      "O-CU",
+      "O-DU",
+      "CNF level energy efficiency counters/KPIs",
+      "Traffic load",
+      "data volume",
+      "throughput",
+      "O1 interface",
+      "SMO"
+    ],
+    "relations": [
+      {
+        "subject": "SuFG-to-WG6-REC-006",
+        "predicate": "relates to",
+        "object": "energy consumption monitoring and optimization"
+      },
+      {
+        "subject": "epe-stats",
+        "predicate": "defined in",
+        "object": "O-RAN.WG4.MP.0-R004-v15.00"
+      },
+      {
+        "subject": "counters/KPIs",
+        "predicate": "monitored for",
+        "object": "power consumption per carrier"
+      },
+      {
+        "subject": "Management systems",
+        "predicate": "receives reports from",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Energy Saving features",
+        "predicate": "require metrics from",
+        "object": "O-RU"
+      }
+    ],
+    "preview": "\n\n# 5.1.3.4 Proposed Recommendations\n\nTable 5.1.3.4-1 – Granular Energy measument reporting and control recommendations\n\n> **Table Summary:** {\n    \"summary\": \"The table outlines requirements related to energy management and reporting within an O-Cloud platform. It details three specific requirements (SuFG-to-WG6-REC-006, SuFG-to-WG6-REC-007, and SuFG-to-WG1-REC-001) focused on granular energy mea..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [],
+    "relations": [],
+    "preview": "\n\n> **Table Summary:** {\n    \"summary\": \"This table defines the structure for reporting electrical performance measurements of hardware components. It maps measurement groups (e.g., 'epe-statistics') to measured electrical properties like power, temperature, voltage, and current. The table specifies reporting metrics as maximum, minimum, and average values, and details the units of measurement for..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "O-CU",
+      "O-DU",
+      "SMO",
+      "Energy consumption metrics",
+      "O1 interface",
+      "O2 interface",
+      "VNF/CNF",
+      "PNF",
+      "EE KPIs",
+      "3GPP TS 28.554",
+      "MoU Requirement rel_1_SMO_62",
+      "Energy Efficiency (EE)",
+      "SMOS",
+      "PM measurements",
+      "O-Cloud resources",
+      "KPIs"
+    ],
+    "relations": [
+      {
+        "subject": "O-CU",
+        "predicate": "reporting via",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "reporting via",
+        "object": "O1 interface"
+      },
+      {
+        "subject": "Energy consumption metrics",
+        "predicate": "available in",
+        "object": "SMO"
+      },
+      {
+        "subject": "O-CU",
+        "predicate": "deployed as",
+        "object": "VNF/CNF"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "deployed as",
+        "object": "VNF/CNF"
+      },
+      {
+        "subject": "Energy consumption of O-Cloud resources",
+        "predicate": "reported via",
+        "object": "O2 interface"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "capable to receive",
+        "object": "energy metrics"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "create",
+        "object": "KPIs"
+      },
+      {
+        "subject": "EE KPIs",
+        "predicate": "defined in",
+        "object": "3GPP TS 28.554"
+      },
+      {
+        "subject": "MoU Requirement rel_1_SMO_62",
+        "predicate": "related to",
+        "object": "SMO capabilities"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification for collecting",
+        "object": "PM measurements"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification for calculating",
+        "object": "EE KPIs"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification for determining",
+        "object": "energy consumption"
+      }
+    ],
+    "preview": "\n\n# 7.1.1.2.2\n\n# 3GPP and ETSI reference\n\nRefer to Clause 5.2.2 in the document.\n\n7.1.1.3 Gap Analysis\n\nThe O-CU and O-DU can exist as Cloudified NFs, or Physical NFs and energy consumption metrics should be available in SMO for both deployment options.\n\n■ When the O-CU and O-DU are deployed as PNFs, the reporting of energy consumption by both will be via the O1 interface to the SMO.\n\nWhen the O-C..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "SMOS",
+      "PM measurements",
+      "EE KPIs",
+      "O-CU",
+      "O-DU",
+      "VNF/CNF deployments",
+      "PEE parameters"
+    ],
+    "relations": [
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification",
+        "object": "PM measurements"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification",
+        "object": "EE KPIs"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification",
+        "object": "O-CU"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification",
+        "object": "O-DU"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "missing specification",
+        "object": "VNF/CNF deployments"
+      },
+      {
+        "subject": "SMOS",
+        "predicate": "provide",
+        "object": "PEE parameters"
+      }
+    ],
+    "preview": "# 8.1.1.3 Gap Analysis\n\nLooking at the MoU requirement and the standards references above, SuFG TG2 identified following gaps:\n\nMissing specification of SMOS for collecting relevant PM measurements (as defined in 3GPP TS 28.552 [i.6])\n\n■ Missing specification of SMOS for calculating EE KPIs as defined in 3GPP TS 28.554 [i.9]. clause 6.7.1 NG-RAN data Energy Efficiency (EE) for PNFs\n\n■ Missing spec..."
+  }
+]

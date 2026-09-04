@@ -1,0 +1,2067 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "re-published version",
+      "prior versions",
+      "IPR Policy",
+      "Adopters",
+      "O-RAN Adopter License Agreement",
+      "Final Specifications",
+      "1st July 2022",
+      "copying",
+      "incorporation",
+      "material",
+      "O-RAN ALLIANCE e.V.",
+      "prior written permission",
+      "personal use",
+      "third parties"
+    ],
+    "relations": [
+      {
+        "subject": "re-published version",
+        "predicate": "based on",
+        "object": "prior versions"
+      },
+      {
+        "subject": "prior versions",
+        "predicate": "related to",
+        "object": "IPR Policy"
+      },
+      {
+        "subject": "Adopters",
+        "predicate": "required to agree",
+        "object": "O-RAN Adopter License Agreement"
+      },
+      {
+        "subject": "Final Specifications",
+        "predicate": "no longer require agreement",
+        "object": "O-RAN Adopter License Agreement"
+      },
+      {
+        "subject": "1st July 2022",
+        "predicate": "effective date for change",
+        "object": "requirement"
+      },
+      {
+        "subject": "copying or incorporation",
+        "predicate": "prohibited without",
+        "object": "prior written permission"
+      },
+      {
+        "subject": "material",
+        "predicate": "available in",
+        "object": "specification"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "permissions granted to",
+        "object": "individuals"
+      },
+      {
+        "subject": "prior written permission",
+        "predicate": "required for",
+        "object": "copying or incorporation"
+      },
+      {
+        "subject": "personal use",
+        "predicate": "allowed without prior permission"
+      },
+      {
+        "subject": "third parties",
+        "predicate": "must comply with conditions",
+        "object": "conditions"
+      }
+    ],
+    "preview": "# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications shall no longer apply or be required for these Final Specifications after ..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN Adopter License Agreement",
+      "O-RAN ALLIANCE e.V.",
+      "O-RAN Security Focus Group (SFG)",
+      "Non-RT-RIC",
+      "WG2 Specifications",
+      "Other O-RAN Specifications",
+      "External Inputs"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Adopter License Agreement",
+        "predicate": "related to",
+        "object": "O-RAN specifications"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "responsible for",
+        "object": "O-RAN specifications"
+      },
+      {
+        "subject": "O-RAN Security Focus Group (SFG)",
+        "predicate": "focuses on",
+        "object": "security aspects of O-RAN specifications"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "component of",
+        "object": "O-RAN specifications"
+      }
+    ],
+    "preview": "# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications shall no longer apply or be required for these Final Specifications after ..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN Security Focus Group (SFG)",
+      "Non-RT-RIC",
+      "Study on Security for Non-RT-RIC",
+      "Revision History",
+      "Introduction",
+      "Scope",
+      "Considerations",
+      "References",
+      "WG2 Specifications",
+      "SFG Specifications",
+      "Other O-RAN Specifications",
+      "External Inputs",
+      "Definitions and Abbreviations",
+      "Definitions",
+      "Abbreviations and acronyms",
+      "Terms",
+      "Non-RT-RIC Assets",
+      "Framework",
+      "Functions",
+      "Interfaces"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Security Focus Group (SFG)",
+        "predicate": "conducted study",
+        "object": "Study on Security for Non-RT-RIC"
+      },
+      {
+        "subject": "Study on Security for Non-RT-RIC",
+        "predicate": "covers asset",
+        "object": "Non-RT-RIC Assets"
+      },
+      {
+        "subject": "References",
+        "predicate": "includes",
+        "object": "WG2 Specifications"
+      },
+      {
+        "subject": "References",
+        "predicate": "includes",
+        "object": "SFG Specifications"
+      },
+      {
+        "subject": "References",
+        "predicate": "includes",
+        "object": "Other O-RAN Specifications"
+      },
+      {
+        "subject": "References",
+        "predicate": "includes",
+        "object": "External Inputs"
+      },
+      {
+        "subject": "Definitions and Abbreviations",
+        "predicate": "contains",
+        "object": "Definitions"
+      },
+      {
+        "subject": "Definitions and Abbreviations",
+        "predicate": "contains",
+        "object": "Abbreviations and acronyms"
+      },
+      {
+        "subject": "Definitions and Abbreviations",
+        "predicate": "contains",
+        "object": "Terms"
+      }
+    ],
+    "preview": "\n\n# O-RAN Security Focus Group (SFG)\n\n# Study on Security for Non-RT-RIC\n\n# Revision History\n\n> **Table Summary:** {\n  \"summary\": \"This table documents the version history of a document or artifact. It tracks changes over time, specifically outlining the date, revision number, author, and a brief description of each update. The table indicates that the initial version (revision 01.00) was created ..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "Non-RT-RIC Assets",
+      "Framework",
+      "Functions",
+      "Interfaces",
+      "Threats",
+      "Threat Model",
+      "Threat Template",
+      "Potential Exploits"
+    ],
+    "relations": [
+      {
+        "subject": "Framework",
+        "predicate": "is part of",
+        "object": "Non-RT-RIC Assets"
+      },
+      {
+        "subject": "Functions",
+        "predicate": "is part of",
+        "object": "Non-RT-RIC Assets"
+      },
+      {
+        "subject": "Interfaces",
+        "predicate": "is part of",
+        "object": "Non-RT-RIC Assets"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "is part of",
+        "object": "Threats"
+      },
+      {
+        "subject": "Threat Template",
+        "predicate": "is part of",
+        "object": "Threats"
+      },
+      {
+        "subject": "Potential Exploits",
+        "predicate": "is part of",
+        "object": "Threats"
+      }
+    ],
+    "preview": "# 2 Non-RT-RIC Assets ... .. 10\n\n16 2.1 .... 10   \n17 2.2 Framework... .... 11   \n18 2.3 Functions..................................................................................................................................................................... 12   \n19 2.4 Interfaces...... ...................................................... ......................................................"
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "Non-RT-RIC",
+      "Threat Model",
+      "Threat Template",
+      "Potential Exploits",
+      "Security Controls",
+      "Risk Assessment",
+      "Recommendations",
+      "rApps Threats",
+      "A1 Interface",
+      "Machine Learning (ML) Threats"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "has_threat_model",
+        "object": "Threat Model"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "includes",
+        "object": "Threat Template"
+      },
+      {
+        "subject": "Threat Model",
+        "predicate": "identifies",
+        "object": "Potential Exploits"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "has_security_controls",
+        "object": "Security Controls"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "undergoes_risk_assessment",
+        "object": "Risk Assessment"
+      },
+      {
+        "subject": "rApps Threats",
+        "predicate": "is_part_of",
+        "object": "Threat Model"
+      },
+      {
+        "subject": "A1 Interface",
+        ".predicate": "has_risk_assessment",
+        "object": "Risk Assessment"
+      },
+      {
+        "subject": "Machine Learning (ML) Threats",
+        "predicate": "impacts",
+        "object": "Non-RT-RIC"
+      }
+    ],
+    "preview": "# 3 Threats .... ... 14\n\n22 23 3.1 Threat Model...... .............................................................................................................................. ...... 14   \n3.2 Threat Template..... ............................................................................................................................... ...... 14   \n3.3 Potential Exploits ... ................"
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "Non-RT-RIC",
+      "O-RAN Alliance",
+      "WG2",
+      "WG6",
+      "WG10",
+      "Zero-trust architecture (ZTA)",
+      "Security controls",
+      "A1 interface",
+      "R1 General Aspects and Principles (R1GAP)",
+      "Threat Modelling",
+      "Risk Assessment",
+      "OWASP Top 10 Web Application Security Risks",
+      "OWASP Top 10 Proactive Controls",
+      "Cloud Security Alliance (CSA)",
+      "Top Threats to Cloud Computing: Egregious Eleven",
+      "Cloud Controls Matrix (CCM)",
+      "ISO/IEC 27001:2013 Information Security Management System (ISMS)",
+      "NIST SP 800-53r5",
+      "Security Guidance for 5G Cloud Infrastructures"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "is part of",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "WG2",
+        "predicate": "is responsible for",
+        "object": "Non-RT-RIC specifications"
+      },
+      {
+        "subject": " WG6",
+        "predicate": "collaborates with",
+        "object": "WG2"
+      },
+      {
+        "subject": " WG10",
+        "predicate": "collaborates with",
+        "object": "WG2"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "adopts",
+        "object": "Zero-trust architecture (ZTA)"
+      },
+      {
+        "subject": "Security controls",
+        "predicate": "recommended for",
+        "object": "Non-RT-RIC specifications"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "is specified in",
+        "object": "O-RAN.WG2.A1GAP-v02.03"
+      },
+      {
+        "subject": "R1 General Aspects and Principles (R1GAP)",
+        "predicate": "is specified in",
+        "object": "O-RAN.WG2.R1GAP-v01.00"
+      },
+      {
+        "subject": "Threat Modelling",
+        "predicate": "is part of",
+        "object": "O-RAN Threat Modelling and Remediation Analysis"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "is part of",
+        "object": "O-RAN Threat Modelling and Remediation Analysis"
+      },
+      {
+        "subject": "OWASP Top 10 Web Application Security Risks",
+        "predicate": "informs",
+        "object": "Security controls"
+      },
+      {
+        "subject": "OWASP Top 10 Proactive Controls",
+        "predicate": "informs",
+        "object": "Security controls"
+      },
+      {
+        "subject": "Cloud Security Alliance (CSA)",
+        "predicate": "produces",
+        "object": "Top Threats to Cloud Computing: Egregious Eleven"
+      },
+      {
+        "subject": "Cloud Security Alliance (CSA)",
+        "predicate": "produces",
+        "object": "Cloud Controls Matrix (CCM)"
+      },
+      {
+        "subject": "ISO/IEC 27001:2013 Information Security Management System (ISMS)",
+        "predicate": "is referenced by",
+        "object": "Security controls"
+      },
+      {
+        "subject": "NIST SP 800-53r5",
+        "predicate": "informs",
+        "object": "Security controls"
+      },
+      {
+        "subject": "US National Security Agency (NSA)",
+        "predicate": "produces",
+        "object": "Security Guidance for 5G Cloud Infrastructures"
+      }
+    ],
+    "preview": "\n\n# List of Tables\n\nNo table of figures entries found.\n\n# List of Figures\n\nNo table of figures entries found.\n\n# 1 Introduction\n\n# 1.1 Scope\n\nThis technical report provides the threat model and risk assessment for the Non-RT-RIC. The report identifies threats and risks and recommends potential security controls to protect against those threats through safeguards or mitigation.\n\nThe steps of the th..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-RAN Security Requirements Specifications",
+      "Threat Modelling and Remediation Analysis",
+      "Security Test Specifications",
+      "Architecture Description",
+      "Drafting Rules",
+      "Threat Landscape for 5G Networks",
+      "Zero Trust Architecture",
+      "OWASP Top 10 Web Application Security Risks",
+      "OWASP Top 10 Proactive Controls",
+      "Cloud Security Alliance (CSA)",
+      "Top Threats to Cloud Computing: Egregious Eleven",
+      "Cloud Controls Matrix (CCM)",
+      "ISO/IEC 27001:2013 Information Security Management System (ISMS)",
+      "NIST SP 800-53r5",
+      "Security and Privacy Controls for Information Systems and Organizations",
+      "US National Security Agency (NSA)",
+      "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "Security Guidance for 5G Cloud Infrastructures",
+      "Near-RT RIC",
+      "Non-RT RIC",
+      "rApps",
+      "SMO",
+      "R1 Interface",
+      "R1 Services",
+      "A1 interface",
+      "A1 policy",
+      "A1 Enrichment information"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "enables",
+        "object": "near-real-time control and optimization of RAN elements and resources"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "drives",
+        "object": "content carried across the A1 interface"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "leverage",
+        "object": "functionality exposed via the Non-RT RIC Framework’s R1 interface"
+      },
+      {
+        "subject": "Non-RT RIC Framework",
+        "predicate": "exposes",
+        "object": "R1 Services to rApps"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "enables",
+        "object": "policy-driven guidance between non-RT RIC and Near-RT RIC"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "expressed using",
+        "object": "formal statements to guide Near-RT RIC applications/functions"
+      },
+      {
+        "subject": "A1 Enrichment information",
+        "predicate": "utilized by",
+        "object": "Near-RT RIC"
+      }
+    ],
+    "preview": "\n\n# 1.3.2 SFG Specifications\n\n[7] O-RAN Security Requirements Specifications, v01.00.05, O-RAN.SFG.O-RAN-Security-Requirements-Specifications-v01.00.05.   \n[8] O-RAN Threat Modelling and Remediation Analysis, v02.00.02, O-RAN.SFG.O-RAN-Threat-Model-v02.00.02.   \n[9] O-RAN Security Test Specifications, v01.00, O-RAN.SFG.Security-Test-Specifications-v01.00.\n\n# 1.3.3 Other O-RAN Specifications\n\n[10] ..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "A1 Interface",
+      "SMO",
+      "rApps",
+      "Non-RT RIC Framework",
+      "E2 Interface",
+      "O1/O2 Interface",
+      "AI/ML Workflows",
+      "Enrichment Information"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "communicates via",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "A1 Interface",
+        "predicate": "connects to",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "SMO",
+        "predicate": "interacts with",
+        "object": "rApps"
+      },
+      {
+        "subject": "Non-RT RIC Framework",
+        "predicate": "exposes services via",
+        "object": "R1 Interface"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "utilize",
+        "object": "AI/ML Workflows"
+      },
+      {
+        "subject": "Near-RT RIC",
+        "predicate": "receives",
+        "object": "Enrichment Information"
+      }
+    ],
+    "preview": "\n\n# 1.4 Definitions and Abbreviations\n\n# 1.4.1 Definitions\n\nFor the purposes of the present document, the terms and definitions provided in O-RAN.WG1.O-RAN-Architecture-Description-v06.00 apply:\n\n1: Interface between non-RT RIC and Near-RT RIC to enable policy-driven guidance of Near-RT RIC applications/functions, and support AI/ML workflo\n\nA1 policy: Type of declarative policies expressed using f..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "PTP Precision Timing Protocol",
+      "RBAC Role-based Access Control",
+      "REST Representational State Transfer",
+      "RIC RAN Intelligent Controller",
+      "RT Real-Time",
+      "SMO Service Management and Orchestration",
+      "SSH Secure Shell",
+      "TCP Transmission Control Protocol",
+      "TLS Transport Layer Security",
+      "O-RAN.TSC.Drafting-Rules",
+      "Non-RT-RIC",
+      "A1 interface",
+      "near-RT RIC",
+      "AI/ML models",
+      "rApps",
+      "R1 Termination",
+      "A1 Termination",
+      "Attack Surface",
+      "Functions",
+      "Interfaces",
+      "Information",
+      "Application On-Boarding",
+      "O-Cloud",
+      "Machine Learning",
+      "NIST",
+      "ASSET-C-10",
+      "ASSET-C-13",
+      "ASSET-C-15"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN.TSC.Drafting-Rules",
+        "predicate": "defines",
+        "object": "verbal forms"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "supports",
+        "object": "non-real-time intelligent radio resource management"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "provides",
+        "object": "AI/ML models"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "supports",
+        "object": "communication"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "includes",
+        "object": "rApps"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "includes",
+        "object": "R1 Termination"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "includes",
+        "object": "A1 Termination"
+      },
+      {
+        "subject": "Attack Surface",
+        "predicate": "is composed of",
+        "object": "Functions"
+      },
+      {
+        "subject": "Attack Surface",
+        "predicate": "is composed of",
+        "object": "Interfaces"
+      },
+      {
+        "subject": "Attack Surface",
+        "predicate": "is composed of",
+        "object": "Information"
+      },
+      {
+        "subject": "NIST",
+        "predicate": "defines",
+        "object": "Attack Surface"
+      },
+      {
+        "subject": "ASSET-C-10",
+        "predicate": "refers to",
+        "object": "rApps"
+      },
+      {
+        "subject": "ASSET-C-13",
+        "predicate": "refers to",
+        "object": "A1 Termination"
+      },
+      {
+        "subject": "ASSET-C-15",
+        "predicate": "refers to",
+        "object": "R1 Termination"
+      }
+    ],
+    "preview": "\n\n# 1.4.2 Abbreviations and acronyms\n\nFor the purposes of the present document, the abbreviations given in 3GPP TR 21.905 and the following apply:\n\n> **Table Summary:** {}\n\n\n1 PTP Precision Timing Protocol   \n2 RBAC Role-based Access Control   \n3 REST Representational State Transfer   \n4 RIC RAN Intelligent Controller   \n5 RT Real-Time   \n6 SMO Service Management and Orchestration   \n7 SSH Secure ..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "Non-RT RIC",
+      "Cloud",
+      "E2 Nodes",
+      "External AI/ML services",
+      "rApps",
+      "R1 Termination",
+      "A1 Termination",
+      "A1 interface",
+      "R1 interface",
+      "External Interfaces",
+      "A1 Policies",
+      "A1 Enrichment Information",
+      "R1 Observables",
+      "Secret Stores",
+      "X.509 certificates",
+      "Security private keys",
+      "Administrator credentials",
+      "ML Data",
+      "Training or test data",
+      "Trained ML model",
+      "ML prediction results",
+      "Behavior of the ML system"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "interacts with",
+        "object": "Cloud"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "interacts with",
+        "object": "E2 Nodes"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "interacts with",
+        "object": "External AI/ML services"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "includes functions",
+        "object": "rApps"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "includes functions",
+        "object": "R1 Termination"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "includes functions",
+        "object": "A1 Termination"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "uses interface",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "uses interface",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "uses interface",
+        "object": "External Interfaces"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "manages information",
+        "object": "A1 Policies"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "manages information",
+        "object": "A1 Enrichment Information"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "manages information",
+        "object": "R1 Observables"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "secures assets",
+        "object": "Secret Stores"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "X.509 certificates"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "Security private keys"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "Administrator credentials"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "handles data",
+        "object": "ML Data"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "Training or test data"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "Trained ML model"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "ML prediction results"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "Behavior of the ML system"
+      }
+    ],
+    "preview": "\n\n![](images/69c9fa1eae2418cd75b6bbb1f52d5d3bd704f5acb1564c28f02dbed9f146d2cd.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image is a diagram representing the architecture of a Non-RT RIC (Radio Interface Controller) framework, detailing its interactions with external components like the Cloud, E2 Nodes, and External AI/ML services. It visually outlines data flow and functional relationships withi..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "ASSET-D-07",
+      "ASSET-D-08",
+      "ASSET-D-28",
+      "Secret Stores",
+      "ASSET-D-16",
+      "ASSET-D-17",
+      "ASSET-D-20",
+      "ML Data",
+      "ASSET-D-25",
+      "ASSET-D-26",
+      "ASSET-D-27",
+      "Information disclosure"
+    ],
+    "relations": [
+      {
+        "subject": "ASSET-D-07",
+        "predicate": "is part of",
+        "object": "Interface Information"
+      },
+      {
+        "subject": "ASSET-D-08",
+        "predicate": "is part of",
+        "object": "Interface Information"
+      },
+      {
+        "subject": "ASSET-D-28",
+        "predicate": "is part of",
+        "object": "Interface Information"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "ASSET-D-16"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "ASSET-D-17"
+      },
+      {
+        "subject": "Secret Stores",
+        "predicate": "includes",
+        "object": "ASSET-D-20"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "ASSET-D-25"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "ASSET-D-26"
+      },
+      {
+        "subject": "ML Data",
+        "predicate": "includes",
+        "object": "ASSET-D-27"
+      }
+    ],
+    "preview": "# 2.5 Information\n\nInterface Information\n\nASSET-D-07: A1 Policies\n\nASSET-D-08: A1 Enrichment Information\n\nASSET-D-28: R1 Observables\n\nSecret Stores –\n\nNOTE: Secret Stores is a SMO service provided to Non-RT-RIC. Securing the secret stores is outside the scope of this work item. This includes the following assets:\n\nASSET-D-16: X.509 certificates\n\nCopyright $\\circledcirc$ 2021 by the O-RAN Alliance ..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "Spoofing identity",
+      "Tampering with data",
+      "Repudiation",
+      "Information disclosure",
+      "Denial of service",
+      "Elevation of privileges",
+      "Data Breaches",
+      "Misconfiguration and Inadequate Change Control",
+      "Lack of Cloud Security Architecture and Strategy",
+      "Insufficient Identity, Credential, Access, and Key Management",
+      "Account Hijacking",
+      "Insider Threat",
+      "Insecure Interfaces and APIs",
+      "Weak Control plane",
+      "Metastructure and Applistructure Failures",
+      "Limited Cloud Usage Visibility",
+      "Abuse and Nefarious Uses of Cloud Services",
+      "Broken Access Control",
+      "Cryptographic Failure",
+      "Injection (including Cross-Site Scripting)",
+      "Insecure Design",
+      "Security Misconfiguration",
+      "Vulnerable and Outdated Components",
+      "Identification and Authentication Failures",
+      "Software and Data Integrity Failures (including Insecure Deserialization)",
+      "Security Logging and Monitoring Failures",
+      "Server-Side Request Forgery",
+      "Non-RT-RIC",
+      "O-RAN"
+    ],
+    "relations": [
+      {
+        "subject": "Spoofing identity",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Tampering with data",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Repudiation",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Information disclosure",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Denial of service",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Elevation of privileges",
+        "predicate": "is a threat in",
+        "object": "STRIDE"
+      },
+      {
+        "subject": "Data Breaches",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Misconfiguration and Inadequate Change Control",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Lack of Cloud Security Architecture and Strategy",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Insufficient Identity, Credential, Access, and Key Management",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Account Hijacking",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Insider Threat",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Insecure Interfaces and APIs",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Weak Control plane",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Metastructure and Applistructure Failures",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Limited Cloud Usage Visibility",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Abuse and Nefarious Uses of Cloud Services",
+        "predicate": "is a threat in",
+        "object": "CSA"
+      },
+      {
+        "subject": "Broken Access Control",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Cryptographic Failure",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Injection (including Cross-Site Scripting)",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Insecure Design",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Security Misconfiguration",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Vulnerable and Outdated Components",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Identification and Authentication Failures",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Software and Data Integrity Failures (including Insecure Deserialization)",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Security Logging and Monitoring Failures",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Server-Side Request Forgery",
+        "predicate": "is a threat in",
+        "object": "OWASP"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "considers threats from",
+        "object": "O-RAN"
+      }
+    ],
+    "preview": "\n\n# 3 Threats\n\n# 3.1 Threat Model\n\nFor identifying threats, we are using STRIDE:\n\n1. S - Spoofing identity. An application or program can masquerade as another to gain advantages not typically allowed for that program.   \n2. T - Tampering with data. This involves the malicious modification of data, including making unauthorized changes to a database and alteration of data as it flows between compu..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-RAN",
+      "Non-RT-RIC",
+      "Near-RT-RIC",
+      "rApps",
+      "R1 interface",
+      "A1 interface",
+      "Threat Analysis",
+      "CSA Top Threats to Cloud",
+      "OWASP Top 10 Web Application Security Risks",
+      "Data Breaches",
+      "Misconfiguration and Inadequate Change Control",
+      "Lack of Cloud Security Architecture and Strategy",
+      "Insufficient Identity, Credential, Access, and Key Management",
+      "Account Hijacking",
+      "Insider Threat",
+      "Insecure Interfaces and APIs",
+      "Weak Control plane",
+      "Metastructure and Applistructure Failures",
+      "Limited Cloud Usage Visibility",
+      "Abuse and Nefarious Uses of Cloud Services",
+      "Broken Access Control",
+      "Cryptographic Failure",
+      "Injection (including Cross-Site Scripting)",
+      "Insecure Design",
+      "Security Misconfiguration",
+      "Vulnerable and Outdated Components",
+      "Identification and Authentication Failures",
+      "Software and Data Integrity Failures (including Insecure Deserialization)",
+      "Security Logging and Monitoring Failures",
+      "Server-Side Request Forgery"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "impacted by",
+        "object": "T-NONRTRIC-01"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        ".predicate": "exploited via",
+        "object": "SOM interface"
+      },
+      {
+        "subject": "Near-RT-RIC",
+        "predicate": "impacted by",
+        "object": "T-NONRTRIC-03"
+      },
+      {
+        "subject": "rApps",
+        "predicate": "impacted by",
+        "object": "T-rAPP-03"
+      },
+      {
+        "subject": "rApps",
+        ".predicate": "exploited via",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "impacted by",
+        "object": "T-rAPP-05"
+      },
+      {
+        "subject": "rApps",
+        ".predicate": "impacted by",
+        "object": "T-rAPP-07"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n# 3.2 Threat Template\n\nTemplate to present the threat characteristics:\n\n> **Table Summary:** {}\n\n# 3.3 Potential Exploits\n\nA threat analysis is facilitated by an understanding of potential threats, as identified by the Cloud Security Alliance (CSA) and the Open Web Application Security Project (OWASP).\n\nThe CSA Top Threats to Cloud was updated in 2019 to the “Egregious E..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "rApps",
+      "A1 interface",
+      "R1 interface",
+      "Threat T-NONRTRIC-01",
+      "Threat T-NONRTRIC-02",
+      "Threat T-NONRTRIC-03",
+      "Threat T-rAPP-03",
+      "Threat T-rAPP-04",
+      "Threat T-rAPP-05",
+      "Threat T-rAPP-06",
+      "Threat T-rAPP-07",
+      "Threat T-R1-01",
+      "Threat T-R1-02",
+      "Threat T-R1-03",
+      "Threat T-R1-05",
+      "Threat T-R1-06",
+      "Threat T-A1-02",
+      "Threat T-A1-03",
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+    ],
+    "relations": [
+      {
+        "subject": "Threat T-NONRTRIC-01",
+        "predicate": "affects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Threat T-NONRTRIC-01",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Threat T-NONRTRIC-02",
+        "predicate": "affects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Threat T-NONRTRIC-03",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Threat T-rAPP-03",
+        "predicate": "affects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Threat T-rAPP-04",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Threat T-rAPP-05",
+        "predicate": "affects",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Threat T-rAPP-06",
+        "predicate": "impacts",
+        "object": "Availability"
+      },
+      {
+        "subject": "Threat T-R1-01",
+        "predicate": "affects",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "Threat T-R1-02",
+        "predicate": "impacts",
+        "object": "Integrity"
+      },
+      {
+        "subject": "Threat T-R1-03",
+        "predicate": "affects",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "Threat T-R1-05",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Threat T-R1-06",
+        "predicate": "affects",
+        "object": "R1 interface"
+      },
+      {
+        "subject": "Threat T-A1-02",
+        "predicate": "impacts",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "Threat T-A1-03",
+        "predicate": "affects",
+        "object": "A1 interface"
+      }
+    ],
+    "preview": "\n\n# 4 Threat Analysis\n\n# 4.1 Non-RT-RIC Threats\n\n> **Table Summary:** {\n  \"summary\": \"This table details a specific threat, T-NONRTRIC-01, targeting the Non-RT RIC (Radio Interface Controller). The threat involves an attacker attempting a denial-of-service attack or performance degradation of the Non-RT RIC, potentially exploiting its Al interface or external connections. The table outlines severa..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "Near-RT-RIC",
+      "Non-RT-RIC",
+      "A1",
+      "R1",
+      "REST protocol stack",
+      "HTTP",
+      "TLS",
+      "TCP",
+      "IP transport",
+      "JSON",
+      "Threat T-A1-02",
+      "Threat T-A1-03",
+      "MitM attacks",
+      "Control-1: TLS with PKI and X.509 certificates",
+      "Control-2: OAuth 2.0",
+      "Control-3: IAM (using RBAC, ABAC, PBAC, TBAC)",
+      "Control-4: Encryption for Data at Rest",
+      "Control-5: Integrity Protection for Data at Rest",
+      "Control-6: Certificate Management",
+      "Control-7: Message Authentication",
+      "Control-8: Message Integrity Protection",
+      "Control-9: Digital Signatures",
+      "Control-10: Logging",
+      "Control-11: Configuration Validation",
+      "Control-12: Conflict detection and resolution",
+      "Control-13: Encryption for Data in Motion",
+      "Control-14: Integrity Protection for Data in Motion",
+      "OWASP Top 10 Proactive Controls",
+      "Cloud Security Alliance (CSA) Cloud Control Matrix (CCM)",
+      "ISO/IEC 27001:2013 Information Security Management System (ISMS)",
+      "NIST SP 800-53r5 Security and Privacy Controls for Information Systems and Organizations",
+      "Cybersecurity and Infrastructure Security Agency (CISA) Security Guidance for 5G Cloud Infrastructures"
+    ],
+    "relations": [
+      {
+        "subject": "Near-RT-RIC",
+        "predicate": "connected via",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "A1",
+        "predicate": "interface between",
+        "object": "Non-RT-RIC and Near-RT-RIC"
+      },
+      {
+        "subject": "REST protocol stack",
+        "predicate": "uses",
+        "object": "HTTP"
+      },
+      {
+        "subject": "REST protocol stack",
+        "predicate": "uses",
+        "object": "TLS"
+      },
+      {
+        "subject": "REST protocol stack",
+        "predicate": "uses",
+        "object": "TCP"
+      },
+      {
+        "subject": "REST protocol stack",
+        "predicate": "uses",
+        "object": "IP transport"
+      },
+      {
+        "subject": "Application layer protocol",
+        "predicate": "based on",
+        "object": "JSON"
+      },
+      {
+        "subject": "Threat T-A1-02",
+        "predicate": "impacts",
+        "object": "Non-RT-RIC and Near-RT-RIC assets"
+      },
+      {
+        "subject": "Threat T-A1-03",
+        "predicate": "impacts",
+        "object": "Non-RT-RIC and Near-RT-RIC assets"
+      },
+      {
+        "subject": "MitM attacks",
+        "predicate": "categorized as",
+        "object": "Threat vectors"
+      },
+      {
+        "subject": "Control-1: TLS with PKI and X.509 certificates",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-2: OAuth 2.0",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-3: IAM (using RBAC, ABAC, PBAC, TBAC)",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-4: Encryption for Data at Rest",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-5: Integrity Protection for Data at Rest",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-6: Certificate Management",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-7: Message Authentication",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-8: Message Integrity Protection",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-9: Digital Signatures",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-10: Logging",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-11: Configuration Validation",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-12: Conflict detection and resolution",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-13: Encryption for Data in Motion",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      },
+      {
+        "subject": "Control-14: Integrity Protection for Data in Motion",
+        "predicate": "mitigates risks for",
+        "object": "Non-RT-RIC"
+      }
+    ],
+    "preview": "\n\n![](images/eeed01e6a693cacac38fd9c31ed7e366c965676c3657d7874eac3c71a49cc505.jpg)\n\n> **Image Summary:** { \"summary\": \"The image depicts a relationship between two terms: 'Near-RT-RIC' and 'Non-RT-RIC,' connected by an arrow labeled 'A1.' This diagram likely illustrates a process or transition where 'Near-RT-RIC' evolves into 'Non-RT-RIC' through action or transformation 'A1,' suggesting a movemen..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "Layered Network Architecture",
+      "Application Stack",
+      "Data Interchange",
+      "Protocols",
+      "JSON",
+      "HTTP",
+      "Physical Layer (L1)",
+      "Data Link Layer (L2)",
+      "REST Protocol Stack",
+      "A1 Interface",
+      "R1 Interface",
+      "Threat Assessment",
+      "Telecommunications System",
+      "Security Threat",
+      "REST API Vulnerability",
+      "Threat ID",
+      "Machine Learning (ML) Threats",
+      "Non-RT RIC",
+      "OWASP Top 10 Proactive Controls",
+      "Cloud Security Alliance (CSA) Cloud Control Matrix (CCM)",
+      "ISO/IEC 27001:2013 Information Security Management System (ISMS)",
+      "NIST SP 800-53r5 Security and Privacy Controls for Information Systems and Organizations",
+      "Cybersecurity and Infrastructure Security Agency (CISA) Security Guidance for 5G Cloud Infrastructures",
+      "TLS with PKI and X.509 certificates",
+      "OAuth 2.0",
+      "IAM (using RBAC, ABAC, PBAC, TBAC)",
+      "Encryption for Data at Rest",
+      "Integrity Protection for Data at Rest",
+      "Certificate Management",
+      "Message Authentication",
+      "Message Integrity Protection",
+      "Digital Signatures",
+      "Logging",
+      "Configuration Validation",
+      "Conflict detection and resolution",
+      "Encryption for Data in Motion",
+      "Integrity Protection for Data in Motion",
+      "Risk Assessment",
+      "rApps",
+      "Malicious Actor",
+      "Nation-State Adversary",
+      "Cybercriminal",
+      "Employee",
+      "Likelihood Scoring",
+      "Zero Trust Architecture (ZTA)",
+      "Security Posture",
+      "Advanced Persistent Threats (APTs)"
+    ],
+    "relations": [
+      {
+        "subject": "REST Protocol Stack",
+        "predicate": "uses",
+        "object": "JSON"
+      },
+      {
+        "subject": "REST Protocol Stack",
+        "predicate": "uses",
+        "object": "HTTP"
+      },
+      {
+        "subject": "REST Protocol Stack",
+        "predicate": "applies to",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "REST Protocol Stack",
+        "predicate": "applies to",
+        "object": "R1 Interface"
+      },
+      {
+        "subject": "Layered Network Architecture",
+        "predicate": "includes",
+        "object": "Application Stack"
+      },
+      {
+        "subject": "Layered Network Architecture",
+        "predicate": "includes",
+        "object": "Protocols"
+      },
+      {
+        "subject": "Layered Network Architecture",
+        "predicate": "includes",
+        "object": "Physical Layer (L1)"
+      },
+      {
+        "subject": "Layered Network Architecture",
+        "predicate": "includes",
+        "object": "Data Link Layer (L2)"
+      },
+      {
+        "subject": "Threat Assessment",
+        "predicate": "relates to",
+        "object": "Telecommunications System"
+      },
+      {
+        "subject": "Threat Assessment",
+        "predicate": "identifies",
+        "object": "Security Threat"
+      },
+      {
+        "subject": "Threat Assessment",
+        "predicate": "identifies",
+        "object": "REST API Vulnerability"
+      },
+      {
+        "subject": "Machine Learning (ML) Threats",
+        "predicate": "pertains to",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Security Controls",
+        "predicate": "recommended by",
+        "object": "OWASP Top 10 Proactive Controls"
+      },
+      {
+        "subject": "Security Controls",
+        "predicate": "recommended by",
+        "object": "Cloud Security Alliance (CSA) Cloud Control Matrix (CCM)"
+      },
+      {
+        "subject": "Security Controls",
+        "predicate": "recommended by",
+        "object": "ISO/IEC 27001:2013 Information Security Management System (ISMS)"
+      },
+      {
+        "subject": "Security Controls",
+        "predicate": "recommended by",
+        "object": "NIST SP 800-53r5 Security and Privacy Controls for Information Systems and Organizations"
+      },
+      {
+        "subject": "Security Controls",
+        "predicate": "recommended by",
+        "object": "Cybersecurity and Infrastructure Security Agency (CISA) Security Guidance for 5G Cloud Infrastructures"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "includes",
+        "object": "Non-RT RIC"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "includes",
+        "object": "R1 Interface"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "includes",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "Risk Assessment",
+        "predicate": "includes",
+        "object": "rApps"
+      },
+      {
+        "subject": "Likelihood Scoring",
+        "predicate": "considers",
+        "object": "Current Security Controls"
+      },
+      {
+        "subject": "Zero Trust Architecture (ZTA)",
+        "predicate": "affects",
+        "object": "Likelihood Scores"
+      }
+    ],
+    "preview": "\n\n![](images/5a716bd400167cbc2b74881344f0a36b9dffbcf767ad6d12cfbac573ecc7b94c.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image depicts a layered network architecture, specifically showcasing the application stack used for data interchange. It illustrates the protocols involved in transmitting data, from application-level formats like JSON and HTTP down to the physical layer (L1) and data link la..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "Non-RT RIC",
+      "R1 interface",
+      "A1 interface",
+      "rApps",
+      "Security Threat and Remediation document [8]",
+      "Security Requirements Specifications document [7]",
+      "Security Protocols Specifications document [9]",
+      "Zero Trust Architecture (ZTA)",
+      "SFG",
+      "Nation-state adversary",
+      "Cybercriminal",
+      "Employee",
+      "Advanced Persistent Threats (APTs)",
+      "TLS",
+      "PKI",
+      "SMO",
+      "Secure application on-boarding",
+      "Lifecycle management of rApps",
+      "Certificate management",
+      "Key management",
+      "Implementation of a secure protocol stack",
+      "Security configuration validation",
+      "Cloud security best practices",
+      "ML/AI security",
+      "Logging security",
+      "Secure software development",
+      "Open source software"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "protected_from",
+        "object": "untrusted external sources"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "assumes",
+        "object": "adversary inside network"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "cannot_assume",
+        "object": "SMO is secure"
+      },
+      {
+        "subject": "Zero Trust Architecture (ZTA)",
+        "predicate": "removes_ability_to_assume",
+        "object": "perimeter security is sufficient"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update",
+        "object": "Security Threat and Remediation document [8]"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update",
+        "object": "Security Requirements Specifications document [7]"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update",
+        "object": "Security Protocols Specifications document [9]"
+      },
+      {
+        "subject": "Non-RT RIC",
+        "predicate": "requires_security_controls_for",
+        "object": "internal threats"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has_associated_security_controls",
+        "object": "TLS"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has_associated_security_controls",
+        "object": "PKI"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "secure application on-boarding"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "lifecycle management of rApps"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "certificate management"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "key management"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "implementation of a secure protocol stack"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "security configuration validation"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "cloud security best practices"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "ML/AI security"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "logging security"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "secure software development"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_address",
+        "object": "open source software"
+      }
+    ],
+    "preview": "# 6 Risk Assessment\n\nThis section provides risk assessment tables for each of the identified assets: Non-RT RIC, R1 interface, A1 interface, and rApps. These tables list the assets, threats, impacts, and possible security controls.\n\nA malicious actor may be a nation-state adversary, cybercriminal, or employee. Risk scoring includes Likelihood and Impact.\n\nLikelihood scoring is based upon current s..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "Non-RT-RIC",
+      "rApps",
+      "R1 Interface",
+      "A1 Interface",
+      "ZTA",
+      "Security Threat and Remediation document [8]",
+      "SWG",
+      "Security Requirements Specifications document [7]",
+      "Security Protocols Specifications document [9]",
+      "Risk Analysis tables",
+      "SFG"
+    ],
+    "relations": [
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "has_asset",
+        "object": "rApps"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "has_asset",
+        "object": "R1 Interface"
+      },
+      {
+        "subject": "Non-RT-RIC",
+        "predicate": "has_asset",
+        "object": "A1 Interface"
+      },
+      {
+        "subject": "ZTA",
+        "predicate": "influences__likelihood_scoring",
+        "object": "Risk Analysis"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update_document",
+        "object": "Security Threat and Remediation document [8]"
+      },
+      {
+        "subject": "SWG",
+        "predicate": "considers_security_controls",
+        "object": "Risk Analysis tables"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update_document",
+        "object": "Security Requirements Specifications document [7]"
+      },
+      {
+        "subject": "SFG",
+        "predicate": "should_update_document",
+        "object": "Security Protocols Specifications document [9]"
+      }
+    ],
+    "preview": "\n\n# 6.1 Risk Assessment for Non-RT-RIC\n\nTable 6.1-1 Risk Assessment for Non-RT-RIC\n\n> **Table Summary:** {}\n\n\n1 6.2 Risk Assessment for rApps\n\n> **Table Summary:** {}\n\n\nTable 6.2-1 Risk Assessment for rApps\n\n> **Table Summary:** {}\n\n# 6.3 Risk Assessment for R1 Interface\n\nCopyright $\\circledcirc$ 2021 by the O-RAN Alliance e.V. Your use is subject to the terms of the O-RAN Adopter License Agreemen..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "O-RAN Adopter License Agreement",
+      "Affiliate",
+      "Compliant Implementation",
+      "Adopter(s)",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "Final Specification"
+    ],
+    "relations": [
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "agrees to",
+        "object": "O-RAN Adopter License Agreement"
+      }
+    ],
+    "preview": "\n\n# Annex A (informative): xxxxx\n\n# Annex ZZZ : O-RAN Adopter License Agreement\n\nBY DOWNLOADING, USING OR OTHERWISE ACCESSING ANY O-RAN SPECIFICATION, ADOPTER AGREES TO THE TERMS OF THIS AGREEMENT.\n\nThis O-RAN Adopter License Agreement (the “Agreement”) is made by and between the O-RAN Alliance and the entity that downloads, uses or otherwise accesses any O-RAN Specification, including its Affilia..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "Affiliate",
+      "Compliant Implementation",
+      "Adopter(s)",
+      "O-RAN Specifications",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "Member",
+      "Contributor",
+      "Academic Contributor",
+      "O-RAN Alliance"
+    ],
+    "relations": [
+      {
+        "subject": "Affiliate",
+        "predicate": "controls",
+        "object": "entity"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter(s)",
+        "predicate": "downloads or uses",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "updates",
+        "object": "O-RAN Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "owned by",
+        "object": "Member, Contributor, or Academic Contributor"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "applies to",
+        "object": "license grant"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants license to",
+        "object": "Adopter(s)"
+      }
+    ],
+    "preview": "# Section 1: DEFINITIONS\n\n1.1 “Affiliate” means an entity that directly or indirectly controls, is controlled by, or is under common control with another entity, so long as such control exists. For the purpose of this Section, “Control” means beneficial ownership of fifty $( 5 0 \\% )$ percent or more of the voting stock or equity in an entity.\n\n1 1.2 “Compliant Implementation” means any system, de..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Patent License Agreement",
+      "FRAND",
+      "Compliant Implementations",
+      "Necessary Claims"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants copyright license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members, Contributors and Academic Contributors",
+        "predicate": "grant FRAND patent license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "grants FRAND patent license to",
+        "object": "Members, Contributors and Academic Contributors"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "specify",
+        "object": "Compliant Implementations"
+      }
+    ],
+    "preview": "# 34 Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN Alliance hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementa..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopters",
+      "Affiliates",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "O-RAN Specifications",
+      "FRAND",
+      "Patent License Agreement"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Adopters",
+        "predicate": "grant reciprocal license to",
+        "object": "Members, Contributors, Academic Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "entitled to charge FRAND royalty or fee to",
+        "object": "Members, Contributors, Academic Contributors, Affiliates"
+      },
+      {
+        "subject": "Adopters",
+        "predicate": "grant license under",
+        "object": "FRAND terms"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "may terminate agreement if",
+        "object": "material breach by Adopter"
+      },
+      {
+        "subject": "Sections 1, 3, 5 - 11",
+        "predicate": "survive termination of agreement",
+        "object": "none"
+      }
+    ],
+    "preview": "# 1 Section 3: FRAND LICENSE\n\n2 3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate   \n3 Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and   \n4 conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to   \n5 Defensive Suspensio..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Adopter",
+      "Affiliates",
+      "contractors",
+      "consultants",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "has authority over",
+        "object": "Members"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "has authority over",
+        "object": "Contributors"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "has authority over",
+        "object": "Academic Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "is bound by confidentiality regarding",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "may terminate agreement if",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Sections 1, 3, 5 - 11",
+        "predicate": "survive termination",
+        "object": "Agreement"
+      },
+      {
+        "subject": "Surviving Section 3",
+        "predicate": "allows Adopter to continue granting licenses for",
+        "object": "future versions of O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "uses same care and discretion to avoid disclosure of",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "has obligation of confidentiality with",
+        "object": "Affiliates"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "has obligation of confidentiality with",
+        "object": "contractors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "has obligation of confidentiality with",
+        "object": "consultants"
+      }
+    ],
+    "preview": "# Section 4: TERM AND TERMINATION\n\n4.1 This Agreement shall remain in force, unless early terminated according to this Section 4.\n\n4.2 O-RAN Alliance on behalf of its Members, Contributors and Academic Contributors may terminate this Agreement if Adopter materially breaches this Agreement and does not cure or is not capable of curing such breach within thirty (30) days after being given notice spe..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "Adopter",
+      "O-RAN Specifications",
+      "Indemnitees",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "obligation to avoid disclosure",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnification obligation",
+        "object": "Indemnitees"
+      }
+    ],
+    "preview": "# 37 Section 5: CONFIDENTIALITY\n\nAdopter will use the same care and discretion to avoid disclosure, publication, and dissemination of O-RAN Specifications to third parties, as Adopter employs with its own confidential information, but no less than reasonable care. Any disclosure by Adopter to its Affiliates, contractors and consultants should be subject to an obligation of confidentiality at least..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "O-RAN Specifications",
+      "Adopter",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Indemnitees"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "provides",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "liable for",
+        "object": "breach of confidentiality"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "liable for",
+        "object": "breach of Section 3"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "liable for",
+        "object": "indemnification obligations"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "provided as is",
+        "object": "without warranties"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "disclaims warranty for",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "assigns Agreement",
+        "object": "with consent of O-RAN Alliance"
+      },
+      {
+        "subject": "Members",
+        "predicate": "are third-party beneficiaries under",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "are third-party beneficiaries under",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "are third-party beneficiaries under",
+        "object": "Section 3"
+      },
+      {
+        "subject": "Affiliates of Adopter",
+        "predicate": "bound by obligations applicable to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "assigns Agreement freely"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "agrees to comply with laws",
+        "object": "export control and antitrust laws"
+      }
+    ],
+    "preview": "# 3 Section 6: INDEMNIFICATION\n\n4 Adopter shall indemnify, defend, and hold harmless the O-RAN Alliance, its Members, Contributors or Academic   \n5 Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”),   \n6 against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or   \n7 imposed u..."
+  }
+]

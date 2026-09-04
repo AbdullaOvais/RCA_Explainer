@@ -1,0 +1,2690 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Certification and Badging Processes and Procedures",
+      "2023",
+      "Alfter",
+      "Germany"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "manages",
+        "object": "Certification and Badging Processes and Procedures"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "holds_copyright_in",
+        "object": "2023"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "has_policy_on",
+        "object": "use_of_material"
+      },
+      {
+        "subject": "O-RAN ALLIANCE e.V.",
+        "predicate": "is_located_in",
+        "object": "Alfter, Germany"
+      }
+    ],
+    "preview": "\n\nTechnical Specification\n\n# O-RAN ALLIANCE Test and Integration Focus Group\n\n# Certification and Badging Processes and Procedures\n\nCopyright $\\circledcirc$ 2023 by the O-RAN ALLIANCE e.V.\n\nThe copying or incorporation into any other work of part or all of the material available in this specification in any form without the prior written permission of O-RAN ALLIANCE e.V. is prohibited, save that y..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Test and Integration Focus Group",
+      "Certification",
+      "Badging",
+      "Processes",
+      "Test platforms",
+      "Applicable Tests",
+      "Test Results",
+      "Certificates",
+      "Compliance Folder",
+      "Multi-vendor Scenario"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "is part of",
+        "object": "Test and Integration Focus Group"
+      },
+      {
+        "subject": "Certification/Badging entity",
+        "predicate": "involves",
+        "object": "Processes"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "includes",
+        "object": "Defining Certification/Badging and Set of Test Cases"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "uses",
+        "object": "Test platforms"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "involves",
+        "object": "Identifying Applicable Tests"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "involves",
+        "object": "Executing Tests"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "involves",
+        "object": "Verifying Test Results"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "results in",
+        "object": "Issuing Certificates/Badges"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "involves",
+        "object": "Compliance Folder"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "involves",
+        "object": "Sharing of Certified Test Results"
+      },
+      {
+        "subject": "Processes",
+        "predicate": "considers",
+        "object": "Multi-vendor Scenario"
+      }
+    ],
+    "preview": "\n\nTechnical Specification\n\n# O-RAN ALLIANCE Test and Integration Focus Group\n\n# Certification and Badging Processes and Procedures\n\nCopyright $\\circledcirc$ 2023 by the O-RAN ALLIANCE e.V.\n\nThe copying or incorporation into any other work of part or all of the material available in this specification in any form without the prior written permission of O-RAN ALLIANCE e.V. is prohibited, save that y..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Specification (TS)",
+      "certification",
+      "badging",
+      "Open Testing and Integration Centre (OTIC)",
+      "devices under test (DUTs)",
+      "conformance test specifications",
+      "Interoperability Test (IOT) specifications",
+      "end-to-end system integration (E2E)",
+      "Certification/Badging entity",
+      "O-RAN Open Fronthaul interface",
+      "O-RU",
+      "O-DU",
+      "X2 interface",
+      "F1 interface",
+      "Xn interface",
+      "gNB O-CU"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produces",
+        "object": "Technical Specification (TS)"
+      },
+      {
+        "subject": "Certification/Badging entity",
+        "predicate": "defines",
+        "object": "Certification/Badging processes"
+      },
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "involves",
+        "object": "entities"
+      },
+      {
+        "subject": "Open Testing and Integration Centre (OTIC)",
+        "predicate": "adopts",
+        "object": "certification and badging processes"
+      },
+      {
+        "subject": "Certification/Badging entity",
+        "predicate": "uses",
+        "object": "conformance test specifications"
+      },
+      {
+        "subject": "Certification/Badging entity",
+        "predicate": "assesses",
+        "object": "interoperability of DUT pairs"
+      },
+      {
+        "subject": "Certification/Badging entity",
+        "predicate": "assesses",
+        "object": "end-to-end system integration (E2E)"
+      },
+      {
+        "subject": "O-RAN Open Fronthaul interface",
+        "predicate": "exists between",
+        "object": "O-RU and O-DU"
+      },
+      {
+        "subject": "X2 interface",
+        "predicate": "exists between",
+        "object": "eNB and en-gNB"
+      },
+      {
+        "subject": "F1 interface",
+        "predicate": "exists between",
+        "object": "gNB O-DU and gNB O-CU"
+      }
+    ],
+    "preview": "# Contents\n\n1   \n2 Foreword...........   \n3 Modal verbs terminology ...................................................................................................................................3   \n4 1 Scope .................. .......................................................................................................................................4   \n5 2 References ..............."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN ALLIANCE",
+      "Technical Specification (TS)",
+      "Open Testing and Integration Centre (OTIC)",
+      "conformance certification",
+      "Interoperability Test (IOT) badging",
+      "end-to-end system integration",
+      "E2E badging",
+      "version xx.yy.zz",
+      "O-RAN.TIFG.CGofOTIC.0-v04.00",
+      "O-RAN.TIFG.E2ETST.0-v03.00",
+      "O-RAN.WG1.O-RAN-Architecture-Description.v07.00"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN ALLIANCE",
+        "predicate": "produces",
+        "object": "Technical Specification (TS)"
+      },
+      {
+        "subject": "Open Testing and Integration Centre (OTIC)",
+        "predicate": "uses",
+        "object": "conformance certification"
+      },
+      {
+        "subject": "Open Testing and Integration Centre (OTIC)",
+        "predicate": "uses",
+        "object": "Interoperability Test (IOT) badging"
+      },
+      {
+        "subject": "Open Testing and Integration Centre (OTIC)",
+        "predicate": "uses",
+        "object": "E2E badging"
+      },
+      {
+        "subject": "Technical Specification (TS)",
+        "predicate": "includes",
+        "object": "version xx.yy.zz"
+      },
+      {
+        "subject": "O-RAN.TIFG.CGofOTIC.0-v04.00",
+        "predicate": "is referenced by",
+        "object": "Technical Specification (TS)"
+      },
+      {
+        "subject": "O-RAN.TIFG.E2ETST.0-v03.00",
+        "predicate": "is referenced by",
+        "object": "Technical Specification (TS)"
+      },
+      {
+        "subject": "O-RAN.WG1.O-RAN-Architecture-Description.v07.00",
+        "predicate": "is referenced by",
+        "object": "Technical Specification (TS)"
+      }
+    ],
+    "preview": "\n\n# Foreword\n\nThis Technical Specification (TS) has been produced by O-RAN ALLIANCE.\n\n# Modal verbs terminology\n\nIn the present document \"shall\", \"shall not\", \"should\", \"should not\", \"may\", \"need not\", \"will\", \"will not\", \"can\" and \"cannot\" are to be interpreted as described in clause 3.2 of the O-RAN Drafting Rules (Verbal forms for the expression of provisions).\n\n\"must\" and \"must not\" are NOT al..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "Badging",
+      "Interoperability Testing (IOT)",
+      "End-to-End (E2E) System Integration",
+      "Blueprint",
+      "O-RAN-based system or solution",
+      "Catalogue",
+      "O-RAN ALLIANCE",
+      "Certification",
+      "Compliance folder",
+      "Implementation Conformance Statement (ICS)",
+      "Logo",
+      "Measurement results",
+      "Minimum Viable Plan (MVP)",
+      "Test report",
+      "Summary report",
+      "O-RAN Certificate",
+      "IOT Badge",
+      "E2E Badge"
+    ],
+    "relations": [
+      {
+        "subject": "Badging",
+        "predicate": "assesses",
+        "object": "Interoperability Testing (IOT)"
+      },
+      {
+        "subject": "Badging",
+        "predicate": "assesses",
+        "object": "End-to-End (E2E) System Integration"
+      },
+      {
+        "subject": "Blueprint",
+        "predicate": "describes",
+        "object": "O-RAN-based system or solution"
+      },
+      {
+        "subject": "Catalogue",
+        "predicate": "provides information about",
+        "object": "certificates"
+      },
+      {
+        "subject": "Catalogue",
+        "predicate": "provides information about",
+        "object": "IOT badges"
+      },
+      {
+        "subject": "Catalogue",
+        "predicate": "provides information about",
+        "object": "E2E badges"
+      },
+      {
+        "subject": "Catalogue",
+        "predicate": "maintained by",
+        "object": "O-RAN ALLIANCE"
+      },
+      {
+        "subject": "Certification",
+        "predicate": "verifies compliance with",
+        "object": "O-RAN interface specifications"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "includes",
+        "object": "ICS"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "includes",
+        "object": "test reports"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "includes",
+        "object": "summary reports"
+      },
+      {
+        "subject": "ICS",
+        "predicate": "provided by",
+        "object": "vendors"
+      },
+      {
+        "subject": "Logo",
+        "predicate": "part of",
+        "object": "O-RAN Certificate"
+      },
+      {
+        "subject": "Logo",
+        "predicate": "part of",
+        "object": "IOT Badge"
+      },
+      {
+        "subject": "Logo",
+        "predicate": "part of",
+        "object": "E2E Badge"
+      },
+      {
+        "subject": "Measurement results",
+        "predicate": "collected during",
+        "object": "certification"
+      },
+      {
+        "subject": "Measurement results",
+        "predicate": "collected during",
+        "object": "badging"
+      },
+      {
+        "subject": "Minimum Viable Plan (MVP)",
+        "predicate": "tested for",
+        "object": "Certification"
+      },
+      {
+        "subject": "Minimum Viable Plan (MVP)",
+        "predicate": "tested for",
+        "object": "Badging"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "provides information about",
+        "object": "DUT/SUT"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "includes",
+        "object": "test setup configuration"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "includes",
+        "object": "assessment of measured KPIs"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "part of",
+        "object": "O-RAN Certificate"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "part of",
+        "object": "IOT Badge"
+      },
+      {
+        "subject": "Test report",
+        "predicate": "part of",
+        "object": "E2E Badge"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "provides summary of",
+        "object": "O-RAN certification"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "provides summary of",
+        "object": "IOT badging"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "provides summary of",
+        "object": "E2E badging"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "includes",
+        "object": "basic information about issued certificates"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "includes",
+        "object": "contacts to all involved entities"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "part of",
+        "object": "O-RAN Certificate"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "part of",
+        "object": "IOT Badge"
+      },
+      {
+        "subject": "Summary report",
+        "predicate": "part of",
+        "object": "E2E Badge"
+      }
+    ],
+    "preview": "# 2.2 Informative references\n\nReferences are either specific (identified by date of publication and/or edition number or version number) or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies.\n\nNOTE: While any hyperlinks included in this clause were valid at the time of ..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "DUT",
+      "E2E",
+      "FFS",
+      "IOT",
+      "IUT",
+      "MVP",
+      "O-CU",
+      "O-DU",
+      "O-RU",
+      "OTIC",
+      "RIC",
+      "SMO",
+      "SUT",
+      "TIFG",
+      "product",
+      "interface",
+      "reference design specifications",
+      "conformance tests",
+      "interoperability tests",
+      "end-to-end tests",
+      "unified test procedures",
+      "templates for sharing of results",
+      "operator networks",
+      "vendors",
+      "operators",
+      "O-RAN certificate",
+      "IOT badge",
+      "E2E badge",
+      "minimum requirements",
+      "functionality",
+      "security",
+      "mandatory features",
+      "end-to-end performance",
+      "optional end-to-end capabilities",
+      "common tests"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "awarded to",
+        "object": "product"
+      },
+      {
+        "subject": "IOT badge",
+        "predicate": "awarded to",
+        "object": "DUT pair"
+      },
+      {
+        "subject": "E2E badge",
+        "predicate": "awarded to",
+        "object": "SUT"
+      },
+      {
+        "subject": "O-RAN certification",
+        "predicate": "validates compliance with",
+        "object": "O-RAN defined interface or reference design specifications"
+      },
+      {
+        "subject": "IOT badging",
+        "predicate": "proves interoperability of",
+        "object": "pair of products"
+      },
+      {
+        "subject": "E2E badging",
+        "predicate": "demonstrates compliance with",
+        "object": "minimum requirements in terms of functionality, security and other mandatory features"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "use",
+        "object": "O-RAN certification and badging"
+      },
+      {
+        "subject": "operators",
+        "predicate": "benefit from",
+        "object": "O-RAN certification and badging"
+      },
+      {
+        "subject": "O-RAN certification",
+        "predicate": "improves confidence in",
+        "object": "operator chosen O-RAN based blueprint"
+      }
+    ],
+    "preview": "\n\n# 3.2 Symbols\n\nFor the purposes of the present document, the following symbols apply:\n\n# 3.3 Abbreviations\n\nFor the purposes of the present document, the following abbreviations apply:\n\nDUT Device Under Test   \nE2E End-to-End   \nFFS For Future Study   \nIOT Interoperability Testing   \nIUT Interface under Test   \nMVP Minimum Viable Plan   \nO-CU O-RAN Central Unit   \nO-DU O-RAN Distributed Unit   \n..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-RAN",
+      "O-RU CUSM-OpenFH",
+      "O-RU O1",
+      "O-DU O1",
+      "O-cloud O2",
+      "DUT",
+      "SUT",
+      "Conformance Certification",
+      "O-RAN IOT Badging",
+      "O-RAN E2E Badging",
+      "Operator Networks"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "purposes",
+        "object": "validate compliance with specifications"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "involves testing",
+        "object": "DUTs"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "uses",
+        "object": "O-RU CUSM-OpenFH"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "uses",
+        "object": "O-RU O1"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "uses",
+        "object": "O-DU O1"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "uses",
+        "object": "O-cloud O2"
+      },
+      {
+        "subject": "O-RAN IOT Badging",
+        "predicate": "awarded to",
+        "object": "DUT pairs"
+      },
+      {
+        "subject": "O-RAN E2E Badging",
+        "predicate": "applies to",
+        "object": "SUT"
+      },
+      {
+        "subject": "Operator Networks",
+        "predicate": "benefit from",
+        "object": "reduced testing efforts"
+      }
+    ],
+    "preview": "\n\n# 4 Certification and Badging Overview\n\n# 4.1 Objectives\n\nThe motivation of O-RAN certification and badging is to minimize the repetition of fundamental and common tests which should be performed to verify and validate O-RAN compliant products, systems and solutions before their deployment in operator networks thus reduce the test effort. The idea is to test only once and reuse/adopt the test re..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "O-RAN test specifications",
+      "certification",
+      "badging",
+      "DUTs",
+      "SUT",
+      "TIFG",
+      "WGs/FGs"
+    ],
+    "relations": [
+      {
+        "subject": "TIFG",
+        "predicate": "defines",
+        "object": "processes and associated technical procedures"
+      },
+      {
+        "subject": "O-RAN test specifications",
+        "predicate": "are used for",
+        "object": "issuing of specific O-RAN certificate/badge"
+      },
+      {
+        "subject": "certification",
+        "predicate": "is defined for",
+        "object": "DUTs"
+      },
+      {
+        "subject": "badging",
+        "predicate": "is defined for",
+        "object": "SUT"
+      },
+      {
+        "subject": "conformance certification",
+        "predicate": "uses",
+        "object": "conformance test specifications"
+      },
+      {
+        "subject": "interoperability badging",
+        "predicate": "uses",
+        "object": "IOT test specifications"
+      },
+      {
+        "subject": "E2E system integration assessment",
+        "predicate": "uses",
+        "object": "E2E test specifications"
+      }
+    ],
+    "preview": "# 1 4.2 Scope\n\nThe document defines and unifies the processes, procedures, templates, data format, etc. to ensure reusability and sharing of the test results and repeatability of the executed tests. The required tests for issuing of specific O-RAN certificate/badge are decoupled from this document. The document only references O-RAN test specification(s) (but without mentioning a specific version)..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "O-RAN Test and Integration Focus Group (TIFG)",
+      "O-RAN Working Groups",
+      "O-RAN Forums",
+      "Open Testing and Integration Centers (OTICs)",
+      "certification/badging entity",
+      "3GPP compliance",
+      "O-RAN conformance certification",
+      "interoperability testing (IOT)",
+      "end-to-end (E2E) functionality",
+      "O-RAN Certificates",
+      "O-RAN Badges",
+      "pre-requisite testing"
+    ],
+    "relations": [
+      {
+        "subject": "TIFG",
+        "predicate": "specifies",
+        "object": "processes and associated detailed technical procedures"
+      },
+      {
+        "subject": "TIFG",
+        "predicate": "identifies",
+        "object": "O-RAN test specifications and test cases"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "perform",
+        "object": "certification/badging services"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "issue",
+        "object": "O-RAN Certificates and Badges"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "require",
+        "object": "pre-requisite testing"
+      },
+      {
+        "subject": "certification/badging entity",
+        "predicate": "may require",
+        "object": "3GPP compliance"
+      },
+      {
+        "subject": "certification/badging entity",
+        "predicate": "may require",
+        "object": "O-RAN conformance certification"
+      }
+    ],
+    "preview": "\n\n![](images/0d6a7adb69739a237eaca15aeb1699b2c571d678b811aa57138300411323eeb0.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image is a flowchart outlining a testing framework for compliance and interoperability verification, specifically within a 5G context. It details the hierarchical structure of testing specifications (WG's, TIFG) and the types of test objects (DUTs and interfaces/APIs) used for..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "Certification/Badging Entity",
+      "OTICs",
+      "O-RAN Certificates",
+      "O-RAN Badges",
+      "O-RAN Members",
+      "O-RAN Contributors",
+      "O-RAN Academic Contributors",
+      "DUT (Device Under Test)",
+      "Test Results",
+      "Summary Reports",
+      "Measurement Results",
+      "3GPP Compliance",
+      "Conformance Certification",
+      "IOT Badging",
+      "E2E Badging",
+      "Operator Deployment Scenario"
+    ],
+    "relations": [
+      {
+        "subject": "OTICs",
+        "predicate": "perform",
+        "object": "Certification/Badging"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "issue",
+        "object": "O-RAN Certificates"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "issue",
+        "object": "O-RAN Badges"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "award to",
+        "object": "O-RAN Members"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "award to",
+        "object": "O-RAN Contributors"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "award to",
+        "object": "O-RAN Academic Contributors"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "provide environment for",
+        "object": "Collaborative Testing"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "require testing on",
+        "object": "DUT (Device Under Test)"
+      },
+      {
+        "subject": "Test Results",
+        "predicate": "generated by",
+        "object": "OTICs"
+      },
+      {
+        "subject": "Summary Reports",
+        "predicate": "accessed by",
+        "object": "O-RAN Operator Members"
+      },
+      {
+        "subject": "Measurement Results",
+        "predicate": "accessed by",
+        "object": "O-RAN Operator Members"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "perform pre-requisite testing on",
+        "object": "3GPP Compliance"
+      },
+      {
+        "subject": "Conformance Certification",
+        "predicate": "prerequisite for",
+        "object": "O-RAN IOT / E2E Badging"
+      },
+      {
+        "subject": "Certification/Badging Processes",
+        "predicate": "include",
+        "object": "Verification of Test Results"
+      },
+      {
+        "subject": "Certification/Badging Processes",
+        "predicate": "include",
+        "object": "Issuing Certificates/Badges"
+      },
+      {
+        "subject": "Certification/Badging Processes",
+        "predicate": "include",
+        "object": "Sharing Summary Reports"
+      },
+      {
+        "subject": "Certification/Badging Processes",
+        "predicate": "include",
+        "object": "Improving the Certification Process"
+      },
+      {
+        "subject": "Technical Procedures",
+        "predicate": "cover",
+        "object": "Conformance Certification"
+      },
+      {
+        "subject": "Technical Procedures",
+        ".predicate": "cover",
+        "object": "IOT Badging"
+      },
+      {
+        "subject": "Technical Procedures",
+        "predicate": "cover",
+        "object": "E2E Badging"
+      }
+    ],
+    "preview": "# 4.3.2 Certification/Badging entity\n\nO-RAN certification and badging can only be performed by approved O-RAN Open Testing and Integration Centers (OTICs), and consequently the O-RAN Certificates and Badges (with O-RAN approved logos for certification and badging) can only be issued by OTICs. In addition, the O-RAN Certificates and Badges (with O-RAN approved logos for certification and badging) c..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "O-RAN",
+      "certification/badging entities",
+      "vendors",
+      "operators",
+      "DUTs/SUT",
+      "summary reports",
+      "test reports",
+      "detailed measurement results",
+      "O-RAN certificates",
+      "badges",
+      "OTICs",
+      "IOT Badge",
+      "E2E Badge",
+      "Logo of the O-RAN Certificate",
+      "O-RAN TIFG"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "provides framework to",
+        "object": "certification/badging entities"
+      },
+      {
+        "subject": "certification/badging entities",
+        "predicate": "provide feedback to",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "issue",
+        "object": "O-RAN certificates and badges"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "receive",
+        "object": "certificates/badges"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "store",
+        "object": "detailed measurement results"
+      },
+      {
+        "subject": "operators",
+        "predicate": "access",
+        "object": "summary reports, test reports, and detailed measurement results"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "resolves",
+        "object": "unclearities, inconsistencies, and ambiguities in the document"
+      }
+    ],
+    "preview": "\n\n# 5. Certification and badging processes\n\n# 5.1 General\n\n# 5.1.1 Objectives of defining certification/badging processes\n\nThe objective is to have in place some level of uniformity on the certification/badging processes in order to:\n\n• Ensure quality of the certification/badging service provided by different certification/badging entities;\n\nAlign procedures that users of the certification/badging..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "O-RAN",
+      "Certification/Badging Entity",
+      "Test Cases",
+      "Conformance Tests",
+      "Interoperability Tests",
+      "E2E Tests",
+      "DUTs/SUT",
+      "Chapter 6",
+      "Chapter 7",
+      "Chapter 8",
+      "O-RAN TIFG"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "provides",
+        "object": "Certification/Badging Entity"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "defines",
+        "object": "Test Cases"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "provides feedback to",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "governs",
+        "object": "processes"
+      },
+      {
+        "subject": "Working Group (e.g., WG4)",
+        "predicate": "defines",
+        "object": "Conformance Tests"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "defines",
+        "object": "E2E Tests"
+      },
+      {
+        "subject": "DUTs/SUT",
+        "predicate": "require testing for",
+        "object": "Certification/Badging"
+      },
+      {
+        "subject": "Chapter 6",
+        "predicate": "specifies",
+        "object": "Conformance Tests"
+      },
+      {
+        "subject": "Chapter 7",
+        "predicate": "specifies",
+        "object": "Interoperability Tests"
+      },
+      {
+        "subject": "Chapter 8",
+        "predicate": "specifies",
+        "object": "E2E system integration"
+      }
+    ],
+    "preview": "\n\n# 5.1.3 Overview\n\n![](images/b7f30412bd880de377625d27e2d8cb8e6e76685b9bb0fc9ade508ab22d18e522.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image depicts a flowchart outlining a certification/badging process framework, starting with providing the initial framework and ending with vendors receiving certificates/badges and storing detailed results. This diagram likely illustrates the steps required..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "O-RAN WGs",
+      "Conformance Tests",
+      "Interoperability Tests",
+      "Open Fronthaul",
+      "O-RAN TIFG",
+      "certification/badging",
+      "DUTs/SUT",
+      "E2E tests",
+      "parameters",
+      "O-RAN specifications",
+      "test cases",
+      "Chapter 6",
+      "Chapter 7",
+      "Chapter 8",
+      "Conformance",
+      "Interoperability",
+      "E2E system integration",
+      "certification entities",
+      "test equipment vendors",
+      "Test Platforms",
+      "DUTs/SUT vendors",
+      "summary report"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN WGs",
+        "predicate": "specifies",
+        "object": "Conformance Tests"
+      },
+      {
+        "subject": "O-RAN WGs",
+        "predicate": "specifies",
+        "object": "Interoperability Tests"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "defines",
+        "object": "certification/badging"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "specifies",
+        "object": "E2E tests"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "defines",
+        "object": "test cases"
+      },
+      {
+        "subject": "certification/badging",
+        "predicate": "applies to",
+        "object": "DUTs/SUT"
+      },
+      {
+        "subject": "O-RAN specifications",
+        "predicate": "include",
+        "object": "parameters"
+      },
+      {
+        "subject": "O-RAN TIFG",
+        "predicate": "prepares",
+        "object": "certification/badging"
+      },
+      {
+        "subject": "Chapter 6",
+        "predicate": "specifies",
+        "object": "Conformance"
+      },
+      {
+        "subject": "Chapter 7",
+        "predicate": "specifies",
+        "object": "Interoperability"
+      },
+      {
+        "subject": "Chapter 8",
+        "predicate": "specifies",
+        "object": "E2E system integration"
+      },
+      {
+        "subject": "certification entities",
+        "predicate": "prepare",
+        "object": "test equipment"
+      },
+      {
+        "subject": "Test Platforms",
+        "predicate": "required for",
+        "object": "Conformance Certification"
+      },
+      {
+        "subject": "Test Platforms",
+        "predicate": "required for",
+        "object": "IOT Badging"
+      },
+      {
+        "subject": "Test Platforms",
+        "predicate": "required for",
+        "object": "E2E Badging"
+      },
+      {
+        "subject": "certification/badging entity",
+        "predicate": "documents",
+        "object": "test setup"
+      },
+      {
+        "subject": "summary report",
+        "predicate": "includes",
+        "object": "test equipment information"
+      }
+    ],
+    "preview": "\n\n# 5.2 Process\n\n# 5.2.1 Defining Certification/Badging and Set of Test Cases\n\nO-RAN WGs specify Conformance Tests and Interoperability Tests relevant to their scope of work (e.g. WG4 specifies Conformance Tests and Interoperability Tests relevant to Open Fronthaul). O-RAN TIFG specifies E2E tests where relevant.\n\nO-RAN TIFG defines certification/badging for DUTs/SUT (including conformance, intero..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [],
+    "relations": [],
+    "preview": "# 5.2.2 Test platforms\n\nIn order to reliably and successfully execute the tests for conformance certification, IOT badging, and E2E badging, specialized test equipment is needed. Such test equipment needs to meet specific criteria and be designed in such a way as to execute the test cases identified.\n\nIt is the responsibility of certification/badging entities together with test equipment vendors t..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-eNB",
+      "E1",
+      "F1",
+      "NG",
+      "X2",
+      "Test Sets",
+      "Certification",
+      "Commercial Test Solutions",
+      "Open Source Test Solutions",
+      "(Pre-) Commercial UEs",
+      "DUTs/SUT",
+      "Model",
+      "Features",
+      "Firmware/Software release",
+      "Blueprint",
+      "Profile",
+      "Test Results",
+      "Summary Report",
+      "Test Report",
+      "Unified Test Report Templates"
+    ],
+    "relations": [
+      {
+        "subject": "O-CU-CP",
+        "predicate": "interconnects_with",
+        "object": "E1"
+      },
+      {
+        "subject": "O-CU-CP",
+        "predicate": "interconnects_with",
+        "object": "F1"
+      },
+      {
+        "subject": "O-CU-UP",
+        "predicate": "interconnects_with",
+        "object": "E1"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "interconnects_with",
+        "object": "X2"
+      },
+      {
+        "subject": "Test Sets",
+        "predicate": "used_for",
+        "object": "Certification"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "uses",
+        "object": "Commercial Test Solutions"
+      },
+      {
+        "subject": "Certification/Badging Entity",
+        "predicate": "uses",
+        "object": "Open Source Test Solutions"
+      },
+      {
+        "subject": "(Pre-) Commercial UEs",
+        "predicate": "used_for",
+        "object": "Test Execution"
+      },
+      {
+        "subject": "DUTs/SUT",
+        "predicate": "includes_details_of",
+        "object": "Model"
+      },
+      {
+        "subject": "DUTs/SUT",
+        "predicate": "includes_details_of",
+        "object": "Features"
+      },
+      {
+        "subject": "DUTs/SUT",
+        "predicate": "includes_details_of",
+        "object": "Firmware/Software release"
+      },
+      {
+        "subject": "Test Results",
+        "predicate": "compared_to",
+        "object": "Test Specification"
+      },
+      {
+        "subject": "Unified Test Report Templates",
+        "predicate": "provided_for",
+        "object": "Testing Information Storage"
+      }
+    ],
+    "preview": "\n\n![](images/e482eb138df6d3aee040b1936eb9a04beb1952049059155b1318e1f24d57e90e.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image depicts a network architecture diagram showcasing the interconnection of various components within a cloud-native Radio Access Network (RAN) environment. It illustrates the interfaces (e.g., E1, F1, NG, X2) between elements like the O-CU-CP, O-CU-UP, O-DU, O-RU, and O-eN..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "Certification/badging entities",
+      "Test results",
+      "Summary report",
+      "Test report",
+      "DUTs/SUT vendor’s compliance folder",
+      "Blueprint",
+      "Profile",
+      "Templates",
+      "Testing information",
+      "Certificate/badge",
+      "Unique certificate/badge reference identifier",
+      "DUT pair",
+      "DUT/SUT group",
+      "Quantitative status",
+      "O-RAN interface",
+      "Reference design specification",
+      "Conformance test specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Certification/badging entities",
+        "predicate": "capture",
+        "object": "Test results"
+      },
+      {
+        "subject": "Detailed measurement results",
+        "predicate": "recorded into",
+        "object": "DUTs/SUT vendor’s compliance folder"
+      },
+      {
+        "subject": "Each test in the summary report and test report",
+        "predicate": "compared to",
+        "object": "Test specification"
+      },
+      {
+        "subject": "Test results",
+        "predicate": "reproducible under same conditions",
+        "object": null
+      },
+      {
+        "subject": "Date of the test",
+        "predicate": "recorded along with details of",
+        "object": "DUTs/SUT"
+      },
+      {
+        "subject": "Blueprint and Profile of the testing",
+        "predicate": "recorded",
+        "object": null
+      },
+      {
+        "subject": "Templates",
+        "predicate": "provided for storing",
+        "object": "Testing information"
+      },
+      {
+        "subject": "Certification/badging entities",
+        "predicate": "issue",
+        "object": "Certificate/badge"
+      },
+      {
+        "subject": "Each summary report and test report",
+        "predicate": "use",
+        "object": "Unique certificate/badge reference identifier"
+      },
+      {
+        "subject": "Badges",
+        "predicate": "issued per successful",
+        "object": "DUT pair for interoperability badging"
+      },
+      {
+        "subject": "Badges",
+        "predicate": "issued per successful",
+        "object": "DUT/SUT group for E2E system integration badging"
+      },
+      {
+        "subject": "Quantitative status",
+        "predicate": "example, “Gold badge”",
+        "object": null
+      },
+      {
+        "subject": "Compliance to an O-RAN interface or reference design specification",
+        "predicate": "stated when a DUT is certified against",
+        "object": "Conformance test specifications"
+      }
+    ],
+    "preview": "# 5.2.5 Verifying Test Results\n\nCertification/badging entities must capture the test results for each executed test and fill in the summary report and test report to be shared accordingly. Detailed measurement results like value/measurement, screenshot, or packet capture must be recorded into the DUTs/SUT vendor’s compliance folder. Each test in the summary report and test report must be compared ..."
+  },
+  {
+    "chunk_id": 17,
+    "entities": [
+      "certificate/badge",
+      "summary report",
+      "test report",
+      "vendor",
+      "DUT",
+      "SUT",
+      "interoperability badging",
+      "E2E system integration badging",
+      "reference identifier",
+      "Compliance Folder",
+      "Quality Management System (QMS)",
+      "certification/badging entity",
+      "OTIC designator"
+    ],
+    "relations": [
+      {
+        "subject": "certification/badging entity",
+        "predicate": "issues",
+        "object": "certificate/badge"
+      },
+      {
+        "subject": "certification/badging entity",
+        "predicate": "issues",
+        "object": "summary report"
+      },
+      {
+        "subject": "certification/badging entity",
+        "predicate": "issues",
+        "object": "test report"
+      },
+      {
+        "subject": "certificate/badge",
+        "predicate": "contains",
+        "object": "reference identifier"
+      },
+      {
+        "subject": "DUT",
+        "predicate": "certified against",
+        "object": "O-RAN interface or reference design specification"
+      },
+      {
+        "subject": "DUT/SUT",
+        "predicate": "pass",
+        "object": "interoperability badging"
+      },
+      {
+        "subject": "DUT/SUT group",
+        "predicate": "pass",
+        "object": "E2E system integration badging"
+      },
+      {
+        "subject": "Compliance Folder",
+        "predicate": "contains",
+        "object": "certification and badging report template"
+      },
+      {
+        "subject": "vendor",
+        "predicate": "maintains",
+        "object": "Compliance Folder"
+      },
+      {
+        "subject": "vendor",
+        "predicate": "appoints",
+        "object": "person responsible for certification matters"
+      },
+      {
+        "subject": "vendor",
+        "predicate": "provides evidence of",
+        "object": "Quality Management System (QMS)"
+      },
+      {
+        "subject": "reference identifier",
+        "predicate": "is structured as",
+        "object": "NAMEyy####"
+      },
+      {
+        "subject": "OTIC designator",
+        "predicate": "identifies",
+        "object": "certification/badging entity"
+      }
+    ],
+    "preview": "# 1 5.2.6 Issuing Certificates/Badges\n\nCertification/badging entities will issue a certificate/badge with summary report and test report that summarizes the test results to the vendor, when all necessary tests selected according to the process defined in 5.2.3 are successful. Each summary report and test report shall use a unique certificate/badge reference identifier per 5.2.6.1.\n\nFor badging, ba..."
+  },
+  {
+    "chunk_id": 18,
+    "entities": [
+      "Compliance Folder",
+      "Vendor",
+      "Certification",
+      "Quality Management System (QMS)",
+      "OTIC",
+      "Test Results",
+      "Document Control System",
+      "Section 5.2.8",
+      "O-RAN Certificate/Badge",
+      "Mobile Operators",
+      "Reuse",
+      "Custom Scope Tests"
+    ],
+    "relations": [
+      {
+        "subject": "Vendor",
+        "predicate": "creates and maintains",
+        "object": "Compliance Folder"
+      },
+      {
+        "subject": "Compliance Folder",
+        "predicate": "contains evidence of",
+        "object": "Quality Management System (QMS)"
+      },
+      {
+        "subject": "Compliance Folder",
+        "predicate": "is included in",
+        "object": "Document Control System"
+      },
+      {
+        "subject": "Compliance Folder",
+        "predicate": "must be shared under",
+        "object": "Section 5.2.8"
+      },
+      {
+        "subject": "Vendor",
+        "predicate": "appoints a person responsible for",
+        "object": "Certification matters"
+      },
+      {
+        "subject": "OTIC",
+        "predicate": "conducts tests leading to",
+        "object": "O-RAN Certificate/Badge"
+      },
+      {
+        "subject": "Test Results",
+        "predicate": "may be reused by",
+        "object": "Mobile Operators"
+      },
+      {
+        "subject": "Custom Scope Tests",
+        "predicate": "are conducted for",
+        "object": "Performance and function tests"
+      }
+    ],
+    "preview": "# 5.2.7 Compliance Folder\n\nThe Compliance Folder represents an electronic collection of all relevant documentation for a product submitted for certification. It is the responsibility of the vendor to create and maintain such a Compliance Folder, which must be kept for a period of no less than six years and must be available for sharing under the definition of described in Section 5.2.8. The Compli..."
+  },
+  {
+    "chunk_id": 19,
+    "entities": [
+      "O-RAN certificate",
+      "O-RAN badge",
+      "OTIC",
+      "test results",
+      "vendors",
+      "summary reports",
+      "test reports",
+      "detailed measurement results",
+      "Operator members",
+      "O-RAN ALLIANCE Contributors",
+      "OTIC labs"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "awarded by",
+        "object": "OTIC"
+      },
+      {
+        "subject": "test results",
+        "predicate": "stored by",
+        "object": "vendors"
+      },
+      {
+        "subject": "summary reports",
+        "predicate": "stored by",
+        "object": "OTICs"
+      },
+      {
+        "subject": "test reports",
+        "predicate": "stored by",
+        "object": "individual OTICs"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "stored by",
+        "object": "vendors"
+      }
+    ],
+    "preview": "\n\n# 5.2.8 Sharing of Certified Test Results\n\n# 5.2.8.1 Principle of Test Results Sharing\n\nAs described in Section 4.3.2, O-RAN certificate or O-RAN badge with O-RAN approved logo can be awarded only for the test conducted in the OTIC, which means the following test result sharing principles defined in OTIC Criteria and Guideline [1] need to be followed:\n\nIn principle the tests may be repeated with..."
+  },
+  {
+    "chunk_id": 20,
+    "entities": [
+      "O-RAN public website",
+      "catalogue",
+      "certificate/badge ID",
+      "Date of issued certificate/badge",
+      "Vendor name",
+      "OTIC name",
+      "summary reports",
+      "test reports",
+      "detailed measurement results",
+      "O-RAN Office",
+      "Operator members",
+      "O-RAN ALLIANCE Contributors",
+      "OTIC labs",
+      "certification requests",
+      "badging requests",
+      "suppliers",
+      "DUT/SUT vendors",
+      "testing",
+      "Public Availability Date",
+      "Publish when certified by OTIC",
+      "Publish within 90 days after certification",
+      "Basic: Supplier and model name/number",
+      "Detailed: Supplier, model name/number, supported O-RAN capabilities, HW version, SW version"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN public website",
+        "predicate": "contains",
+        "object": "catalogue"
+      },
+      {
+        "subject": "catalogue",
+        "predicate": "includes",
+        "object": "certificate/badge ID"
+      },
+      {
+        "subject": "catalogue",
+        "predicate": "includes",
+        "object": "Date of issued certificate/badge"
+      },
+      {
+        "subject": "catalogue",
+        "predicate": "includes",
+        "object": "Vendor name"
+      },
+      {
+        "subject": "catalogue",
+        "predicate": "includes",
+        "object": "OTIC name"
+      },
+      {
+        "subject": "summary reports",
+        "predicate": "stored_by",
+        "object": "individual OTICs"
+      },
+      {
+        "subject": "test reports",
+        "predicate": "stored_by",
+        "object": "individual OTICs"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "stored_by",
+        "object": "vendors"
+      },
+      {
+        "subject": "OTICs",
+        "predicate": "report_to",
+        "object": "O-RAN Office"
+      },
+      {
+        "subject": "Operator members",
+        "predicate": "view_access",
+        "object": "all certified devices"
+      },
+      {
+        "subject": "Operator members",
+        "predicate": "view_access",
+        "object": "badged system configurations"
+      },
+      {
+        "subject": "O-RAN ALLIANCE Contributors",
+        "predicate": "view_access",
+        "object": "certification requests they have submitted"
+      },
+      {
+        "subject": "OTIC labs",
+        "predicate": "view_access",
+        "object": "certification and badging requests suppliers have assigned to them for testing"
+      },
+      {
+        "subject": "suppliers",
+        "predicate": "submit",
+        "object": "certification/badging application"
+      },
+      {
+        "subject": "suppliers",
+        "predicate": "select_option",
+        "object": "Public Availability Date"
+      },
+      {
+        "subject": "suppliers",
+        "predicate": "select_option",
+        "object": "Publish when certified by OTIC"
+      },
+      {
+        "subject": "suppliers",
+        "predicate": "select_option",
+        "object": "Publish within 90 days after certification [1-365-day range]"
+      }
+    ],
+    "preview": "# 5.2.8.2 Location of Test Results Sharing\n\nThe O-RAN public website keeps a catalogue with basic (non-sensitive) information about all issued certificates and badges from all OTICs (such as Certificate/Badge ID, Date of issued certificate/badge, Vendor name, OTIC name). This centralized catalogue has unrestricted access and is available to all O-RAN member and non-member companies. Each individua..."
+  },
+  {
+    "chunk_id": 21,
+    "entities": [
+      "O-RAN",
+      "certificate",
+      "badge",
+      "summary report",
+      "test report",
+      "detailed measurement results",
+      "logs",
+      "traffic captures",
+      "screenshots"
+    ],
+    "relations": [
+      {
+        "subject": "summary report",
+        "predicate": "associated with",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "test report",
+        "predicate": "associated with",
+        "object": "O-RAN"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "logs"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "traffic captures"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "screenshots"
+      }
+    ],
+    "preview": "# 5.2.8.3 Test Result Sharing Options\n\nWhen submitting the certification/badging application, the supplier is given the following options for when and how the device is listed. This is to allow the supplier to maintain the confidentiality of a product until, for example, the public launch of the product:\n\nSelect when the device is published (“Public Availability Date”) o Publish when certified by ..."
+  },
+  {
+    "chunk_id": 22,
+    "entities": [
+      "O-RAN certificates",
+      "badges",
+      "logo",
+      "summary report",
+      "test report",
+      "detailed measurement results",
+      "DUT/SUT",
+      "test setup configuration",
+      "measured KPIs",
+      "gap analysis",
+      "evidence of meeting pass criteria",
+      "logs",
+      "traffic captures",
+      "screenshots",
+      "SW/HW changes",
+      "vendors"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN certificates",
+        "predicate": "include",
+        "object": "logo"
+      },
+      {
+        "subject": "O-RAN certificates",
+        "predicate": "include",
+        "object": "summary report"
+      },
+      {
+        "subject": "O-RAN certificates",
+        "predicate": "include",
+        "object": "test report"
+      },
+      {
+        "subject": "O-RAN certificates",
+        "predicate": "include",
+        "object": "detailed measurement results"
+      },
+      {
+        "subject": "badges",
+        "predicate": "include",
+        "object": "logo"
+      },
+      {
+        "subject": "badges",
+        "predicate": "include",
+        "object": "summary report"
+      },
+      {
+        "subject": "badges",
+        "predicate": "include",
+        "object": "test report"
+      },
+      {
+        "subject": "badges",
+        "predicate": "include",
+        "object": "detailed measurement results"
+      },
+      {
+        "subject": "summary report",
+        "predicate": "provides",
+        "object": "certification summaries"
+      },
+      {
+        "subject": "test report",
+        "predicate": "provides detail about",
+        "object": "DUT/SUT"
+      },
+      {
+        "subject": "test report",
+        "predicate": "provides detail about",
+        "object": "test setup configuration"
+      },
+      {
+        "subject": "test report",
+        "predicate": "assesses",
+        "object": "measured KPIs"
+      },
+      {
+        "subject": "test report",
+        "predicate": "includes",
+        "object": "gap analysis"
+      },
+      {
+        "subject": "test report",
+        "predicate": "includes evidence of",
+        "object": "meeting pass criteria"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "logs"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "traffic captures"
+      },
+      {
+        "subject": "detailed measurement results",
+        "predicate": "include",
+        "object": "screenshots"
+      },
+      {
+        "subject": "vendors",
+        "predicate": "judge necessity of redoing",
+        "object": "certification/badging"
+      }
+    ],
+    "preview": "# 5.2.8.4 Test Result Sharing Format\n\nAs mentioned in Section 5.1.4, O-RAN certificates and badges include four components: the logo of the O-RAN certificate/badge, the summary report, the test report, and the detailed measurement results.\n\nThe summary report, which provides summary of certification and badging testing and conducted tests, shall adopt the unified format as defined in the summary r..."
+  },
+  {
+    "chunk_id": 23,
+    "entities": [
+      "SH/HW changes",
+      "DUT/SUT",
+      "certification/badging",
+      "vendors",
+      "multi-vendor DUT",
+      "multi-vendor SUT",
+      "O-RAN functions",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-RAN interfaces",
+      "Open Fronthaul",
+      "O1",
+      "A1",
+      "end-to-end test system",
+      "interoperability test system",
+      "Underlying OTICs",
+      "test report"
+    ],
+    "relations": [
+      {
+        "subject": "SH/HW changes",
+        "predicate": "require",
+        "object": "re-certification/badging"
+      },
+      {
+        "subject": "multi-vendor DUT",
+        "predicate": "composed_of",
+        "object": "multiple internal SW/HW components"
+      },
+      {
+        "subject": "multi-vendor SUT",
+        "predicate": "composed_of",
+        "object": "multiple products"
+      },
+      {
+        "subject": "O-RAN functions",
+        "predicate": "awarded",
+        "object": "O-RAN certificate/badge"
+      },
+      {
+        "subject": "multi-vendor DUT",
+        "predicate": "can be awarded",
+        "object": "O-RAN certificate/badge"
+      },
+      {
+        "subject": "multi-vendor SUT",
+        "predicate": "can be awarded",
+        "object": "O-RAN badges"
+      },
+      {
+        "subject": "Underlying OTICs",
+        "predicate": "record_information_about",
+        "object": "involved products and components"
+      }
+    ],
+    "preview": "# 5.2.9 SH/HW changes to certified devices\n\nWhen SW/HW changes are made to a DUT/SUT, certification/badging for the previous versions of that DUT/SUT may not necessarily hold. On the other hand, a SW/HW change may also have nothing to do with interfaces which were the subject of previous certification/badging. Vendors should judge and self-declare when a redo of certification/badging is necessary ..."
+  },
+  {
+    "chunk_id": 24,
+    "entities": [
+      "multi-vendor DUT",
+      "single product",
+      "internal SW/HW components",
+      "OS",
+      "HW",
+      "network cards",
+      "accelerator cards",
+      "multi-vendor SUT",
+      "multiple products",
+      "O-RAN functions",
+      "Near-RT RIC",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "O-RU",
+      "O-RAN interfaces",
+      "Open Fronthaul",
+      "O1",
+      "A1",
+      "O-RAN certificate",
+      "badges",
+      "Conformance test specifications",
+      "IOT test specifications",
+      "End-to-end test specifications",
+      "_certificates_",
+      "badges (IOT)",
+      "badges (End-to-end)",
+      "End-to-end base functions",
+      "Chapter 7 technical procedures",
+      "'Xn' designation",
+      "custom IoT profile template",
+      "Chapter 8 technical procedures",
+      "functional assessments",
+      "security assessments",
+      "network architecture",
+      "LTE",
+      "5G SA",
+      "test reports",
+      "O-RAN certification and badging process",
+      "underlying OTICs",
+      "product vendors"
+    ],
+    "relations": [
+      {
+        "subject": "multi-vendor DUT",
+        "predicate": "is a type of",
+        "object": "single product"
+      },
+      {
+        "subject": "single product",
+        "predicate": "contains",
+        "object": "internal SW/HW components"
+      },
+      {
+        "subject": "multi-vendor SUT",
+        "predicate": "is a combination of",
+        "object": "multiple products"
+      },
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "can be awarded to",
+        "object": "Near-RT RIC"
+      },
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "can be awarded to",
+        "object": "O-CU-CP"
+      },
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "can be awarded to",
+        "object": "O-CU-UP"
+      },
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "can be awarded to",
+        "object": "O-DU"
+      },
+      {
+        "subject": "O-RAN certificate",
+        "predicate": "can be awarded to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "badges",
+        "predicate": "are awarded for",
+        "object": "Open Fronthaul"
+      },
+      {
+        "subject": "badges",
+        "predicate": "are awarded for",
+        "object": "O1"
+      },
+      {
+        "subject": "badges",
+        "predicate": "are awarded for",
+        "object": "A1"
+      },
+      {
+        "subject": "Conformance test specifications",
+        "predicate": "lead to",
+        "object": "_certificates_"
+      },
+      {
+        "subject": "IOT test specifications",
+        "predicate": "lead to",
+        "object": "badges (IOT)"
+      },
+      {
+        "subject": "End-to-end test specifications",
+        "predicate": "lead to",
+        "object": "badges (End-to-end)"
+      },
+      {
+        "subject": "badges (End-to-end)",
+        "predicate": "are awarded for passing",
+        "object": "functional assessments"
+      },
+      {
+        "subject": "badges (End-to-end)",
+        "predicate": "are awarded for passing",
+        "object": "security assessments"
+      },
+      {
+        "subject": "Chapter 8 technical procedures",
+        "predicate": "result in",
+        "object": "End-to-end base functions"
+      },
+      {
+        "subject": "underlying OTICs",
+        "predicate": "record information about",
+        "object": "products and components"
+      }
+    ],
+    "preview": "# 5.2.10 Multi-vendor Scenario\n\nThe products under the O-RAN certification and badging process could present the following two multivendor scenarios:\n\nmulti-vendor DUT: a single product with multiple internal SW/HW components (e.g. OS, HW, network cards, accelerator cards) from various vendors • multi-vendor SUT: a combination of multiple products, where individual product can be also multivendor ..."
+  },
+  {
+    "chunk_id": 25,
+    "entities": [
+      "Badges (IOT)",
+      "Chapter 7",
+      "'Xn'",
+      "custom IoT profile template (x2)",
+      "applying badges",
+      "components within a pair",
+      "End-to-end base functions",
+      "Chapter 8",
+      "functional assessment",
+      "security assessment",
+      "network architecture",
+      "LTE",
+      "5G SA",
+      "System Under Test (SUT)",
+      "O-RAN Certificate Procedures",
+      "compliance validation",
+      "O-RAN interface implementations",
+      "O-RAN defined interface specifications",
+      "subsystems",
+      "interfaces",
+      "test specifications",
+      "Open Fronthaul conformance test specification",
+      "O-RU",
+      "Radio Unit",
+      "0-DU",
+      "distributed unit",
+      "O-RAN Working Group 4 (WG4)",
+      "CUSM-planes",
+      "mandatory tests (M)",
+      "conditional mandatory tests (CM)",
+      "optional tests (O)",
+      "3GPP specifications",
+      "summary report",
+      "test report"
+    ],
+    "relations": [
+      {
+        "subject": "Table Summary",
+        "predicate": "outlines",
+        "object": "Badges (IOT)"
+      },
+      {
+        "subject": "Table Summary",
+        "predicate": "specifies",
+        "object": "applying badges"
+      },
+      {
+        "subject": "End-to-end base functions",
+        "predicate": "requires",
+        "object": "Chapter 8"
+      },
+      {
+        "subject": "End-to-end base functions",
+        "predicate": "involves",
+        "object": "functional assessment"
+      },
+      {
+        "subject": "End-to-end base functions",
+        "predicate": "involves",
+        "object": "security assessment"
+      },
+      {
+        "subject": "O-RAN Certificate Procedures",
+        "predicate": "validates",
+        "object": "compliance validation"
+      },
+      {
+        "subject": "O-RAN Certificate Procedures",
+        "predicate": "awards",
+        "object": "O-RAN Certificate"
+      },
+      {
+        "subject": "Table 6.1-1",
+        "predicate": "maps",
+        "object": "interfaces"
+      },
+      {
+        "subject": "Table 6.1-1",
+        "predicate": "links",
+        "object": "test specifications"
+      },
+      {
+        "subject": "Open Fronthaul conformance test specification",
+        "predicate": "applies to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Open Fronthaul conformance test specification",
+        "predicate": "applies to",
+        "object": "0-DU"
+      },
+      {
+        "subject": "Open Fronthaul conformance test specification",
+        "predicate": "owned by",
+        "object": "O-RAN Working Group 4 (WG4)"
+      },
+      {
+        "subject": "mandatory tests (M)",
+        "predicate": "required for",
+        "object": "issuing O-RAN certificate"
+      },
+      {
+        "subject": "conditional mandatory tests (CM)",
+        "predicate": "required for",
+        "object": "issuing O-RAN certificate"
+      },
+      {
+        "subject": "optional tests (O)",
+        "predicate": "can be executed but not required for",
+        "object": "issuing O-RAN certificate"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n\n21\n\n• Badges (IOT)\n\n> **Table Summary:** {\"table_summary\": \"This table outlines specific conditions and actions related to the issuance of a technical document, likely within a network infrastructure context. It details three triggers for document release: successful completion of Chapter 7 technical procedures, the presence of an 'Xn' designation, and the completion of..."
+  },
+  {
+    "chunk_id": 26,
+    "entities": [
+      "O-RAN",
+      "Open Fronthaul conformance test specification (O-RAN.WG4.CONF)",
+      "O-RU",
+      "0-DU",
+      "O-RAN Working Group 4 (WG4)",
+      "CUSM-planes",
+      "Device under Test (DUT)",
+      "mandatory (M) tests",
+      "conditional mandatory (CM) tests",
+      "optional (O) tests",
+      "3GPP specifications",
+      "summary report",
+      "test report",
+      "O-RAN certificate",
+      "O-RAN IOT Badge",
+      "interoperability (IOT)",
+      "Open Fronthaul interface"
+    ],
+    "relations": [
+      {
+        "subject": "Open Fronthaul conformance test specification (O-RAN.WG4.CONF)",
+        "predicate": "is applicable to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "Open Fronthaul conformance test specification (O-RAN.WG4.CONF)",
+        "predicate": "is applicable to",
+        "object": "0-DU"
+      },
+      {
+        "subject": "Open Fronthaul conformance test specification (O-RAN.WG4.CONF)",
+        "predicate": "is owned by",
+        "object": "O-RAN Working Group 4 (WG4)"
+      },
+      {
+        "subject": "CUSM-planes",
+        "predicate": "are part of",
+        "object": "Open Fronthaul interface"
+      },
+      {
+        "subject": "mandatory (M) tests",
+        "predicate": "are required for",
+        "object": "O-RAN certificate"
+      },
+      {
+        "subject": "conditional mandatory (CM) tests",
+        "predicate": "are required for",
+        "object": "O-RAN certificate"
+      },
+      {
+        "subject": "optional (O) tests",
+        "predicate": "can be executed but are not required for",
+        "object": "O-RAN certificate"
+      },
+      {
+        "subject": "3GPP specifications",
+        "predicate": "provide additional test sources for",
+        "object": "Open Fronthaul interface"
+      },
+      {
+        "subject": "summary report",
+        "predicate": "collects information for",
+        "object": "O-RAN certificate"
+      },
+      {
+        "subject": "test report",
+        "predicate": "collects information for",
+        "object": "O-RAN certificate"
+      },
+      {
+        "subject": "O-RAN IOT Badge",
+        "predicate": "is awarded to",
+        "object": "O-RU"
+      },
+      {
+        "subject": "O-RAN IOT Badge",
+        "predicate": "is awarded to",
+        "object": "0-DU"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {\n\"summary\": \"This table maps interfaces to subsystems and their corresponding test specifications within the O-RAN (Open Radio Access Network) architecture. It details the applicability of the 'Open Fronthaul conformance test specification' (O-RAN.WG4.CONF) to both the O-RU (Radio Unit) and the 0-DU (distributed unit) subsystems. The table explicitly links these test specif..."
+  },
+  {
+    "chunk_id": 27,
+    "entities": [
+      "O-RAN IOT Badge",
+      "subsystems",
+      "interfaces",
+      "interoperability validation",
+      "O-RAN Open Fronthaul interface",
+      "O-RU",
+      "O-DU",
+      "Fronthaul Interoperability Test Specification (IOT)",
+      "Device under Test (DUT)",
+      "mandatory tests",
+      "conditional mandatory tests",
+      "S-plane IOT functional tests",
+      "C/U-Plane Delay management tests",
+      "optional tests",
+      "test specifications",
+      "Interoperability Test Profiles",
+      "IOT Profile Test Configurations",
+      "Customized IOT Configuration",
+      "summary report"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN IOT Badge",
+        "predicate": "is awarded based on",
+        "object": "interoperability validation"
+      },
+      {
+        "subject": "subsystems",
+        "predicate": "are validated using",
+        "object": "interfaces"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "uses",
+        "object": "O-RAN Open Fronthaul interface"
+      },
+      {
+        "subject": "O-DU",
+        "predicate": "uses",
+        "object": "O-RAN Open Fronthaul interface"
+      },
+      {
+        "subject": "Fronthaul Interoperability Test Specification (IOT)",
+        "predicate": "defines",
+        "object": "Interoperability Test Profiles"
+      },
+      {
+        "subject": "Interoperability Test Profiles",
+        "predicate": "include",
+        "object": "IOT Profile Test Configurations"
+      },
+      {
+        "subject": "Customized IOT Configuration",
+        "predicate": "is included in",
+        "object": "summary report"
+      }
+    ],
+    "preview": "\n\n# 7. O-RAN IOT Badge Procedures\n\nThis section provides the procedures for validation of interoperability (IOT) of O-RAN compliant subsystems utilizing O-RAN specified or profiled open interfaces resulting in the award of O-RAN IOT badge.\n\n# 7.1 Subsystems and Interfaces\n\nThe O-RAN interoperability test specifications have been defined for the following combinations of O-RAN specified interface a..."
+  },
+  {
+    "chunk_id": 28,
+    "entities": [
+      "O-RAN",
+      "Fronthaul Interoperability Test Specification (IOT)",
+      "Device under Test (DUT)",
+      "S-plane IOT functional tests",
+      "C/U-Plane Delay management tests",
+      "O-RU",
+      "O-DU",
+      "Interoperability Test Profiles",
+      "Customized IOT Configuration",
+      "X2 interface",
+      "eNB",
+      "en-gNB",
+      "IOT Badge OpenFH",
+      "OpenFH Customized IOT Conf."
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "specifies",
+        "object": "Fronthaul Interoperability Test Specification (IOT)"
+      },
+      {
+        "subject": "Fronthaul Interoperability Test Specification (IOT)",
+        "predicate": "defines",
+        "object": "Interoperability Test Profiles"
+      },
+      {
+        "subject": "Fronthaul Interoperability Test Specification (IOT)",
+        "predicate": "specifies",
+        "object": "Customized IOT Configuration"
+      },
+      {
+        "subject": "O-RU",
+        "predicate": "interacts with",
+        "object": "O-DU"
+      },
+      {
+        "subject": "X2 interface",
+        "predicate": "connects",
+        "object": "eNB"
+      },
+      {
+        "subject": "X2 interface",
+        "predicate": "connects",
+        "object": "en-gNB"
+      },
+      {
+        "subject": "Device under Test (DUT)",
+        "predicate": "undergoes testing for",
+        "object": "IOT Badge OpenFH"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n\nIf needed, the following sections provide details on each combination mentioned in Table 7.1-1.\n\n# 1 7.2 O-RAN Open Fronthaul interface between O-RU and O-DU\n\nAll required tests for validation of interoperability between O-RU and O-DU utilizing O-RAN Open fronthaul interface are specified in the O-RAN “Fronthaul Interoperability Test Specification (IOT)” (O-RAN.WG4.IOT)..."
+  },
+  {
+    "chunk_id": 29,
+    "entities": [
+      "X2 interface",
+      "eNB",
+      "en-gNB",
+      "F1 interface",
+      "gNB O-DU",
+      "gNB O-CU",
+      "O-RAN.WG5.IOT",
+      "O-RAN IOT Badge"
+    ],
+    "relations": [
+      {
+        "subject": "X2 interface",
+        "predicate": "used between",
+        "object": "eNB and en-gNB"
+      },
+      {
+        "subject": "F1 interface",
+        "predicate": "used between",
+        "object": "gNB O-DU and gNB O-CU"
+      },
+      {
+        "subject": "O-RAN.WG5.IOT",
+        "predicate": "specifies",
+        "object": "X2 IOT tests"
+      },
+      {
+        "subject": "O-RAN.WG5.IOT",
+        "predicate": "specifies",
+        "object": "F1 IOT tests"
+      },
+      {
+        "subject": "applicable X2 IOT tests",
+        "predicate": "shall be passed for issuing of",
+        "object": "O-RAN IOT Badge"
+      },
+      {
+        "subject": "applicable F1 IOT tests",
+        "predicate": "shall be passed for issuing of",
+        "object": "O-RAN IOT Badge"
+      }
+    ],
+    "preview": "# 7.3 X2 interface between eNB and en-gNB\n\nAll required tests for validation of interoperability between eNB and en-gNB utilizing X2 interface are specified in the O-RAN “Interoperability Test Specification (IOT)” (O-RAN.WG5.IOT). Based on the supported capabilities, functionalities and features of Device under Test (DUT), the user/tester needs to identify all applicable X2 IOT tests from this tes..."
+  },
+  {
+    "chunk_id": 30,
+    "entities": [
+      "F1 interface",
+      "gNB O-DU",
+      "gNB O-CU",
+      "O-RAN",
+      "Interoperability Test Specification (IOT)",
+      "O-RAN.WG5.IOT",
+      "Device under Test (DUT)",
+      "O-RAN IOT badge",
+      "summary report",
+      "test report"
+    ],
+    "relations": [
+      {
+        "subject": "F1 interface",
+        "predicate": "is used for communication between",
+        "object": "gNB O-DU and gNB O-CU"
+      },
+      {
+        "subject": "Interoperability Test Specification (IOT)",
+        "predicate": "specifies all required tests for validation of interoperability using",
+        "object": "F1 interface"
+      },
+      {
+        "subject": "Device under Test (DUT)",
+        "predicate": "supports",
+        "object": "capabilities, functionalities, and features"
+      },
+      {
+        "subject": "passing applicable F1 IOT tests",
+        "predicate": "results in issuance of",
+        "object": "O-RAN IOT badge"
+      },
+      {
+        "subject": "summary report",
+        "predicate": "collects all information from testing under",
+        "object": "tab \"IOT Badge F1\""
+      },
+      {
+        "subject": "test report",
+        "predicate": "includes data from testing",
+        "object": "testing"
+      },
+      {
+        "subject": "Xn interface",
+        "predicate": "is used for communication between",
+        "object": "two gNB-CUs"
+      },
+      {
+        "subject": "Interoperability Test Specification (IOT)",
+        "predicate": "specifies all required tests for validation of interoperability using",
+        "object": "Xn interface"
+      },
+      {
+        "subject": "passing applicable Xn IOT tests",
+        "predicate": "results in issuance of",
+        "object": "O-RAN IOT badge"
+      },
+      {
+        "subject": "summary report",
+        "predicate": "collects all information from testing under",
+        "object": "tab \"IOT Badge Xn\""
+      }
+    ],
+    "preview": "# 7.4 F1 interface between gNB O-DU and gNB O-CU\n\nAll required tests for validation of interoperability between gNB O-DU and gNB O-DU utilizing F1 interface are specified in the O-RAN “Interoperability Test Specification (IOT)” (O-RAN.WG5.IOT). Based on the supported capabilities, functionalities and features of Device under Test (DUT), the user/tester needs to identify all applicable F1 IOT tests..."
+  },
+  {
+    "chunk_id": 31,
+    "entities": [
+      "Xn interface",
+      "gNB-CU",
+      "O-RAN.WG5.IOT",
+      "Interoperability Test Specification (IOT)",
+      "Device under Test (DUT)",
+      "O-RAN IOT badge",
+      "End-to-end functionality",
+      "O-RAN compliant system",
+      "O-RAN specified or profiled open interfaces",
+      "O RAN.TIFG.E2E-Test",
+      "gNB Security Assurance Specification (SCAS)",
+      "O-RAN E2E badge",
+      "summary report",
+      "test report",
+      "mandatory tests",
+      "optional tests"
+    ],
+    "relations": [
+      {
+        "subject": "Xn interface",
+        "predicate": "specified in",
+        "object": "Interoperability Test Specification (IOT)"
+      },
+      {
+        "subject": "O-RAN.WG5.IOT",
+        "predicate": "specifies tests for",
+        "object": "Xn interface"
+      },
+      {
+        "subject": "Device under Test (DUT)",
+        "predicate": "supports",
+        "object": "Xn IOT tests"
+      },
+      {
+        "subject": "O-RAN IOT badge",
+        "predicate": "requires passing of",
+        "object": "Xn IOT tests"
+      },
+      {
+        "subject": "End-to-end functionality",
+        "predicate": "validated by",
+        "object": "mandatory tests"
+      },
+      {
+        "subject": "O RAN.TIFG.E2E-Test",
+        "predicate": "specifies tests for",
+        "object": "End-to-end functionality"
+      },
+      {
+        "subject": "gNB Security Assurance Specification (SCAS)",
+        "predicate": "required by",
+        "object": "3GPP SA3"
+      },
+      {
+        "subject": "O-RAN E2E badge",
+        "predicate": "requires passing of",
+        "object": "mandatory tests"
+      },
+      {
+        "subject": "Test results",
+        "predicate": "collected in",
+        "object": "summary report"
+      },
+      {
+        "subject": "Test results",
+        "predicate": "included in",
+        "object": "test report"
+      }
+    ],
+    "preview": "# 7.5 Xn interface between gNB and gNB\n\nAll required tests for validation of interoperability between two gNB-CU utilizing Xn interface are specified in the O-RAN “Interoperability Test Specification (IOT)” (O-RAN.WG5.IOT). Based on the supported capabilities, functionalities and features of Device under Test (DUT), the user/tester needs to identify all applicable Xn IOT tests from this test speci..."
+  },
+  {
+    "chunk_id": 32,
+    "entities": [
+      "O-RAN",
+      "end-to-end functionality",
+      "mandatory tests",
+      "optional tests",
+      "test report",
+      "summary report",
+      "E2E Badge",
+      "Certification application",
+      "Company",
+      "Contact Name",
+      "Contact e-mail",
+      "Contact Address",
+      "Contact Phone",
+      "Product Name/Model",
+      "Product Software/Firmware Version",
+      "Product Description",
+      "Date of Submission",
+      "Date of expected start of testing",
+      "Preferred OTIC",
+      "Sub-system Type",
+      "certified building blocks",
+      "sub-assembly/building block",
+      "source certified/tested product(s)",
+      "regression testing",
+      "Compliance folder",
+      "Index of contents",
+      "Completed ICS with test execution information",
+      "Model/type numbers",
+      "Brand name",
+      "Manufacturer detail",
+      "Technical description including a block diagram, circuit diagram",
+      "Details of significant design aspects (features, specifications, installation measures, control of variants and manufacturing)",
+      "Variant description (as applicable)",
+      "Software version(s) / SVN",
+      "Reference to versions of O-RAN ALLIANCE Certification Criteria used",
+      "User, installation, or special instructions",
+      "Test data",
+      "Internal and the third party test reports",
+      "Products tested for interoperability",
+      "Details of changes in hardware and/or software configuration together with evidence of continued compliance",
+      "Evidence that the device has been developed and tested according to the Quality Management Program requirements",
+      "A copy of the Certification Declaration"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "defines",
+        "object": "end-to-end functionality"
+      },
+      {
+        "subject": "O RAN.TIFG.E2E-Test",
+        "predicate": "specifies",
+        "object": "mandatory tests"
+      },
+      {
+        "subject": "gNB Security Assurance Specification (SCAS)",
+        "predicate": "required by 3GPP SA3",
+        "object": "mandatory tests"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Company"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Contact Name"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Contact e-mail"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Contact Address"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Contact Phone"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Product Name/Model"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Product Software/Firmware Version"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Product Description"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Date of Submission"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Date of expected start of testing"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Preferred OTIC"
+      },
+      {
+        "subject": "Certification application",
+        "predicate": "includes",
+        "object": "Sub-system Type"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Index of contents"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Completed ICS with test execution information"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Model/type numbers"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Brand name"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Manufacturer detail"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Technical description including a block diagram, circuit diagram"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Details of significant design aspects (features, specifications, installation measures, control of variants and manufacturing)"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Variant description (as applicable)"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Software version(s) / SVN"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Reference to versions of O-RAN ALLIANCE Certification Criteria used"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "User, installation, or special instructions"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Test data"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Internal and the third party test reports"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Products tested for interoperability"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Details of changes in hardware and/or software configuration together with evidence of continued compliance"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "Evidence that the device has been developed and tested according to the Quality Management Program requirements"
+      },
+      {
+        "subject": "Compliance folder",
+        "predicate": "contains",
+        "object": "A copy of the Certification Declaration"
+      }
+    ],
+    "preview": "# 8. O-RAN E2E Badge Procedures\n\nThis section provides the procedures for validation of end-to-end functionality of O-RAN compliant system or subsystems utilizing O-RAN specified or profiled open interfaces resulting in the award of O-RAN E2E badge.\n\nAll required tests for validation of end-to-end functionality are specified in O-RAN “End-to-end Test Specification” (O RAN.TIFG.E2E-Test). All appli..."
+  },
+  {
+    "chunk_id": 33,
+    "entities": [
+      "Index of Contents",
+      "Completed ICS",
+      "Test Execution Information",
+      "Model/Type Numbers",
+      "Brand Name",
+      "Manufacturer Detail",
+      "Technical Description",
+      "Block Diagram",
+      "Circuit Diagram",
+      "Significant Design Aspects",
+      "Variant Description",
+      "Software Version(s)/SVN",
+      "O-RAN ALLIANCE Certification Criteria",
+      "User Instructions",
+      "Installation Instructions",
+      "Special Instructions",
+      "Test Data",
+      "Internal Test Report",
+      "Third Party Test Report",
+      "Products Tested for Interoperability",
+      "Changes in Hardware/Software Configuration",
+      "Evidence of Continued Compliance",
+      "Quality Management Program Requirements",
+      "Certification Declaration"
+    ],
+    "relations": [
+      {
+        "subject": "Technical Description",
+        "predicate": "contains",
+        "object": "Block Diagram"
+      },
+      {
+        "subject": "Technical Description",
+        "predicate": "contains",
+        "object": "Circuit Diagram"
+      },
+      {
+        "subject": "Significant Design Aspects",
+        "predicate": "is part of",
+        "object": "Technical Description"
+      },
+      {
+        "subject": "Completed ICS",
+        "predicate": "includes",
+        "object": "Test Execution Information"
+      },
+      {
+        "subject": "Products Tested for Interoperability",
+        "predicate": "refers to",
+        "object": "O-RAN ALLIANCE Certification Criteria"
+      }
+    ],
+    "preview": "# 1 Annex B – Compliance folder\n\n2 Compliance folder should at least include the following information:\n\n• Index of contents   \n• Completed ICS with test execution information   \n• Model/type numbers   \n• Brand name   \n• Manufacturer detail   \n• Technical description including a block diagram, circuit diagram   \n• Details of significant design aspects (features, specifications, installation measur..."
+  }
+]

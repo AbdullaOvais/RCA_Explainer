@@ -1,0 +1,1132 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN Working Group 2",
+      "A1 interface",
+      "General Aspects",
+      "Principles",
+      "O-RAN ALLIANCE e.V."
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "responsible_for",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "documents_revision_history_of",
+        "object": "specification"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "described_in",
+        "object": "General Aspects"
+      },
+      {
+        "subject": "O-RAN Working Group 2",
+        "predicate": "collaborates_with",
+        "object": "O-RAN ALLIANCE e.V."
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: General Aspects and Principles\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specifications sh..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN Working Group 2",
+      "A1 interface",
+      "Policy management",
+      "ML Model related procedures",
+      "Enrichment information transfer procedures",
+      "Life cycle aspects of A1 policies",
+      "A1 policy content"
+    ],
+    "relations": [
+      {
+        "subject": "A1 interface",
+        "predicate": "has function",
+        "object": "Policy management"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has procedure",
+        "object": "ML Model related procedures"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has procedure",
+        "object": "Enrichment information transfer procedures"
+      },
+      {
+        "subject": "Policy management",
+        "predicate": "includes aspect",
+        "object": "Life cycle aspects of A1 policies"
+      },
+      {
+        "subject": "A1 policy content",
+        "predicate": "relates to",
+        "object": "Life cycle aspects of A1 policies"
+      }
+    ],
+    "preview": "\n\n# O-RAN Working Group 2 A1 interface: General Aspects and Principles\n\n# Revision History\n\n> **Table Summary:** {\n\"summary\": \"This table documents the revision history of a specification, likely related to Working Group 2 (WG2). It tracks key changes including the date, revision number, author (Patric Lind of Ericsson), and a brief description of each modification. The entries show an initial ver..."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN Alliance",
+      "A1 interface",
+      "Policy management",
+      "ML Model related procedures",
+      "Enrichment information transfer",
+      "Transport Protocol",
+      "Application Protocol"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "Policy management"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "ML Model related procedures"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "Enrichment information transfer"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "Transport Protocol"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "Application Protocol"
+      }
+    ],
+    "preview": "\n\n# Chapter 3 Functions of the A1 interface.. .10\n\n3.1 Policy management.. ..... 10   \n3.1.1 Introduction.. ... 10   \n3.1.2 The policy management function.. .... 10   \n3.1.3 Life cycle aspects of A1 policies ..... ..... 11   \n3.1.4 Identification and scope of A1 policies.. ... 11   \n3.1.5 A1 policy content.. ... 13\n\n# Chapter 4 Signalling procedures of the A1 interface... ..14\n\n4.1 Policy related ..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "O-RAN Alliance",
+      "O-RAN WG2",
+      "A1 interface",
+      "Non-RT RIC",
+      "Near-RT RIC",
+      "Imperative Policy",
+      "Declarative Policy",
+      "Intent Policy",
+      "RAN Intent",
+      "A1 Policy",
+      "3GPP TR 21.905",
+      "ETSI GR ENI 004 v1.1.1 (2018-06)",
+      "TS-family"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "O-RAN WG2",
+        "predicate": "covers",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Imperative Policy",
+        "predicate": "refers to",
+        "object": "Events, Conditions, and Actions"
+      },
+      {
+        "subject": "Declarative Policy",
+        ".predicate": "categorized as",
+        "object": "Policy Objectives and Policy Resources"
+      },
+      {
+        "subject": "A1 Policy",
+        "predicate": "expressed using",
+        "object": "formal statements"
+      },
+      {
+        "subject": "A1 Enrichment information",
+        "predicate": "utilized by",
+        "object": "near-RT RIC"
+      }
+    ],
+    "preview": "\n\n# Chapter 1 Introduction\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by O-RAN Alliance.\n\nThe contents of the present document are subject to continuing work within O-RAN WG2 and may change following formal O-RAN approval. In the event that O-RAN Alliance decides to modify the contents of the present document, it will be re-released by O-RAN Alliance with an identifying change of..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "policy",
+      "imperative policy",
+      "declarative policy",
+      "intent policy",
+      "A1 policy",
+      "RAN intent",
+      "A1 Enrichment information",
+      "AI",
+      "BSS",
+      "JSON",
+      "KPI",
+      "KQI",
+      "ML",
+      "OAM",
+      "O&A",
+      "PM",
+      "QoS",
+      "QoE",
+      "RAN",
+      "RT",
+      "RIC",
+      "RRM",
+      "SLA",
+      "S-NSSAI",
+      "SMO",
+      "SPID",
+      "UE"
+    ],
+    "relations": [
+      {
+        "subject": "imperative policy",
+        "predicate": "is a type of",
+        "object": "policy"
+      },
+      {
+        "subject": "declarative policy",
+        "predicate": "is a type of",
+        "object": "policy"
+      },
+      {
+        "subject": "intent policy",
+        "predicate": "is a type of",
+        "object": "policy"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "is a type of",
+        "object": "policy"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "enables",
+        "object": "SMO"
+      },
+      {
+        "subject": "A1 Enrichment information",
+        "predicate": "is utilized by",
+        "object": "near-RT RIC"
+      },
+      {
+        "subject": "intent policy",
+        "predicate": "requires translation of terms for",
+        "object": "managed functional entity"
+      },
+      {
+        "subject": "RAN intent",
+        "predicate": "expresses high-level goals for",
+        "object": "radio access network"
+      }
+    ],
+    "preview": "\n\n> **Table Summary:** {}\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 [1], O-RAN [2,3] and the following apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR 21.905 [1].\n\nTerminology related to policies are based on ETSI GR EN..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "O-RAN",
+      "A1 interface",
+      "non-Real Time (RT) RIC",
+      "near-Real Time (RT) RIC",
+      "Service Management and Orchestration (SMO) layer",
+      "AI/ML workflow",
+      "ML Models",
+      "SLAs",
+      "Radio Resource Management (RRM)",
+      "observables"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN architecture",
+        "predicate": "includes",
+        "object": "non-Real Time (RT) RIC"
+      },
+      {
+        "subject": "O-RAN architecture",
+        "predicate": "includes",
+        "object": "near-Real Time (RT) RIC"
+      },
+      {
+        "subject": "non-Real Time (RT) RIC",
+        "predicate": "connected through",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "near-Real Time (RT) RIC",
+        "predicate": "connected through",
+        "object": "A1 interface"
+      },
+      {
+        "subject": "Service Management and Orchestration (SMO) layer",
+        "predicate": "resides in",
+        "object": "O-RAN OAM architecture"
+      },
+      {
+        "subject": "non-Real Time (RT) RIC function",
+        "predicate": "resides in",
+        "object": "Service Management and Orchestration (SMO) layer"
+      },
+      {
+        "subject": "AI/ML workflow",
+        "predicate": "handled by",
+        "object": "Service Management and Orchestration (SMO) layer"
+      },
+      {
+        "subject": "Service Management and Orchestration (SMO) layer",
+        "predicate": "may have access to",
+        "object": "enrichment information"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "purpose is to enable",
+        "object": "policy-based guidance"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "purpose is to enable",
+        "object": "ML model management"
+      },
+      {
+        "subject": "non-Real Time (RT) RIC",
+        "predicate": "manages",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "near-Real Time (RT) RIC function",
+        "predicate": "functions based on",
+        "object": "configuration received over O1"
+      },
+      {
+        "subject": "non-Real Time (RT) RIC",
+        "predicate": "provides",
+        "object": "enrichment information over A1 interface"
+      }
+    ],
+    "preview": "# 1.3.2 Abbreviations\n\nFor the purposes of the present document, the abbreviations given in 3GPP TR 21.905 [1], O-RAN [2,3] and the following apply. An abbreviation defined in the present document takes precedence over the definition of the same abbreviation, if any, in 3GPP TR 21.905 [1].\n\nAI Artificial Intelligence BSS Business Support System JSON JavaScript Object Notation KPI Key Performance I..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "A1 Policy Management Service",
+      "A1 ML Model Management Service",
+      "A1 Enrichment Information Service",
+      "non-RT RIC",
+      "near-RT RIC",
+      "E2 nodes",
+      "O-CU-CP",
+      "O-CU-UP",
+      "O-DU",
+      "eNB",
+      "A1 policies",
+      "enrichment information",
+      "ML models",
+      "SMO layer",
+      "RAN Intent",
+      "O1 observables"
+    ],
+    "relations": [
+      {
+        "subject": "non-RT RIC",
+        "predicate": "defines",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "provides",
+        "object": "enrichment information to near-RT RIC via A1 interface"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "implements",
+        "object": "A1 policies for optimization"
+      },
+      {
+        "subject": "SMO layer",
+        "predicate": "trains",
+        "object": "ML models"
+      },
+      {
+        "subject": "SMO layer",
+        "predicate": "deploys",
+        "object": "ML models to non-RT RIC and near-RT RIC"
+      },
+      {
+        "subject": "RAN Intent",
+        "predicate": "influences",
+        "object": "A1 policies creation"
+      },
+      {
+        "subject": "O1 observables",
+        "predicate": "provides_data_for",
+        "object": "ML models training and inference"
+      }
+    ],
+    "preview": "\n\n![](images/a6c16c642c37825fd052c077e3dba221330ba4b75251b1cf41bccd47406c1bb4.jpg)\n\n> **Image Summary:** {\n\"summary\": \"The image illustrates a data flow process within a RAN (Radio Access Network) context, highlighting how \"\n\n    }\n  \nFigure 2-2: Illustration of A1 and related interfaces in the O-RAN architecture. E2 nodes here refers to RAN nodes such as an O-CU-CP, an O-CU-UP, an O-DU or an eNB...."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "SMO layer",
+      "RAN-external sources",
+      "near-RT RIC",
+      "non-RT RIC",
+      "Orchestration & Automation layer",
+      "A1 interface",
+      "ML model",
+      "enrichment information",
+      "policy-based guidance",
+      "radio resource management",
+      "feedback mechanism",
+      "policy enforcement service",
+      "policies",
+      "standardized mechanism",
+      "language",
+      "syntax",
+      "inter-connection",
+      "Radio Access Network",
+      "different manufacturers",
+      "individual UEs",
+      "groups of UEs",
+      "policy state feedback",
+      "enrichment information transfer",
+      "policy management information transfer",
+      "RAN intent",
+      "SLA",
+      "BSS",
+      "QoS",
+      "RRM",
+      "O1 interface",
+      "dynamic group of users",
+      "pre-defined group of users"
+    ],
+    "relations": [
+      {
+        "subject": "SMO layer",
+        "predicate": "has access to",
+        "object": "RAN-external sources"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "improves performance with",
+        "object": "ML model"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "connects",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "connects",
+        "object": "near-RT RIC"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "provides",
+        "object": "enrichment information"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "receives",
+        "object": "enrichment information"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "enables",
+        "object": "policy-based guidance"
+      },
+      {
+        "subject": "non-RT RIC",
+        ".predicate": "monitors use of",
+        "object": "policies"
+      },
+      {
+        "subject": "policy enforcement service",
+        "predicate": "requires",
+        "object": "standardized mechanism"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "transmits",
+        "object": "enrichment information"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "creates",
+        "object": "policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "modifies",
+        "object": "policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        ".predicate": "deletes",
+        "object": "policies"
+      },
+      {
+        ".subject": "near-RT RIC",
+        "predicate": "enforces",
+        "object": "policies"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "supports",
+        "object": "policy management information transfer"
+      },
+      {
+        "subject": "A1 interface",
+        ".predicate": "supports",
+        "object": "policy feedback"
+      },
+      {
+        ".subject": "A1 interface",
+        "predicate": "supports",
+        "object": "enrichment information transfer"
+      },
+      {
+        ".subject": "non-RT RIC",
+        "predicate": "guides",
+        "object": "near-RT RIC"
+      },
+      {
+        ".subject": "RAN intent",
+        "predicate": "represents",
+        "object": "SLA"
+      },
+      {
+        ".subject": "BSS",
+        "predicate": "provides",
+        "object": "SLA"
+      },
+      {
+        ".subject": "non-RT RIC",
+        ".predicate": "concludes",
+        "object": "RAN intent fulfillment"
+      },
+      {
+        ".subject": "near-RT RIC",
+        ".predicate": "optimizes",
+        "object": "RRM"
+      },
+      {
+        ".subject": "non-RT RIC",
+        ".predicate": "adjusts",
+        "object": "QoS targets"
+      },
+      {
+        ".subject": "O1 interface",
+        "predicate": "provides",
+        "object": "observability"
+      }
+    ],
+    "preview": "\n\n# 2.1.3.3 A1 Enrichment Information Service\n\nThe SMO layer may have access to information from RAN-external sources that could be beneficial for near-RT RIC internal functions or applications, e.g. an ML model, to improve its RAN optimization performance. This can be provided as enrichment information over the A1 interface, either as external data or as inferred data (after analysis).\n\n# 2.2 A1 ..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "A1 interface",
+      "non-RT RIC",
+      "near-RT RIC",
+      "policy management information",
+      "policy feedback",
+      "enrichment information",
+      "O-RAN",
+      "RAN intent",
+      "SLA",
+      "BSS",
+      "QCI",
+      "slice",
+      "QoS targets",
+      "users",
+      "RRM",
+      "UEs",
+      "O1 interface",
+      "observability",
+      "A1 policies",
+      "policy management function"
+    ],
+    "relations": [
+      {
+        "subject": "A1 interface",
+        "predicate": "supports",
+        "object": "transfer of policy management information from non-RT RIC to near-RT RIC"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "supports",
+        "object": "policy feedback from near-RT RIC to non-RT RIC"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "supports",
+        "object": "transfer of enrichment information from non-RT RIC to near-RT RIC"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "guides",
+        "object": "near-RT RIC function"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "strives to deliver",
+        "object": "expected QoS for users"
+      },
+      {
+        "subject": "non-RT RIC",
+        ".predicate": "understands",
+        "object": "available resources in a certain area are not enough to fulfil SLA"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "decides to use",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "policy management function",
+        "predicate": "is used by",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "policy management function",
+        "predicate": "provisions and manages",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "near-RT RIC",
+        ".predicate": "cannot change content of a policy",
+        "object": "only enforcement status can be notified"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "estimates fulfilment based on",
+        "object": "O1 observables"
+      },
+      {
+        "subject": "non-RT RIC",
+        ".predicate": "monitors network before and after",
+        "object": "creation of A1 policy"
+      }
+    ],
+    "preview": "\n\n# 2.4 A1 interface capabilities\n\nThe A1 interface supports [2,3]:\n\n- Transfer of policy management information from non-RT RIC to near-RT RIC;   \n- Policy feedback from near-RT RIC to non-RT RIC;   \n- Transfer of enrichment information from non-RT RIC to near-RT RIC.\n\n# Chapter 3 Functions of the A1 interface\n\n# 3.1 Policy management\n\n# 3.1.1 Introduction\n\nThe purpose of A1 policies is to enable..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "Policy Management Function",
+      "non-RT RIC",
+      "near-RT RIC",
+      "A1 policies",
+      "A1 policy feedback",
+      "A1 Create policy procedure",
+      "A1 Update policy procedure",
+      "A1 Delete policy procedure"
+    ],
+    "relations": [
+      {
+        "subject": "Policy Management Function",
+        "predicate": "used_by",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "provision_and_manage",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "enforce",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "definition_and_administration",
+        "object": "A1 polices"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "create",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "update",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "delete",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "query_presence",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "query_content",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "Policy Management Function",
+        "predicate": "query_runtime_status",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "provide",
+        "object": "A1 policy feedback"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "monitor_performance",
+        "object": "network"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "evaluate_policy_conditions",
+        "object": null
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "notify",
+        "object": "non-RT RIC"
+      }
+    ],
+    "preview": "# 3.1.2 The policy management function\n\nThe policy management function is used by the non-RT RIC to provision and manage A1 policies that are enforced by the near-RT RIC. The non-RT RIC is responsible for definition and administration of A1 polices.\n\nThe function is used to create, update and delete A1 policies in the near-RT RIC.\n\nThe function is used to query the presence, content and run-time s..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "near-RT RIC",
+      "non-RT RIC",
+      "A1 policies",
+      "UEId",
+      "PolicyID",
+      "policy statements",
+      "policy objectives",
+      "policy resources",
+      "scope identifier",
+      "SPID",
+      "S-NSSAI",
+      "5QI",
+      "O1-PM data"
+    ],
+    "relations": [
+      {
+        "subject": "near-RT RIC",
+        "predicate": "controls",
+        "object": "RAN"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "creates",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "updates",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "deletes",
+        "object": "A1 policies"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "evaluates",
+        "object": "policy conditions"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "notifies",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "A1 policies",
+        "predicate": "include",
+        "object": "scope identifier"
+      },
+      {
+        "subject": "A1 policies",
+        "predicate": "include",
+        "object": "policy statements"
+      },
+      {
+        "subject": "PolicyID",
+        "predicate": "assigned by",
+        "object": "non-RT RIC"
+      },
+      {
+        "subject": "UEId",
+        "predicate": "identifies",
+        "object": "logical UE entity"
+      },
+      {
+        "subject": "UEId",
+        "predicate": "correlates with",
+        "object": "O1-PM data"
+      }
+    ],
+    "preview": "# 3.1.3 Life cycle aspects of A1 policies\n\nPer default, the near-RT RIC controls the RAN based on the persistent configuration. The RAN operation can be optimized using A1 polices that, compared to the persistent configuration,\n\nis not critical to traffic;   \nhave temporary validity;   \nhandle individual UE or dynamically defined groups of UEs;   \nacts within and takes precedence over the configur..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "A1 policy",
+      "policy statements",
+      "UE identifier (UEId)",
+      "group identifier",
+      "SPID",
+      "S-NSSAI",
+      "5QI",
+      "near-RT RIC",
+      "non-RT RIC",
+      "O-RAN"
+    ],
+    "relations": [
+      {
+        "subject": "A1 policy",
+        "predicate": "includes",
+        "object": "policy statements"
+      },
+      {
+        "subject": "UE identifier (UEId)",
+        "predicate": "identifies",
+        "object": "logical UE entity"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "receives",
+        "object": "group identifier"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "correlates",
+        "object": "UEIds"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "optimizes",
+        "object": "quality of experience"
+      },
+      {
+        "subject": "group identifier",
+        "predicate": "defines",
+        "object": "associated UEs"
+      }
+    ],
+    "preview": "\n\n![](images/f4e5e4c9bf469530492f52366a564dbe502d86b7140d0870ac73466e5738c7d8.jpg)\n\n> **Image Summary:** {\"response\": \"The image depicts a stylized representation of a document, specifically labeled as an 'A1 policy.' It illustrates the core components of a policy – a 'scope identifier' and 'policy statement(s)' – signifying a formal declaration of rules, guidelines, or procedures. This visual lik..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "A1 Policy",
+      "SPID",
+      "S-NSSAI",
+      "UEid",
+      "near-RT RIC"
+    ],
+    "relations": [
+      {
+        "subject": "A1 Policy",
+        "predicate": "uses",
+        "object": "SPID"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resolves",
+        "object": "SPID"
+      },
+      {
+        "subject": "A1 Policy",
+        "predicate": "uses",
+        "object": "S-NSSAI"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resolves",
+        "object": "S-NSSAI"
+      }
+    ],
+    "preview": "# 3.1.4.2 Identification of groups of UEs\n\nIn the scope of A1 policies, a pre-defined group of UEs can be implicitly identified based on a UE group identifier.\n\nThe following UE group identifiers are possible:\n\nSPID [8].\n\nWhen the near-RT RIC receives a UE group identifier in an A1 policy, it may resolve it into a set of UEids that are present in the nodes controlled by the near-RT RIC and applies..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "S-NSSAI",
+      "slice identifier",
+      "near-RT RIC",
+      "UE identifiers",
+      "QoS flow identifiers",
+      "A1 policy",
+      "5QI",
+      "application group identifier"
+    ],
+    "relations": [
+      {
+        "subject": "S-NSSAI",
+        "predicate": "identifies",
+        "object": "slice identifier"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "receives",
+        "object": "A1 policy"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resolves",
+        "object": "slice identifier"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "applies",
+        "object": "policy statements"
+      },
+      {
+        "subject": "5QI",
+        "predicate": "identifies",
+        "object": "application group identifier"
+      }
+    ],
+    "preview": "# 3.1.4.3 Identification of slices\n\nIn the scope of A1 policies, the following identifiers can be used to implicitly identify a pre-defined group of UEs or a group of QoS flows:\n\nS-NSSAI [9];\n\nWhen the near-RT RIC receives a slice identifier in an A1 policy, it may resolve it into a set of UE identifiers and a set of QoS flow identifiers that are present in the nodes controlled by the near-RT RIC ..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "A1 policies",
+      "5QI",
+      "CellId",
+      "UEIds",
+      "non-RT RIC",
+      "near-RT RIC",
+      "policy statements",
+      "policy objectives",
+      "QoS targets",
+      "KPI targets",
+      "KQI targets",
+      "QoE targets",
+      "policy resources",
+      "traffic steering preferences",
+      "system efficiency",
+      "signaling procedures",
+      "Policy create procedure",
+      "Policy query procedure",
+      "Policy update procedure",
+      "Policy delete procedure",
+      "Policy feedback procedure",
+      "A1 interface",
+      "protocol structure",
+      "transport network layer",
+      "IP transport",
+      "HTTP/TS",
+      "application layer protocol",
+      "RESTful approach",
+      "JSON"
+    ],
+    "relations": [
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resolves",
+        "object": "QoS flow identifiers"
+      },
+      {
+        "subject": "near-RT RIC",
+        "predicate": "resolves",
+        "object": "UEIds"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "contains",
+        "object": "policy statements"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "identifies",
+        "object": "application group"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "identifies",
+        "object": "cell identifier"
+      },
+      {
+        "subject": "CellId",
+        "predicate": "impacts",
+        "object": "UEs handled by the specified cell(s)"
+      },
+      {
+        "subject": "non-RT RIC",
+        "predicate": "expresses policies for",
+        "object": "group of cells"
+      },
+      {
+        "subject": "A1 policy",
+        "predicate": "includes",
+        "object": "policy objectives"
+      },
+      {
+        "subject": "QoS targets",
+        "predicate": "are expressed using",
+        "object": "QoS attributes"
+      },
+      {
+        "subject": "KPI targets",
+        "predicate": "are expressed using",
+        "object": "KPI attributes"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "includes",
+        "object": "signaling procedures"
+      },
+      {
+        "subject": "signaling procedures",
+        "predicate": "include",
+        "object": "Policy create procedure"
+      },
+      {
+        "subject": "signaling procedures",
+        "predicate": "include",
+        "object": "Policy query procedure"
+      },
+      {
+        "subject": "signaling procedures",
+        "predicate": "include",
+        "object": "Policy update procedure"
+      },
+      {
+        "subject": "signaling procedures",
+        "predicate": "include",
+        "object": "Policy delete procedure"
+      },
+      {
+        "subject": "signaling procedures",
+        "predicate": "include",
+        "object": "Policy feedback procedure"
+      },
+      {
+        "subject": "A1 interface",
+        "predicate": "has",
+        "object": "protocol structure"
+      },
+      {
+        "subject": "transport network layer",
+        "predicate": "uses",
+        "object": "IP transport"
+      },
+      {
+        "subject": "HTTP/TS",
+        "predicate": "is added on top of",
+        "object": "IP"
+      },
+      {
+        "subject": "application layer protocol",
+        "predicate": "uses",
+        "object": "RESTful approach"
+      },
+      {
+        "subject": "A1 application layer protocol",
+        "predicate": "transfers",
+        "object": "JSON formatted policy statements"
+      }
+    ],
+    "preview": "# 3.1.4.4 Identification of applications\n\nIn the scope of A1 policies, the following identifiers can be used to implicitly identify a group of applications as well as group of UEs:\n\n5QI [9];\n\nWhen the near-RT RIC receives an application group identifier in an A1 policy, it may resolve it into a set of QoS flow identifiers (that are related to the applications that the non-RT RIC is intending to op..."
+  },
+  {
+    "chunk_id": 16,
+    "entities": [
+      "A1 interface",
+      "O-RAN WG2",
+      "Policy objectives",
+      "QoS targets",
+      "QoE targets",
+      "KQI targets",
+      "KPI targets",
+      "Policy resources",
+      "Traffic steering preferences",
+      "System efficiency",
+      "Signaling procedures",
+      "Policy create procedure",
+      "Policy query procedure",
+      "Policy update procedure",
+      "Policy delete procedure",
+      "Protocol structure",
+      "Licensing agreement"
+    ],
+    "relations": [
+      {
+        "subject": "A1 policy",
+        "predicate": "contains",
+        "object": "policy statements"
+      },
+      {
+        "subject": "Policy objectives",
+        "predicate": "include",
+        "object": "QoS targets"
+      },
+      {
+        "subject": "Policy objectives",
+        "predicate": "include",
+        "object": "QoE targets"
+      },
+      {
+        "subject": "Policy objectives",
+        "predicate": "include",
+        "object": "KQI targets"
+      },
+      {
+        "subject": "Policy objectives",
+        "predicate": "include",
+        "object": "KPI targets"
+      },
+      {
+        "subject": "Signaling procedures",
+        "predicate": "include",
+        "object": "Policy create procedure"
+      },
+      {
+        "subject": "Signaling procedures",
+        "predicate": "include",
+        "object": "Policy query procedure"
+      },
+      {
+        "subject": "Signaling procedures",
+        "predicate": "include",
+        "object": "Policy update procedure"
+      },
+      {
+        "subject": "Signaling procedures",
+        "predicate": "include",
+        "object": "Policy delete procedure"
+      }
+    ],
+    "preview": "\n\n# 3.1.5 A1 policy content\n\nIn addition to a scope identifier, an A1 policy contains policy statements. There are several kinds of policy statements that cover policy objectives and policy resources.\n\nNOTE: The detailed rules for how to formulate policy statements, and which combinations of identifiers and statements that are allowed, are specified in [A12].\n\n# 3.1.5.1 Policy objectives\n\nThe foll..."
+  }
+]

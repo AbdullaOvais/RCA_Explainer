@@ -1,0 +1,1613 @@
+[
+  {
+    "chunk_id": 1,
+    "entities": [
+      "O-RAN",
+      "Security Focus Group (SFG)",
+      "Security Protocols Specifications",
+      "IPR Policy",
+      "O-RAN Adopter License Agreement",
+      "SSH",
+      "TLS",
+      "NETCONF over secure Transport",
+      "DTLS",
+      "IPsec"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "has_specification",
+        "object": "Security Protocols Specifications"
+      },
+      {
+        "subject": "Security Focus Group (SFG)",
+        "predicate": "prepares",
+        "object": "Security Protocols Specifications"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes_protocol",
+        "object": "SSH"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes_protocol",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes_protocol",
+        "object": "NETCONF over secure Transport"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes_protocol",
+        "object": "DTLS"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "includes_protocol",
+        "object": "IPsec"
+      }
+    ],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# Security Protocols Specifications\n\n# This is a re-published version of the attached final specification.\n\nFor this re-published version, the prior versions of the IPR Policy will apply, except that the previous requirement for Adopters (as defined in the earlier IPR Policy) to agree to an O-RAN Adopter License Agreement to access and use Final Specificatio..."
+  },
+  {
+    "chunk_id": 2,
+    "entities": [
+      "O-RAN",
+      "Security Protocols Specifications",
+      "SSH",
+      "TLS",
+      "DTLS",
+      "IPsec"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "has",
+        "object": "Security Protocols Specifications"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "general requirement",
+        "object": "2.1.1"
+      },
+      {
+        "subject": "TLS",
+        "predicate": "general requirement",
+        "object": "2.2.1"
+      },
+      {
+        "subject": "DTLS",
+        "predicate": "general requirement",
+        "object": "2.4.1"
+      }
+    ],
+    "preview": "\n\n# O-RAN - Security Focus Group (SFG)\n\n# Security Protocols Specifications\n\nPrepared by the O-RAN ALLIANCE e.V.   \nCopyright $©$ 2021 by the O-RAN ALLIANCE e.V.\n\nRevision History\n\n> **Table Summary:** {}\n\n# Contents\n\n2 Revision History .... .. 2   \n3 1.1 Scope .......... .................................................................................................................................."
+  },
+  {
+    "chunk_id": 3,
+    "entities": [
+      "O-RAN.org",
+      "O-RAN SFG",
+      "O-RAN compliant implementation",
+      "SSH",
+      "TLS",
+      "RFC 4252",
+      "OpenSSH",
+      " moz://a",
+      "ORAN-WG4.MP.0-v06.00",
+      "3GPP TR 21.905",
+      "RFC 6668",
+      "RFC 8268",
+      "RFC 8308",
+      "RFC 8332",
+      "RFC 8709",
+      "RFC 8758",
+      "RFC 5246",
+      "RFC 8446",
+      "SP 800-52 Rev.2",
+      "3GPP TS 33.210 V16.4.0",
+      "RFC 8422",
+      "RFC 6066",
+      "RFC 6347",
+      "RFC 6083",
+      "draftwesterlund-tsvwg-dtls-over-sctp-bis-01",
+      "3GPP TS 33.310 V16.2.0",
+      "RFC 4301",
+      "3GPP TS 33.401 V16.0.0",
+      "3GPP TS 33.501 V16.6.0",
+      "3GPP TR 33.821 V9.0.0",
+      "RFC 4303",
+      "RFC 8221",
+      "RFC 4306"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN.org",
+        "predicate": "produced",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "specifies",
+        "object": "SSH"
+      },
+      {
+        "subject": "Technical Specification",
+        "predicate": "specifies",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN.org",
+        "predicate": "modifies",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "re-releases",
+        "object": "Technical Specification"
+      },
+      {
+        "subject": "RFC 4252",
+        "predicate": "is_reference_for",
+        "object": "SSH Authentication Protocol"
+      },
+      {
+        "subject": "OpenSSH",
+        "predicate": "is_reference_for",
+        "object": "SSH Implementation"
+      },
+      {
+        "subject": " moz://a",
+        "predicate": "provides_guidelines_for",
+        "object": "SSH"
+      },
+      {
+        "subject": "ORAN-WG4.MP.0-v06.00",
+        "predicate": "is_reference_for",
+        "object": "O-RAN Management Plane Specification"
+      },
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "defines",
+        "object": "Vocabulary for 3GPP Specifications"
+      },
+      {
+        "subject": "RFC 6668",
+        "predicate": "specifies",
+        "object": "SHA-2 Data Integrity Verification for SSH"
+      },
+      {
+        "subject": "RFC 8268",
+        "predicate": "defines",
+        "object": "MODP Diffie-Hellman Key Exchange Groups for SSH"
+      },
+      {
+        "subject": "RFC 8308",
+        "predicate": "describes",
+        "object": "Extension Negotiation in SSH Protocol"
+      },
+      {
+        "subject": "RFC 8332",
+        "predicate": "specifies",
+        "object": "Use of RSA Keys with SHA-256 and SHA-512 in SSH"
+      },
+      {
+        "subject": "RFC 8709",
+        "predicate": "defines",
+        "object": "Ed25519 and Ed448 Public Key Algorithms for SSH"
+      },
+      {
+        "subject": "RFC 8758",
+        "predicate": "deprecates",
+        "object": "RC4 in SSH"
+      },
+      {
+        "subject": "RFC 5246",
+        "predicate": "defines",
+        "object": "TLS v1.2 Protocol"
+      },
+      {
+        "subject": "RFC 8446",
+        "predicate": "defines",
+        "object": "TLS v1.3 Protocol"
+      },
+      {
+        "subject": "SP 800-52 Rev.2",
+        "predicate": "provides_guidelines_for",
+        "object": "Selection, Configuration, and Use of TLS Implementations"
+      },
+      {
+        "subject": "3GPP TS 33.210 V16.4.0",
+        "predicate": "specifies",
+        "object": "IP Network Layer Security"
+      },
+      {
+        "subject": "RFC 8422",
+        "predicate": "defines",
+        "object": "Elliptic Curve Cryptography Cipher Suites for TLS"
+      },
+      {
+        "subject": "RFC 6066",
+        "predicate": "describes",
+        "object": "TLS Extensions: Extension Definitions"
+      },
+      {
+        "subject": "RFC 6347",
+        "predicate": "defines",
+        "object": "DTLS v1.2 Protocol"
+      },
+      {
+        "subject": "RFC 6083",
+        "predicate": "specifies",
+        "object": "DTLS for SCTP"
+      },
+      {
+        "subject": "draftwesterlund-tsvwg-dtls-over-sctp-bis-01",
+        "predicate": "proposes",
+        "object": "DTLS over SCTP"
+      },
+      {
+        "subject": "3GPP TS 33.310 V16.2.0",
+        "predicate": "defines",
+        "object": "Authentication Framework"
+      },
+      {
+        "subject": "RFC 4301",
+        "predicate": "specifies",
+        "object": "Security Architecture for IP"
+      },
+      {
+        "subject": "3GPP TS 33.401 V16.0.0",
+        "predicate": "defines",
+        "object": "Security architecture (Release 15)"
+      },
+      {
+        "subject": "3GPP TS 33.501 V16.6.0",
+        "predicate": "specifies",
+        "object": "Security architecture and procedures for 5G system"
+      },
+      {
+        "subject": "3GPP TR 33.821 V9.0.0",
+        "predicate": "describes",
+        "object": "Rationale and track of security decisions in LTE RAN / SAE (Release 9)"
+      },
+      {
+        "subject": "RFC 4303",
+        "predicate": "defines",
+        "object": "IP Encapsulating Security Payload (ESP)"
+      },
+      {
+        "subject": "RFC 8221",
+        "predicate": "provides_guidelines_for",
+        "object": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for ESP and AH"
+      },
+      {
+        "subject": "RFC 4306",
+        "predicate": "defines",
+        "object": "Internet Key Exchange (IKEv2) Protocol"
+      }
+    ],
+    "preview": "\n\n# Introductory Material\n\n# 1.1 Scope\n\nThis Technical Specification has been produced by the O-RAN.org.\n\nThe contents of the present document are subject to continuing work within O-RAN SFG and may change following formal O-RAN approval. Should the O-RAN.org modify the contents of the present document, it will be re-released by O-RAN Alliance with an identifying change of release date and an incr..."
+  },
+  {
+    "chunk_id": 4,
+    "entities": [
+      "3GPP TR 21.905",
+      "RFC 4252",
+      "OpenSSH",
+      "moz://a",
+      "ORAN-WG4.MP.0-v06.00",
+      "RFC 8446",
+      "RFC 5246",
+      "RFC 8709",
+      "RFC 8332",
+      "RFC 8308",
+      "RFC 8268",
+      "RFC 6668",
+      "RFC 8422",
+      "RFC 6066",
+      "RFC 6347",
+      "RFC 6083",
+      "draftwesterlund-tsvwg-dtls-over-sctp-bis-01",
+      "3GPP TS 33.210 V16.4.0",
+      "3GPP TS 33.310 V16.2.0",
+      "RFC 4301",
+      "3GPP TR 33.821 V9.0.0",
+      "RFC 4303",
+      "RFC 8221",
+      "RFC 4306",
+      "O-RAN",
+      "SSHv2"
+    ],
+    "relations": [
+      {
+        "subject": "ORAN-WG4.MP.0-v06.00",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "3GPP TR 21.905",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 4252",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "OpenSSH",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "moz://a",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8446",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 5246",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8709",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8332",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8308",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8268",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 6668",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8422",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 6066",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 6347",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 6083",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "draftwesterlund-tsvwg-dtls-over-sctp-bis-01",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "3GPP TS 33.210 V16.4.0",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "3GPP TS 33.310 V16.2.0",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 4301",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "3GPP TR 33.821 V9.0.0",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 4303",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 8221",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "RFC 4306",
+        "predicate": "referenced_in",
+        "object": "present_document"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "implements",
+        "object": "SSHv2"
+      }
+    ],
+    "preview": "# 1.2 References\n\nThe following documents contain provisions which, through reference in this text, constitute provisions of the present document.\n\n- References are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.\n\n- For a specific reference, subsequent revisions do not apply.\n\nFor a non-specific reference, the latest version applies. In th..."
+  },
+  {
+    "chunk_id": 5,
+    "entities": [
+      "O-RAN",
+      "SSHv2",
+      "SSH",
+      "TLS 1.2",
+      "TLS 1.3",
+      "OpenSSL",
+      "ecdsa-sha2-nistp256",
+      "ecdsa-sha2-nistp384",
+      "ecdsa-sha2-nistp521",
+      "ssh-ed25519",
+      "ssh-ed448",
+      "aes256-gcm",
+      "aes128-gcm",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "curve25519-sha256",
+      "hmac-sha2-512-etm",
+      "hmac-sha2-512",
+      "hmac-sha2-256-etm",
+      "hmac-sha2-256",
+      "umac-128"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "uses",
+        "object": "SSHv2"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "suggests support for",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp384"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdsa-sha2-nistp521"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ssh-ed25519"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ssh-ed448"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "aes256-gcm"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "aes128-gcm"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "aes256-ctr"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "aes192- ctr"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "aes128- ctr"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdh-sha2-nistp521"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdh-sha2-nistp384"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "ecdh-sha2-nistp256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "diffie-hellman-group-exchange-sha256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "curve25519-sha256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "hmac-sha2-512-etm"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "hmac-sha2-512"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "hmac-sha2-256-etm"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "hmac-sha2-256"
+      },
+      {
+        "subject": "SSH",
+        "predicate": "uses",
+        "object": "umac-128"
+      }
+    ],
+    "preview": "\n\n# 1.3 Definitions and Abbreviations\n\n# 1.3.1 Definitions\n\nFor the purposes of the present document, the terms and definitions given in 3GPP TR 21.905 [1] and the following apply. A term defined in the present document takes precedence over the definition of the same term, if any, in 3GPP TR 21.905 [1].\n\n# 1.3.2 Abbreviations and acronyms\n\nFor the purposes of the present document, the abbreviatio..."
+  },
+  {
+    "chunk_id": 6,
+    "entities": [
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "curve25519-sha256",
+      "hmac-sha2-512-etm",
+      "hmac-sha2-512",
+      "hmac-sha2-256-etm",
+      "hmac-sha2-256",
+      "umac-128",
+      "TLS 1.2",
+      "TLS 1.3",
+      "Intermediate server ciphers",
+      "Modern server ciphers",
+      "Mozilla",
+      "OpenSSL",
+      "NIST"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "ecdh-sha2-nistp521"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "ecdh-sha2-nistp384"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "ecdh-sha2-nistp256"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "diffie-hellman-group-exchange-sha256"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "curve25519-sha256"
+      },
+      {
+        "subject": "hmac-sha2-512-etm",
+        "predicate": "is_required",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "hmac-sha2-512",
+        "predicate": "is_required",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "hmac-sha2-256-etm",
+        "predicate": "is_required",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "hmac-sha2-256",
+        "predicate": "is_required",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "umac-128",
+        "predicate": "is_required",
+        "object": "Message authentication codes (MACs)"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "TLS 1.2"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "should_support",
+        "object": "TLS 1.3"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "configures",
+        "object": "Intermediate server ciphers"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "configures",
+        "object": "Modern server ciphers"
+      },
+      {
+        "subject": "Mozilla",
+        "predicate": "maintains",
+        "object": "TLS ciphers classifications"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "uses",
+        "object": "Intermediate classification"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "OpenSSL",
+        "predicate": "is_used_for_implementation",
+        "object": "TLS protocol"
+      },
+      {
+        "subject": "NIST",
+        "predicate": "guidelines_referenced_in",
+        "object": "O-RAN specifications"
+      }
+    ],
+    "preview": "\n\n# 2.1.2.3 Key exchange algorithms (KexAlgorithms)\n\n• Required\n\na. ecdh-sha2-nistp521   \nb. ecdh-sha2-nistp384   \nc. ecdh-sha2-nistp256   \nd. diffie-hellman-group-exchange-sha256   \ne. curve25519-sha256\n\nCryptographically Insecure a. Diffie-hellman-group1-sha1\n\n# 2.1.2.4 Message authentication codes (MACs)\n\n• Required a. hmac-sha2-512-etm b. hmac-sha2-512 c. hmac-sha2-256-etm d. hmac-sha2-256 e. ..."
+  },
+  {
+    "chunk_id": 7,
+    "entities": [
+      "O-RAN",
+      "TLS Protocol profiles specifications",
+      "Intermediate Ciphers",
+      "Modern ciphers",
+      "TLS curves",
+      "Diffie-Hellman parameter size",
+      "Certificate type",
+      "TLS hash algorithms",
+      "signature algorithms",
+      "HTTP Strict Transport Security (HSTS)",
+      "Cipher preference"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "Intermediate Ciphers"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "should support",
+        "object": "Modern ciphers"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "include",
+        "object": "TLS curves"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "require",
+        "object": "Diffie-Hellman parameter size"
+      },
+      {
+        "subject": "Intermediate Ciphers",
+        "predicate": "specify",
+        "object": "Certificate type"
+      },
+      {
+        "subject": "TLS curves",
+        "predicate": "include",
+        "object": "X25519"
+      },
+      {
+        "subject": "TLS curves",
+        "predicate": "include",
+        "object": "prime256v1 (secp256r1)"
+      },
+      {
+        "subject": "TLS hash algorithms",
+        "predicate": "support",
+        "object": "SHA-256"
+      }
+    ],
+    "preview": "# 2.2.2 TLS Protocol profiles specifications\n\n12 The Mozilla Operations Security and Enterprise Information Security teams maintains a web page [7] that serves as a   \n13 reference guide for navigating the TLS landscape. Mozilla divides the TLS ciphers into three classifications: Modern,   \n14 Intermediate and Old.\n\nModern: Modern clients that support TLS 1.3, with no need for backwards compatibil..."
+  },
+  {
+    "chunk_id": 8,
+    "entities": [
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+      "AEAD",
+      "PFS",
+      "GCM",
+      "ECDHE",
+      "DHE",
+      "X25519",
+      "prime256v1",
+      "secp256r1",
+      "secp384r1",
+      "ECDSA",
+      "P-256",
+      "RSA",
+      "2048 bits",
+      "DH parameter size",
+      "2048 (ffdhe2048, RFC 7919)",
+      "MD5",
+      "SHA-1",
+      "SHA-256",
+      "SHA-384",
+      "ecdsa",
+      "rsa_pss_rsae",
+      "rsa_pkcs1",
+      "ecdsa_secp384r1_sha384",
+      "null compression method",
+      "TLS 1.2 RFC 5246",
+      "HTTP Strict Transport Security (HSTS)",
+      "max-age=63072000",
+      "two years",
+      "90 days",
+      "cipher preference: client chooses",
+      "TLS_AES_128_GCM_SHA256",
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_CHACHA20_POLY1305_SHA256",
+      "section 9.1 of TLS 1.3 RFC 8446",
+      "Key exchange with secp384r1",
+      "TLS signature schemes: ecdsa_secp384r1_sha384",
+      "TLS extensions",
+      "section 9.2 of TLS 1.3 RCF 8446",
+      "OCSP Status extension",
+      "certificate status request"
+    ],
+    "relations": [
+      {
+        "subject": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "uses_cipher_suite",
+        "object": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "uses_cipher_suite",
+        "object": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "AEAD",
+        "predicate": "supported_by",
+        "object": "cipher suites with AEAD (e.g. GCM)"
+      },
+      {
+        "subject": "PFS",
+        "predicate": "supported_by",
+        "object": "cipher suites with PFS (e.g. ECDHE, DHE)"
+      },
+      {
+        "subject": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "uses_protocol",
+        "object": "ECDHE"
+      },
+      {
+        "subject": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "predicate": "uses_protocol",
+        "object": "DHE"
+      },
+      {
+        "subject": "X25519",
+        "predicate": "is_TLS_curve",
+        "object": "TLS curves"
+      },
+      {
+        "subject": "prime256v1",
+        "predicate": "is_TLS_curve",
+        "object": "TLS curves"
+      },
+      {
+        "subject": "secp256r1",
+        "predicate": "is_TLS_curve",
+        "object": "TLS curves"
+      },
+      {
+        "subject": "ECDSA",
+        "predicate": "supported_certificate_type",
+        "object": "P-256"
+      },
+      {
+        "subject": "RSA",
+        "predicate": "supported_certificate_type",
+        "object": "2048 bits"
+      },
+      {
+        "subject": "DH parameter size",
+        "predicate": "required_size",
+        "object": "2048 (ffdhe2048, RFC 7919)"
+      },
+      {
+        "subject": "SHA-256",
+        "predicate": "mandatory_hash_algorithm",
+        "object": "TLS hash algorithms"
+      },
+      {
+        "subject": "SHA-384",
+        "predicate": "optional_hash_algorithm",
+        "object": "TLS hash algorithms"
+      },
+      {
+        "subject": "MD5",
+        "predicate": "not_supported_hash_algorithm",
+        "object": "TLS hash algorithms"
+      },
+      {
+        "subject": "SHA-1",
+        "predicate": "not_supported_hash_algorithm",
+        "object": "TLS hash algorithms"
+      },
+      {
+        "subject": "ecdsa_secp384r1_sha384",
+        "predicate": "supported_signature_scheme",
+        "object": "TLS signature schemes"
+      },
+      {
+        "subject": "null compression method",
+        "predicate": "mandatory_compression_method",
+        "object": "TLS 1.2 RFC 5246"
+      },
+      {
+        "subject": "HSTS",
+        "predicate": "configured_with_max_age",
+        "object": "max-age=63072000 (two years)"
+      },
+      {
+        "subject": "cipher preference",
+        "predicate": "determined_by",
+        "object": "client chooses"
+      },
+      {
+        "subject": "TLS_AES_128_GCM_SHA256",
+        "predicate": "uses_cipher_suite",
+        "object": "TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "TLS_AES_256_GCM_SHA384",
+        "predicate": "uses_cipher_suite",
+        "object": "TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "TLS_CHACHA20_POLY1305_SHA256",
+        "predicate": "uses_cipher_suite",
+        "object": "TLS_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "Key exchange with secp384r1",
+        "predicate": "supported_requirement",
+        "object": "section 9.1 of TLS 1.3 RFC 8446"
+      },
+      {
+        "subject": "OCSP Status extension",
+        "predicate": "supported_extension",
+        "object": "TLS extensions"
+      }
+    ],
+    "preview": "# 2.2.2.1 Intermediate Ciphers for TLS 1.2\n\nThis is the required set of ciphers, protocols, TLS curves, supported certificate types, Diffie-Hellman parameter size, etc. The Intermediate ciphers and configuration parameters are highly secure and compatible with nearly every client released in the last five (or more) years. Note that this document uses the IANA cipher naming conventions [5]\n\nCipher ..."
+  },
+  {
+    "chunk_id": 9,
+    "entities": [
+      "TLS 1.3",
+      "Cipher suites",
+      "TLS_AES_128_GCM_SHA256",
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_CHACHA20_POLY1305_SHA256",
+      "ECDSA (P-256)",
+      "RSA (2048 bits)",
+      "DH parameter size: 2048",
+      "ffdhe2048",
+      "RFC 7919",
+      "TLS signature schemes: ecdsa_secp384r1_sha384",
+      "OCSP Status extension",
+      "certificate status request",
+      "RFC 6066",
+      "HTTP Strict Transport Security (HSTS)",
+      "max-age=63072000",
+      "two years",
+      "Maximum certificate lifespan: 90 days",
+      "Modern Ciphers",
+      "NETCONF",
+      "O-RAN Working Group 4 Management Plane Specification",
+      "Mplane mandated TLS ciphers [6]",
+      "DTLS 1.2",
+      "RFC 6083",
+      "user message limit of approximately 16k bytes",
+      "Stream Control Transmission Protocol (SCTP)",
+      "draft-westerlund-tsvwg-dtls-over-sctp-bis-01 [25]",
+      "DTLS software",
+      "OpenSSL",
+      "pre-shared keys",
+      "TLS client certificates",
+      "TLS client CA",
+      "operator domain",
+      "TLS server certificates",
+      "TLS server CA",
+      "TS 33.210 (6.2.3) [20]",
+      "certificate profiling",
+      "IPsec",
+      "[27]",
+      "[26]",
+      "[28]",
+      "[29]",
+      "[30]"
+    ],
+    "relations": [
+      {
+        "subject": "TLS 1.3",
+        "predicate": "uses",
+        "object": "Cipher suites"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "supports",
+        "object": "TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "supports",
+        "object": "TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "supports",
+        "object": "TLS_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "requires",
+        "object": "ECDSA (P-256)"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "requires",
+        "object": "RSA (2048 bits)"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "specifies",
+        "object": "DH parameter size: 2048"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "refers to",
+        "object": "ffdhe2048"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "references",
+        "object": "RFC 7919"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "supports",
+        "object": "TLS signature schemes: ecdsa_secp384r1_sha384"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "requires",
+        "object": "OCSP Status extension"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "refers to",
+        "object": "certificate status request"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "references",
+        "object": "RFC 6066"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "supports",
+        "object": "HTTP Strict Transport Security (HSTS)"
+      },
+      {
+        "subject": "HSTS",
+        "predicate": "sets",
+        "object": "max-age=63072000"
+      },
+      {
+        "subject": "HSTS",
+        "predicate": "corresponds to",
+        "object": "two years"
+      },
+      {
+        "subject": "TLS 1.3",
+        "predicate": "specifies",
+        "object": "Maximum certificate lifespan: 90 days"
+      },
+      {
+        "subject": "NETCONF",
+        "predicate": "uses",
+        "object": "TLS"
+      },
+      {
+        "subject": "O-RAN Working Group 4 Management Plane Specification",
+        "predicate": "defines",
+        "object": "Mplane mandated TLS ciphers [6]"
+      },
+      {
+        "subject": "DTLS 1.2",
+        "predicate": "is supported by",
+        "object": "RFC 6083"
+      },
+      {
+        "subject": "RFC 6083",
+        "predicate": "specifies",
+        "object": "user message limit of approximately 16k bytes"
+      },
+      {
+        "subject": "DTLS 1.2",
+        "predicate": "supports",
+        "object": "Stream Control Transmission Protocol (SCTP)"
+      },
+      {
+        "subject": "draft-westerlund-tsvwg-dtls-over-sctp-bis-01 [25]",
+        "predicate": "intends to obsolete",
+        "object": "RFC 6083"
+      },
+      {
+        "subject": "DTLS software",
+        "predicate": "uses",
+        "object": "OpenSSL"
+      },
+      {
+        "subject": "pre-shared keys",
+        "predicate": "are not recommended for",
+        "object": "authentication mechanisms"
+      },
+      {
+        "subject": "TLS client certificates",
+        "predicate": "are signed by",
+        "object": "TLS client CA"
+      },
+      {
+        "subject": "TLS server certificates",
+        "predicate": "are signed by",
+        "object": "TLS server CA"
+      },
+      {
+        "subject": "TS 33.210 (6.2.3) [20]",
+        "predicate": "defines",
+        "object": "certificate profiling"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "is supported by",
+        "object": "[27]"
+      },
+      {
+        "subject": "interoperability",
+        "predicate": "is guaranteed by",
+        "object": "limiting security parameters"
+      }
+    ],
+    "preview": "# 2.2.2.2 Intermediate Ciphers for TLS 1.3\n\nThe following ciphers are considered Intermediate for TLS 1.3.\n\nCipher suites (TLS 1.3): o TLS_AES_128_GCM_SHA256 o TLS_AES_256_GCM_SHA384 o TLS_CHACHA20_POLY1305_SHA256\n\nCertificate type: ECDSA (P-256) (recommended), or RSA (2048 bits)\n\n• DH parameter size: 2048 (ffdhe2048, RFC 7919)\n\nThe requirements given in section 9.1 of TLS 1.3 RFC 8446 [18] shall ..."
+  },
+  {
+    "chunk_id": 10,
+    "entities": [
+      "O-RAN",
+      "IPsec",
+      "ESP",
+      "IKEv2",
+      "Confidentiality",
+      "integrity protection",
+      "data origin authentication",
+      "anti-replay protection",
+      "extended sequence numbers",
+      "NAT traversal",
+      "ESP encryption transforms",
+      "ESP authentication transforms",
+      "IKE endpoint Identification",
+      "X.509 v3 digital certificates",
+      "Pre-shared Keys",
+      "DH group 19",
+      "DH group 20",
+      "Security Association multiplicity",
+      "IKE SA(s)",
+      "IPsec SA(s)",
+      "Dead-Peer-Detection (DPD)",
+      "traffic narrowing function",
+      "SSH",
+      "TLS"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN",
+        "predicate": "supports",
+        "object": "IPsec"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "implements",
+        "object": "authentication"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "implements",
+        "object": "confidentiality"
+      },
+      {
+        "subject": "O-RAN",
+        "predicate": "implements",
+        "object": "integrity protection"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "uses",
+        "object": "ESP"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "uses",
+        "object": "IKEv2"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "supports",
+        "object": "Confidentiality"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "supports",
+        "object": "integrity protection"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "supports",
+        "object": "data origin authentication"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "supports",
+        "object": "anti-replay protection"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "supports",
+        "object": "extended sequence numbers"
+      },
+      {
+        "subject": "IPsec",
+        "predicate": "uses",
+        "object": "NAT traversal"
+      },
+      {
+        "subject": "ESP",
+        "predicate": "includes",
+        "object": "ESP encryption transforms"
+      },
+      {
+        "subject": "ESP",
+        "predicate": "includes",
+        "object": "ESP authentication transforms"
+      },
+      {
+        "subject": "IKE endpoint Identification",
+        "predicate": "supports",
+        "object": "IP address"
+      },
+      {
+        "subject": "IKE endpoint Identification",
+        "predicate": "supports",
+        "object": "Fully Qualified domain name (FQDN)"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "uses",
+        "object": "X.509 v3 digital certificates"
+      },
+      {
+        "subject": "Authentication",
+        "predicate": "may use",
+        "object": "Pre-shared Keys"
+      },
+      {
+        "subject": "Key exchange",
+        "predicate": "supports",
+        "object": "IKEv2"
+      },
+      {
+        "subject": "Key exchange",
+        "predicate": "uses",
+        "object": "certificate-based authentication"
+      },
+      {
+        "subject": "Key exchange",
+        "predicate": "uses",
+        "object": "DH group 19"
+      },
+      {
+        "subject": "Key exchange",
+        "predicate": "optionally uses",
+        "object": "DH group 20"
+      },
+      {
+        "subject": "Security Association multiplicity",
+        "predicate": "supports",
+        "object": "multiple IKE SAs"
+      },
+      {
+        "subject": "Security Association multiplicity",
+        "predicate": "supports",
+        "object": "multiple IPsec SAs per IPsec tunnel"
+      },
+      {
+        "subject": "IKE SA(s)",
+        "predicate": "are regularly re-established"
+      },
+      {
+        "subject": "IPsec SA(s)",
+        "predicate": "stop transmission when full sequence number space is used"
+      },
+      {
+        "subject": "Dead-Peer-Detection (DPD)",
+        "predicate": "is supported"
+      },
+      {
+        "subject": "traffic narrowing function",
+        "predicate": "is supported"
+      },
+      {
+        "subject": "equipment",
+        "predicate": "supports configuration of IPsec in parallel with other secure transport protocols like SSH or TLS"
+      }
+    ],
+    "preview": "\n\n# 1 2.5 IPsec\n\n# 2.5.1 Overview\n\n3 O-RAN and 3GPP interfaces that implement authentication, confidentiality and integrity using IPsec shall support IPsec   \n4 according to [27]. The supported IPsec capabilities follow [20] for interworking purposes and further appliance rules   \n5 given in [26], [28], [29] and [30]. Since IPsec standards include a high number of selectable security parameters   ..."
+  },
+  {
+    "chunk_id": 11,
+    "entities": [
+      "IPsec",
+      "SSH",
+      "TLS",
+      "IKE Security Association",
+      "Responder mode",
+      "O-RAN Alliance",
+      "Adopter",
+      "Affiliate",
+      "Compliant Implementation",
+      "Minor Update",
+      "Necessary Claims",
+      "Defensive Suspension",
+      "O-RAN Specifications",
+      "use and modify"
+    ],
+    "relations": [
+      {
+        "subject": "Equipment",
+        "predicate": "supports parallel usage of",
+        "object": "IPsec"
+      },
+      {
+        "subject": "Equipment",
+        "predicate": "supports parallel usage of",
+        "object": "SSH"
+      },
+      {
+        "subject": "Equipment",
+        "predicate": "supports parallel usage of",
+        "object": "TLS"
+      },
+      {
+        "subject": "Equipment",
+        "predicate": "supports configurable option for",
+        "object": "Responder mode"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "makes agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Affiliate",
+        "predicate": "refers to entities under common control",
+        "object": "Affiliate"
+      },
+      {
+        "subject": "Compliant Implementation",
+        "predicate": "conforms to",
+        "object": "Final Specification"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "means entities who wish to adopt",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Minor Update",
+        "predicate": "refers to update without significant features",
+        "object": "O-RAN Specification"
+      },
+      {
+        "subject": "Necessary Claims",
+        "predicate": "involves patent claims related to",
+        "object": "Compliant Implementation"
+      },
+      {
+        "subject": "Defensive Suspension",
+        "predicate": "allows license suspension if sued",
+        "object": "license grant"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants copyright license to",
+        "object": "Adopter"
+      },
+      {
+        "subject": "license",
+        "predicate": "allows",
+        "object": "use and modify"
+      }
+    ],
+    "preview": "\n\n# 2.5.2 Parallel usage of IPsec and other secure transport protocols\n\nThe equipment SHALL support configuration of IPsec (one or more dedicated connections) in parallel with other secure transport protocols like SSH or TLS.\n\nFor instance, it SHALL be possible to run SSH or TLS connections within an IPsec tunnel or in parallel to IPsec tunnel(s).\n\n# 2.5.3 Responder mode and Initiator/Responder mo..."
+  },
+  {
+    "chunk_id": 12,
+    "entities": [
+      "O-RAN Alliance",
+      "Adopter",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Necessary Claims",
+      "Compliant Implementations"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "grants",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Members",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant",
+        "object": "Adopter"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "licenses",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "distributes",
+        "object": "Compliant Implementations"
+      },
+      {
+        "subject": "Members",
+        "predicate": "license",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "license",
+        "object": "Necessary Claims"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "license",
+        "object": "Necessary Claims"
+      }
+    ],
+    "preview": "# Section 2: COPYRIGHT LICENSE\n\n2.1 Subject to the terms and conditions of this Agreement, O-RAN Alliance hereby grants to Adopter a nonexclusive, nontransferable, irrevocable, non-sublicensable, worldwide copyright license to obtain, use and modify O-RAN Specifications, but not to further distribute such O-RAN Specification in any modified or unmodified way, solely in furtherance of implementatio..."
+  },
+  {
+    "chunk_id": 13,
+    "entities": [
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopters",
+      "O-RAN Specifications",
+      "Necessary Claims",
+      "Compliant Implementations",
+      "O-RAN Alliance"
+    ],
+    "relations": [
+      {
+        "subject": "Members",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Contributors",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "Academic Contributors",
+        "predicate": "grant license to",
+        "object": "Adopters"
+      },
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "terminate agreement with",
+        "object": "Adopter"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "ensure confidentiality of",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Members"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Contributors"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "indemnify",
+        "object": "Academic Contributors"
+      }
+    ],
+    "preview": "# Section 3: FRAND LICENSE\n\n3.1 Members, Contributors and Academic Contributors and their Affiliates are prepared to grant based on a separate Patent License Agreement to each Adopter under Fair Reasonable And Non- Discriminatory (FRAND) terms and conditions with or without compensation (royalties) a nonexclusive, non-transferable, irrevocable (but subject to Defensive Suspension), non-sublicensab..."
+  },
+  {
+    "chunk_id": 14,
+    "entities": [
+      "Adopter",
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Indemnitees",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "Adopter",
+        "predicate": "indemnifies",
+        "object": "Indemnitees"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "provided with disclaimer of warranty",
+        "object": "Liability"
+      }
+    ],
+    "preview": "# Section 6: INDEMNIFICATION\n\nAdopter shall indemnify, defend, and hold harmless the O-RAN Alliance, its Members, Contributors or Academic Contributors, and their employees, and agents and their respective successors, heirs and assigns (the “Indemnitees”), against any liability, damage, loss, or expense (including reasonable attorneys’ fees and expenses) incurred by or imposed upon any of the Inde..."
+  },
+  {
+    "chunk_id": 15,
+    "entities": [
+      "O-RAN Alliance",
+      "Members",
+      "Contributors",
+      "Academic Contributors",
+      "Affiliates",
+      "Adopter",
+      "O-RAN Specifications"
+    ],
+    "relations": [
+      {
+        "subject": "O-RAN Alliance",
+        "predicate": "disclaims warranties for",
+        "object": "O-RAN Specifications"
+      },
+      {
+        "subject": "Adopter",
+        "predicate": "must seek consent from",
+        "object": "O-RAN Alliance"
+      },
+      {
+        "subject": "Members, Contributors, Academic Contributors",
+        "predicate": "are entitled to rights as",
+        "object": "third-party beneficiaries"
+      },
+      {
+        "subject": "Affiliates of Adopter",
+        "predicate": "are bound by obligations and benefits under",
+        "object": "Agreement"
+      },
+      {
+        "subject": "O-RAN Specifications",
+        "predicate": "governed by laws of",
+        "object": "Germany"
+      }
+    ],
+    "preview": "# Section 7: LIMITATIONS ON LIABILITY; NO WARRANTY\n\nEXCEPT FOR BREACH OF CONFIDENTIALITY, ADOPTER’S BREACH OF SECTION 3, AND ADOPTER’S INDEMNIFICATION OBLIGATIONS, IN NO EVENT SHALL ANY PARTY BE LIABLE TO ANY OTHER\n\n1 PARTY OR THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL   \n2 DAMAGES RESULTING FROM ITS PERFORMANCE OR NON-PERFORMANCE UNDER THIS AGREEMENT,   \n3 IN EAC..."
+  }
+]
