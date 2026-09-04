@@ -1,0 +1,9 @@
+{
+  "valid_files": 60,
+  "invalid_files": 0,
+  "initial_entities": 15423,
+  "final_entities": 7825,
+  "entity_reduction": 7598,
+  "relations_final": 26597,
+  "malformed_relations_dropped": 152
+}
