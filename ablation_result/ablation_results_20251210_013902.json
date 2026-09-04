@@ -1,0 +1,346 @@
+{
+  "timestamp": "20251210_013902",
+  "num_questions": 337,
+  "methods": [
+    "kg_rag",
+    "rag",
+    "no_rag"
+  ],
+  "summary": {
+    "kg_rag": {
+      "total_questions": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_inference_time": 27.864986181259155,
+      "avg_context_length": 4752.0,
+      "exact_match_accuracy": 0.0,
+      "contains_match_accuracy": 0.0,
+      "avg_token_overlap": 0.35219780219780217,
+      "avg_precision": 0.015858979121195445,
+      "avg_recall": 0.35219780219780217,
+      "avg_f1_score": 0.030251255951269696,
+      "avg_semantic_similarity": 0.398894327878952
+    },
+    "rag": {
+      "total_questions": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_inference_time": 21.080435371398927,
+      "avg_context_length": 4627.6,
+      "exact_match_accuracy": 0.0,
+      "contains_match_accuracy": 0.0,
+      "avg_token_overlap": 0.29043956043956043,
+      "avg_precision": 0.01741258918398448,
+      "avg_recall": 0.29043956043956043,
+      "avg_f1_score": 0.03227433468168241,
+      "avg_semantic_similarity": 0.4119318962097168
+    },
+    "no_rag": {
+      "total_questions": 5,
+      "successful": 5,
+      "failed": 0,
+      "avg_inference_time": 25.82133855819702,
+      "avg_context_length": 0.0,
+      "exact_match_accuracy": 0.0,
+      "contains_match_accuracy": 0.0,
+      "avg_token_overlap": 0.3758241758241758,
+      "avg_precision": 0.01357760476204965,
+      "avg_recall": 0.3758241758241758,
+      "avg_f1_score": 0.026101495121247688,
+      "avg_semantic_similarity": 0.401757550239563
+    }
+  },
+  "detailed_results": {
+    "kg_rag": [
+      {
+        "question": "What is the primary objective of O-RAN Working Group 1 within the framework of 5G networking?",
+        "ground_truth": "B. To create use cases, enhance deployment strategies, and advance Massive MIMO technology",
+        "predicted": "<think>\nAlright, so I'm trying to figure out what the primary objective of O-RAN Working Group 1 (WG1) is within the context of 5G networking. Let me start by recalling what I know about O-RAN and its working groups.\n\nO-RAN stands for Open Radio Access Network. It's an initiative that promotes open standards and interfaces in RANs, aiming to make networks more intelligent, virtualized, and automated. The goal is to break away from traditional proprietary hardware and software, moving towards a more decoupled, software-defined approach that leverages cloud technologies.\n\nNow, O-RAN has several working groups, each focusing on different aspects of the network. From the knowledge graph provided, WG11 is mentioned as managing entities like O-RU ME and others, but I'm specifically looking forWG1's objective.\n\nLooking at the retrieved documents, Document 5 mentions O-RAN architecture supporting RAN slice SLA assurance, which relates to meeting specific service level agreements for network slices. However, that seems more about ensuring performance rather than a primary objective of WG1.\n\nDocument 4 discusses O-RAN's communication capabilities and its architecture support for 4G and 5G services, introducing RIC (Radio Intelligent Controllers) for AI/ML optimization. This points towards optimization and intelligence but might be more aligned with other working groups like WG7 orWG11.\n\nIn Document 2, it talks about O-RAN in the context of sharing scenarios involving O-DU and O-RU splits. That's about network architecture and sharing mechanisms, which could relate to how resources are managed across different operators using O-RAN components.\n\nDocument 3 discusses white-box hardware promotion for reducing costs, which is more about hardware openness and cost efficiency, possibly aligning with WG7 since it mentions reference designs for O-DU and O-RU.\n\nWait, the question specifically asks about WG1. From the knowledge graph, I don't see explicit information about WG1's objectives. The related entities include things like Network Resource Management, 5G performance measurements, etc., but these are managed by other groups or associated with 5G networks in general.\n\nSince the primary focus of O-RAN is on openness and intelligence,WG1 likely deals with the foundational aspects enabling these goals. It's probable that WG1 focuses on ensuring that resources in the network can be effectively managed and optimized across different operators using open interfaces and standards. This would make Network Resource Management a key area.\n\nLooking back at Document 2, it mentions RAN sharing scenarios not covered by 3GPP, which is handled in O-RAN's case with their functional splits (ODU/ORU). This suggests that resource management across shared resources is crucial, which ties into network resource optimization.\n\nPutting it all together, the primary objective of O-RAN Working Group1 would be to ensure effective Network Resource Management within 5G networks, allowing for efficient sharing and optimization across different operators using open standards.\n</think>\n\nThe primary objective of O-RAN Working Group1 is to manage resources in a way that supports shared architectures, enabling efficient resource optimization across different operators within the 5G framework.\n\n**Answer:** Network Resource Management",
+        "method": "kg_rag",
+        "inference_time": 38.59956908226013,
+        "context_length": 5211,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.15384615384615385,
+          "precision": 0.007782101167315175,
+          "recall": 0.15384615384615385,
+          "f1_score": 0.014814814814814815,
+          "semantic_similarity": 0.4108011722564697
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN solution in the document is supported by the most detailed feasibility and complexity analysis?",
+        "ground_truth": "C. Solution 3: AI/ML-based Initial Access Configurations",
+        "predicted": "<think>\nOkay, so I'm trying to figure out which O-RAN solution in the documents is supported by the most detailed feasibility and complexity analysis. Let me break this down step by step.\n\nFirst, I'll look at the question again: \"Which O-RAN solution in the document is supported by the most detailed feasibility and complexity analysis?\" The answer options aren't provided here, but based on the context given, I need to determine which of the mentioned solutions has the most thorough analysis.\n\nLooking at the knowledge graph, some key entities include Zero Trust Architecture (ZTA), O-CU, VNFFM, A1, FTP server, OAuth 2.0 Access Token API, E1/E2, NFVO, Dynamic spectrum sharing, HTTPS, NTN segment, TN segment, O-CUCP/O-CU-UP, IP version 4, Affected Assets, CU, OAuth 2.0 Security, Non-RT-RIC SW, O1/O2, and security-related information.\n\nThe relations mention how these entities connect, like ZTA managing the architecture description, various components being part of it, etc. But to find which solution has the most detailed analysis, I need to look at the retrieved documents for clues about feasibility and complexity.\n\nLooking through each document:\n\n- Document 1 (relevance 0.674) talks about objectives, improving flexibility, reducing costs, but doesn't seem to focus on feasibility or complexity analysis.\n- Document 2 and 3 discuss architecture principles and terminology, which might touch on complexity but not necessarily detailed feasibility.\n- Document 4 (relevance 0.627) introduces scenarios and use cases for O-RAN deployments into cloud platforms, mentioning management considerations. This seems more about deployment scenarios than detailed analysis of a specific solution's feasibility.\n- Document 5 (relevance 0.624) discusses the relationship to OAM architecture, focusing on interfaces O1/O2. It describes Use Cases using these interfaces for orchestration but again, not clear if it provides detailed feasibility or complexity analysis.\n\nWait, perhaps I'm missing something in the document summaries. Document 4 mentions different scenarios and use cases, referencing management considerations covered elsewhere. Maybe this implies a deeper look into how solutions are deployed and their complexities. The focus on deployment scenarios could involve assessing feasibility and complexity as part of creating cost-effective solutions.\n\nAlternatively, considering the key entities, Non-RT-RIC SW is mentioned in several relations, like impacting the architecture description and being utilized. It's also referenced by Document 2 and 3, which might indicate it's a significant component with detailed analysis elsewhere. But without explicit mentions in the retrieved documents about its feasibility or complexity analysis, I'm not certain.\n\nAnother angle: the most detailed analysis is likely to be where multiple documents reference it or where the document explicitly discusses such aspects. Document 4 seems more focused on scenarios and use cases, which might involve a thorough look at different solutions' feasibilities and complexities as part of deployment planning.\n\nSo, putting it together, I think the answer points to O-RAN Cloudified NFs being supported by detailed analysis in one of the documents, possibly Document 4. Or perhaps Non-RT RIC is discussed more in other parts not shown here.\n</think>\n\nThe O-RAN solution supported by the most detailed feasibility and complexity analysis in the provided documents is **O-RAN Cloudified NFs**.\n\nAnswer: O-RAN Cloudified NFs",
+        "method": "kg_rag",
+        "inference_time": 35.19008469581604,
+        "context_length": 6001,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.2857142857142857,
+          "precision": 0.007380073800738007,
+          "recall": 0.2857142857142857,
+          "f1_score": 0.01438848920863309,
+          "semantic_similarity": 0.31636208295822144
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which section in the document details the architecture and deployment options for AI/ML-assisted non-GoB beamforming?",
+        "ground_truth": "B. Architecture and deployment options including edge computing and cloud integration",
+        "predicted": "<think>\nOkay, so I need to figure out which section of the document explains the architecture and deployment options for AI/ML-assisted non-GoB beamforming. Let me start by looking at the information provided.\n\nFrom the knowledge graph context, there are keywords like GoB beamforming configuration, number of supported non-GoB beamforming modes, and AI/ML-based Beam Solution. The related entities include Non-GoB BF ModeConfiguration, O-DU DUT, beam prediction, throughput performance, and Near-RT RIC ME.\n\nLooking at the relations, I see that Near-RT RIC ME supports GoB beamforming configuration and also configures or modifies it. AI/ML-based Beam Solution causes beam prediction. So there's a connection between AI/ML solutions and beam prediction, which might be part of non-GoB configurations.\n\nNow, looking at the retrieved documents:\n\nDocument 1 has sections on AI/ML-assisted Beam Selection Optimization in section 4.2, including problem statements, architecture options, impact analysis, etc., but it's under GoB beamforming. Then there's a separate section for Non-GoB beamforming starting at 5.1 with Solution 1: AI/ML-assisted non-GoB Optimization.\n\nDocument 2 talks about a Non-RT RIC Deployment in architecture options, using an rApp for determining GoB configuration. It mentions ML models trained on historical data for GoB optimization.\n\nDocument 3 is about Non-GoB BF Mode Configuration with control actions but doesn't mention AI/ML.\n\nDocument 4 discusses the problem statement and value proposition of AI/ML-assisted non-GoB Optimization, explaining why it's needed and its benefits but not the architecture.\n\nDocument 5 talks about a proposed solution involving contextual information for beamforming but again, it's more about the use case than specific architecture details.\n\nSo, putting this together: Document 1 has two relevant sections. Section 4.2 is about AI/ML-assisted Beam Selection Optimization for GoB, while section 5.2 covers Non-GoB with its own solution. The question asks specifically about non-GoB AI/ML, so the architecture and deployment options would be in Document 1's section 5.2.2.\n\nI think that's the correct section because it directly addresses the AI/ML-assisted non-GoB optimization within the same document.\n</think>\n\nThe section detailing the architecture and deployment options for AI/ML-assisted non-GoB beamforming is found in **Document 1, Section 5.2.2**.\n\nAnswer: Document 1, Section 5.2.2",
+        "method": "kg_rag",
+        "inference_time": 27.08900475502014,
+        "context_length": 4547,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.5,
+          "precision": 0.025510204081632654,
+          "recall": 0.5,
+          "f1_score": 0.048543689320388356,
+          "semantic_similarity": 0.2977498471736908
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN component interacts with the Near-RT RIC via the E2 interface to enable near-real-time optimization of the radio network?",
+        "ground_truth": "C. Radio Unit (O-RU)",
+        "predicted": "<think>\nOkay, so I'm trying to figure out which O-RAN component uses the E2 interface to interact with the Near-RT RIC for near-real-time optimization. Let me break this down step by step.\n\nFirst, from the knowledge graph context, I see that the Near-RT RIC is connected to one or more E2 Nodes as mentioned in Document 1. It also says that the E2 interface is used between the Near-RT RIC and E2 Nodes. So, the E2 Nodes are definitely involved here.\n\nLooking at the retrieved documents:\n\nDocument 1 mentions that a Near-RT RIC is connected to one or more E2 Nodes via the E2 interface. It also says that the RRM (Radio Resource Management) functions between Near-RT RIC and E2 Node are described elsewhere, so they must interact for optimization.\n\nDocument 2 talks about MU-MIMO optimization as an app in the Near-RT RIC. This application collects information from E2 nodes via the E2 interface to optimize the network. So here, E2 Nodes are providing data needed for optimization.\n\nDocument 3 goes into more detail about the E2 interface requirements. It says that each E2 Node is uniquely identified and can support specific RAT types. A Near-RT RIC can connect to multiple E2 Nodes through this interface. This confirms that E2 Nodes are the ones interacting via E2.\n\nDocuments 4 and 5 define Non-RT RIC, but the question is about Near-RT RIC, so they might not be directly relevant here unless considering interactions between Near-RT and Non-RT, which I don't think is the case in this context.\n\nPutting it all together: The E2 Nodes are connected to Near-RT RIC via E2 interface for real-time optimization. Therefore, the component that interacts with Near-RT RIC via E2 is the E2 Nodes themselves.\n</think>\n\nThe E2 Nodes interact with the Near-RT RIC via the E2 interface to enable near-real-time optimization of the radio network.\n\nAnswer: E2 Nodes",
+        "method": "kg_rag",
+        "inference_time": 21.641868114471436,
+        "context_length": 4148,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.25,
+          "precision": 0.006622516556291391,
+          "recall": 0.25,
+          "f1_score": 0.012903225806451615,
+          "semantic_similarity": 0.3552303910255432
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "What approach is recommended for mMIMO use cases regarding 3GPP measurements and configuration?",
+        "ground_truth": "B. Reuse existing 3GPP measurements/configurations where possible",
+        "predicted": "<think>\nOkay, so I need to figure out the answer to this multiple-choice question about what approach is recommended for mMIMO use cases regarding 3GPP measurements and configuration. The options aren't provided here, but based on the knowledge graph context and the retrieved documents, I can deduce the correct answer.\n\nFirst, looking at the keywords: 3GPP conformance tests, 3GPP application data, non-3GPP interference. The related entity is gNB(S) which is part of 3GPP conformance tests. \n\nNow, checking the retrieved documents:\n\nDocument 1 mentions that mMIMO use cases should reuse existing 3GPP measurements and configuration management as much as possible. If new parameters are needed, they should be based on existing ones in 3GPP or O-RAN specs.\n\nDocuments 2 and 4 talk about analyzing input/output parameters for mMIMO and their relation to 3GPP specifications. Document 5 discusses the possibility of adding per-UE measurements either within the existing MDT framework or a new AI/ML framework in 3GPP.\n\nPutting this together, the recommended approach is to reuse existing 3GPP measurements and configurations where possible. If new parameters are necessary, they should align with current standards as much as possible. So, the correct answer would be about reusing existing 3GPP measurements and configuration for mMIMO use cases.\n</think>\n\nThe recommended approach is to reuse existing 3GPP measurements and configurations for mMIMO use cases whenever feasible.\n\nAnswer: Reuse existing 3GPP measurements and configuration for mMIMO use cases.",
+        "method": "kg_rag",
+        "inference_time": 16.804404258728027,
+        "context_length": 3853,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.5714285714285714,
+          "precision": 0.032,
+          "recall": 0.5714285714285714,
+          "f1_score": 0.0606060606060606,
+          "semantic_similarity": 0.614328145980835
+        },
+        "success": true,
+        "error": null
+      }
+    ],
+    "rag": [
+      {
+        "question": "What is the primary objective of O-RAN Working Group 1 within the framework of 5G networking?",
+        "ground_truth": "B. To create use cases, enhance deployment strategies, and advance Massive MIMO technology",
+        "predicted": "<think>\nOkay, so I need to figure out what the primary objective of O-RAN Working Group 1 is within the context of 5G networking. Let's break down the information given in the chunks provided.\n\nFirst, looking at Chunk 1, it mentions that O-RAN complements work from SDOs like 3GPP, IETF, and IANA, particularly focusing on management specifications for components. It also talks about 3GPP's 5G Network Resource Model and yang data models. So, this suggests that O-RAN is involved with information modeling and data structures relevant to network management.\n\nChunk 2 discusses the overall architecture of O-RAN, supporting 4G and 5G RAN services, and mentions AI/ML use cases for optimization. This indicates that WG1 might be dealing with architecture design or use cases but doesn't directly state their primary objective.\n\nChunk 3 is about promoting white-box hardware to reduce costs and specifying reference designs. The focus here seems more on hardware and decoupling software from hardware, which could relate to Working Group 7's objectives rather than WG1.\n\nChunk 4 talks about benefits of O-RAN architecture, like QoS optimization, and SLA assurance for network slices. This points towards performance and service-level aspects but again doesn't directly mention WG1's objective.\n\nChunk 5 discusses RAN sharing scenarios between operators, especially in the context of 3GPP's standards. It mentions that O-RAN can enable coordination between shared nodes when functional splits are involved (like O-CU and O-DU). This suggests that WG1 is focused on enabling multi-operator sharing through standardization.\n\nPutting it all together, the chunks indicate that O-RAN Working Group 1 is primarily concerned with creating an open architecture that allows multiple operators to share RAN infrastructure efficiently. They work on the coordination needed for shared network nodes and contribute to the overall management specifications. The primary objective would revolve around enabling this sharing through their framework.\n</think>\n\nThe primary objective of O-RAN Working Group 1 within the 5G networking framework is to enable efficient multi-operator RAN sharing by standardizing the necessary coordination between shared network nodes.\n\n**Answer: To enable multi-operator radio access network (RAN) sharing in a standardized manner.**",
+        "method": "rag",
+        "inference_time": 22.86016273498535,
+        "context_length": 4640,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.23076923076923078,
+          "precision": 0.014925373134328358,
+          "recall": 0.23076923076923078,
+          "f1_score": 0.028037383177570097,
+          "semantic_similarity": 0.3961104452610016
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN solution in the document is supported by the most detailed feasibility and complexity analysis?",
+        "ground_truth": "C. Solution 3: AI/ML-based Initial Access Configurations",
+        "predicted": "<think>\nOkay, so I need to figure out which O-RAN solution has the most detailed feasibility and complexity analysis based on the given context. Let's look through each chunk carefully.\n\nChunk 1 talks about modal verbs terminology and the introduction of O-RAN objectives. It doesn't mention any specific solutions or analyses, so probably not relevant for this question.\n\nChunk 2 discusses a table evaluating an Inter O-DU solution against certain criteria. It mentions defining new interfaces and protocols, which sounds like some feasibility aspects, but I don't know if it's the most detailed one.\n\nChunk 3 lists several sections under different solutions, specifically Solution 1: AI/ML-assisted Beam Selection Optimization in section 4.2.5 and another solution in section 5.2.5 both have Feasibility and Gain/Complexity Analysis. That seems like two separate solutions with their own analyses.\n\nChunk 4 is about the scope of a technical specification but doesn't mention any specific solution or analysis, so probably not relevant here.\n\nChunk 5 deals with O-RAN Work Group 10's performance measurements, again without specific solutions mentioned related to feasibility analysis.\n\nSo from Chunk 3, there are two instances where Feasibility and Gain/Complexity Analysis are specifically called out: once under Solution 1 in section 4.2.5 and another under a different solution (possibly Solution 1 as well) in section 5.2.5. This repetition suggests that the AI/ML-assisted Beam Selection Optimization might be the one with more detailed analysis since it's mentioned twice, each time under its own section. The other chunks don't provide similar depth or multiple mentions of analyses.\n</think>\n\nThe O-RAN solution supported by the most detailed feasibility and complexity analysis is the AI/ML-assisted Beam Selection Optimization.\n\nAnswer: Solution 1: AI/ML-assisted Beam Selection Optimization",
+        "method": "rag",
+        "inference_time": 19.189773321151733,
+        "context_length": 4597,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.14285714285714285,
+          "precision": 0.006211180124223602,
+          "recall": 0.14285714285714285,
+          "f1_score": 0.011904761904761904,
+          "semantic_similarity": 0.22465655207633972
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which section in the document details the architecture and deployment options for AI/ML-assisted non-GoB beamforming?",
+        "ground_truth": "B. Architecture and deployment options including edge computing and cloud integration",
+        "predicted": "<think>\nAlright, I'm trying to figure out which section of the document explains the architecture and deployment options for AI/ML-assisted non-GoB beamforming. Let me go through each chunk carefully.\n\nChunk 1 mentions sections under Solution 1 in both GoB and Non-GoB Beamforming. Specifically, it lists 5.2.2 as Architecture/Deployment Options for Non-GoB. So that's a direct pointer.\n\nChunks 2 and 3 discuss the Non-RT RIC deployment but under GoB beamforming, not non-GoB. Chunk 4 talks about proposed solutions and performance factors without specific architecture details. Chunk 5 lists requirements but no deployment options.\n\nSo the correct section is likely 5.2.2 as mentioned in Chunk 1.\n</think>\n\nThe correct answer is based on identifying the relevant section from the context provided, particularly pointing to Section 5.2.2.\n\n**Answer:**  \nSection 5.2.2",
+        "method": "rag",
+        "inference_time": 10.520291805267334,
+        "context_length": 4651,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.4,
+          "precision": 0.0449438202247191,
+          "recall": 0.4,
+          "f1_score": 0.08080808080808081,
+          "semantic_similarity": 0.3571724593639374
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN component interacts with the Near-RT RIC via the E2 interface to enable near-real-time optimization of the radio network?",
+        "ground_truth": "C. Radio Unit (O-RU)",
+        "predicted": "<think>\nOkay, so I've got this question about O-RAN components and their interactions. The question is asking which component uses the E2 interface to interact with the Near-RT RIC for optimizing the radio network in near real-time.\n\nLet me start by recalling what I know about O-RAN architecture. I remember that O-RAN stands for Open Radio Access Network, aiming to make mobile networks more open and programmable. The Near-Real Time (Near-RT) RIC is a component involved in managing radio resources efficiently, especially for real-time optimizations.\n\nLooking at the retrieved context, there are several chunks of information. Chunk 1 mentions that a Near-RT RIC is connected to one or more E2 Nodes as per [2]. It also says that the RRM (Radio Resource Management) functions between Near-RT RIC and E2 Node are described in [2]. So this suggests that E2 Nodes interact with the Near-RT RIC.\n\nChunk 2 goes into detail about the E2 interface requirements. It states that a Near-RT RIC can support multiple E2 connections, each supporting specific RAT (Radio Access Technology) types. The E2 Node exposes RAN Functions and their corresponding models to the Near-RT RIC, allowing it to address specific functions. This reinforces that E2 Nodes are connected via the E2 interface.\n\nChunk 3 talks about a use case where MU-MIMO optimization is handled by an application in the Near-RT RIC. The application collects info from E2 nodes and sends control messages using the E2 interface. So here, it's clear that E2 Nodes are interacting with the Near-RT RIC for optimization.\n\nChunk 4 shows a figure related to MU-MIMO but also lists data requirements from E2 nodes. It mentions cell config, UE lists, connection updates, etc., which are provided by E2 Nodes to the Near-RT RIC via the E2 interface.\n\nChunk 5 discusses the high-level architecture and mentions that the Near-RT RIC is connected via the Y1 service interface towards Y1 consumers. However, it also notes that the O-eNB supports O-DU and O-RU with an Open Fronthaul but doesn't show this in the figure. This seems a bit off-topic for our question.\n\nPutting it all together: The E2 Nodes are directly connected to the Near-RT RIC via the E2 interface, providing necessary data for optimization. Therefore, the component that interacts via E2 is the E2 Node.\n</think>\n\nThe component that interacts with the Near-RT RIC via the E2 interface is the E2 Node.\n\nAnswer: E2 Node",
+        "method": "rag",
+        "inference_time": 26.920473098754883,
+        "context_length": 4636,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.25,
+          "precision": 0.005025125628140704,
+          "recall": 0.25,
+          "f1_score": 0.009852216748768473,
+          "semantic_similarity": 0.4921394884586334
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "What approach is recommended for mMIMO use cases regarding 3GPP measurements and configuration?",
+        "ground_truth": "B. Reuse existing 3GPP measurements/configurations where possible",
+        "predicted": "<think>\nOkay, I'm trying to figure out the answer to this multiple-choice question about the recommended approach for mMIMO use cases concerning 3GPP measurements and configurations. Let me go through each chunk of context provided to understand what's being discussed.\n\nIn Chunk 1, under \"Requirements,\" it mentions that mMIMO use cases should reuse existing 3GPP measurements and configuration management as much as possible. If new parameters are needed, they should be based on what's already in 3GPP or O-RAN specs. Also, it prioritizes the current standardization approach by specifying new measurements in 3GPP and referring to them in O-RAN over creating new approaches.\n\nChunk 2 talks about impacts on different working groups (WG5 and WG10) regarding O-CU and O-DU support, SMO, O1 interface models, etc. It says that there's a significant specification impact if new measurements are needed but this can be reduced if they're already part of ongoing or upcoming specs in O-RAN or 3GPP.\n\nChunk 3 discusses the relation to 3GPP specifications, mentioning UE-specific measurements and reporting being introduced in upcoming releases. It also proposes that new KPIs should be included in future 3GPP PM specifications.\n\nChunk 4 covers beam management in 3GPP, stating that existing standards support flexibility but O-RAN's optimization would rely on these. It lists impacts like data collection relying on existing 3GPP measurements.\n\nChunk 5 is about input/output parameters for mMIMO use cases and how they relate to 3GPP specs, mentioning various measurements defined in 3GPP across layers.\n\nPutting this all together, the main points are:\n\n1. Reuse existing 3GPP measurements and configurations.\n2. If new ones are needed, base them on existing 3GPP/O-RAN parameters.\n3. New measurements should be standardized through 3GPP first, then referenced in O-RAN.\n\nSo the approach recommended is to reuse existing 3GPP measurements and configurations as much as possible, and if new ones are essential, they should align with current standards rather than creating new approaches.\n</think>\n\nThe recommended approach for mMIMO use cases regarding 3GPP measurements and configuration is to prioritize the reuse of existing 3GPP specifications. If new parameters are necessary, they should be based on or aligned with current 3GPP standards.\n\n**Answer:** Reuse existing 3GPP measurements and configurations as much as possible; if new ones are needed, base them on existing 3GPP/O-RAN definitions.",
+        "method": "rag",
+        "inference_time": 25.911475896835327,
+        "context_length": 4614,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.42857142857142855,
+          "precision": 0.015957446808510637,
+          "recall": 0.42857142857142855,
+          "f1_score": 0.030769230769230767,
+          "semantic_similarity": 0.5895805358886719
+        },
+        "success": true,
+        "error": null
+      }
+    ],
+    "no_rag": [
+      {
+        "question": "What is the primary objective of O-RAN Working Group 1 within the framework of 5G networking?",
+        "ground_truth": "B. To create use cases, enhance deployment strategies, and advance Massive MIMO technology",
+        "predicted": "<think>\nOkay, so I have this multiple-choice question about O-RAN Working Group 1 and its primary objective in the context of 5G networking. Hmm, I'm a bit rusty on my O-RAN details, but let me try to work through this step by step.\n\nFirst, what do I remember about O-RAN? Oh right, O-RAN stands for Open Radio Access Network. It's part of the broader initiative towards open and interoperable 5G networks. The focus is on making network components more modular, using open interfaces so that different vendors' equipment can work together seamlessly.\n\nNow, within O-RAN, there are several working groups each focusing on specific areas. I think Working Group 1 (WG1) has something to do with the physical and virtualized infrastructure of the radio access network. Wait, isn't it about how the components connect or integrate? Maybe they're looking at the architecture and interfaces between different parts.\n\nLooking at the options provided: \n\nA. To develop open-source software for AI-driven network optimization.\nB. To enhance energy efficiency in 5G networks.\nC. To define specifications for RAN slicing to enable network customization.\nD. To specify interfaces for O-RU (Open Radio Units) and integration with virtualized RAN.\n\nOption A is about AI-driven software, which sounds more like it could be another group's focus, maybe WG4 or something related to intelligent networks. Option B talks about energy efficiency, which I think might be addressed in a different context, perhaps in green 5G initiatives. Option C mentions RAN slicing, which allows network slices for different services, that seems relevant but is it the primary objective of WG1?\n\nWait, what does O-RU mean? Open Radio Units are part of the hardware, right? So if Working Group 1 is about defining interfaces for these units and how they integrate with virtualized RAN (like in a cloud environment), that makes sense because standardizing these interfaces would ensure compatibility and facilitate easier integration of different components from various vendors.\n\nSo putting it together: WG1's main goal should be ensuring the physical infrastructure can work together using open standards. That points me towards option D.\n</think>\n\nThe primary objective of O-RAN Working Group 1 is to specify the interfaces for Open Radio Units (O-RUs) and their integration with virtualized Radio Access Networks (vRANs). This ensures compatibility and seamless operation across different vendors' equipment, aligning with the broader goal of open and interoperable 5G networks.\n\nAnswer: D",
+        "method": "no_rag",
+        "inference_time": 23.968153953552246,
+        "context_length": 0,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.3076923076923077,
+          "precision": 0.018691588785046728,
+          "recall": 0.3076923076923077,
+          "f1_score": 0.035242290748898675,
+          "semantic_similarity": 0.4367005228996277
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN solution in the document is supported by the most detailed feasibility and complexity analysis?",
+        "ground_truth": "C. Solution 3: AI/ML-based Initial Access Configurations",
+        "predicted": "<think>\nOkay, so I need to figure out which O-RAN solution has the most detailed feasibility and complexity analysis. Let me think through this step by step.\n\nFirst, I remember that O-RAN stands for Open Radio Access Network, which is part of the broader initiative towards more open, interoperable, and intelligent networks in 5G. The question mentions a document, but since I don't have access to it, I'll rely on my existing knowledge about O-RAN solutions.\n\nThere are several O-RAN solutions, including the O-RU (Open Radio Unit), O-CU (Open Centralized Unit), and others like the ABR or Fronthaul. Each of these has different levels of complexity and feasibility in deployment.\n\nThe O-RU is the part that handles radio transmission and reception. It's a key component because it deals directly with RF signals, which can be quite complex due to varying frequencies, modulations, and interference. Implementing an open solution here would require detailed analysis of hardware compatibility, software integration, and performance metrics. The feasibility might involve testing different hardware vendors, ensuring they meet the O-RAN specifications, and assessing how well they integrate with other parts of the network.\n\nOn the other hand, solutions like the O-CU are more about processing and managing data after it's been captured by the O-RU. While important, their analysis might not be as detailed because they're less hardware-dependent. The complexity here is more software-oriented but perhaps not as intricate as the physical layer challenges faced by the O-RU.\n\nAnother point to consider is that the O-RAN initiative emphasizes standardization and open interfaces. The O-RU solution would require precise definitions for interfaces like eCPRI (enhanced Common Public Radio Interface), which might involve extensive analysis to ensure interoperability across different vendors. This detailed work would likely be reflected in feasibility studies assessing how well these interfaces perform under various conditions, potential bottlenecks, and scalability issues.\n\nMoreover, the O-RU involves real-time processing, which adds another layer of complexity. Ensuring low latency and high throughput while maintaining synchronization with other network elements is critical. The analysis for this would need to be thorough, covering everything from hardware capabilities to software algorithms optimized for performance.\n\nIn contrast, solutions higher up in the stack, like O-CU or even management layers, might have their own complexities but perhaps not as foundational as those at the radio unit level. They rely on the lower layers being stable and efficient, so without a solid O-RU implementation, other parts could face issues.\n\nI also recall that there's been significant industry focus on the O-RAN O-RU because it's seen as a pivotal point for enabling network slicing, dynamic spectrum sharing, and more agile network deployments. This increased attention likely translates into more detailed analyses to ensure its viability and scalability.\n\nConsidering all these factors—the hardware-software integration, interface standardization, real-time performance requirements, and industry focus—it makes sense that the O-RU solution would have the most detailed feasibility and complexity analysis in the document.\n</think>\n\nThe O-RAN O-RU (Open Radio Unit) solution is supported by the most detailed feasibility and complexity analysis due to its critical role in handling radio transmission and reception. This involves intricate hardware-software integration, interface standardization, real-time processing requirements, and ensuring interoperability across vendors. The focus on this component highlights its pivotal importance for network functionalities such as slicing and spectrum sharing.\n\nAnswer: O-RU",
+        "method": "no_rag",
+        "inference_time": 32.39114332199097,
+        "context_length": 0,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.2857142857142857,
+          "precision": 0.007042253521126761,
+          "recall": 0.2857142857142857,
+          "f1_score": 0.013745704467353952,
+          "semantic_similarity": 0.23254382610321045
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which section in the document details the architecture and deployment options for AI/ML-assisted non-GoB beamforming?",
+        "ground_truth": "B. Architecture and deployment options including edge computing and cloud integration",
+        "predicted": "<think>\nOkay, so I have this multiple-choice question to answer about sections in a document related to AI/ML-assisted non-GoB beamforming. The question is asking which section details the architecture and deployment options. Hmm, let's break it down.\n\nFirst, I need to understand what \"non-GoB\" stands for. In telecommunications, GoB usually refers to Government of Business or maybe something else... Wait, no, in 5G contexts, GoB might stand for Government bands or something similar? Or perhaps it's a typo and should be something else. Alternatively, maybe it's related to beamforming techniques not governed by certain bodies.\n\nAssuming \"non-GoB\" is about non-governmental or another specific context, but I'm not entirely sure. Anyway, the main point is AI/ML-assisted beamforming. Beamforming is a signal processing technique used in antenna arrays to control the directionality of the radio waves. With AI and ML, it can be optimized for better performance.\n\nNow, looking at the structure of typical technical documents or standards, sections are usually organized thematically. There might be an introduction, architecture details, deployment options, use cases, etc.\n\nSo the question is about which section covers both architecture and deployment. If I recall correctly, in many such documents, Section 6 often deals with deployment aspects, while earlier sections cover architecture. But sometimes, a section may combine both topics when discussing implementation.\n\nWait, but in standards like IEEE or 3GPP, each section has specific roles. For example, Section 4 might be about requirements, Section 5 about architecture, and Section 6 about deployment. Alternatively, maybe the document is structured so that architecture and deployment are covered together in a later section.\n\nIf I'm thinking of a standard where beamforming techniques are discussed, perhaps the AI/ML part is detailed in a specific section. Let me think: in some documents, advanced topics like AI integration come after foundational architectures. So maybe Section 6 covers both how the architecture uses AI and then moves into deployment considerations.\n\nAlternatively, it could be that deployment options are discussed earlier if they're more about setup rather than the technical architecture. But I'm leaning towards a later section because discussing deployment often comes after laying out the architecture.\n\nWait, another angle: sometimes the document might have a specific section for each part of the system. So maybe Section 6 is where the AI/ML-assisted beamforming's architecture is detailed, and it also includes how to deploy it. That would make sense if the section is dedicated to that particular topic.\n\nI think I've seen in some documents that when introducing new technologies or methods like AI in beamforming, they dedicate a later section to explain both how it works (architecture) and how to implement it (deployment). So putting those together in one section makes it comprehensive for readers looking into adopting the technology.\n\nTherefore, based on this reasoning, I would say Section 6 is the correct answer.\n</think>\n\nSection 6 details the architecture and deployment options for AI/ML-assisted non-GoB beamforming.\n\nAnswer: Section 6",
+        "method": "no_rag",
+        "inference_time": 29.36151671409607,
+        "context_length": 0,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.5,
+          "precision": 0.020080321285140562,
+          "recall": 0.5,
+          "f1_score": 0.03861003861003861,
+          "semantic_similarity": 0.31098830699920654
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "Which O-RAN component interacts with the Near-RT RIC via the E2 interface to enable near-real-time optimization of the radio network?",
+        "ground_truth": "C. Radio Unit (O-RU)",
+        "predicted": "<think>\nAlright, so I've got this multiple-choice question about O-RAN components and their interactions. Let me try to break it down step by step.\n\nThe question is asking which O-RAN component uses the E2 interface to communicate with the Near-RT RIC (Radio Intelligent Controller) for near-real-time optimization of the radio network. The options aren't provided, but from what I remember about O-RAN architecture, there are several key components involved.\n\nFirst, I should recall the main components in the O-RAN structure. There's the Radio Unit (RU), the Distributed Unit (DU), and the Centralized Unit (CU). Then there are the RICs, which come in different flavors: Near-RT RIC, Non-RT RIC, etc.\n\nThe E2 interface is a key part of this architecture. I think it's used for interactions between certain components to enable optimization. The Near-RT RIC is responsible for near-real-time optimizations, so it needs to communicate with the part of the network that can make adjustments quickly based on current conditions.\n\nI remember reading that the E2 interface connects the Radio Unit (RU) and the Near-RT RIC. This allows the RU to provide real-time data about the radio conditions, which the Near-RT RIC then uses to make optimizations. So the component interacting via E2 would be the RU.\n\nWait, but sometimes I get confused between the different interfaces. Let me think again: the F1 interface is between DU and CU, E1 is between CU and RICs (both Near-RT and Non-RT), and E2 is specifically for RU to Near-RT RIC interactions. Yeah, that makes sense because the RU is closer to the physical layer and can provide more immediate data.\n\nSo putting it all together, the component interacting with Near-RT RIC via E2 is the Radio Unit (RU). I think that's correct. Maybe the answer options include something like RU, so I'll go with that.\n</think>\n\nThe component that interacts with the Near-RT RIC via the E2 interface is the Radio Unit (RU).\n\nAnswer: The Radio Unit (RU)",
+        "method": "no_rag",
+        "inference_time": 20.356757164001465,
+        "context_length": 0,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.5,
+          "precision": 0.012269938650306749,
+          "recall": 0.5,
+          "f1_score": 0.02395209580838323,
+          "semantic_similarity": 0.5562188625335693
+        },
+        "success": true,
+        "error": null
+      },
+      {
+        "question": "What approach is recommended for mMIMO use cases regarding 3GPP measurements and configuration?",
+        "ground_truth": "B. Reuse existing 3GPP measurements/configurations where possible",
+        "predicted": "<think>\nAlright, so I've got this question about mMIMO and 3GPP measurements and configuration. Let me try to figure it out.\n\nHmm, mMIMO stands for multi-User Multiple Input Multiple Output, right? It's a technology that allows multiple users to communicate with a base station using the same time-frequency resources by exploiting spatial multiplexing. So, in terms of how this relates to 3GPP measurements and configuration, I think it involves specific measurement configurations that optimize performance.\n\nThe options given are: \nA) Frequency Division Multiplexing (FDM)\nB) Time Division Duplexing (TDD)\nC) Carrier Aggregation\nD) Closed-loop Spatial Multiplexing\n\nWait, no—actually the user hasn't provided options yet. Wait, in the initial question, there were no options given, so I have to think based on what I know.\n\nI remember that mMIMO typically uses techniques like closed-loop spatial multiplexing because it allows for better resource utilization by having multiple users share the same frequency and time slots through different spatial channels. Closed-loop systems use feedback from the user terminals to adjust the beamforming vectors, which improves performance.\n\nSo, in terms of configuration within 3GPP standards, they must have specific measurement configurations that support this closed-loop approach. I think 3GPP defines certain CQI (Channel Quality Indicator) reports and CSI (Channel State Information) measurements that are crucial for mMIMO operation. \n\nAlternatively, Carrier Aggregation is a different concept where multiple carriers are combined to increase bandwidth, which isn't directly related to the spatial aspects of mMIMO.\n\nWait, maybe I should think about the measurement configuration specifically. For mMIMO, you need precise CSI feedback from the user equipment so that the base station can adjust its beamforming accordingly. This would involve setting up specific measurement parameters in 3GPP's specifications, which include things like CSI reporting intervals, subbands, and ranks.\n\nSo, putting it all together, the approach recommended for mMIMO use cases is likely closed-loop spatial multiplexing because it relies on feedback mechanisms that are configured through 3GPP measurements. Therefore, the correct answer should be the one that refers to closed-loop techniques.\n</think>\n\nThe recommended approach for mMIMO use cases within 3GPP involves **closed-loop spatial multiplexing**, which leverages feedback mechanisms such as CSI reports to optimize beamforming and resource allocation.\n\nAnswer: Closed-loop Spatial Multiplexing",
+        "method": "no_rag",
+        "inference_time": 23.02912163734436,
+        "context_length": 0,
+        "metrics": {
+          "exact_match": false,
+          "contains_match": false,
+          "token_overlap": 0.2857142857142857,
+          "precision": 0.00980392156862745,
+          "recall": 0.2857142857142857,
+          "f1_score": 0.01895734597156398,
+          "semantic_similarity": 0.4723362326622009
+        },
+        "success": true,
+        "error": null
+      }
+    ]
+  }
+}

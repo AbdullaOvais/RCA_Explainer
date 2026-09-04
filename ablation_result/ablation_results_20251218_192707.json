@@ -1,0 +1,70 @@
+{
+  "timestamp": "20251218_192707",
+  "num_questions": 25,
+  "methods": [
+    "kg_rag",
+    "rag",
+    "no_rag"
+  ],
+  "summary": {
+    "kg_rag": {
+      "total_questions": 1,
+      "successful": 0,
+      "failed": 1,
+      "error": "All tests failed"
+    },
+    "rag": {
+      "total_questions": 1,
+      "successful": 0,
+      "failed": 1,
+      "error": "All tests failed"
+    },
+    "no_rag": {
+      "total_questions": 1,
+      "successful": 0,
+      "failed": 1,
+      "error": "All tests failed"
+    }
+  },
+  "detailed_results": {
+    "kg_rag": [
+      {
+        "question": "Which aspects are critical for effective logging in O-RAN Security Log Management?",
+        "ground_truth": "D. All of the above",
+        "predicted": null,
+        "method": "kg_rag",
+        "inference_time": 5.7220458984375e-06,
+        "context_length": 0,
+        "metrics": null,
+        "success": false,
+        "error": "KnowledgeGraphRAG.inference() got an unexpected keyword argument 'options'"
+      }
+    ],
+    "rag": [
+      {
+        "question": "Which aspects are critical for effective logging in O-RAN Security Log Management?",
+        "ground_truth": "D. All of the above",
+        "predicted": null,
+        "method": "rag",
+        "inference_time": 3.5762786865234375e-06,
+        "context_length": 0,
+        "metrics": null,
+        "success": false,
+        "error": "VectorRAG.inference() got an unexpected keyword argument 'options'"
+      }
+    ],
+    "no_rag": [
+      {
+        "question": "Which aspects are critical for effective logging in O-RAN Security Log Management?",
+        "ground_truth": "D. All of the above",
+        "predicted": null,
+        "method": "no_rag",
+        "inference_time": 2.86102294921875e-06,
+        "context_length": 0,
+        "metrics": null,
+        "success": false,
+        "error": "NoRAG.inference() got an unexpected keyword argument 'options'"
+      }
+    ]
+  }
+}
